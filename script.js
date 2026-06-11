@@ -1,6 +1,7 @@
 const loader = document.getElementById("loader");
 const navbar = document.getElementById("mainNav");
 const backToTop = document.getElementById("backToTop");
+const scrollProgress = document.getElementById("scrollProgress");
 const bookingModalElement = document.getElementById("bookingModal");
 const bookingModal = bookingModalElement ? new bootstrap.Modal(bookingModalElement) : null;
 const WEB3FORMS_ACCESS_KEY = "fa64ef7c-e72b-41e5-bad1-7f3574577f82";
@@ -13,6 +14,12 @@ const syncChrome = () => {
   const scrolled = window.scrollY > 30;
   navbar?.classList.toggle("scrolled", scrolled);
   backToTop?.classList.toggle("visible", window.scrollY > 600);
+
+  if (scrollProgress) {
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
+    scrollProgress.style.width = `${Math.min(Math.max(progress, 0), 100)}%`;
+  }
 };
 
 window.addEventListener("scroll", syncChrome);
