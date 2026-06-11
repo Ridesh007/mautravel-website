@@ -1,7 +1,10 @@
 const loader = document.getElementById("loader");
 const navbar = document.getElementById("mainNav");
 const backToTop = document.getElementById("backToTop");
+<<<<<<< HEAD
 const scrollProgress = document.getElementById("scrollProgress");
+=======
+>>>>>>> fd4558be73ec8c0b94f913f5bdc3e6ba8be0b3b7
 const bookingModalElement = document.getElementById("bookingModal");
 const bookingModal = bookingModalElement ? new bootstrap.Modal(bookingModalElement) : null;
 const WEB3FORMS_ACCESS_KEY = "fa64ef7c-e72b-41e5-bad1-7f3574577f82";
@@ -14,12 +17,15 @@ const syncChrome = () => {
   const scrolled = window.scrollY > 30;
   navbar?.classList.toggle("scrolled", scrolled);
   backToTop?.classList.toggle("visible", window.scrollY > 600);
+<<<<<<< HEAD
 
   if (scrollProgress) {
     const scrollable = document.documentElement.scrollHeight - window.innerHeight;
     const progress = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
     scrollProgress.style.width = `${Math.min(Math.max(progress, 0), 100)}%`;
   }
+=======
+>>>>>>> fd4558be73ec8c0b94f913f5bdc3e6ba8be0b3b7
 };
 
 window.addEventListener("scroll", syncChrome);
@@ -320,6 +326,7 @@ if (heroSlideTextEl && heroCarouselEl) {
   });
 }
 
+<<<<<<< HEAD
 /* ── Tour filter pills (#packages) ──────────────────────────────── */
 const filterPills = document.querySelectorAll('.tour-filter-pill');
 const tourCards = document.querySelectorAll('#packages [data-region]');
@@ -340,6 +347,8 @@ filterPills.forEach((pill) => {
   });
 });
 
+=======
+>>>>>>> fd4558be73ec8c0b94f913f5bdc3e6ba8be0b3b7
 /* ── Staggered card reveals ─────────────────────────────────────
    Pre-assign transitionDelay to each card column BEFORE the
    IntersectionObserver fires, so cards appear left-to-right.
@@ -348,11 +357,18 @@ filterPills.forEach((pill) => {
   '#services .row.g-4',
   '#packages .row.g-4',
   '.stats-bar .row',
+<<<<<<< HEAD
   '.gallery-strip',
 ].forEach(selector => {
   const row = document.querySelector(selector);
   if (!row) return;
   row.querySelectorAll(':scope > *').forEach((col, i) => {
+=======
+].forEach(selector => {
+  const row = document.querySelector(selector);
+  if (!row) return;
+  row.querySelectorAll(':scope > [class*="col"]').forEach((col, i) => {
+>>>>>>> fd4558be73ec8c0b94f913f5bdc3e6ba8be0b3b7
     const target = col.classList.contains('reveal') ? col : col.querySelector('.reveal');
     if (target && !target.classList.contains('delay-1')) {
       target.style.transitionDelay = `${Math.min(i * 0.1, 0.5)}s`;
