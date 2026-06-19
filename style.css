@@ -73,7 +73,7 @@ textarea {
   align-content: center;
   background: var(--navy);
   color: var(--white);
-  transition: opacity 0.45s ease, visibility 0.45s ease;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
 }
 
 .loader.hidden {

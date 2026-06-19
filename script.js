@@ -6,8 +6,8 @@ const bookingModalElement = document.getElementById("bookingModal");
 const bookingModal = bookingModalElement ? new bootstrap.Modal(bookingModalElement) : null;
 const WEB3FORMS_ACCESS_KEY = "fa64ef7c-e72b-41e5-bad1-7f3574577f82";
 
-window.addEventListener("load", () => {
-  setTimeout(() => loader?.classList.add("hidden"), 450);
+document.addEventListener("DOMContentLoaded", () => {
+  loader?.classList.add("hidden");
 });
 
 const syncChrome = () => {
@@ -22,7 +22,7 @@ const syncChrome = () => {
   }
 };
 
-window.addEventListener("scroll", syncChrome);
+window.addEventListener("scroll", syncChrome, { passive: true });
 syncChrome();
 
 backToTop?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
