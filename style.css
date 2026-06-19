@@ -3270,3 +3270,25 @@ textarea {
     animation: none !important;
   }
 }
+
+/* Skip painting below-fold sections until they scroll into view */
+#trust {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 320px;
+}
+#gallery {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 680px;
+}
+#faq {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 520px;
+}
+#contact {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 460px;
+}
+.conversion-strip {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 220px;
+}
