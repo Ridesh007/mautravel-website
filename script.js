@@ -401,3 +401,269 @@ filterPills.forEach((pill) => {
     }
   });
 });
+
+/* ── Vehicle Fleet Carousel ──────────────────────────────────── */
+(function fleetCarousel() {
+  const VEHICLES = [
+    {
+      name: 'Toyota Voxy',
+      desc: 'Spacious and comfortable family MPV, ideal for group airport transfers and island-wide explorations.',
+      pax: 7,
+      bags: 4,
+      img: 'components/Vehicle Collection/Screenshot 2026-06-20 184803.png',
+      alt: 'Toyota Voxy — MauTravel premium fleet',
+      waMsg: 'I%20would%20like%20to%20book%20the%20Toyota%20Voxy%20for%20my%20trip.',
+    },
+    {
+      name: 'Toyota Wish',
+      desc: 'Versatile and efficient MPV, perfect for couples, small families, and mid-distance tours across Mauritius.',
+      pax: 7,
+      bags: 3,
+      img: 'components/Vehicle Collection/Screenshot 2026-06-20 184813.png',
+      alt: 'Toyota Wish — MauTravel premium fleet',
+      waMsg: 'I%20would%20like%20to%20book%20the%20Toyota%20Wish%20for%20my%20trip.',
+    },
+    {
+      name: 'Toyota Hiace',
+      desc: 'The ultimate group transport — built for large parties, corporate transfers, and full-day island excursions.',
+      pax: 14,
+      bags: 8,
+      img: 'components/Vehicle Collection/Screenshot 2026-06-20 184823.png',
+      alt: 'Toyota Hiace — MauTravel group fleet',
+      waMsg: 'I%20would%20like%20to%20book%20the%20Toyota%20Hiace%20for%20my%20trip.',
+    },
+    {
+      name: 'BMW 5 Series',
+      desc: 'Experience Mauritius in uncompromising luxury. Our flagship executive sedan for discerning travellers.',
+      pax: 4,
+      bags: 2,
+      img: 'components/Vehicle Collection/Screenshot 2026-06-20 184843.png',
+      alt: 'BMW 5 Series — MauTravel luxury executive fleet',
+      waMsg: 'I%20would%20like%20to%20book%20the%20BMW%205%20Series%20for%20my%20trip.',
+      highlight: true,
+      badge: '🔥 High Demand',
+    },
+  ];
+
+  const WA_BASE = 'https://wa.me/23058269725?text=Hello%20MauTravel%2C%20';
+  const AUTOPLAY_MS = 3500;
+  const GAP = 20;
+  const EASING = '0.55s cubic-bezier(0.22, 1, 0.36, 1)';
+  const CLONE_COUNT = VEHICLES.length;
+
+  let track, viewport, dotsEl;
+  let cardWidth = 0;
+  let currentIdx = CLONE_COUNT;
+  let timer = null;
+  let dragging = false;
+  let wasDragged = false;
+  let dragStartX = 0;
+  let dragBaseX = 0;
+
+  function getVisible() {
+    const w = window.innerWidth;
+    if (w < 640) return 1;
+    if (w < 1024) return 2;
+    return 3;
+  }
+
+  function calcCardWidth() {
+    const v = getVisible();
+    return (viewport.offsetWidth - GAP * (v - 1)) / v;
+  }
+
+  function getTranslateX(idx) {
+    return -(idx * (cardWidth + GAP));
+  }
+
+  function applyTranslate(animate) {
+    track.style.transition = animate ? `transform ${EASING}` : 'none';
+    track.style.transform = `translateX(${getTranslateX(currentIdx)}px)`;
+  }
+
+  function makeCard(v) {
+    const el = document.createElement('article');
+    el.className = 'fleet-card' + (v.highlight ? ' fleet-card--bmw' : '');
+    el.setAttribute('role', 'listitem');
+    el.setAttribute('aria-label', v.name);
+    el.style.cssText = `flex: 0 0 ${cardWidth}px; max-width: ${cardWidth}px;`;
+    el.innerHTML = `
+      <div class="fleet-card-img-wrap">
+        ${v.badge ? `<span class="fleet-badge">${v.badge}</span>` : ''}
+        <img src="${v.img}" alt="${v.alt}" loading="lazy" width="420" height="240">
+      </div>
+      <div class="fleet-card-body">
+        <h3 class="fleet-card-name">${v.name}</h3>
+        <p class="fleet-card-desc">${v.desc}</p>
+        <div class="fleet-specs">
+          <span class="fleet-spec"><i class="fa-solid fa-users" aria-hidden="true"></i> ${v.pax} Passengers</span>
+          <span class="fleet-spec"><i class="fa-solid fa-suitcase" aria-hidden="true"></i> ${v.bags} Bags</span>
+        </div>
+        <a href="${WA_BASE}${v.waMsg}" class="btn ${v.highlight ? 'btn-gold' : 'btn-fleet'} fleet-book-btn" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Book This Vehicle
+        </a>
+      </div>`;
+    return el;
+  }
+
+  function buildTrack() {
+    track.innerHTML = '';
+    cardWidth = calcCardWidth();
+    // Layout: [clone set] [original set] [clone set] for infinite loop
+    [...VEHICLES, ...VEHICLES, ...VEHICLES].forEach(v => track.appendChild(makeCard(v)));
+    currentIdx = CLONE_COUNT;
+    applyTranslate(false);
+    buildDots();
+  }
+
+  function buildDots() {
+    dotsEl.innerHTML = '';
+    VEHICLES.forEach((v, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'fleet-dot';
+      btn.setAttribute('role', 'tab');
+      btn.setAttribute('aria-label', `View ${v.name}`);
+      btn.addEventListener('click', () => { goTo(CLONE_COUNT + i); stopTimer(); startTimer(); });
+      dotsEl.appendChild(btn);
+    });
+    syncDots();
+  }
+
+  function syncDots() {
+    const active = (currentIdx - CLONE_COUNT + VEHICLES.length) % VEHICLES.length;
+    dotsEl.querySelectorAll('.fleet-dot').forEach((d, i) => {
+      d.classList.toggle('is-active', i === active);
+      d.setAttribute('aria-selected', i === active ? 'true' : 'false');
+    });
+  }
+
+  function goTo(idx) {
+    currentIdx = idx;
+    applyTranslate(true);
+    syncDots();
+  }
+
+  function next() { goTo(currentIdx + 1); }
+  function prev() { goTo(currentIdx - 1); }
+
+  function startTimer() {
+    if (timer) return;
+    timer = setInterval(next, AUTOPLAY_MS);
+  }
+
+  function stopTimer() {
+    clearInterval(timer);
+    timer = null;
+  }
+
+  function pointerX(e) {
+    return e.touches ? e.touches[0].clientX : e.clientX;
+  }
+
+  function onDragStart(e) {
+    dragging = true;
+    wasDragged = false;
+    dragStartX = pointerX(e);
+    dragBaseX = getTranslateX(currentIdx);
+    track.style.transition = 'none';
+    stopTimer();
+  }
+
+  function onDragMove(e) {
+    if (!dragging) return;
+    const dx = pointerX(e) - dragStartX;
+    if (Math.abs(dx) > 5) wasDragged = true;
+    track.style.transform = `translateX(${dragBaseX + dx}px)`;
+  }
+
+  function onDragEnd(e) {
+    if (!dragging) return;
+    dragging = false;
+    const endX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
+    const dx = endX - dragStartX;
+    if (Math.abs(dx) > cardWidth * 0.22) {
+      dx < 0 ? next() : prev();
+    } else {
+      applyTranslate(true);
+    }
+    startTimer();
+  }
+
+  function onResize() {
+    cardWidth = calcCardWidth();
+    track.querySelectorAll('.fleet-card').forEach(c => {
+      c.style.flex = `0 0 ${cardWidth}px`;
+      c.style.maxWidth = `${cardWidth}px`;
+    });
+    // Keep currentIdx within original range after resize
+    if (currentIdx < CLONE_COUNT || currentIdx >= CLONE_COUNT + VEHICLES.length) {
+      currentIdx = CLONE_COUNT;
+    }
+    applyTranslate(false);
+  }
+
+  function debounce(fn, ms) {
+    let t;
+    return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+  }
+
+  function init() {
+    track = document.getElementById('fleetTrack');
+    viewport = document.getElementById('fleetViewport');
+    dotsEl = document.getElementById('fleetDots');
+    if (!track || !viewport || !dotsEl) return;
+
+    buildTrack();
+
+    // Bind transitionend now that track exists
+    track.addEventListener('transitionend', function(e) {
+      if (e.propertyName !== 'transform') return;
+      const total = VEHICLES.length;
+      if (currentIdx >= CLONE_COUNT + total) {
+        currentIdx -= total;
+        applyTranslate(false);
+      } else if (currentIdx < CLONE_COUNT) {
+        currentIdx += total;
+        applyTranslate(false);
+      }
+      syncDots();
+    });
+
+    // Arrow buttons
+    document.getElementById('fleetPrev')?.addEventListener('click', () => { stopTimer(); prev(); startTimer(); });
+    document.getElementById('fleetNext')?.addEventListener('click', () => { stopTimer(); next(); startTimer(); });
+
+    // Hover pause (desktop)
+    viewport.addEventListener('mouseenter', stopTimer);
+    viewport.addEventListener('mouseleave', startTimer);
+
+    // Touch hold pause (mobile)
+    viewport.addEventListener('touchstart', stopTimer, { passive: true });
+    viewport.addEventListener('touchend', startTimer, { passive: true });
+
+    // Mouse drag (desktop)
+    track.addEventListener('mousedown', onDragStart);
+    window.addEventListener('mousemove', onDragMove);
+    window.addEventListener('mouseup', onDragEnd);
+
+    // Swipe (mobile)
+    track.addEventListener('touchstart', onDragStart, { passive: true });
+    track.addEventListener('touchmove', onDragMove, { passive: true });
+    track.addEventListener('touchend', onDragEnd);
+
+    // Block link clicks that were actually drags
+    track.addEventListener('click', (e) => {
+      if (wasDragged) { e.preventDefault(); e.stopPropagation(); wasDragged = false; }
+    }, true);
+
+    window.addEventListener('resize', debounce(onResize, 180));
+
+    startTimer();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+}());
