@@ -2095,7 +2095,26 @@ textarea {
 }
 
 .urgency-badge {
+  margin-bottom: 0;
+}
+
+.cta-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 18px;
+}
+
+.booking-stat-pill {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fbbf24;
+}
+
+.booking-stat-pill i {
+  color: #f59e0b;
+  font-size: 0.8rem;
 }
 
 .conversion-strip h2 {

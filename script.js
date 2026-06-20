@@ -74,6 +74,48 @@ const counterObserver = new IntersectionObserver(
 
 document.querySelectorAll("[data-counter]").forEach((counter) => counterObserver.observe(counter));
 
+// Booking count: counts 1→17 only when the CTA section scrolls into view
+const bookingCountEl = document.getElementById("booking-count");
+const ctaSection = document.getElementById("cta-section");
+
+if (bookingCountEl && ctaSection) {
+  let started = false;
+
+  const runBookingCounter = () => {
+    if (started) return;
+    started = true;
+
+    let current = 1;
+    bookingCountEl.textContent = current;
+
+    // Irregular delays to feel like live bookings trickling in
+    const delays = [180, 140, 200, 120, 160, 250, 130, 110, 300, 140, 180, 220, 160, 130, 400, 170];
+
+    const step = (i) => {
+      if (i >= delays.length) return;
+      setTimeout(() => {
+        current++;
+        bookingCountEl.textContent = current;
+        step(i + 1);
+      }, delays[i]);
+    };
+
+    setTimeout(() => step(0), 500);
+  };
+
+  const bookingObserver = new IntersectionObserver(
+    (entries) => {
+      if (entries[0].isIntersecting) {
+        runBookingCounter();
+        bookingObserver.disconnect();
+      }
+    },
+    { threshold: 0.3, rootMargin: "0px 0px -80px 0px" }
+  );
+
+  bookingObserver.observe(ctaSection);
+}
+
 document.querySelectorAll(".book-package").forEach((button) => {
   button.addEventListener("click", () => {
     const packageName = button.closest(".package-card")?.querySelector("h3")?.textContent || "Tour package";
