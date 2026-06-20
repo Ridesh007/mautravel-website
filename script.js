@@ -667,3 +667,33 @@ filterPills.forEach((pill) => {
     init();
   }
 }());
+
+/* ── Hero "See Car Collection" — ripple on click/tap ─────────── */
+(function () {
+  function attachRipple(btn) {
+    btn.addEventListener('pointerdown', function (e) {
+      const rect = this.getBoundingClientRect();
+      const size = Math.max(rect.width, rect.height) * 1.5;
+      const ripple = document.createElement('span');
+      ripple.className = 'hero-fleet-ripple';
+      ripple.style.cssText = [
+        `width:${size}px`,
+        `height:${size}px`,
+        `left:${e.clientX - rect.left - size / 2}px`,
+        `top:${e.clientY - rect.top - size / 2}px`,
+      ].join(';');
+      this.appendChild(ripple);
+      ripple.addEventListener('animationend', () => ripple.remove(), { once: true });
+    });
+  }
+
+  const btn = document.getElementById('heroFleetBtn');
+  if (btn) {
+    attachRipple(btn);
+  } else {
+    document.addEventListener('DOMContentLoaded', () => {
+      const b = document.getElementById('heroFleetBtn');
+      if (b) attachRipple(b);
+    });
+  }
+}());

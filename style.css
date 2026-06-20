@@ -3638,3 +3638,138 @@ textarea {
   .fleet-carousel-track { transition: none !important; }
   .fleet-dot { transition: none; }
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   HERO "SEE CAR COLLECTION" — PREMIUM BUTTON EFFECTS
+   ═══════════════════════════════════════════════════════════════ */
+
+#heroFleetBtn {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(243, 214, 138, 0.45);
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  color: var(--white);
+  box-shadow:
+    0 8px 28px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    background 0.35s ease,
+    border-color 0.35s ease;
+  animation: heroFleetIdle 7s ease-in-out infinite;
+  will-change: transform, box-shadow;
+}
+
+/* Shine sweep — hidden by default, sweeps on hover */
+#heroFleetBtn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 25%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 75%
+  );
+  transform: translateX(-120%);
+  transition: transform 0s;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Icon subtle slide on hover */
+#heroFleetBtn i {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+/* ── Hover ────────────────────────────────────────────────────── */
+#heroFleetBtn:hover {
+  background: rgba(243, 214, 138, 0.18);
+  border-color: rgba(243, 214, 138, 0.72);
+  box-shadow:
+    0 20px 52px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(243, 214, 138, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.38);
+  transform: translateY(-4px) scale(1.05);
+  animation-play-state: paused;
+}
+
+/* Shine fires across the button on hover */
+#heroFleetBtn:hover::before {
+  transform: translateX(120%);
+  transition: transform 0.55s ease;
+}
+
+#heroFleetBtn:hover i {
+  transform: translateX(5px);
+}
+
+/* ── Active / press ───────────────────────────────────────────── */
+#heroFleetBtn:active {
+  transform: translateY(-1px) scale(0.97);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.24);
+  transition-duration: 0.1s;
+  animation-play-state: paused;
+}
+
+/* ── Keyboard focus ───────────────────────────────────────────── */
+#heroFleetBtn:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 4px;
+  animation-play-state: paused;
+}
+
+/* ── Idle pulse — fires once every ~7 s ─────────────────────── */
+@keyframes heroFleetIdle {
+  0%, 76%, 100% {
+    box-shadow:
+      0 8px 28px rgba(0, 0, 0, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  }
+  80% {
+    box-shadow:
+      0 8px 28px rgba(0, 0, 0, 0.2),
+      0 0 0 5px rgba(243, 214, 138, 0.22),
+      0 0 0 11px rgba(243, 214, 138, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  }
+  90% {
+    box-shadow:
+      0 8px 28px rgba(0, 0, 0, 0.2),
+      0 0 0 5px rgba(243, 214, 138, 0.14),
+      0 0 0 11px rgba(243, 214, 138, 0.04),
+      inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  }
+}
+
+/* ── Ripple element (injected by JS) ────────────────────────── */
+.hero-fleet-ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(0);
+  animation: heroFleetRipple 0.65s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  pointer-events: none;
+}
+
+@keyframes heroFleetRipple {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+/* ── Reduced motion ───────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  #heroFleetBtn {
+    animation: none;
+    transition: box-shadow 0.2s ease;
+  }
+  #heroFleetBtn::before { display: none; }
+  #heroFleetBtn i { transition: none; }
+  .hero-fleet-ripple { display: none; }
+}
