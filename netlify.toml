@@ -16,16 +16,16 @@
   [headers.values]
     Cache-Control = "public, max-age=3600, must-revalidate"
 
-# CSS and JS: 7-day cache — update filename to bust cache after changes
+# CSS and JS: short cache + revalidate so updates go live immediately
 [[headers]]
   for = "/style.css"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=300, stale-while-revalidate=60"
 
 [[headers]]
   for = "/script.js"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=300, stale-while-revalidate=60"
 
 # Local images: 30-day cache
 [[headers]]
