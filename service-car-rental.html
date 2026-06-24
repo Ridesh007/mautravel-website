@@ -45,9 +45,9 @@
     }(window, document, 'ttq');
     if(/\/(tour-|service-|location-)/.test(location.pathname)){ttq.track('ViewContent');}
     (document.readyState==='loading'?document.addEventListener.bind(document,'DOMContentLoaded'):function(fn){fn();})(function(){
-      document.addEventListener('click',function(e){if(e.target.closest('a[href*="wa.me"]'))ttq.track('Lead');});
-      document.addEventListener('submit',function(e){if(e.target&&e.target.getAttribute('data-email-form')!==null)ttq.track('Lead');});
-      document.addEventListener('shown.bs.modal',function(e){if(e.target&&e.target.id==='bookingModal')ttq.track('CompletePayment');});
+      document.addEventListener('click',function(e){var t=e.target;if(t.closest('a[href*="wa.me"]')||t.closest('.book-package')||t.closest('a[href*="#booking"]'))ttq.track('AddToCart');});
+      var _co=false;document.addEventListener('focusin',function(e){if(!_co&&e.target.closest('[data-email-form]')){_co=true;ttq.track('InitiateCheckout');}});
+      document.addEventListener('shown.bs.modal',function(e){if(e.target&&e.target.id==='bookingModal')ttq.track('Purchase');});
     });
     </script>
     <!-- TikTok Pixel Code End -->
