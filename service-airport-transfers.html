@@ -45,6 +45,12 @@
       ttq.load('D8TOE73C77UEASQ4JO50');
       ttq.page();
     }(window, document, 'ttq');
+    if(/\/(tour-|service-|location-)/.test(location.pathname)){ttq.track('ViewContent');}
+    (document.readyState==='loading'?document.addEventListener.bind(document,'DOMContentLoaded'):function(fn){fn();})(function(){
+      document.addEventListener('click',function(e){if(e.target.closest('a[href*="wa.me"]'))ttq.track('Lead');});
+      document.addEventListener('submit',function(e){if(e.target&&e.target.getAttribute('data-email-form')!==null)ttq.track('Lead');});
+      document.addEventListener('shown.bs.modal',function(e){if(e.target&&e.target.id==='bookingModal')ttq.track('CompletePayment');});
+    });
     </script>
     <!-- TikTok Pixel Code End -->
   </head>
