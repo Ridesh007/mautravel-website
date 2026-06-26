@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Hub / Homepage -->
+  <url><loc>/index.html</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Service landing pages -->
+  <url><loc>/service-airport-transfers.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/service-hotel-transfers.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/service-full-day-taxi.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/service-car-rental.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/service-group-travel.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/service-custom-tours.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Tour packages -->
+  <url><loc>/tour-south.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/tour-north.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/tour-east-coast.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/tour-west.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/tour-family.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/tour-casela.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/tour-sunset.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/tour-vallee.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Destination / location pages -->
+  <url><loc>/location-grand-baie.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/location-chamarel.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/location-le-morne.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/location-flic-en-flac.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/location-ile-aux-cerfs.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/location-casela.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/location-port-louis.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Travel guides / blog -->
+  <url><loc>/guide-top-10-places.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/guide-best-beaches.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/guide-travel-tips.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/guide-best-time.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/guide-food.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>/guide-family-attractions.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+
+</urlset>
