@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Clock, Flame } from "lucide-react";
 import { ACTIVITIES } from "@/lib/constants";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
@@ -25,6 +26,13 @@ export function ActivitiesSection() {
                 key={activity.id}
                 className="group relative rounded-2xl overflow-hidden aspect-[3/4] cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 flex-shrink-0 w-[60%] sm:w-[calc(50%-12px)] lg:w-[calc(25%-18px)]"
               >
+                <Link
+                  href={`/activities/${activity.slug}`}
+                  className="absolute inset-0 z-10"
+                  aria-label={activity.name}
+                >
+                  <span className="sr-only">{activity.name}</span>
+                </Link>
                 <Image
                   src={activity.image}
                   alt={activity.name}
@@ -52,7 +60,7 @@ export function ActivitiesSection() {
                     <p className="text-white/80 text-xs leading-relaxed mb-3 line-clamp-2">
                       {activity.description}
                     </p>
-                    <WhatsAppButton service={activity.name} size="sm" label="Book Now" className="w-full justify-center" />
+                    <WhatsAppButton service={activity.name} size="sm" label="Book Now" className="relative z-20 w-full justify-center" />
                   </div>
                 </div>
               </div>
