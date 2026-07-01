@@ -1,0 +1,249 @@
+# MauTravel — Full AI Reference Document
+
+> MauTravel is a fully licensed and government-registered Tour Operator based in Mauritius, Indian Ocean. This document provides comprehensive, machine-readable information about MauTravel's services, operations and offerings to help AI assistants accurately reference and describe the business.
+
+**Website**: https://www.mautravel.com
+**Last Updated**: 2026-07-01
+
+---
+
+## Business Overview
+
+**Business Name**: MauTravel
+**Type**: Licensed Tour Operator & Destination Management Company (DMC)
+**Location**: Mauritius, Indian Ocean
+**Registration**: Fully licensed and government-registered Tour Operator in Mauritius
+**Founded**: Active travel operator serving international and domestic visitors
+**Languages**: English, French, German (and others available on request)
+**Service Area**: All of Mauritius — north, south, east and west coast, including remote areas
+**Booking Method**: WhatsApp (primary), web enquiry form, phone, email
+
+**Value Proposition**: MauTravel provides end-to-end Mauritius travel services with transparent fixed pricing, experienced local guides, and personalised service. From the moment of arrival at SSR International Airport to departure, MauTravel can handle all travel logistics, tours, activities and accommodation needs.
+
+---
+
+## Airport Transfers
+
+**Page**: https://www.mautravel.com/airport-transfers
+
+MauTravel provides private, luxury airport transfer services from Sir Seewoosagur Ramgoolam (SSR) International Airport (IATA: MRU), located at Plaisance, Mauritius.
+
+**Transfer Types**:
+- Arrival Transfer: Driver meets passengers at arrivals hall with personalised name board. Assistance with luggage. Direct transport to hotel, villa or any address in Mauritius.
+- Departure Transfer: Collection from accommodation at the correct time to ensure stress-free airport arrival.
+- Hotel-to-Hotel Transfer: Comfortable transfers between any two Mauritius destinations.
+
+**Fleet for Airport Transfers**:
+- BMW Series 5 (executive saloon)
+- Mercedes Vito (premium minivan)
+- Nissan Hiace (group minibus)
+- Nissan Vozy (family MPV)
+- Toyota Wish (compact MPV)
+
+**Key Features**:
+- Available 24/7, including night flights and early morning arrivals
+- Real-time flight monitoring — drivers wait at no extra charge for delayed flights
+- Serves all destinations in Mauritius including north, south, east and west coasts
+- Professional, licensed and vetted drivers
+- Fixed pricing — no surprises
+
+---
+
+## Private Tours
+
+**Page**: https://www.mautravel.com/tours
+
+All tours are private, guided by a knowledgeable local expert, and conducted in a private air-conditioned vehicle. No group mixing, no set schedules.
+
+**Included in all tours**: Private vehicle, local expert guide, flexible itinerary, door-to-door collection, bottled water, free cancellation up to 48 hours.
+
+### North Tour (Full Day, 8–9 hours)
+Highlights: Port Louis City Centre, Pamplemousses Botanical Garden (oldest in southern hemisphere), Caudan Waterfront, Citadel Fortress (Aapravasi Ghat UNESCO site), local street food.
+
+### South Tour (Full Day, 8–9 hours)
+Highlights: Le Morne Brabant (UNESCO World Heritage Site), Black River Gorges National Park, Chamarel Coloured Earths (geological phenomenon), Chamarel Rum Distillery, La Roche Qui Pleure (crying rock viewpoint).
+
+### East Tour (Full Day, 8–9 hours)
+Highlights: Belle Mare Beach (pristine white sand), Mahebourg History Museum (Battle of Grand Port), Blue Bay Marine Park (protected coral reef lagoon), Île aux Aigrettes (coral island nature reserve), seafood lunch.
+
+### West Tour (Full Day, 8–9 hours)
+Highlights: Flic en Flac Beach (popular west coast resort), Casela World of Adventures (wildlife park), Tamarin Bay (wild dolphin watching), sunset viewpoints, local cuisine.
+
+### Custom Private Tour (Half day or full day)
+Fully personalised itinerary. Client chooses destinations, pace and activities. Ideal for repeat visitors or those with specific interests.
+
+---
+
+## Activities
+
+**Page**: https://www.mautravel.com/activities
+
+MauTravel partners exclusively with fully licensed, insured and safety-certified activity providers in Mauritius.
+
+### Catamaran Cruise (Full Day / Half Day)
+Sailing the turquoise Mauritius lagoon on a luxury catamaran. Includes snorkelling over coral reefs, onboard Creole lunch (full day), swimming stops, and visits to islets. Suitable for families, couples and groups.
+
+### Dolphin Encounter (2–4 hours)
+Swimming with wild spinner dolphins in Tamarin Bay, west coast of Mauritius. Participants observe and swim alongside dolphins in their natural habitat. Early morning departure. Suitable for all ages.
+
+### Underwater Walk (30–45 minutes)
+Walking on the seabed wearing a pressurised diving helmet at 3–4 metres depth. No diving experience or swimming ability required. Participants see tropical fish, coral and marine life up close. Available at several Mauritius lagoon locations.
+
+### Parasailing (15–20 minutes)
+Soaring above the Mauritius lagoon attached to a parachute towed by a speedboat. Panoramic aerial views of the coastline and Indian Ocean. Suitable for individuals, pairs (tandem) or trios.
+
+### Tandem Paragliding (45–90 minutes, all levels)
+Flying above Mauritius's mountains, lagoons and coastline with a certified professional paragliding pilot. Launch sites include the mountains of Le Morne and the highlands of Bel Ombre. Suitable for all levels including first-timers.
+
+### Hiking Adventures (3–8 hours, all levels)
+Guided hikes on Mauritius's volcanic peaks and forested ridges. Available trails include:
+Le Morne Brabant (UNESCO), Signal Mountain, Pieter Both, Le Pouce, Piton de la Petite Rivière Noire (highest peak in Mauritius, 828m), Corps de Garde, Lion Mountain, Piton Savanne, Tourelle du Tamarin, Deux Mamelles, Trois Mamelles, Montagne Cocotte, Montagne Calebasses. Suitable for beginners to experienced hikers.
+
+### Waterfalls & River Treks (3–7 hours, moderate)
+Guided treks to Mauritius's hidden waterfalls through river gorges and jungle. Featured locations: Tamarind Falls (7 Cascades — most spectacular waterfall), Minissy Waterfall, Rochester Falls (flat rock cascade), 500ft Waterfall, Alexandra Falls, Eau Bleue, Rioux Waterfall, Léon Waterfall, La Nicolière River Trek. Includes swimming in natural pools.
+
+### Mangrove Kayaking (2–3 hours, all ages)
+Paddle through ancient mangrove forests and sheltered coastal channels in a kayak. Calm, flat water — no experience needed. Suitable for children, families and non-swimmers. Wildlife spotting opportunities.
+
+### 7 Caves Exploration (3–4 hours, easy to moderate)
+Guided journey through ancient volcanic lava tubes carved thousands of years ago. Unique underground formations, hidden chambers and geological history. Suitable for families, couples, groups and adventure seekers.
+
+### The Wild South Experience (Full Day, 7–9 hours)
+Immersive exploration of Mauritius's dramatic southern coastline. Stops include: Gris Gris cliffs (southernmost point, raw volcanic rock), natural rock pools, hidden southern beaches, scenic coastal viewpoints and remote landscapes. Suitable for nature lovers and photographers.
+
+---
+
+## Car Rental
+
+**Page**: https://www.mautravel.com/car-rental
+
+Self-drive car rental in Mauritius. All vehicles are automatic, air-conditioned, well-maintained and delivered to the client's location (airport, hotel or villa).
+
+**What's included**: Unlimited mileage across Mauritius, third-party insurance, 24/7 roadside assistance, airport and hotel delivery, clean maintained vehicles, no hidden fees.
+
+**Fleet**:
+
+| Vehicle | Seats | Transmission | Fuel | Daily Rate |
+|---------|-------|-------------|------|------------|
+| Suzuki Swift | 5 | Automatic | Petrol | MUR 1,300/day |
+| Toyota Yaris | 5 | Automatic | Petrol | MUR 1,400/day |
+| Nissan March | 5 | Automatic | Petrol | MUR 1,000/day |
+
+**Driving in Mauritius**:
+- Drive on the LEFT (same as UK, India, Australia)
+- Roads are well-maintained and signposted
+- Island is compact — most destinations within 1–2 hours from anywhere
+- Valid home country driving licence accepted
+- Minimum driving age: 18 years; minimum rental age: 21 years
+
+---
+
+## Properties
+
+**Page**: https://www.mautravel.com/properties
+
+Hand-picked villas, apartments and retreats across Mauritius. Each property is personally inspected by the MauTravel team.
+
+### Beachfront Villa (Luxury Villa)
+4 bedrooms, up to 8 guests. Private pool, direct beach access, panoramic Indian Ocean views, fully equipped kitchen, garden, housekeeping, chef available. From €400/night.
+
+### Garden Apartment (Apartment)
+2 bedrooms, up to 4 guests. Set in lush tropical garden, swimming pool, air conditioning, Wi-Fi, parking. Ideal for couples or small families. From €120/night.
+
+### Ocean View Penthouse (Penthouse)
+3 bedrooms, up to 6 guests. Wrap-around terrace, private jacuzzi, concierge, gym access, panoramic Indian Ocean views. From €300/night.
+
+### Jungle Retreat Villa (Villa)
+3 bedrooms, up to 6 guests. Secluded in Mauritius's tropical interior. Nature trails, private pool, BBQ area, yoga deck, chef available. From €250/night.
+
+---
+
+## Events & Festivals
+
+**Page**: https://www.mautravel.com/events
+
+Mauritius has a rich multicultural heritage (Hindu, Muslim, Christian, Chinese) with a vibrant annual festival calendar.
+
+| Event | Date | Category |
+|-------|------|----------|
+| Thaipoosam Cavadee | January 2026 | Hindu Festival |
+| Chinese New Year | January/February 2026 | Cultural Festival |
+| Holi Festival of Colours | March 2026 | Hindu Festival |
+| Mauritius Independence Day | 12 March 2026 | National Holiday |
+| International Kite Festival | August 2026 | Cultural Event |
+| Diwali Festival of Lights | October/November 2026 | Hindu Festival |
+
+MauTravel can plan stays around specific festivals and arrange festival-related experiences.
+
+---
+
+## Customer Reviews & Ratings
+
+**Page**: https://www.mautravel.com/reviews
+
+- **Average Rating**: 4.9 / 5
+- **Total Verified Reviews**: 500+
+- **Happy Clients**: 2,000+
+- **All sample reviews shown**: 5 stars
+
+International clients include visitors from United Kingdom, Germany, France, Australia, India, Belgium, South Africa and many other countries.
+
+---
+
+## Frequently Asked Questions
+
+**Page**: https://www.mautravel.com/faqs
+
+**Q: How do I book a service with MauTravel?**
+A: The easiest way is to tap the WhatsApp button and send a message. MauTravel responds quickly and can confirm bookings within minutes. The contact form on the website is also available.
+
+**Q: Are your prices fixed or negotiable?**
+A: Prices are transparent and fixed with no hidden fees. MauTravel believes in honest, straightforward pricing.
+
+**Q: Do you provide airport pick-up services?**
+A: Yes, 24/7 airport transfer services from Sir Seewoosagur Ramgoolam International Airport to any destination in Mauritius. The driver meets passengers at arrivals with a name board.
+
+**Q: Are your guides English-speaking?**
+A: Yes, all guides speak English fluently. French, German and several other languages are also available. Specify preferred language when booking.
+
+**Q: What is your cancellation policy?**
+A: Free cancellation up to 48 hours before the booked service.
+
+**Q: Do you offer group discounts?**
+A: Yes, attractive rates for groups of 6 or more travellers. Contact MauTravel with group size and requirements for a custom quote.
+
+**Q: Is MauTravel licensed and registered?**
+A: Yes, MauTravel is fully licensed and government-registered as a Tour Operator in Mauritius, complying with all tourism regulations.
+
+**Q: Can you arrange full holiday packages?**
+A: Yes. MauTravel can arrange comprehensive packages including accommodation, transfers, tours, activities and more — all customised to preferences and budget.
+
+---
+
+## Booking Process
+
+1. **Contact via WhatsApp** (fastest) or the website contact/quote form
+2. **Describe your requirements** — service type, dates, number of passengers, any preferences
+3. **Receive a quote** — usually within 30 minutes during business hours
+4. **Confirm the booking** — via WhatsApp chat
+5. **Enjoy your experience** — MauTravel handles all logistics
+
+No online payment portal — bookings are confirmed and managed via WhatsApp communication.
+
+---
+
+## Contact Information
+
+- **Website**: https://www.mautravel.com
+- **Email**: info@mautravel.mu
+- **Phone**: +230 5700 0000
+- **WhatsApp**: https://wa.me/23057000000
+- **Location**: Mauritius, Indian Ocean
+- **Response Time**: Usually within 30 minutes
+- **Availability**: 24/7 for urgent transfer requests; general enquiries during business hours
+
+---
+
+## About This Document
+
+This llms-full.txt document provides comprehensive, structured information about MauTravel to help AI language models, search assistants and generative AI systems accurately understand, describe and reference the business and its services. It follows the emerging llms.txt standard (https://llmstxt.org).

@@ -1,0 +1,22 @@
+# Cloudflare Pages _redirects file — MauTravel
+# IMPORTANT: Replace domain names with your actual domain before deployment.
+# Uncomment the redirect rules that match your domain setup.
+
+# ── www canonical redirect (uncomment ONE block) ──────────────────────────────
+
+# Option A: Redirect bare domain → www (recommended for established brands)
+# https://mautravel.com/* https://www.mautravel.com/:splat 301!
+
+# Option B: Redirect www → bare domain
+# https://www.mautravel.com/* https://mautravel.com/:splat 301!
+
+# ── HTTP → HTTPS (Cloudflare handles this automatically) ──────────────────────
+# http://www.mautravel.com/* https://www.mautravel.com/:splat 301!
+# http://mautravel.com/*     https://www.mautravel.com/:splat 301!
+
+# ── Common URL normalisations ────────────────────────────────────────────────
+# Ensure trailing slashes are consistent (optional — Next.js handles this)
+# /airport-transfers/ /airport-transfers 301
+# /tours/ /tours 301
+# /activities/ /activities 301
+# /car-rental/ /car-rental 301

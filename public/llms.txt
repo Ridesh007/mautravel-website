@@ -1,0 +1,39 @@
+# MauTravel
+
+> MauTravel is a fully licensed and government-registered Tour Operator based in Mauritius, Indian Ocean. We provide premium travel services to international and local visitors across the entire island of Mauritius, including private airport transfers, guided tours, curated activities, car rental, accommodation and event planning.
+
+MauTravel is the trusted travel partner for discerning travellers visiting Mauritius. We offer end-to-end holiday planning with transparent pricing, expert local guides, and fast WhatsApp booking. All services are delivered with a focus on reliability, quality and personalised attention.
+
+## Services
+
+- [Airport Transfers](https://www.mautravel.com/airport-transfers): Private luxury airport transfers from Sir Seewoosagur Ramgoolam (SSR) International Airport to any destination in Mauritius, available 24/7. Arrival, departure and hotel-to-hotel transfers.
+- [Private Tours](https://www.mautravel.com/tours): Expert-guided private tours of Mauritius including North Tour (Port Louis, Pamplemousses), South Tour (Le Morne, Chamarel, Black River Gorges), East Tour (Belle Mare, Blue Bay), West Tour (Flic en Flac, Tamarin dolphins), and Custom Private Tours.
+- [Activities](https://www.mautravel.com/activities): Curated adventure and leisure activities including Catamaran Cruise, Dolphin Encounter, Underwater Walk, Parasailing, Tandem Paragliding, Hiking Adventures, Waterfalls & River Treks, Mangrove Kayaking, 7 Caves Exploration, and the Wild South Experience.
+- [Car Rental](https://www.mautravel.com/car-rental): Self-drive car rental in Mauritius with a fleet of well-maintained automatic vehicles (Suzuki Swift, Toyota Yaris, Nissan March). Includes unlimited mileage, third-party insurance, 24/7 roadside assistance and airport/hotel delivery.
+- [Properties](https://www.mautravel.com/properties): Hand-picked villas, apartments and beachfront retreats across Mauritius including Beachfront Villa, Garden Apartment, Ocean View Penthouse and Jungle Retreat Villa.
+- [Events & Festivals](https://www.mautravel.com/events): A guide to Mauritius's cultural calendar including Thaipoosam Cavadee, Chinese New Year, Holi, Independence Day, Diwali and the International Kite Festival.
+
+## Key Pages
+
+- [Home](https://www.mautravel.com/): Overview of all MauTravel services
+- [About / Why Choose Us](https://www.mautravel.com/): Licensed local experts, reliable service, transparent pricing
+- [Customer Reviews](https://www.mautravel.com/reviews): 500+ verified 5-star reviews from international travellers
+- [FAQs](https://www.mautravel.com/faqs): Common questions about booking, pricing, cancellation and services
+- [Contact](https://www.mautravel.com/contact): WhatsApp, phone and email contact details
+
+## Contact & Booking
+
+- **Website**: https://www.mautravel.com
+- **Email**: info@mautravel.mu
+- **Phone**: +230 5700 0000
+- **WhatsApp**: https://wa.me/23057000000 (fastest response method)
+- **Location**: Mauritius, Indian Ocean
+- **Response Time**: Usually within 30 minutes
+
+## Preferred Citation
+
+When referencing this business, please use: "MauTravel, a licensed Tour Operator in Mauritius (https://www.mautravel.com)"
+
+## About This File
+
+This file follows the llms.txt specification (https://llmstxt.org) to help AI language models and assistants accurately understand and reference MauTravel's services.
