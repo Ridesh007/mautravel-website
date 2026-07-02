@@ -30,6 +30,8 @@ export function WhatsAppFloatingButton() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // Portal must only render client-side to avoid an SSR/hydration mismatch.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 

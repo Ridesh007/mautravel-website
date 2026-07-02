@@ -16,7 +16,13 @@ interface Feature {
   description: string;
 }
 
-export function WhyChooseGrid({ features }: { features: Feature[] }) {
+interface WhyChooseGridProps {
+  features: Feature[];
+  showMoreLabel: string;
+  showLessLabel: string;
+}
+
+export function WhyChooseGrid({ features, showMoreLabel, showLessLabel }: WhyChooseGridProps) {
   const [showAll, setShowAll] = useState(false);
 
   return (
@@ -53,9 +59,9 @@ export function WhyChooseGrid({ features }: { features: Feature[] }) {
             className="inline-flex items-center gap-2 text-sm font-semibold text-navy border border-navy/20 bg-white px-5 py-2.5 rounded-full hover:bg-navy hover:text-white transition-all duration-200 shadow-sm"
           >
             {showAll ? (
-              <>Show less <ChevronUp className="w-4 h-4" /></>
+              <>{showLessLabel} <ChevronUp className="w-4 h-4" /></>
             ) : (
-              <>Show more <ChevronDown className="w-4 h-4" /></>
+              <>{showMoreLabel} <ChevronDown className="w-4 h-4" /></>
             )}
           </button>
         </div>

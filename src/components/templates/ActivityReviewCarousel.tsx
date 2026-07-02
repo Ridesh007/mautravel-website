@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useEffect, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import type { ActivityReview } from "@/types";
 import { cn } from "@/lib/utils";
@@ -22,6 +23,7 @@ function StarRating({ rating }: { rating: number }) {
 }
 
 export function ActivityReviewCarousel({ reviews }: { reviews: ActivityReview[] }) {
+  const t = useTranslations("activities");
   const count   = reviews.length;
   // Triple for seamless infinite loop
   const tripled = [...reviews, ...reviews, ...reviews];
@@ -136,20 +138,20 @@ export function ActivityReviewCarousel({ reviews }: { reviews: ActivityReview[] 
         <div className="flex gap-2">
           <button
             onClick={() => go(-1)}
-            aria-label="Previous review"
+            aria-label={t("previousReview")}
             className="w-10 h-10 rounded-full border border-white/20 text-white hover:border-white/50 hover:bg-white/10 flex items-center justify-center transition-all duration-200"
           >
             <ChevronLeft className="w-4 h-4" />
           </button>
           <button
             onClick={() => go(1)}
-            aria-label="Next review"
+            aria-label={t("nextReview")}
             className="w-10 h-10 rounded-full border border-white/20 text-white hover:border-white/50 hover:bg-white/10 flex items-center justify-center transition-all duration-200"
           >
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>
-        <p className="text-white/30 text-xs">{count} verified reviews</p>
+        <p className="text-white/30 text-xs">{t("verifiedReviews", { count })}</p>
       </div>
     </div>
   );

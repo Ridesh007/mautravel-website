@@ -16,7 +16,7 @@ export function ActivityFaqAccordion({ faqs }: { faqs: FAQ[] }) {
           className="border border-gray-100 rounded-2xl overflow-hidden bg-white hover:border-navy/20 transition-colors duration-200"
         >
           <button
-            className="w-full flex items-center justify-between p-5 md:p-6 gap-4 text-left"
+            className="w-full flex items-center justify-between p-5 md:p-6 gap-4 text-left rtl:text-right"
             onClick={() => setOpen(open === i ? null : i)}
             aria-expanded={open === i}
           >

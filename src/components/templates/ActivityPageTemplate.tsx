@@ -1,11 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
 import {
   Clock, MapPin, Users, Star, Zap, UserCheck, Shield,
   Heart, Anchor, Sunrise, CheckCircle2, XCircle, MessageCircle,
   FileText, ChevronRight, LucideIcon,
 } from "lucide-react";
-import type { ActivityDetail, Activity, ActivityLocation } from "@/types";
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
+import type { ActivityHighlight, ActivityPricingTier, ActivityLocation, ActivityReview, FAQ } from "@/types";
 import { PageHero } from "@/components/shared/PageHero";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 import { SectionHeader } from "@/components/shared/SectionHeader";
@@ -24,12 +25,45 @@ const ICONS: Record<string, LucideIcon> = {
 const isPlaceholderPrice = (price: string) =>
   price.includes("XX") || price.toLowerCase().includes("contact");
 
-interface Props {
-  detail: ActivityDetail;
-  related: Activity[];
+export interface MergedActivityDetail {
+  slug: string;
+  name: string;
+  pageTitle: string;
+  pageDescription: string;
+  heroImage: string;
+  heroSubtitle: string;
+  duration: string;
+  difficulty?: string;
+  about: string[];
+  highlights: ActivityHighlight[];
+  included: string[];
+  notIncluded: string[];
+  gallery: string[];
+  locations?: ActivityLocation[];
+  pricing: ActivityPricingTier[];
+  pricingNote?: string;
+  faqs: FAQ[];
+  activityReviews?: { items: ActivityReview[]; note?: string };
 }
 
-export function ActivityPageTemplate({ detail, related }: Props) {
+export interface RelatedActivity {
+  id: string;
+  slug: string;
+  image: string;
+  duration: string;
+  name: string;
+  description: string;
+}
+
+interface Props {
+  detail: MergedActivityDetail;
+  related: RelatedActivity[];
+  locale: string;
+}
+
+export async function ActivityPageTemplate({ detail, related, locale }: Props) {
+  const t = await getTranslations({ locale, namespace: "activityDetails.ui" });
+
   return (
     <>
       {/* ── Hero ── */}
@@ -37,16 +71,16 @@ export function ActivityPageTemplate({ detail, related }: Props) {
         title={detail.name}
         subtitle={detail.heroSubtitle}
         image={detail.heroImage}
-        eyebrow="MauTravel Activities"
+        eyebrow={t("heroEyebrow")}
         className="md:min-h-[560px] md:h-[70vh]"
         breadcrumbs={[
-          { label: "Activities", href: "/activities" },
+          { label: t("activitiesBreadcrumb"), href: "/activities" },
           { label: detail.name, href: `/activities/${detail.slug}` },
         ]}
       >
         <div className="flex flex-wrap gap-3 mt-6">
-          <WhatsAppButton service={detail.name} size="lg" label="Book via WhatsApp" />
-          <WhatsAppButton service={detail.name} size="lg" variant="quote" label="Request a Quote" />
+          <WhatsAppButton service={detail.name} size="lg" />
+          <WhatsAppButton service={detail.name} size="lg" variant="quote" />
         </div>
       </PageHero>
 
@@ -77,9 +111,9 @@ export function ActivityPageTemplate({ detail, related }: Props) {
 
             {/* About */}
             <AnimatedSection className="lg:col-span-2">
-              <p className="text-gold text-xs font-semibold uppercase tracking-widest mb-3">About the Activity</p>
+              <p className="text-gold text-xs font-semibold uppercase tracking-widest mb-3">{t("aboutEyebrow")}</p>
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-6 leading-tight">
-                What to Expect
+                {t("aboutTitle")}
               </h2>
               <div className="space-y-4">
                 {detail.about.map((para, i) => (
@@ -93,7 +127,7 @@ export function ActivityPageTemplate({ detail, related }: Props) {
               <div className="bg-cream rounded-2xl p-6">
                 <h3 className="font-heading font-bold text-navy text-lg mb-4 flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-gold" />
-                  What&apos;s Included
+                  {t("includedTitle")}
                 </h3>
                 <ul className="space-y-2.5">
                   {detail.included.map((item) => (
@@ -108,7 +142,7 @@ export function ActivityPageTemplate({ detail, related }: Props) {
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
                 <h3 className="font-heading font-bold text-charcoal text-lg mb-4 flex items-center gap-2">
                   <XCircle className="w-5 h-5 text-charcoal/40" />
-                  Not Included
+                  {t("notIncludedTitle")}
                 </h3>
                 <ul className="space-y-2.5">
                   {detail.notIncluded.map((item) => (
@@ -130,9 +164,9 @@ export function ActivityPageTemplate({ detail, related }: Props) {
           <div className="container-xl">
             <AnimatedSection>
               <SectionHeader
-                eyebrow="Flying Locations"
-                title="Where You'll Take Flight"
-                description="Your pilot selects the ideal take-off site on the day based on prevailing wind and weather conditions — ensuring the safest and most spectacular experience possible."
+                eyebrow={t("locationsEyebrow")}
+                title={t("locationsTitle")}
+                description={t("locationsDescription")}
               />
             </AnimatedSection>
             <AnimatedGrid className="grid grid-cols-1 md:grid-cols-2 gap-6" stagger={0.08}>
@@ -144,7 +178,7 @@ export function ActivityPageTemplate({ detail, related }: Props) {
                   <div className="relative aspect-[16/9] overflow-hidden">
                     <Image
                       src={loc.image}
-                      alt={`${loc.name} paragliding Mauritius`}
+                      alt={`${loc.name} — ${detail.name}`}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -178,16 +212,18 @@ export function ActivityPageTemplate({ detail, related }: Props) {
       )}
 
       {/* ── Gallery ── */}
-      <section className="section-padding bg-cream">
-        <div className="container-xl">
-          <AnimatedSection>
-            <SectionHeader eyebrow="Gallery" title="Experience in Pictures" />
-          </AnimatedSection>
-          <AnimatedSection delay={0.1}>
-            <ActivityGallery images={detail.gallery} name={detail.name} />
-          </AnimatedSection>
-        </div>
-      </section>
+      {detail.gallery.length > 0 && (
+        <section className="section-padding bg-cream">
+          <div className="container-xl">
+            <AnimatedSection>
+              <SectionHeader eyebrow={t("galleryEyebrow")} title={t("galleryTitle")} />
+            </AnimatedSection>
+            <AnimatedSection delay={0.1}>
+              <ActivityGallery images={detail.gallery} name={detail.name} />
+            </AnimatedSection>
+          </div>
+        </section>
+      )}
 
       {/* ── Guest Reviews (shown only when detail.activityReviews is provided) ── */}
       {detail.activityReviews && (
@@ -198,13 +234,13 @@ export function ActivityPageTemplate({ detail, related }: Props) {
             <AnimatedSection>
               <div className="text-center mb-14">
                 <p className="text-gold text-xs font-semibold uppercase tracking-widest mb-3">
-                  Customer Reviews
+                  {t("reviewsEyebrow")}
                 </p>
                 <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-3">
-                  What Our Guests Say
+                  {t("reviewsTitle")}
                 </h2>
                 <p className="text-white/55 max-w-xl mx-auto text-sm leading-relaxed">
-                  Real experiences from guests who have enjoyed tandem paragliding in Mauritius.
+                  {t("reviewsSubtitle")}
                 </p>
                 <div className="flex items-center justify-center gap-3 mt-7">
                   <div className="flex gap-0.5">
@@ -213,9 +249,9 @@ export function ActivityPageTemplate({ detail, related }: Props) {
                     ))}
                   </div>
                   <span className="font-heading font-bold text-white text-2xl">5.0</span>
-                  <span className="text-white/45 text-sm">Average Rating</span>
+                  <span className="text-white/45 text-sm">{t("averageRating")}</span>
                 </div>
-                <p className="text-white/30 text-xs mt-1">Based on verified customer reviews</p>
+                <p className="text-white/30 text-xs mt-1">{t("basedOnReviews")}</p>
               </div>
             </AnimatedSection>
 
@@ -236,14 +272,14 @@ export function ActivityPageTemplate({ detail, related }: Props) {
             {/* Inline CTA */}
             <AnimatedSection delay={0.25} className="mt-14 text-center">
               <h3 className="font-heading font-bold text-white text-2xl md:text-3xl mb-3">
-                Ready to Create Your Own Story?
+                {t("reviewsCtaTitle")}
               </h3>
               <p className="text-white/55 text-sm mb-8 max-w-md mx-auto leading-relaxed">
-                Join hundreds of happy guests and discover Mauritius from the sky.
+                {t("reviewsCtaSubtitle")}
               </p>
               <div className="flex flex-wrap justify-center gap-3">
-                <WhatsAppButton service={detail.name} size="lg" label="Book via WhatsApp" />
-                <WhatsAppButton service={detail.name} size="lg" variant="quote" label="Request a Quote" />
+                <WhatsAppButton service={detail.name} size="lg" />
+                <WhatsAppButton service={detail.name} size="lg" variant="quote" />
               </div>
             </AnimatedSection>
 
@@ -254,24 +290,23 @@ export function ActivityPageTemplate({ detail, related }: Props) {
       {/* ── Pricing ── */}
       <section className="section-padding bg-white">
         <div className="container-xl">
-          {detail.pricing.every((t) => isPlaceholderPrice(t.price)) ? (
+          {detail.pricing.every((p) => isPlaceholderPrice(p.price)) ? (
             /* No confirmed prices — show a simple quotation request */
             <AnimatedSection className="text-center max-w-2xl mx-auto">
-              <p className="text-gold text-xs font-semibold uppercase tracking-widest mb-3">Pricing</p>
-              <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">Request a Quotation</h2>
+              <p className="text-gold text-xs font-semibold uppercase tracking-widest mb-3">{t("pricingEyebrow")}</p>
+              <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">{t("pricingQuoteTitle")}</h2>
               <p className="text-charcoal/60 leading-relaxed mb-8">
-                Pricing for this activity is tailored to your group size, dates, and specific requirements.
-                Get in touch via WhatsApp and we&apos;ll respond quickly with a personalised quote — no obligation.
+                {t("pricingQuoteText")}
               </p>
-              <WhatsAppButton service={detail.name} size="lg" variant="quote" label="Request a Quotation" />
+              <WhatsAppButton service={detail.name} size="lg" variant="quote" label={t("requestQuotation")} />
             </AnimatedSection>
           ) : (
             /* Confirmed prices — show package cards */
             <>
               <AnimatedSection>
                 <SectionHeader
-                  eyebrow="Pricing"
-                  title="Choose Your Package"
+                  eyebrow={t("pricingEyebrow")}
+                  title={t("pricingPackagesTitle")}
                 />
                 {detail.pricingNote && (
                   <div className="flex items-start gap-3 bg-gold/10 border border-gold/30 rounded-xl px-4 py-3 mb-10 max-w-2xl mx-auto">
@@ -299,7 +334,7 @@ export function ActivityPageTemplate({ detail, related }: Props) {
                   >
                     {tier.popular && (
                       <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold text-white text-xs font-bold px-4 py-1 rounded-full shadow-sm">
-                        Most Popular
+                        {t("mostPopular")}
                       </span>
                     )}
                     <div>
@@ -324,7 +359,7 @@ export function ActivityPageTemplate({ detail, related }: Props) {
                     <WhatsAppButton
                       service={`${detail.name} — ${tier.name}`}
                       size="md"
-                      label="Book This Package"
+                      label={t("bookThisPackage")}
                       className={cn("w-full justify-center", tier.popular ? "!bg-gold !text-white hover:!bg-gold/90" : "")}
                     />
                   </div>
@@ -339,41 +374,26 @@ export function ActivityPageTemplate({ detail, related }: Props) {
       <section className="section-padding bg-cream">
         <div className="container-xl max-w-4xl">
           <AnimatedSection>
-            <SectionHeader eyebrow="How to Book" title="3 Easy Steps to Your Adventure" />
+            <SectionHeader eyebrow={t("howToBookEyebrow")} title={t("howToBookTitle")} />
           </AnimatedSection>
           <AnimatedGrid className="grid grid-cols-1 md:grid-cols-3 gap-6" stagger={0.1}>
             {[
-              {
-                step: "01",
-                icon: MessageCircle,
-                title: "Contact via WhatsApp",
-                desc: "Tap the WhatsApp button and send us your preferred date, group size, and any questions. We respond quickly.",
-              },
-              {
-                step: "02",
-                icon: FileText,
-                title: "Receive Your Quote",
-                desc: "We'll confirm availability and send you a personalised quote with everything included — no hidden fees.",
-              },
-              {
-                step: "03",
-                icon: CheckCircle2,
-                title: "Confirm & Enjoy",
-                desc: "Confirm your booking, receive your voucher, and get ready for an unforgettable Mauritius experience.",
-              },
+              { step: "01", icon: MessageCircle, title: t("step1Title"), desc: t("step1Desc") },
+              { step: "02", icon: FileText, title: t("step2Title"), desc: t("step2Desc") },
+              { step: "03", icon: CheckCircle2, title: t("step3Title"), desc: t("step3Desc") },
             ].map((s) => (
               <div key={s.step} className="bg-white rounded-2xl p-7 shadow-sm text-center">
                 <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center mx-auto mb-4">
                   <s.icon className="w-6 h-6 text-gold" />
                 </div>
-                <p className="text-gold text-xs font-bold uppercase tracking-widest mb-2">Step {s.step}</p>
+                <p className="text-gold text-xs font-bold uppercase tracking-widest mb-2">{t("stepLabel")} {s.step}</p>
                 <h3 className="font-heading font-bold text-navy text-lg mb-2">{s.title}</h3>
                 <p className="text-charcoal/60 text-sm leading-relaxed">{s.desc}</p>
               </div>
             ))}
           </AnimatedGrid>
           <AnimatedSection delay={0.2} className="mt-8 text-center">
-            <WhatsAppButton service={detail.name} size="lg" label={`Book ${detail.name} via WhatsApp`} />
+            <WhatsAppButton service={detail.name} size="lg" label={t("bookNamedViaWhatsapp", { name: detail.name })} />
           </AnimatedSection>
         </div>
       </section>
@@ -382,7 +402,7 @@ export function ActivityPageTemplate({ detail, related }: Props) {
       <section className="section-padding bg-white">
         <div className="container-xl max-w-3xl">
           <AnimatedSection>
-            <SectionHeader eyebrow="FAQ" title="Frequently Asked Questions" />
+            <SectionHeader eyebrow={t("faqEyebrow")} title={t("faqTitle")} />
             <ActivityFaqAccordion faqs={detail.faqs} />
           </AnimatedSection>
         </div>
@@ -394,9 +414,9 @@ export function ActivityPageTemplate({ detail, related }: Props) {
           <div className="container-xl">
             <AnimatedSection>
               <SectionHeader
-                eyebrow="Explore More"
-                title="Customers Also Enjoyed"
-                description="Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+                eyebrow={t("relatedEyebrow")}
+                title={t("relatedTitle")}
+                description={t("relatedDescription")}
               />
             </AnimatedSection>
             <AnimatedGrid className="grid grid-cols-1 md:grid-cols-3 gap-6" stagger={0.08}>

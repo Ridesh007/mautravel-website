@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { AnimatedSection } from "@/components/shared/AnimatedSection";
 
 const SOCIALS = [
@@ -52,19 +53,19 @@ const SOCIALS = [
 ];
 
 export function SocialSection() {
+  const t = useTranslations("home.social");
   return (
     <section className="section-padding bg-cream">
       <div className="container-xl">
         <AnimatedSection className="text-center mb-12">
           <p className="text-gold text-xs font-semibold uppercase tracking-[0.2em] mb-3">
-            Follow Us
+            {t("eyebrow")}
           </p>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy">
-            Follow Our Mauritius Journey
+            {t("title")}
           </h2>
           <p className="mt-4 text-charcoal/60 max-w-xl mx-auto">
-            Stay inspired with daily Mauritius content — travel tips, stunning scenery, and
-            behind-the-scenes moments from island life.
+            {t("description")}
           </p>
         </AnimatedSection>
 

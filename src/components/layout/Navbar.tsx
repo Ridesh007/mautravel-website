@@ -1,15 +1,17 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Menu, X, MessageCircle, ChevronDown } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link, usePathname } from "@/i18n/navigation";
 import { NAV_LINKS } from "@/lib/constants";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
 import { cn } from "@/lib/utils";
+import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 
 export function Navbar() {
+  const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
@@ -23,11 +25,12 @@ export function Navbar() {
   }, []);
 
   useEffect(() => {
+    // Close the mobile menu whenever the route (an external system) changes.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMobileOpen(false);
   }, [pathname]);
 
   const navBg = isHome && !scrolled ? "bg-transparent" : "bg-white shadow-sm";
-  const textColor = isHome && !scrolled ? "text-white" : "text-navy";
   const logoColor = isHome && !scrolled ? "text-white" : "text-navy";
 
   return (
@@ -79,13 +82,14 @@ export function Navbar() {
                       : "text-charcoal hover:text-navy"
                   )}
                 >
-                  {link.label}
+                  {t(link.key)}
                 </Link>
               ))}
             </nav>
 
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
+              <LanguageSwitcher variant={isHome && !scrolled ? "light" : "dark"} />
               <a
                 href={getWhatsAppUrl()}
                 target="_blank"
@@ -93,7 +97,7 @@ export function Navbar() {
                 className="flex items-center gap-2 bg-gold hover:bg-gold/90 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
               >
                 <MessageCircle className="w-4 h-4" />
-                Book Now
+                {t("bookNow")}
               </a>
             </div>
 
@@ -106,7 +110,7 @@ export function Navbar() {
                   ? "text-white hover:bg-white/10"
                   : "text-navy hover:bg-navy/10"
               )}
-              aria-label="Toggle menu"
+              aria-label={t("toggleMenu")}
             >
               {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -141,15 +145,23 @@ export function Navbar() {
                         : "text-white/90 hover:text-white hover:bg-white/10"
                     )}
                   >
-                    {link.label}
+                    {t(link.key)}
                   </Link>
                 </motion.div>
               ))}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: NAV_LINKS.length * 0.05 + 0.05 }}
+                className="mt-2"
+              >
+                <LanguageSwitcher variant="light" className="w-full [&>button]:w-full [&>button]:justify-center [&>button]:bg-white/10" />
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: NAV_LINKS.length * 0.05 + 0.1 }}
-                className="mt-6 pt-6 border-t border-white/10"
+                className="mt-4 pt-6 border-t border-white/10"
               >
                 <a
                   href={getWhatsAppUrl()}
@@ -158,7 +170,7 @@ export function Navbar() {
                   className="flex items-center justify-center gap-2 w-full bg-gold hover:bg-gold/90 text-white text-base font-semibold px-6 py-4 rounded-2xl transition-all"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  Book via WhatsApp
+                  {t("bookViaWhatsapp")}
                 </a>
               </motion.div>
             </div>

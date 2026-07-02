@@ -1,0 +1,2110 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "airportTransfers": "Transferts Aéroport",
+    "tours": "Excursions",
+    "activities": "Activités",
+    "carRental": "Location de Voiture",
+    "properties": "Propriétés",
+    "events": "Événements",
+    "reviews": "Avis",
+    "contact": "Contact",
+    "bookNow": "Réserver",
+    "bookViaWhatsapp": "Réserver via WhatsApp",
+    "toggleMenu": "Ouvrir le menu"
+  },
+  "footer": {
+    "tagline": "L'opérateur touristique de confiance de l'île Maurice. Nous créons des expériences de voyage extraordinaires avec passion, expertise et soin.",
+    "servicesHeading": "Nos Services",
+    "companyHeading": "Entreprise",
+    "contactHeading": "Contactez-nous",
+    "whatsappUs": "WhatsApp",
+    "addressLine": "Île Maurice, Océan Indien",
+    "rights": "Tous droits réservés.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "terms": "Conditions Générales",
+    "faqs": "FAQ",
+    "reviews": "Avis",
+    "contact": "Contact"
+  },
+  "common": {
+    "readMore": "Lire Plus",
+    "viewAll": "Voir Tout",
+    "bookNow": "Réserver",
+    "contactUs": "Contactez-nous",
+    "whatsapp": "WhatsApp",
+    "requestQuote": "Demander un Devis",
+    "learnMore": "En Savoir Plus",
+    "exploreMore": "Découvrir Plus",
+    "loading": "Chargement…",
+    "backHome": "Retour à l'Accueil",
+    "breadcrumbHome": "Accueil",
+    "notFoundTitle": "Page Introuvable",
+    "notFoundDescription": "Désolé, nous n'avons pas trouvé la page que vous recherchez.",
+    "errorTitle": "Une Erreur s'est Produite",
+    "errorDescription": "Une erreur inattendue s'est produite. Veuillez réessayer.",
+    "retry": "Réessayer",
+    "skipToContent": "Aller au contenu",
+    "close": "Fermer",
+    "from": "À partir de",
+    "perNight": "/nuit",
+    "perDay": "/jour",
+    "guest": "invité",
+    "guestsPlural": "invités"
+  },
+  "forms": {
+    "fullName": "Nom Complet",
+    "fullNamePlaceholder": "Votre nom",
+    "email": "Adresse E-mail",
+    "emailPlaceholder": "votre@email.com",
+    "service": "Service",
+    "selectService": "Sélectionner un service",
+    "serviceAirportTransfer": "Transfert Aéroport",
+    "servicePrivateTour": "Excursion Privée",
+    "serviceActivity": "Activité",
+    "serviceCarRental": "Location de Voiture",
+    "serviceProperty": "Propriété",
+    "serviceHolidayPackage": "Forfait Vacances",
+    "serviceOther": "Autre",
+    "numberOfGuests": "Nombre d'Invités",
+    "travelDate": "Date du Voyage",
+    "additionalDetails": "Détails Supplémentaires",
+    "additionalDetailsPlaceholder": "Parlez-nous de vos projets de voyage, exigences particulières…",
+    "sendViaWhatsapp": "Envoyer via WhatsApp",
+    "disclaimer": "Votre message s'ouvrira dans WhatsApp. Nous répondons sous 30 minutes pendant les heures d'ouverture.",
+    "requiredField": "Ce champ est requis",
+    "invalidEmail": "Veuillez saisir une adresse e-mail valide",
+    "quoteFormTitle": "Demander un Devis",
+    "quoteFormSubtitle": "Remplissez vos informations et nous vous fournirons rapidement un devis sans engagement via WhatsApp."
+  },
+  "popup": {
+    "title": "🌍 Voir ce site dans votre langue ?",
+    "message": "Nous avons remarqué que la langue de votre navigateur est {language}. MauTravel est disponible en plusieurs langues pour faciliter la planification de votre voyage à l'île Maurice. Souhaitez-vous changer ?",
+    "switchTo": "Passer en {language}",
+    "continueIn": "Continuer en {language}",
+    "closeAria": "Fermer la fenêtre de langue"
+  },
+  "switcher": {
+    "label": "Langue",
+    "ariaLabel": "Sélectionner la langue",
+    "searchPlaceholder": "Rechercher une langue…",
+    "noResults": "Aucune langue trouvée"
+  },
+  "seo": {
+    "home": {
+      "title": "MauTravel — Opérateur Touristique à l'Île Maurice",
+      "description": "MauTravel est l'opérateur touristique de confiance de l'île Maurice — transferts aéroport, excursions privées, activités, location de voiture, propriétés et plus encore."
+    },
+    "airportTransfers": {
+      "title": "Transferts Aéroport",
+      "description": "Transferts aéroport privés et luxueux depuis l'aéroport international SSR vers toute destination à l'île Maurice. 24h/24, prix fixes, chauffeurs professionnels."
+    },
+    "tours": {
+      "title": "Excursions Privées",
+      "description": "Excursions privées guidées par des experts à travers l'île Maurice — Nord, Sud, Est, Ouest et itinéraires sur mesure. Découvrez l'île avec MauTravel."
+    },
+    "activities": {
+      "title": "Activités à l'Île Maurice",
+      "description": "Réservez des activités palpitantes à l'île Maurice — croisières en catamaran, rencontres avec les dauphins, parapente en tandem, parachute ascensionnel, randonnées et plus."
+    },
+    "carRental": {
+      "title": "Location de Voiture à l'Île Maurice",
+      "description": "Louez une voiture à l'île Maurice avec MauTravel. Véhicules bien entretenus, tarifs journaliers compétitifs, livraison sur toute l'île. Explorez à votre rythme."
+    },
+    "events": {
+      "title": "Événements & Festivals à l'Île Maurice",
+      "description": "Découvrez le riche calendrier des festivals, événements culturels et célébrations saisonnières de l'île Maurice. Planifiez votre visite autour des meilleurs événements de l'île."
+    },
+    "reviews": {
+      "title": "Avis Clients",
+      "description": "Découvrez ce que les voyageurs du monde entier disent de MauTravel. Des centaines d'avis 5 étoiles de clients satisfaits."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Contactez MauTravel — réservez un service, demandez un devis ou posez-nous vos questions sur vos vacances à l'île Maurice. Réponse WhatsApp rapide."
+    },
+    "faqs": {
+      "title": "FAQ",
+      "description": "Questions fréquemment posées sur MauTravel — réservation, tarifs, transferts aéroport, politique d'annulation, remises de groupe et plus."
+    },
+    "privacyPolicy": {
+      "title": "Politique de Confidentialité",
+      "description": "Politique de confidentialité de MauTravel — comment nous collectons, utilisons et protégeons vos informations personnelles."
+    },
+    "terms": {
+      "title": "Conditions Générales",
+      "description": "Conditions générales de MauTravel — à lire avant de réserver nos services."
+    },
+    "properties": {
+      "title": "Propriétés à l'Île Maurice",
+      "description": "Villas, appartements et propriétés en bord de mer soigneusement sélectionnés à l'île Maurice. Réservez votre hébergement idéal avec MauTravel."
+    }
+  },
+  "home": {
+    "heroSlides": [
+      {
+        "label": "Transferts Aéroport",
+        "title": "Arrivez dans un Confort Absolu",
+        "subtitle": "Transferts privés de luxe depuis l'aéroport international SSR jusqu'à votre destination — à l'heure, à chaque fois.",
+        "cta": "Réserver un Transfert"
+      },
+      {
+        "label": "Excursions Privées",
+        "title": "Découvrez l'Île Maurice",
+        "subtitle": "Des excursions privées guidées par des experts qui révèlent les paysages les plus époustouflants et les trésors cachés de l'île.",
+        "cta": "Découvrir les Excursions"
+      },
+      {
+        "label": "Activités",
+        "title": "Des Expériences Inoubliables",
+        "subtitle": "Du parapente en tandem aux croisières en catamaran — des activités sélectionnées pour tous les types d'aventuriers.",
+        "cta": "Voir les Activités"
+      },
+      {
+        "label": "Location de Voiture",
+        "title": "Explorez à Votre Rythme",
+        "subtitle": "Des véhicules haut de gamme à votre disposition — découvrez chaque recoin de l'île Maurice en toute liberté.",
+        "cta": "Voir les Véhicules"
+      },
+      {
+        "label": "Propriétés",
+        "title": "Séjournez Là Où Vous Vous Sentez Chez Vous",
+        "subtitle": "Villas, appartements et retraites en bord de mer triés sur le volet pour un séjour au-delà des attentes.",
+        "cta": "Voir les Propriétés"
+      },
+      {
+        "label": "Île Maurice",
+        "title": "Votre Histoire Insulaire Commence",
+        "subtitle": "MauTravel — l'opérateur touristique de confiance de l'île Maurice pour les voyageurs exigeants.",
+        "cta": "Nous Contacter"
+      }
+    ],
+    "contactUs": "Nous Contacter",
+    "previousSlide": "Diapositive précédente",
+    "nextSlide": "Diapositive suivante",
+    "goToSlide": "Aller à la diapositive {n}",
+    "scroll": "défiler",
+    "whyChoose": {
+      "eyebrow": "Pourquoi MauTravel",
+      "title": "Votre Île, Notre Expertise",
+      "description": "Nous combinons une connaissance approfondie de l'île à une attention sincère pour chaque voyageur qui choisit MauTravel.",
+      "showMore": "Voir plus",
+      "showLess": "Voir moins",
+      "features": [
+        {
+          "icon": "ShieldCheck",
+          "title": "Experts Locaux Agréés",
+          "description": "Opérateur touristique pleinement agréé et enregistré auprès du gouvernement, avec une connaissance locale approfondie construite au fil des années."
+        },
+        {
+          "icon": "Clock",
+          "title": "Fiable et Ponctuel",
+          "description": "Nous savons que votre temps est précieux. Nos services sont conçus autour de la précision et de la fiabilité."
+        },
+        {
+          "icon": "Tag",
+          "title": "Tarification Transparente",
+          "description": "Prix fixes et tout compris, sans frais cachés. Ce que vous voyez est exactement ce que vous payez."
+        },
+        {
+          "icon": "Star",
+          "title": "Service Personnalisé",
+          "description": "Chaque itinéraire est conçu autour de vos besoins spécifiques, préférences et style de voyage."
+        },
+        {
+          "icon": "Users",
+          "title": "Partenaires Locaux de Confiance",
+          "description": "Notre réseau sélectionné de partenaires locaux vérifiés garantit une qualité constante pour chaque service."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Réservation Rapide par WhatsApp",
+          "description": "Réservez instantanément via WhatsApp — notre équipe répond rapidement et efficacement."
+        },
+        {
+          "icon": "Heart",
+          "title": "Service Client Exceptionnel",
+          "description": "De la première demande au dernier au revoir, nous sommes avec vous à chaque étape de votre voyage à l'île Maurice."
+        },
+        {
+          "icon": "Globe",
+          "title": "Solutions de Voyage Complètes",
+          "description": "Un seul partenaire de confiance pour tous vos besoins de voyage à l'île Maurice — transferts, excursions, séjours et plus."
+        }
+      ]
+    },
+    "airportTransfers": {
+      "eyebrow": "Transferts Aéroport",
+      "title": "Arrivées et Départs en Toute Sérénité",
+      "description": "Commencez et terminez vos vacances à l'île Maurice dans un confort parfait. Nos chauffeurs professionnels vous accueillent à l'aéroport et vous conduisent en toute sécurité à votre hébergement.",
+      "features": [
+        "Accueil aux arrivées avec panneau nominatif",
+        "Service 24h/24, 7j/7 — tout vol, à toute heure",
+        "Véhicules privés climatisés",
+        "Attente gratuite en cas de retard de vol",
+        "Prix fixes — sans surprise",
+        "Toutes les destinations hôtels et villas couvertes"
+      ],
+      "learnMore": "En Savoir Plus",
+      "badgeAvailable": "Disponible",
+      "badgeHours": "24 / 7"
+    },
+    "tours": {
+      "eyebrow": "Excursions Privées",
+      "title": "Explorez Chaque Recoin de l'Île Maurice",
+      "description": "Nos guides locaux experts révèlent les paysages les plus spectaculaires, les trésors culturels et les joyaux cachés de l'île.",
+      "viewAll": "Voir Toutes les Excursions",
+      "badge": "Excursion Privée",
+      "learnMore": "En Savoir Plus",
+      "book": "Réserver"
+    },
+    "activities": {
+      "eyebrow": "Activités",
+      "title": "Des Expériences Palpitantes Vous Attendent",
+      "description": "Des paisibles marches sous-marines au quad à sensations fortes — l'île Maurice offre une activité pour chaque type de voyageur.",
+      "viewAll": "Voir Toutes les Activités",
+      "hot": "TENDANCE",
+      "bookNow": "Réserver"
+    },
+    "carRental": {
+      "eyebrow": "Location de Voiture",
+      "title": "Conduisez l'Île Maurice à Votre Façon",
+      "description": "Choisissez parmi notre flotte de véhicules bien entretenus et découvrez chaque recoin de l'île à votre rythme.",
+      "viewAll": "Voir Toute la Flotte",
+      "bookThisVehicle": "Réserver Ce Véhicule",
+      "seats": "places"
+    },
+    "events": {
+      "eyebrow": "Événements & Festivals",
+      "title": "L'Actualité à l'Île Maurice",
+      "description": "Découvrez le calendrier vibrant des festivals, événements culturels et célébrations saisonnières qui rendent l'île Maurice si spéciale.",
+      "viewAll": "Voir Tous les Événements"
+    },
+    "reviews": {
+      "eyebrow": "Avis Clients",
+      "title": "Ce Que Disent Nos Voyageurs",
+      "description": "Rejoignez des milliers de voyageurs heureux qui ont fait confiance à MauTravel pour leurs expériences à l'île Maurice.",
+      "statReviews": "Avis",
+      "statRating": "Note",
+      "statHappyClients": "Clients Satisfaits"
+    },
+    "cta": {
+      "eyebrow": "Prêt à Commencer ?",
+      "title": "Prêt à Explorer l'Île Maurice ?",
+      "description": "Laissez-nous gérer chaque détail de votre expérience à l'île Maurice. Contactez-nous dès aujourd'hui et commençons à planifier votre escapade insulaire parfaite.",
+      "whatsappUs": "WhatsApp",
+      "requestQuote": "Demander un Devis"
+    },
+    "social": {
+      "eyebrow": "Suivez-Nous",
+      "title": "Suivez Notre Aventure Mauricienne",
+      "description": "Restez inspiré avec du contenu quotidien sur l'île Maurice — conseils de voyage, paysages superbes et moments des coulisses de la vie insulaire."
+    }
+  },
+  "airportTransfers": {
+    "hero": {
+      "title": "Transferts Aéroport",
+      "subtitle": "Transferts privés confortables, fiables et ponctuels depuis l'aéroport international SSR vers votre destination à l'île Maurice.",
+      "eyebrow": "Services MauTravel"
+    },
+    "featuresHeading": {
+      "eyebrow": "Pourquoi Nous Choisir",
+      "title": "La Promesse Transfert de MauTravel",
+      "description": "Du moment de votre atterrissage à celui de votre départ — votre expérience de transfert est notre priorité."
+    },
+    "features": [
+      {
+        "title": "Disponible 24h/24",
+        "desc": "Tout vol, à toute heure — nous ne fermons jamais."
+      },
+      {
+        "title": "Chauffeurs Professionnels",
+        "desc": "Pleinement agréés, vérifiés et expérimentés."
+      },
+      {
+        "title": "Toutes Destinations",
+        "desc": "Chaque hôtel, villa et complexe de l'île Maurice."
+      },
+      {
+        "title": "Tarifs Fixes",
+        "desc": "Sans surprise. Payez exactement ce qui vous a été annoncé."
+      }
+    ],
+    "typesHeading": {
+      "eyebrow": "Options de Transfert",
+      "title": "Choisissez Votre Type de Transfert"
+    },
+    "types": [
+      {
+        "name": "Transfert d'Arrivée",
+        "desc": "Accueil par votre chauffeur aux arrivées avec panneau nominatif. Assistance avec les bagages et conduite directe vers votre hébergement.",
+        "price": "À partir de 25 €"
+      },
+      {
+        "name": "Transfert de Départ",
+        "desc": "Récupération à votre hébergement au moment idéal pour garantir un départ serein vers l'aéroport.",
+        "price": "À partir de 25 €"
+      },
+      {
+        "name": "Hôtel à Hôtel",
+        "desc": "Vous changez d'hébergement en cours de séjour ? Nous assurons des transferts confortables et fiables entre deux destinations.",
+        "price": "À partir de 30 €"
+      }
+    ],
+    "fleetHeading": {
+      "eyebrow": "Notre Flotte",
+      "title": "Véhicules de Prise en Charge Aéroport",
+      "description": "Voyagez avec confort et style. Choisissez parmi notre flotte bien entretenue pour votre prise en charge à l'aéroport."
+    },
+    "pricingBlock": {
+      "eyebrowLabel": "Prix disponible après réservation",
+      "startingFrom": "À partir de",
+      "price": "MUR 2 000",
+      "customTitle": "Besoin d'un devis personnalisé ?",
+      "customDesc": "Transferts de groupe, itinéraires spéciaux et longues distances — contactez-nous pour un tarif sur mesure."
+    },
+    "faqHeading": "Questions Fréquemment Posées",
+    "faqs": [
+      {
+        "q": "Comment trouver mon chauffeur à l'aéroport ?",
+        "a": "Votre chauffeur vous attendra dans le hall des arrivées avec un panneau affichant clairement votre nom. Vous recevrez le numéro de contact de votre chauffeur à l'avance."
+      },
+      {
+        "q": "Que se passe-t-il si mon vol est retardé ?",
+        "a": "Nous surveillons tous les vols en temps réel. Votre chauffeur s'adaptera en conséquence sans frais supplémentaires — nous vous attendons."
+      },
+      {
+        "q": "Combien de passagers le véhicule peut-il accueillir ?",
+        "a": "Nous disposons de véhicules pour tous les groupes — des voyageurs seuls aux grands groupes de plus de 15 personnes. Merci de préciser la taille de votre groupe lors de la réservation."
+      },
+      {
+        "q": "Couvrez-vous toute l'île ?",
+        "a": "Oui, nous assurons des transferts vers toute adresse à l'île Maurice — côtes nord, sud, est et ouest, y compris les zones reculées."
+      }
+    ],
+    "quoteHeading": "Demander un Devis",
+    "quoteSubtitle": "Renseignez vos coordonnées et nous vous fournirons rapidement un devis sans engagement via WhatsApp."
+  },
+  "tours": {
+    "hero": {
+      "title": "Excursions Privées à l'Île Maurice",
+      "subtitle": "Laissez nos guides locaux experts vous révéler le meilleur de l'île Maurice — des paysages volcaniques spectaculaires aux trésors culturels vibrants.",
+      "eyebrow": "Excursions MauTravel"
+    },
+    "gridHeading": {
+      "eyebrow": "Nos Excursions",
+      "title": "Explorez Chaque Recoin de l'Île",
+      "description": "Chaque excursion est menée par un guide local expérimenté dans un véhicule privé climatisé. Pas de groupes, pas de précipitation — juste vous et l'île Maurice."
+    },
+    "badge": "Excursion Privée",
+    "highlightsLabel": "Points Forts de l'Excursion",
+    "items": {
+      "north": {
+        "name": "Excursion Nord",
+        "description": "Explorez le nord animé avec les marchés de Port Louis, le Jardin Botanique de Pamplemousses et l'impressionnante forteresse de la Citadelle.",
+        "highlights": [
+          "Centre-ville de Port Louis",
+          "Jardin Botanique de Pamplemousses",
+          "Caudan Waterfront",
+          "Forteresse de la Citadelle",
+          "Street food locale"
+        ]
+      },
+      "south": {
+        "name": "Excursion Sud",
+        "description": "Découvrez la côte sud spectaculaire — la péninsule emblématique du Morne, les Gorges de la Rivière Noire et les célèbres terres colorées de Chamarel.",
+        "highlights": [
+          "Le Morne Brabant",
+          "Gorges de la Rivière Noire",
+          "Terres Colorées de Chamarel",
+          "Distillerie de Rhum",
+          "La Roche Qui Pleure"
+        ]
+      },
+      "east": {
+        "name": "Excursion Est",
+        "description": "Profitez de la côte est sereine avec la plage immaculée de Belle Mare, le musée de Mahébourg et le lagon époustouflant de Blue Bay.",
+        "highlights": [
+          "Plage de Belle Mare",
+          "Musée Historique de Mahébourg",
+          "Parc Marin de Blue Bay",
+          "Île aux Aigrettes",
+          "Déjeuner de fruits de mer en bord de plage"
+        ]
+      },
+      "west": {
+        "name": "Excursion Ouest",
+        "description": "Découvrez l'ouest sauvage — de magnifiques couchers de soleil sur la plage de Flic en Flac, Casela World of Adventures et la baie aux dauphins de Tamarin.",
+        "highlights": [
+          "Plage de Flic en Flac",
+          "Casela World of Adventures",
+          "Baie de Tamarin (dauphins)",
+          "Point de vue coucher de soleil",
+          "Cuisine locale"
+        ]
+      },
+      "custom": {
+        "name": "Excursion Privée Sur Mesure",
+        "description": "Concevez votre journée idéale à l'île Maurice. Choisissez vos destinations, votre rythme et vos expériences pour une aventure entièrement personnalisée.",
+        "highlights": [
+          "Choisissez vos propres arrêts",
+          "Horaires flexibles",
+          "Véhicule privé",
+          "Guide personnel",
+          "Itinéraire sur mesure"
+        ]
+      }
+    },
+    "includedHeading": {
+      "eyebrow": "Ce Qui Est Inclus",
+      "title": "Tout Ce Dont Vous Avez Besoin, Rien de Superflu"
+    },
+    "included": [
+      {
+        "title": "Véhicule Privé",
+        "desc": "Voiture ou minibus climatisé selon la taille du groupe."
+      },
+      {
+        "title": "Guide Local Expert",
+        "desc": "Compétent, amical et passionné par l'île Maurice."
+      },
+      {
+        "title": "Itinéraire Flexible",
+        "desc": "Nous adaptons la journée à votre rythme et vos intérêts."
+      },
+      {
+        "title": "Porte à Porte",
+        "desc": "Prise en charge et retour à votre hébergement."
+      },
+      {
+        "title": "Eau en Bouteille",
+        "desc": "Rafraîchissements offerts tout au long de l'excursion."
+      },
+      {
+        "title": "Annulation Gratuite",
+        "desc": "Annulez jusqu'à 48 heures avant sans frais."
+      }
+    ],
+    "quoteHeading": "Planifiez Votre Excursion Privée",
+    "quoteSubtitle": "Parlez-nous de votre groupe et nous créerons un devis d'excursion personnalisé."
+  },
+  "activities": {
+    "hero": {
+      "title": "Activités à l'Île Maurice",
+      "subtitle": "Des expériences sélectionnées pour chaque type d'aventurier — des paisibles marches sous-marines aux vols de parapente exaltants au-dessus de l'île.",
+      "eyebrow": "Que Faire"
+    },
+    "gridHeading": {
+      "eyebrow": "Nos Activités",
+      "title": "Des Expériences Inoubliables à l'Île Maurice",
+      "description": "Nous collaborons avec les meilleurs prestataires d'activités de l'île Maurice pour garantir sécurité, qualité et des souvenirs qui durent toute une vie."
+    },
+    "viewDetails": "Voir les Détails",
+    "safety": {
+      "title": "La Sécurité Avant Tout, Toujours",
+      "description": "Tous nos partenaires d'activités sont pleinement agréés, assurés et respectent les normes de sécurité les plus strictes de l'île Maurice. Nous sélectionnons chaque prestataire avec soin pour garantir une expérience non seulement palpitante, mais totalement sûre."
+    },
+    "quoteHeading": "Réserver une Activité",
+    "quoteSubtitle": "Dites-nous quelle activité vous intéresse et nous reviendrons vers vous avec les disponibilités et les tarifs.",
+    "readMore": "Lire plus",
+    "showLess": "Voir moins",
+    "suitableForLabel": "Convient pour",
+    "showMorePhotos": "Voir {n} Photos de Plus",
+    "showLessPhotos": "Voir Moins",
+    "previousReview": "Avis précédent",
+    "nextReview": "Avis suivant",
+    "verifiedReviews": "{count} avis vérifiés",
+    "items": {
+      "paragliding": {
+        "name": "Parapente en Tandem",
+        "description": "Survolez les montagnes, lagons et côtes de l'île Maurice lors d'un vol en parapente en tandem avec un pilote professionnel certifié."
+      },
+      "hiking-adventures": {
+        "name": "Randonnées Aventure",
+        "description": "Conquérez les sommets volcaniques et les crêtes boisées de l'île Maurice lors de randonnées guidées adaptées à tous les niveaux. De l'emblématique Le Morne Brabant aux sommets cachés comme Pieter Both et Piton Savanne, chaque sentier vous récompense de vues panoramiques à couper le souffle sur les lagons, forêts et côtes de l'île. Nos guides expérimentés garantissent une expérience sûre, mémorable et profondément gratifiante dans les hauts plateaux mauriciens.",
+        "suitableFor": "Débutants à randonneurs expérimentés",
+        "highlights": [
+          "Le Morne Brabant",
+          "Signal Mountain",
+          "Pieter Both",
+          "Le Pouce",
+          "Piton de la Petite Rivière Noire",
+          "Corps de Garde",
+          "Lion Mountain",
+          "Piton Savanne",
+          "Tourelle du Tamarin",
+          "Deux Mamelles",
+          "Trois Mamelles",
+          "Montagne Cocotte",
+          "Montagne Calebasses"
+        ]
+      },
+      "waterfalls-river-treks": {
+        "name": "Cascades & Randonnées Rivière",
+        "description": "Suivez des gorges de rivières sauvages et des sentiers de jungle jusqu'à certaines des cascades cachées les plus spectaculaires de l'île Maurice. De la tonitruante Tamarind Falls à sept niveaux à la paisible Eau Bleue et l'impressionnante Rochester Falls, chaque randonnée vous immerge dans une nature tropicale luxuriante. Nagez dans des bassins cristallins sous les cascades et découvrez des paysages que la plupart des visiteurs ne voient jamais.",
+        "suitableFor": "Amoureux de la nature et amateurs d'aventure",
+        "highlights": [
+          "Tamarind Falls (7 Cascades)",
+          "Cascade de Minissy",
+          "Rochester Falls",
+          "Cascade de 500 pieds",
+          "Alexandra Falls",
+          "Cascade Eau Bleue",
+          "Cascade Rioux",
+          "Cascade Léon",
+          "Randonnée Rivière La Nicolière"
+        ]
+      },
+      "7-caves-exploration": {
+        "name": "Exploration des 7 Grottes",
+        "description": "Explorez l'une des aventures souterraines les plus fascinantes de l'île Maurice en parcourant d'anciens tunnels de lave volcanique creusés il y a des milliers d'années. Découvrez des formations rocheuses spectaculaires, des chambres cachées et apprenez-en davantage sur les origines volcaniques de l'île avec un guide local expérimenté.",
+        "suitableFor": "Familles, couples, groupes et amateurs d'aventure",
+        "highlights": [
+          "Explorez d'anciens tubes de lave volcanique",
+          "Découvrez des formations souterraines uniques",
+          "Apprenez l'histoire géologique de l'île Maurice",
+          "Exploration guidée en toute sécurité",
+          "Parfait pour les amateurs d'aventure",
+          "Superbes opportunités photographiques"
+        ]
+      },
+      "mangrove-kayaking": {
+        "name": "Kayak dans la Mangrove",
+        "description": "Pagayez en silence à travers les anciennes forêts de mangrove et les chenaux côtiers abrités de l'île Maurice — une expérience naturelle paisible et immersive adaptée à tous les niveaux.",
+        "suitableFor": "Tous âges et niveaux",
+        "highlights": [
+          "Chenaux de forêt de mangrove",
+          "Observation de la faune côtière",
+          "Pagayage en lagon abrité",
+          "Aucune expérience requise"
+        ]
+      },
+      "wild-south-experience": {
+        "name": "L'Expérience du Sud Sauvage",
+        "description": "Découvrez la côte sud sauvage et spectaculaire de l'île Maurice — loin des plages des complexes hôteliers, où des falaises volcaniques brutes rencontrent les vagues déferlantes de l'océan. Tenez-vous à Gris Gris où l'océan Indien s'écrase contre des rochers noirs déchiquetés, nagez dans des bassins naturels isolés, découvrez des plages cachées et profitez de certains des points de vue les plus pittoresques de l'île.",
+        "suitableFor": "Amoureux de la nature et photographes",
+        "highlights": [
+          "Falaises et point de vue de Gris Gris",
+          "Bassins rocheux naturels",
+          "Plages cachées du sud",
+          "Points de vue côtiers pittoresques",
+          "Exploration de la côte sud"
+        ]
+      },
+      "dolphins": {
+        "name": "Rencontre avec les Dauphins",
+        "description": "Nagez avec des dauphins sauvages dans les eaux chaudes de la baie de Tamarin sur la côte ouest — une expérience magique et inoubliable."
+      },
+      "parasailing": {
+        "name": "Parachute Ascensionnel",
+        "description": "Survolez le lagon de l'île Maurice avec des vues panoramiques incroyables sur la côte et les eaux cristallines en contrebas."
+      },
+      "underwater-walk": {
+        "name": "Marche Sous-Marine",
+        "description": "Marchez sur le fond marin avec un casque pressurisé et découvrez le récif corallien vibrant de l'île Maurice — aucune expérience de plongée requise."
+      }
+    }
+  },
+  "carRental": {
+    "hero": {
+      "title": "Location de Voiture à l'Île Maurice",
+      "subtitle": "Découvrez l'île Maurice à votre rythme avec notre flotte de véhicules bien entretenus. Prise en charge à l'aéroport ou à votre hôtel — nous venons à vous.",
+      "eyebrow": "Location de Voiture"
+    },
+    "includedHeading": {
+      "eyebrow": "Ce Qui Est Inclus",
+      "title": "Tout Compris dans le Prix",
+      "description": "Tarifs journaliers transparents et tout compris, sans mauvaises surprises."
+    },
+    "included": [
+      "Kilométrage illimité à travers l'île Maurice",
+      "Assurance au tiers incluse",
+      "Assistance routière 24h/24",
+      "Livraison à l'aéroport et à l'hôtel",
+      "Véhicules propres et entretenus",
+      "Aucun frais caché"
+    ],
+    "fleetHeading": {
+      "eyebrow": "Notre Flotte",
+      "title": "Choisissez Votre Véhicule",
+      "description": "Des citadines économiques aux SUV haut de gamme et monospaces familiaux — nous avons la voiture adaptée à chaque voyage."
+    },
+    "vehicles": {
+      "suzuki-swift": {
+        "name": "Suzuki Swift",
+        "features": [
+          "Climatisation",
+          "Boîte Automatique",
+          "5 Passagers",
+          "Essence"
+        ]
+      },
+      "toyota-yaris": {
+        "name": "Toyota Yaris",
+        "features": [
+          "Climatisation",
+          "Boîte Automatique",
+          "5 Passagers",
+          "Essence"
+        ]
+      },
+      "nissan-march": {
+        "name": "Nissan March",
+        "features": [
+          "Climatisation",
+          "Boîte Automatique",
+          "5 Passagers",
+          "Essence"
+        ]
+      }
+    },
+    "seatsLabel": "places",
+    "bookThisVehicle": "Réserver Ce Véhicule",
+    "reviewHeading": {
+      "eyebrow": "Avis Client",
+      "title": "Ce Que Disent Nos Clients"
+    },
+    "review": {
+      "text": "La Nissan March fournie par MauTravel était très agréable à conduire. Nous avons voyagé à l'île Maurice depuis l'Inde et avons trouvé que la conduite autonome était une meilleure option. Le service de location de voiture est très fiable. Ils ont même dû reprendre la voiture pour un entretien pendant une journée, mais ils ont veillé à ce qu'un échange soit fourni à temps pour que nos activités prévues se déroulent sans encombre. Je recommande vivement ce service de location de voiture. L'équipe MauTravel est très accessible et facile à contacter en cas de question.",
+      "author": "Client Vérifié — Inde"
+    },
+    "drivingHeading": "Conduire à l'Île Maurice",
+    "drivingInfo": [
+      "L'île Maurice roule à <b>gauche</b>, comme au Royaume-Uni, en Australie et en Inde. Les routes sont généralement bien entretenues et signalées.",
+      "L'île est compacte — la plupart des destinations sont accessibles en 1 à 2 heures depuis n'importe où. Une voiture de location est le moyen idéal d'explorer à votre rythme.",
+      "Vous aurez besoin d'un <b>permis de conduire valide</b> de votre pays d'origine. La plupart des permis internationaux sont acceptés.",
+      "L'âge minimum pour conduire à l'île Maurice est de <b>18 ans</b>. Les locataires doivent avoir 21 ans ou plus."
+    ],
+    "quoteHeading": "Demander un Devis",
+    "quoteSubtitle": "Indiquez-nous vos dates et nous confirmerons le meilleur véhicule disponible."
+  },
+  "events": {
+    "hero": {
+      "title": "Événements & Festivals à l'Île Maurice",
+      "subtitle": "L'héritage multiculturel de l'île Maurice crée un calendrier vibrant de festivals et de célébrations tout au long de l'année — chacun une fenêtre unique sur la vie insulaire.",
+      "eyebrow": "À l'Affiche"
+    },
+    "gridHeading": {
+      "eyebrow": "Calendrier 2026",
+      "title": "Événements & Festivals de l'Île Maurice",
+      "description": "L'île Maurice est un melting-pot de cultures hindoue, musulmane, chrétienne et chinoise — chacune contribuant à des célébrations uniques et spectaculaires tout au long de l'année."
+    },
+    "planYourVisit": "Planifiez Votre Visite",
+    "culturalHeading": "Planifiez Votre Visite Autour des Festivals de l'Île Maurice",
+    "culturalText": "Vivre un festival mauricien est l'un des moments les plus mémorables de toute visite de l'île. Des feux d'artifice spectaculaires du Nouvel An chinois à Port Louis à la ferveur et aux couleurs de Thaipoosam Cavadee, ces événements offrent une véritable fenêtre sur l'extraordinaire identité multiculturelle de l'île Maurice. Notre équipe peut vous aider à planifier votre séjour pour coïncider avec les célébrations qui vous tiennent le plus à cœur.",
+    "talkToTeam": "Parlez à Notre Équipe",
+    "items": {
+      "cavadee-2026": {
+        "title": "Thaipoosam Cavadee",
+        "category": "Festival Religieux",
+        "description": "L'un des festivals hindous les plus colorés de l'île Maurice, avec des dévots portant d'élégants Cavadees vers les temples de toute l'île."
+      },
+      "chinese-new-year": {
+        "title": "Nouvel An Chinois",
+        "category": "Festival Culturel",
+        "description": "L'île Maurice célèbre le Nouvel An chinois avec de spectaculaires danses du lion, feux d'artifice et festivités dans le quartier chinois de Port Louis."
+      },
+      "holi-2026": {
+        "title": "Holi, Festival des Couleurs",
+        "category": "Festival Hindou",
+        "description": "Célébrez le Festival des Couleurs à travers l'île Maurice avec des jets de poudre colorée, de la musique et des célébrations communautaires."
+      },
+      "independence-day": {
+        "title": "Fête de l'Indépendance de l'Île Maurice",
+        "category": "Fête Nationale",
+        "description": "L'île Maurice célèbre sa fête nationale avec des défilés, événements culturels et cérémonies à travers l'île."
+      },
+      "diwali-2026": {
+        "title": "Diwali, Festival des Lumières",
+        "category": "Festival Hindou",
+        "description": "Le Festival des Lumières transforme l'île Maurice en un spectacle magique de lampes, feux d'artifice et célébrations communautaires."
+      },
+      "kite-festival": {
+        "title": "Festival International du Cerf-Volant",
+        "category": "Événement Culturel",
+        "description": "Un spectaculaire festival de cerfs-volants organisé sur les plages de l'île Maurice pendant le mois venteux d'août — un favori des familles."
+      }
+    }
+  },
+  "reviews": {
+    "hero": {
+      "title": "Avis Clients",
+      "subtitle": "Découvrez ce que des milliers de voyageurs heureux du monde entier disent de leurs expériences avec MauTravel.",
+      "eyebrow": "Ce Que Disent Nos Clients"
+    },
+    "stats": [
+      {
+        "value": "4,9 / 5",
+        "label": "Note Moyenne"
+      },
+      {
+        "value": "500+",
+        "label": "Avis Vérifiés"
+      },
+      {
+        "value": "2 000+",
+        "label": "Clients Satisfaits"
+      }
+    ],
+    "generalHeading": {
+      "eyebrow": "Témoignages Clients",
+      "title": "Histoires de Nos Voyageurs",
+      "description": "Chaque avis provient d'un client réel qui a vécu les services de MauTravel de première main."
+    },
+    "activityHeading": {
+      "eyebrow": "Expériences d'Activités",
+      "title": "Ce Que Disent les Aventuriers",
+      "description": "Des croisières en catamaran aux explorations de grottes — de véritables histoires de clients qui ont réservé des activités via MauTravel."
+    },
+    "ctaEyebrow": "Partagez Votre Expérience",
+    "ctaTitle": "Avez-vous voyagé avec MauTravel ?",
+    "ctaText": "Nous aimerions beaucoup entendre parler de votre expérience. Laissez-nous un avis sur Google — cela aide d'autres voyageurs à découvrir MauTravel et compte énormément pour notre équipe.",
+    "ctaButton": "Partagez Votre Histoire",
+    "items": {
+      "1": {
+        "text": "MauTravel a rendu notre lune de miel à l'île Maurice absolument parfaite. Le transfert aéroport s'est déroulé sans accroc, l'excursion sud était incroyable, et chaque détail a été pris en charge. Nous ne pouvons que les recommander vivement !"
+      },
+      "2": {
+        "text": "Nous avons réservé un itinéraire d'une semaine complète via MauTravel et c'était la meilleure décision que nous ayons prise. Professionnels, sympathiques, et ils savaient exactement ce qui conviendrait à notre famille avec de jeunes enfants. Un service vraiment exceptionnel."
+      },
+      "3": {
+        "text": "Notre voyage à l'île Maurice était magique grâce à MauTravel. Le service était impeccable — ponctualité parfaite, guides extraordinaires et des expériences mémorables. Nous reviendrons certainement !"
+      },
+      "5": {
+        "text": "MauTravel s'est occupé de tout pour nos vacances en famille — prise en charge à l'aéroport, excursions, activités et hébergement. Chaque expérience était exceptionnelle. Le souci du détail de l'équipe est remarquable."
+      },
+      "act-2": {
+        "text": "J'étais vraiment nerveux, mais le pilote m'a mis complètement en confiance dès le premier instant. Survoler l'île Maurice est l'une des expériences les plus époustouflantes que j'aie jamais vécues."
+      },
+      "act-3": {
+        "text": "Nager avec des dauphins sauvages dans la baie de Tamarin était magique pour toute la famille. Les enfants n'ont pas arrêté d'en parler pendant des jours — un souvenir qui durera toujours."
+      },
+      "act-4": {
+        "text": "Notre guide était brillant — compétent, encourageant et véritablement passionné par l'île Maurice. Les vues depuis le sommet valaient largement l'effort. Nous planifions déjà notre prochaine randonnée."
+      },
+      "act-5": {
+        "text": "Une expérience souterraine fascinante — d'anciens tunnels de lave, des formations incroyables et un guide qui a rendu la géologie captivante. Merveilleux pour toute la famille."
+      },
+      "act-6": {
+        "text": "La randonnée vers Tamarind Falls était spectaculaire. Jungle sauvage, bassins naturels et un guide qui connaissait chaque sentier parfaitement. Exactement l'île Maurice que la plupart des touristes ne voient jamais."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-nous",
+      "subtitle": "Notre équipe est prête à vous aider à planifier l'expérience mauricienne parfaite. Contactez-nous via WhatsApp pour une réponse rapide.",
+      "eyebrow": "Entrer en Contact"
+    },
+    "partnerEyebrow": "Pour les Entreprises",
+    "partnerTitle": "Devenez Partenaire de MauTravel",
+    "partnerDescription": "Êtes-vous propriétaire de voiture, hôte de propriété, opérateur d'activités ou chauffeur ? Élargissez votre portée en vous inscrivant chez MauTravel et connectez-vous avec des milliers de visiteurs de l'île Maurice chaque année.",
+    "partnerListings": [
+      {
+        "title": "Référencez Votre Véhicule",
+        "description": "Vous possédez une voiture, un minibus ou un véhicule de luxe ? Devenez partenaire de MauTravel et touchez des milliers de touristes à la recherche d'un transport fiable.",
+        "cta": "Faites la Publicité de Votre Voiture"
+      },
+      {
+        "title": "Référencez Votre Propriété",
+        "description": "Vous avez une villa, un appartement ou une propriété en bord de mer à louer ? Référencez-la chez MauTravel et connectez-vous avec des voyageurs de qualité.",
+        "cta": "Faites la Publicité de Votre Propriété"
+      },
+      {
+        "title": "Référencez une Activité ou une Excursion",
+        "description": "Vous proposez une excursion, une sortie ou une expérience d'activité unique ? Développez vos réservations en devenant partenaire de MauTravel.",
+        "cta": "Faites la Publicité de Votre Activité"
+      },
+      {
+        "title": "Inscrivez-vous comme Chauffeur",
+        "description": "Chauffeur professionnel à la recherche de plus de travail ? Rejoignez le réseau de chauffeurs MauTravel et recevez des recommandations de réservation régulières.",
+        "cta": "Rejoindre en tant que Chauffeur"
+      }
+    ],
+    "reachHeading": "Comment Nous Joindre",
+    "reachDescription": "Le moyen le plus rapide de nous joindre est WhatsApp. Nous répondons rapidement à tous les messages et pouvons gérer réservations, devis et demandes directement dans le chat.",
+    "items": [
+      {
+        "label": "WhatsApp (Le Plus Rapide)",
+        "value": "Envoyez-nous un message sur WhatsApp"
+      },
+      {
+        "label": "Téléphone",
+        "value": ""
+      },
+      {
+        "label": "E-mail",
+        "value": ""
+      },
+      {
+        "label": "Localisation",
+        "value": "Île Maurice, Océan Indien"
+      },
+      {
+        "label": "Temps de Réponse",
+        "value": "Généralement sous 30 minutes"
+      }
+    ],
+    "chatPrompt": "Besoin d'aide immédiatement ? Cliquez ci-dessous pour démarrer une conversation WhatsApp.",
+    "openChat": "Ouvrir le Chat WhatsApp",
+    "enquiryHeading": "Envoyer une Demande",
+    "enquiryDescription": "Remplissez le formulaire ci-dessous et nous enverrons votre message via WhatsApp — pas de formulaires, pas d'attente."
+  },
+  "faqs": {
+    "hero": {
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Trouvez des réponses aux questions les plus courantes sur les services de MauTravel et comment profiter au maximum de votre visite à l'île Maurice.",
+      "eyebrow": "Centre d'Aide"
+    },
+    "stillQuestions": "Encore des Questions ?",
+    "stillQuestionsText": "Notre équipe est heureuse de répondre à toute question que vous pourriez avoir sur les voyages à l'île Maurice. Contactez-nous sur WhatsApp pour une réponse rapide et conviviale.",
+    "askOnWhatsapp": "Posez-nous une Question sur WhatsApp",
+    "items": [
+      {
+        "question": "Comment réserver un service avec MauTravel ?",
+        "answer": "Le moyen le plus simple est d'appuyer sur notre bouton WhatsApp et de nous envoyer un message. Nous répondons rapidement et pouvons confirmer votre réservation en quelques minutes. Vous pouvez également utiliser le formulaire de contact sur notre site."
+      },
+      {
+        "question": "Vos prix sont-ils fixes ou négociables ?",
+        "answer": "Nos prix sont transparents et fixes, sans frais cachés. Nous croyons en une tarification honnête et directe afin que vous sachiez exactement ce que vous payez."
+      },
+      {
+        "question": "Proposez-vous des services de prise en charge à l'aéroport ?",
+        "answer": "Oui, nous proposons des services de transfert aéroport 24h/24 depuis l'aéroport international Sir Seewoosagur Ramgoolam vers toute destination à l'île Maurice. Notre chauffeur vous accueillera aux arrivées avec un panneau nominatif."
+      },
+      {
+        "question": "Vos guides parlent-ils anglais ?",
+        "answer": "Oui, tous nos guides parlent couramment anglais. Nous avons également des guides parlant français, allemand et plusieurs autres langues. Merci de nous indiquer votre langue préférée lors de la réservation."
+      },
+      {
+        "question": "Quelle est votre politique d'annulation ?",
+        "answer": "Nous comprenons que les plans peuvent changer. Nous offrons une annulation gratuite jusqu'à 48 heures avant votre service réservé. Merci de nous contacter dès que possible si vous devez annuler ou reporter."
+      },
+      {
+        "question": "Proposez-vous des réductions de groupe ?",
+        "answer": "Oui, nous proposons des tarifs attractifs pour les groupes de 6 voyageurs ou plus. Contactez-nous avec la taille de votre groupe et vos besoins pour un devis personnalisé."
+      },
+      {
+        "question": "MauTravel est-il agréé et enregistré ?",
+        "answer": "Oui, MauTravel est un opérateur touristique pleinement agréé et enregistré auprès du gouvernement à l'île Maurice. Nous respectons toutes les réglementations touristiques et normes du secteur."
+      },
+      {
+        "question": "Pouvez-vous organiser des forfaits vacances complets ?",
+        "answer": "Absolument. Nous pouvons organiser des forfaits vacances complets incluant hébergement, transferts, excursions, activités et plus — le tout personnalisé selon vos préférences et votre budget."
+      }
+    ]
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Politique de Confidentialité"
+    },
+    "lastUpdated": "Dernière mise à jour : juin 2025",
+    "intro": "MauTravel (« nous », « notre ») s'engage à protéger votre vie privée. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations personnelles lorsque vous visitez notre site web ou utilisez nos services.",
+    "sections": [
+      {
+        "title": "1. Informations que Nous Collectons",
+        "content": "Nous collectons les informations que vous nous fournissez volontairement — y compris votre nom, adresse e-mail, numéro de téléphone et détails de voyage — lorsque vous effectuez une réservation, demandez un devis ou nous contactez via WhatsApp, e-mail ou notre formulaire de contact. Nous pouvons également collecter des informations non personnelles telles que le type de navigateur, les informations sur l'appareil et les données d'utilisation du site via des cookies et outils d'analyse."
+      },
+      {
+        "title": "2. Comment Nous Utilisons Vos Informations",
+        "content": "Nous utilisons vos informations pour traiter les réservations, fournir un support client, envoyer des confirmations et mises à jour de réservation, améliorer nos services et notre site web, et respecter nos obligations légales. Nous ne vendons, n'échangeons ni ne louons vos informations personnelles à des tiers."
+      },
+      {
+        "title": "3. Communications WhatsApp",
+        "content": "Lorsque vous nous contactez via WhatsApp, vos messages sont transmis via la plateforme WhatsApp. Veuillez consulter la politique de confidentialité de WhatsApp pour plus d'informations sur le traitement de vos données. Nous ne conservons les enregistrements de conversation WhatsApp que le temps nécessaire pour fournir nos services."
+      },
+      {
+        "title": "4. Sécurité des Données",
+        "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles contre tout accès, modification, divulgation ou destruction non autorisés. Cependant, aucune méthode de transmission sur internet n'est sécurisée à 100 %."
+      },
+      {
+        "title": "5. Conservation des Données",
+        "content": "Nous conservons vos informations personnelles aussi longtemps que nécessaire pour remplir les objectifs décrits dans cette politique, ou selon les exigences légales applicables. Les dossiers de réservation sont généralement conservés pendant 7 ans à des fins comptables et légales."
+      },
+      {
+        "title": "6. Vos Droits",
+        "content": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles détenues par nous. Vous pouvez également vous opposer au traitement de vos données ou demander une restriction du traitement. Pour exercer ces droits, veuillez nous contacter à info@mautravel.mu."
+      },
+      {
+        "title": "7. Cookies",
+        "content": "Notre site web utilise des cookies pour améliorer votre expérience de navigation. Vous pouvez contrôler les paramètres de cookies via les préférences de votre navigateur. Les cookies essentiels requis pour le fonctionnement du site ne peuvent pas être désactivés."
+      },
+      {
+        "title": "8. Modifications de Cette Politique",
+        "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Les modifications seront publiées sur cette page avec une date de mise à jour. Nous vous encourageons à consulter cette politique périodiquement."
+      },
+      {
+        "title": "9. Nous Contacter",
+        "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à info@mautravel.mu ou via WhatsApp."
+      }
+    ]
+  },
+  "terms": {
+    "hero": {
+      "title": "Conditions Générales"
+    },
+    "lastUpdated": "Dernière mise à jour : juin 2025",
+    "sections": [
+      {
+        "title": "1. Acceptation des Conditions",
+        "content": "En réservant tout service auprès de MauTravel, vous acceptez d'être lié par ces conditions générales. Veuillez les lire attentivement avant d'effectuer une réservation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services."
+      },
+      {
+        "title": "2. Réservation et Confirmation",
+        "content": "Les réservations sont confirmées dès réception du paiement ou d'une confirmation écrite de MauTravel via WhatsApp ou e-mail. Une réservation n'est pas confirmée tant que vous n'avez pas reçu de confirmation explicite de notre part. Nous nous réservons le droit de refuser toute réservation à notre discrétion."
+      },
+      {
+        "title": "3. Tarification",
+        "content": "Tous les prix indiqués sont en euros (€) sauf indication contraire. Les prix sont fixes au moment de la réservation et ne changeront pas après confirmation. Les prix indiqués comprennent toutes les taxes et frais, sauf mention contraire."
+      },
+      {
+        "title": "4. Paiement",
+        "content": "Les modalités de paiement seront précisées au moment de la réservation. Nous acceptons le paiement par virement bancaire, espèces ou autres méthodes convenues. Un paiement intégral peut être requis avant la prestation du service pour certaines réservations."
+      },
+      {
+        "title": "5. Politique d'Annulation",
+        "content": "Les annulations effectuées plus de 48 heures avant le service prévu seront intégralement remboursées. Les annulations effectuées entre 24 et 48 heures avant le service peuvent être soumises à des frais d'annulation de 50 %. Les annulations effectuées moins de 24 heures avant le service peuvent être facturées intégralement. Les absences non signalées seront facturées intégralement. Les remboursements seront traités sous 5 à 10 jours ouvrables."
+      },
+      {
+        "title": "6. Changements et Modifications",
+        "content": "MauTravel se réserve le droit d'apporter des modifications aux services lorsque cela est nécessaire en raison de circonstances indépendantes de notre volonté (météo, problèmes de sécurité, etc.). Dans ce cas, nous proposerons des arrangements alternatifs ou un remboursement intégral. Les clients souhaitant modifier une réservation confirmée doivent nous contacter dès que possible, les modifications étant soumises à disponibilité."
+      },
+      {
+        "title": "7. Responsabilités du Client",
+        "content": "Les clients sont responsables de fournir des informations exactes au moment de la réservation, d'arriver à l'heure pour les transferts et excursions, de s'assurer qu'ils disposent de documents de voyage valides, et de se comporter d'une manière qui ne met pas en danger eux-mêmes ou autrui. MauTravel décline toute responsabilité pour les retards ou pertes causés par une erreur du client."
+      },
+      {
+        "title": "8. Limitation de Responsabilité",
+        "content": "La responsabilité de MauTravel est limitée à la valeur du service réservé. Nous ne sommes pas responsables des pertes indirectes ou consécutives, y compris les retards de vol, les correspondances manquées, la perte de jouissance ou toute perte échappant à notre contrôle direct."
+      },
+      {
+        "title": "9. Droit Applicable",
+        "content": "Ces conditions générales sont régies par les lois de la République de Maurice. Tout litige sera soumis à la juridiction exclusive des tribunaux de l'île Maurice."
+      },
+      {
+        "title": "10. Contact",
+        "content": "Pour toute question concernant ces conditions générales, veuillez nous contacter à info@mautravel.mu."
+      }
+    ]
+  },
+  "properties": {
+    "hero": {
+      "title": "Propriétés à l'Île Maurice",
+      "subtitle": "Des appartements de jardin intimistes aux villas en bord de mer à couper le souffle — nous sélectionnons uniquement les meilleurs hébergements de l'île.",
+      "eyebrow": "Hébergement"
+    },
+    "gridHeading": {
+      "eyebrow": "Propriétés Disponibles",
+      "title": "Trouvez Votre Séjour Idéal",
+      "description": "Chaque propriété que nous référençons a été personnellement inspectée pour garantir qu'elle répond aux normes de qualité, de confort et de valeur de MauTravel."
+    },
+    "bedrooms": "chambres",
+    "upTo": "Jusqu'à",
+    "guests": "personnes",
+    "quoteHeading": "Demander une Disponibilité",
+    "quoteSubtitle": "Indiquez-nous vos dates et le nombre de personnes et nous trouverons la propriété idéale pour votre séjour.",
+    "items": {
+      "beachfront-villa": {
+        "name": "Villa en Bord de Mer",
+        "type": "Villa de Luxe",
+        "description": "Une magnifique villa en bord de mer avec piscine privée, accès direct à la plage et vues panoramiques sur l'océan Indien.",
+        "amenities": [
+          "Piscine Privée",
+          "Accès Plage",
+          "Cuisine Entièrement Équipée",
+          "Jardin",
+          "Ménage",
+          "Chef Disponible"
+        ]
+      },
+      "garden-apartment": {
+        "name": "Appartement Jardin",
+        "type": "Appartement",
+        "description": "Un appartement magnifiquement meublé niché dans un jardin tropical luxuriant, parfait pour les couples ou petites familles explorant l'île Maurice.",
+        "amenities": [
+          "Jardin Tropical",
+          "Piscine",
+          "Climatisation",
+          "Wi-Fi",
+          "Parking"
+        ]
+      },
+      "luxury-penthouse": {
+        "name": "Penthouse Vue Océan",
+        "type": "Penthouse",
+        "description": "Le penthouse de luxe ultime avec terrasse panoramique, jacuzzi privé et vues imprenables sur l'océan Indien.",
+        "amenities": [
+          "Terrasse Panoramique",
+          "Jacuzzi Privé",
+          "Conciergerie",
+          "Accès Salle de Sport",
+          "Vues Panoramiques"
+        ]
+      },
+      "jungle-villa": {
+        "name": "Villa Retraite Jungle",
+        "type": "Villa",
+        "description": "Échappez-vous dans la nature avec cette villa isolée nichée dans l'intérieur tropical luxuriant de l'île Maurice, loin de la foule.",
+        "amenities": [
+          "Sentiers Nature",
+          "Piscine Privée",
+          "Espace Barbecue",
+          "Terrasse Yoga",
+          "Chef Disponible"
+        ]
+      }
+    }
+  },
+  "activityDetails": {
+    "ui": {
+      "heroEyebrow": "Activités MauTravel",
+      "activitiesBreadcrumb": "Activités",
+      "aboutEyebrow": "À Propos de l'Activité",
+      "aboutTitle": "À Quoi S'Attendre",
+      "includedTitle": "Ce Qui Est Inclus",
+      "notIncludedTitle": "Non Inclus",
+      "locationsEyebrow": "Sites de Vol",
+      "locationsTitle": "Où Vous Prendrez Votre Envol",
+      "locationsDescription": "Votre pilote sélectionne le site de décollage idéal le jour même selon les conditions de vent et météo — garantissant l'expérience la plus sûre et la plus spectaculaire possible.",
+      "galleryEyebrow": "Galerie",
+      "galleryTitle": "L'Expérience en Images",
+      "reviewsEyebrow": "Avis Clients",
+      "reviewsTitle": "Ce Que Disent Nos Clients",
+      "reviewsSubtitle": "De vraies expériences de clients ayant vécu cette activité à l'île Maurice.",
+      "averageRating": "Note Moyenne",
+      "basedOnReviews": "Basé sur des avis clients vérifiés",
+      "reviewsCtaTitle": "Prêt à Créer Votre Propre Histoire ?",
+      "reviewsCtaSubtitle": "Rejoignez des centaines de clients satisfaits et découvrez l'île Maurice depuis le ciel.",
+      "pricingEyebrow": "Tarifs",
+      "pricingQuoteTitle": "Demander un Devis",
+      "pricingQuoteText": "Les tarifs de cette activité sont adaptés à la taille de votre groupe, aux dates et à vos besoins spécifiques. Contactez-nous via WhatsApp et nous répondrons rapidement avec un devis personnalisé — sans engagement.",
+      "requestQuotation": "Demander un Devis",
+      "pricingPackagesTitle": "Choisissez Votre Formule",
+      "mostPopular": "Le Plus Populaire",
+      "bookThisPackage": "Réserver Cette Formule",
+      "howToBookEyebrow": "Comment Réserver",
+      "howToBookTitle": "3 Étapes Simples Vers Votre Aventure",
+      "step1Title": "Contactez-nous sur WhatsApp",
+      "step1Desc": "Appuyez sur le bouton WhatsApp et envoyez-nous votre date préférée, la taille de votre groupe et toute question. Nous répondons rapidement.",
+      "step2Title": "Recevez Votre Devis",
+      "step2Desc": "Nous confirmerons la disponibilité et vous enverrons un devis personnalisé tout compris — sans frais cachés.",
+      "step3Title": "Confirmez et Profitez",
+      "step3Desc": "Confirmez votre réservation, recevez votre bon et préparez-vous à vivre une expérience inoubliable à l'île Maurice.",
+      "stepLabel": "Étape",
+      "bookNamedViaWhatsapp": "Réserver {name} via WhatsApp",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Questions Fréquemment Posées",
+      "relatedEyebrow": "Découvrir Plus",
+      "relatedTitle": "Les Clients Ont Aussi Apprécié",
+      "relatedDescription": "Combinez les activités pour l'aventure mauricienne ultime — notre équipe peut créer le forfait multi-activités parfait."
+    },
+    "paragliding": {
+      "name": "Parapente en Tandem à l'Île Maurice",
+      "pageTitle": "Parapente en Tandem Île Maurice | Opérateur Touristique MauTravel",
+      "pageDescription": "Survolez l'île Maurice lors d'une aventure en parapente en tandem avec MauTravel. Quatre sites de vol spectaculaires — Le Morne, Chamarel, Montagne Longue et Quatre Sœurs. À partir de 170 € par personne. Pilotes professionnels certifiés.",
+      "heroSubtitle": "Découvrez l'île Maurice sous un angle entièrement nouveau en survolant montagnes, lagons et paysages à couper le souffle avec un pilote de parapente en tandem certifié.",
+      "duration": "45 – 90 minutes (briefing inclus)",
+      "difficulty": "Tous niveaux — aucune expérience requise",
+      "about": [
+        "L'expérience de parapente en tandem de MauTravel offre l'une des perspectives les plus extraordinaires de l'île Maurice — planer librement au-dessus des sommets volcaniques, des vallées boisées et de l'immense étendue turquoise de l'océan Indien. Avec quatre sites de vol exceptionnels à travers l'île, chaque vol révèle un aspect différent et tout aussi époustouflant de l'île Maurice, impossible à apprécier depuis le sol.",
+        "Des hauts plateaux centraux spectaculaires de Montagne Longue à la splendeur de la côte est de Quatre Sœurs, en passant par les crêtes boisées de Chamarel et le lagon emblématique du Morne — chaque site offre son propre paysage et son atmosphère unique. Votre pilote sélectionne le site de décollage idéal le jour même en fonction du vent et des conditions météorologiques, garantissant les plus belles vues et le vol le plus sûr possible pour chaque invité.",
+        "Le parapente en tandem convient parfaitement aux débutants — aucune expérience préalable n'est requise. Vous êtes attaché aux côtés d'un pilote professionnel pleinement certifié et expérimenté pendant tout le vol, du décollage à l'atterrissage. Tous les vols commencent par un briefing de sécurité complet et une vérification du matériel. La réservation à l'avance est fortement recommandée pour confirmer votre date préférée et bénéficier d'une assistance personnalisée de notre équipe."
+      ],
+      "highlights": [
+        {
+          "label": "Durée",
+          "value": "Environ 45 – 90 min (briefing inclus)"
+        },
+        {
+          "label": "Pilote Tandem",
+          "value": "Professionnel certifié et expérimenté"
+        },
+        {
+          "label": "Sites de Vol",
+          "value": "Le Morne, Chamarel et plus"
+        },
+        {
+          "label": "Convient à",
+          "value": "Tous niveaux — débutants bienvenus"
+        },
+        {
+          "label": "Sécurité",
+          "value": "Équipement complet et briefing fournis"
+        },
+        {
+          "label": "Saison",
+          "value": "Toute l'année, selon la météo"
+        }
+      ],
+      "locations": [
+        {
+          "name": "Montagne Longue",
+          "subtitle": "Vol dans les Hauts Plateaux Centraux",
+          "walkTime": "~20 min de marche jusqu'au décollage",
+          "description": "Situé dans les hauts plateaux centraux de l'île Maurice, Montagne Longue offre une authentique expérience de parapente en montagne intérieure, unique sur l'île. Une ascension douce de 20 minutes jusqu'au point de décollage vous récompense de panoramas balayant des crêtes volcaniques et de luxuriantes vallées vertes s'étendant dans toutes les directions.",
+          "landmarks": [
+            "Vues panoramiques sur Gros Morne",
+            "Paysage de crêtes montagneuses spectaculaire",
+            "Extension possible vers Pieter Both (selon météo)",
+            "Expérience de vol unique en hauts plateaux intérieurs"
+          ]
+        },
+        {
+          "name": "Quatre Sœurs",
+          "subtitle": "Aventure sur la Côte Est",
+          "walkTime": "20–30 min d'ascension",
+          "description": "Perché sur la côte est de l'île Maurice, Quatre Sœurs offre une combinaison spectaculaire de grandeur montagneuse et de panoramas océaniques. Une ascension de 20 à 30 minutes jusqu'au site de lancement révèle des vues à couper le souffle sur des vallées verdoyantes, des crêtes escarpées et le littoral chatoyant de l'océan Indien s'étendant jusqu'à l'horizon.",
+          "landmarks": [
+            "Vues panoramiques sur l'océan Indien",
+            "Vues vers Les Chats et la Souris et Montagne Bambous",
+            "Paysages de vallées et crêtes montagneuses",
+            "Panoramas côtiers spectaculaires de la côte est"
+          ]
+        },
+        {
+          "name": "Chamarel",
+          "subtitle": "Paysage de Vallée Sauvage",
+          "walkTime": "~10 min de marche jusqu'au décollage",
+          "description": "Le paysage sauvage et richement boisé de Chamarel offre un amphithéâtre naturel saisissant pour le parapente. À seulement 10 minutes de marche de la zone de lancement, pilotes et passagers décollent depuis l'une des régions les plus pittoresques de l'île Maurice — avec des crêtes montagneuses boisées s'ouvrant progressivement vers la côte ouest scintillante et le vaste océan Indien au-delà.",
+          "landmarks": [
+            "Vues sur montagnes et vallées boisées",
+            "Révélation progressive de la côte ouest et de l'océan Indien",
+            "Paysages pittoresques de la vallée de Chamarel",
+            "Expérience de vol classique en hauts plateaux mauriciens"
+          ]
+        },
+        {
+          "name": "Le Morne",
+          "subtitle": "Le Vol le Plus Emblématique de l'Île Maurice",
+          "walkTime": "~30 min d'ascension",
+          "description": "Le Morne est largement considéré comme la destination de parapente la plus célèbre de l'île. L'ascension de 30 minutes jusqu'au site de décollage culmine par l'un des lancements les plus spectaculaires de l'île Maurice — avec le légendaire lagon turquoise du Morne s'étalant en contrebas, et l'illusion de la célèbre cascade sous-marine souvent visible d'en haut par temps clair.",
+          "landmarks": [
+            "Vues à couper le souffle sur le lagon et la péninsule du Morne",
+            "L'emblématique illusion de la cascade sous-marine (visible d'en haut)",
+            "Paysage montagneux du Morne Brabant",
+            "Lagon turquoise rencontrant l'océan Indien ouvert"
+          ]
+        }
+      ],
+      "included": [
+        "Pilote tandem professionnel certifié",
+        "Briefing de sécurité complet avant le vol",
+        "Équipement de vol complet (harnais et casque)",
+        "Vol en parapente en tandem (~15–25 minutes)",
+        "Site de décollage sélectionné pour les meilleures conditions",
+        "Assurance responsabilité civile"
+      ],
+      "notIncluded": [
+        "Transferts hôtel (disponibles sur demande — merci de nous consulter)",
+        "Assurance voyage personnelle",
+        "Nourriture, boissons et dépenses personnelles",
+        "Forfait photo/vidéo professionnel (disponible séparément sur demande)",
+        "Pourboires pour votre pilote (entièrement à votre discrétion)"
+      ],
+      "pricing": [
+        {
+          "name": "Vol en Parapente Tandem",
+          "price": "170 €",
+          "description": "Par personne — tout compris",
+          "features": [
+            "Pilote tandem professionnel certifié",
+            "Briefing de sécurité complet avant le vol",
+            "Équipement de vol complet (harnais et casque)",
+            "Vol en parapente en tandem (~15–25 minutes)",
+            "Site de décollage sélectionné pour des conditions optimales",
+            "Assurance responsabilité civile"
+          ]
+        }
+      ],
+      "pricingNote": "170 € par participant. Les vols sont assurés par des pilotes tandem professionnels certifiés. Le site de décollage final — Le Morne, Chamarel, Montagne Longue ou Quatre Sœurs — est sélectionné le jour même selon la météo et le vent, afin de garantir l'expérience la plus sûre et la plus agréable pour chaque invité.",
+      "activityReviewsNote": "Ces avis proviennent de clients ayant vécu le parapente en tandem avec l'un des partenaires locaux de confiance de MauTravel.",
+      "faqs": [
+        {
+          "question": "Ai-je besoin d'une expérience préalable en parapente ?",
+          "answer": "Aucune expérience n'est requise. Le parapente en tandem signifie que vous volez attaché dans un harnais aux côtés d'un pilote professionnel certifié qui gère chaque aspect du vol — du décollage à l'atterrissage. Votre seul rôle est de vous détendre, profiter des vues et tout absorber."
+        },
+        {
+          "question": "Le parapente en tandem est-il sûr ?",
+          "answer": "Le parapente en tandem avec MauTravel est réalisé exclusivement avec des pilotes professionnels pleinement certifiés et expérimentés, utilisant un équipement de sécurité régulièrement inspecté et homologué. Tous les vols dépendent de la météo et ne se dérouleront que lorsque les conditions seront jugées sûres par votre pilote. Votre sécurité est la priorité absolue à chaque étape."
+        },
+        {
+          "question": "Que dois-je porter et apporter ?",
+          "answer": "Portez des vêtements confortables et ajustés adaptés à la météo. Des chaussures fermées et robustes — baskets ou chaussures de marche — sont fortement recommandées. Évitez les écharpes, vêtements amples ou flottants. Des lunettes de soleil avec cordon de sécurité et de la crème solaire sont conseillées. Votre pilote vous fournira des conseils supplémentaires avant le vol."
+        },
+        {
+          "question": "Les enfants peuvent-ils participer ?",
+          "answer": "Les enfants peuvent participer sous réserve d'âge minimum, de poids et d'exigences de santé. Nous recommandons de contacter directement MauTravel via WhatsApp avec l'âge et le poids de votre enfant avant de réserver, afin que nous puissions confirmer l'éligibilité et vous conseiller."
+        },
+        {
+          "question": "Combien de temps dure l'expérience complète de parapente ?",
+          "answer": "L'expérience complète — incluant l'ascension jusqu'au site de décollage, l'ajustement de l'équipement, le briefing de sécurité et le vol lui-même — dure généralement entre 45 minutes et 2 heures selon le site choisi. Le vol de parapente proprement dit dure environ 15 à 25 minutes."
+        },
+        {
+          "question": "Que se passe-t-il si la météo est défavorable le jour de ma réservation ?",
+          "answer": "Votre pilote et l'équipe MauTravel surveillent attentivement le vent et les conditions météorologiques avant chaque vol. Si les conditions ne sont pas favorables à la date prévue, nous vous contacterons rapidement pour reporter à la prochaine date disponible sans frais supplémentaires."
+        },
+        {
+          "question": "Puis-je emporter mon téléphone ou appareil photo pendant le vol ?",
+          "answer": "Nous recommandons fortement de sécuriser tous vos effets personnels avant le décollage. Les téléphones et appareils photo doivent être attachés avec une dragonne ou fixés sur un harnais sécurisé. Votre pilote vous conseillera sur ce qu'il est sûr d'emporter. Un forfait photo et vidéo professionnel peut être disponible sur demande — merci de nous consulter lors de la réservation."
+        }
+      ]
+    },
+    "hiking-adventures": {
+      "name": "Randonnées Aventure",
+      "pageTitle": "Randonnée à l'Île Maurice — Randonnées Guidées en Montagne et Sentiers",
+      "pageDescription": "Explorez les sommets volcaniques et sentiers forestiers de l'île Maurice lors de randonnées guidées par des experts. Le Morne, Pieter Both, Le Pouce, Lion Mountain et plus. Réservez avec MauTravel.",
+      "heroSubtitle": "Conquérez des sommets volcaniques, traversez des crêtes boisées et découvrez des panoramas à couper le souffle du paysage mauricien lors de randonnées guidées adaptées à tous les niveaux — des balades douces aux ascensions de sommets exigeantes.",
+      "duration": "3 – 8 heures",
+      "difficulty": "Tous niveaux",
+      "about": [
+        "L'île Maurice est bien plus que des plages — son intérieur volcanique est parcouru de sentiers de montagne spectaculaires, de forêts denses et de points de vue qui récompensent l'effort par des panoramas inoubliables sur les lagons turquoise et les champs de canne à sucre vallonnés. MauTravel s'associe à des guides locaux experts qui connaissent intimement chaque sentier.",
+        "Notre programme de randonnée couvre toute la gamme des sommets et sentiers de l'île Maurice : l'emblématique Le Morne Brabant classé à l'UNESCO, l'escalade rocheuse exigeante de Pieter Both, la crête accessible du Pouce au-dessus de Port Louis, et des joyaux moins connus comme Piton Savanne, Tourelle du Tamarin et Montagne Cocotte. Chaque randonnée est adaptée au niveau de forme physique et aux intérêts de votre groupe.",
+        "Toutes les randonnées sont menées par des guides certifiés et expérimentés qui fournissent des conseils complets sur l'équipement, des briefings de sécurité et des informations fascinantes sur la géologie, la flore et la faune de l'île. Que vous soyez randonneur débutant ou coureur de sentier chevronné, nous avons un itinéraire qui vous mettra au défi et vous inspirera."
+      ],
+      "highlights": [
+        {
+          "label": "Durée",
+          "value": "3 – 8 heures selon le sentier"
+        },
+        {
+          "label": "Sentiers",
+          "value": "13 sommets et itinéraires disponibles"
+        },
+        {
+          "label": "Taille du groupe",
+          "value": "Groupes privés (2–12 pers.)"
+        },
+        {
+          "label": "Difficulté",
+          "value": "Facile à exigeant"
+        },
+        {
+          "label": "Guide",
+          "value": "Guide de montagne local certifié"
+        },
+        {
+          "label": "Sécurité",
+          "value": "Briefing de sécurité et équipement complets"
+        }
+      ],
+      "included": [
+        "Guide de montagne local certifié",
+        "Briefing de sécurité et notes de sentier",
+        "Eau en bouteille pendant toute la randonnée",
+        "Prise en charge et retour à l'hôtel",
+        "Collation légère pour les randonnées longues"
+      ],
+      "notIncluded": [
+        "Chaussures de randonnée (fortement recommandées — location disponible sur demande)",
+        "Assurance voyage",
+        "Repas personnels et boissons supplémentaires",
+        "Frais d'entrée aux parcs nationaux le cas échéant"
+      ],
+      "pricing": [
+        {
+          "name": "Randonnée Demi-Journée",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une randonnée guidée de 3 à 4 heures sur l'un de nos itinéraires plus courts comme Le Pouce ou Corps de Garde.",
+          "features": [
+            "Guide certifié",
+            "Eau incluse",
+            "Transferts hôtel",
+            "Briefing sur le sentier"
+          ]
+        },
+        {
+          "name": "Randonnée Journée Complète",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une ascension guidée de 6 à 8 heures d'un sommet majeur — Le Morne, Pieter Both ou Piton de la Petite Rivière Noire.",
+          "features": [
+            "Toutes les inclusions demi-journée",
+            "Déjeuner emballé",
+            "Certificat de sommet",
+            "Soutien guide prolongé"
+          ]
+        },
+        {
+          "name": "Forfait Groupe Privé",
+          "price": "Contactez-nous pour le prix",
+          "description": "Randonnée guidée exclusive pour votre groupe — choisissez votre sommet et nous construisons une journée sur mesure selon vos capacités.",
+          "features": [
+            "Planification d'itinéraire sur mesure",
+            "Guide privé",
+            "Journée complète ou demi-journée",
+            "Rythme flexible",
+            "Transferts de groupe"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ai-je besoin d'une expérience de randonnée préalable ?",
+          "answer": "Pas du tout. Nous proposons des itinéraires gradués, du niveau débutant (Le Pouce, Signal Mountain) aux ascensions techniques exigeantes (Pieter Both, Piton de la Petite Rivière Noire). Indiquez-nous votre niveau de forme physique lors de la réservation et nous vous orienterons vers le sentier idéal."
+        },
+        {
+          "question": "Que dois-je porter et apporter ?",
+          "answer": "Nous recommandons des vêtements légers et respirants, des chaussures fermées robustes ou des chaussures de randonnée, un chapeau, de la crème solaire et un petit sac à dos. Nous fournissons de l'eau mais suggérons d'apporter des collations supplémentaires. Une liste complète du matériel est envoyée à la confirmation de réservation."
+        },
+        {
+          "question": "Le Morne convient-il aux débutants ?",
+          "answer": "La section inférieure du Morne Brabant est accessible aux débutants raisonnablement en forme. La section supérieure implique un peu d'escalade et est recommandée pour ceux à l'aise avec les hauteurs et les terrains accidentés. Votre guide vous conseillera le jour même selon les conditions et le niveau de votre groupe."
+        },
+        {
+          "question": "Quelle est la meilleure période de l'année pour la randonnée à l'île Maurice ?",
+          "answer": "Les mois plus frais et secs de mai à novembre sont idéaux pour la randonnée. Les sentiers peuvent être glissants pendant la saison des pluies (décembre à avril) et certains itinéraires peuvent être temporairement fermés après de fortes pluies. Nous surveillons les conditions quotidiennement et vous conseillerons si un itinéraire doit être ajusté."
+        },
+        {
+          "question": "Quel niveau de forme physique faut-il pour les randonnées d'une journée complète ?",
+          "answer": "Les randonnées d'une journée complète vers des sommets majeurs comme Pieter Both ou Le Morne Brabant nécessitent un bon niveau de forme physique et une marche confortable de 5 à 7 heures. En cas de doute, commencez par une randonnée d'une demi-journée pour évaluer votre endurance, ou contactez-nous pour discuter de votre niveau de forme physique avant de réserver."
+        }
+      ]
+    },
+    "waterfalls-river-treks": {
+      "name": "Cascades & Randonnées Rivière",
+      "pageTitle": "Randonnées Cascades et Rivière Île Maurice",
+      "pageDescription": "Découvrez les cascades cachées et les randonnées fluviales dans la jungle de l'île Maurice — Tamarind Falls, Rochester Falls, cascade de 500 pieds et plus. Aventures guidées avec MauTravel.",
+      "heroSubtitle": "Suivez des rivières sauvages à travers des gorges tropicales, nagez sous des cascades tonitruantes et découvrez les merveilles naturelles cachées de l'intérieur luxuriant de l'île Maurice — des expériences qu'aucune excursion à la plage ne peut égaler.",
+      "duration": "3 – 7 heures",
+      "difficulty": "Modérée",
+      "about": [
+        "L'île Maurice cache certaines des cascades et gorges fluviales les plus spectaculaires de l'océan Indien, au cœur de son intérieur volcanique. Les expériences de cascades et de randonnées fluviales de MauTravel vous emmènent hors des sentiers touristiques, dans des paysages d'une beauté naturelle extraordinaire — canopée de jungle épaisse, formations rocheuses volcaniques et bassins d'eau douce cristalline.",
+        "Le point fort incontesté de tout itinéraire de cascades est Tamarind Falls — également connue sous le nom de 7 Cascades — une série de sept magnifiques chutes d'eau dévalant une gorge boisée escarpée dans la région de Tamarin. D'autres destinations incontournables incluent le rebord spectaculairement plat de Rochester Falls, la puissante cascade de 500 pieds, la paisible Alexandra Falls, et les sereines cascades d'Eau Bleue et de Léon nichées dans les hauts plateaux du sud de l'île.",
+        "Chaque randonnée est menée par des guides locaux expérimentés qui connaissent les traversées de rivière les plus sûres, les meilleurs bassins de baignade et les points de vue cachés qui rendent chaque voyage unique. Ce sont de véritables expériences en pleine nature — pas des sentiers touristiques — attendez-vous donc à de la boue, de l'eau et des souvenirs qui dureront toute une vie."
+      ],
+      "highlights": [
+        {
+          "label": "Durée",
+          "value": "3 – 7 heures selon l'itinéraire"
+        },
+        {
+          "label": "Lieux",
+          "value": "Plusieurs sites à travers l'île Maurice"
+        },
+        {
+          "label": "Taille du groupe",
+          "value": "Groupes privés (2–10 pers.)"
+        },
+        {
+          "label": "Difficulté",
+          "value": "Modérée — quelques traversées de rivière"
+        },
+        {
+          "label": "Guide",
+          "value": "Guide de sentier local expérimenté"
+        },
+        {
+          "label": "Sécurité",
+          "value": "Briefing de sécurité et chaussures adaptées requises"
+        }
+      ],
+      "included": [
+        "Guide local certifié",
+        "Briefing de sécurité et notes d'itinéraire",
+        "Eau en bouteille pendant toute la randonnée",
+        "Transferts hôtel",
+        "Arrêt baignade aux cascades"
+      ],
+      "notIncluded": [
+        "Chaussures d'eau ou sandales de randonnée (essentielles — location disponible)",
+        "Change de vêtements après la baignade",
+        "Assurance voyage",
+        "Collations et repas personnels"
+      ],
+      "pricing": [
+        {
+          "name": "Randonnée Cascade Unique",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une randonnée guidée d'une demi-journée vers une cascade majeure avec baignade — parfaite pour les familles ou celles ayant peu de temps.",
+          "features": [
+            "Guide certifié",
+            "Eau et transferts",
+            "Arrêt baignade",
+            "3–4 heures"
+          ]
+        },
+        {
+          "name": "Tamarind 7 Cascades",
+          "price": "Contactez-nous pour le prix",
+          "description": "L'expérience signature des cascades — une traversée complète des sept cascades dans la gorge de Tamarin.",
+          "features": [
+            "Traversée de 7 cascades",
+            "Journée complète guidée",
+            "Plusieurs baignades",
+            "Déjeuner emballé",
+            "Groupe privé"
+          ]
+        },
+        {
+          "name": "Journée Multi-Cascades",
+          "price": "Contactez-nous pour le prix",
+          "description": "Visitez deux ou trois sites de cascades différents en une journée pour l'expérience ultime des cascades mauriciennes.",
+          "features": [
+            "2–3 sites de cascades",
+            "Itinéraire sur mesure",
+            "Véhicule privé",
+            "Journée complète",
+            "Déjeuner inclus"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quel est le niveau de difficulté des randonnées fluviales ?",
+          "answer": "La plupart des randonnées vers les cascades sont classées modérées — elles impliquent de marcher sur un terrain accidenté, de traverser des ruisseaux et d'escalader des rochers. Les participants doivent être raisonnablement en forme et à l'aise sur un terrain accidenté. Nous ne recommandons pas ces randonnées aux personnes ayant de sérieux problèmes de mobilité."
+        },
+        {
+          "question": "Quelles chaussures dois-je porter ?",
+          "answer": "Des chaussures d'eau ou des sandales de randonnée robustes avec adhérence sont essentielles. Les baskets ordinaires ne conviennent pas car elles se mouillent et peuvent devenir glissantes. Si vous n'avez pas de chaussures adaptées, merci de nous le faire savoir et nous vous conseillerons sur les options de location."
+        },
+        {
+          "question": "Est-il sûr de nager dans les cascades ?",
+          "answer": "Oui — nous ne nageons que dans les endroits que nos guides ont jugés sûrs. Nous évitons de nager pendant ou immédiatement après de fortes pluies, lorsque les courants peuvent être plus forts. Votre guide évaluera les conditions le jour même et prendra la décision finale concernant la baignade."
+        },
+        {
+          "question": "Les enfants peuvent-ils participer ?",
+          "answer": "Les enfants âgés de 8 ans et plus peuvent participer à la plupart des randonnées vers les cascades avec un parent ou tuteur. Certains itinéraires plus exigeants sont réservés aux adultes. Merci de nous indiquer l'âge des enfants lors de la réservation afin que nous puissions recommander l'expérience la plus adaptée."
+        },
+        {
+          "question": "Quelle est la meilleure cascade à visiter à l'île Maurice ?",
+          "answer": "Tamarind Falls (7 Cascades) est largement considérée comme la plus spectaculaire et constitue notre randonnée la plus populaire. Rochester Falls est la plus facile et accessible, idéale pour les familles. La cascade de 500 pieds offre la chute unique la plus impressionnante. Nous pouvons vous recommander la meilleure option pour votre groupe."
+        }
+      ]
+    },
+    "7-caves-exploration": {
+      "name": "Exploration des 7 Grottes",
+      "pageTitle": "Exploration des 7 Grottes Île Maurice | Aventure Tube de Lave Volcanique | MauTravel",
+      "pageDescription": "Découvrez les tubes de lave volcanique cachés de l'île Maurice lors d'une exploration guidée des 7 Grottes. Voyagez à travers d'anciennes chambres souterraines, des formations rocheuses spectaculaires et des merveilles géologiques. Réservez avec MauTravel.",
+      "heroSubtitle": "Voyagez sous la surface et découvrez le monde volcanique caché de l'île Maurice — anciens tubes de lave, chambres souterraines spectaculaires et merveilles géologiques que la plupart des visiteurs ne voient jamais.",
+      "duration": "3 – 4 heures",
+      "difficulty": "Facile à Modérée",
+      "about": [
+        "Sous la surface luxuriante de l'île Maurice se trouve un monde géologique souterrain d'une beauté extraordinaire. Formés il y a des millions d'années lors de périodes d'intense activité volcanique, les tubes de lave de l'île comptent parmi ses trésors naturels les plus remarquables et les moins connus. L'Exploration des 7 Grottes vous emmène au cœur de ce monde caché — une série de tunnels et chambres volcaniques interconnectés qui serpentent à travers d'anciennes formations rocheuses façonnées par des rivières de lave en fusion bien avant que des yeux humains ne les voient.",
+        "Marcher à travers ces passages souterrains est une expérience véritablement immersive. Les parois des grottes révèlent couche après couche d'histoire volcanique — coulées de lave lisses, formations stalactites spectaculaires et textures rocheuses aux teintes saisissantes de noir, rouge et ocre. Votre guide local expert donne vie à la géologie, expliquant comment chaque chambre s'est formée et ce qu'elle nous apprend sur les origines volcaniques de l'île. C'est une occasion rare de comprendre l'île Maurice non seulement comme un paradis tropical, mais comme un lieu d'une importance géologique extraordinaire.",
+        "L'Exploration des 7 Grottes est conçue pour être accessible à un large éventail de visiteurs — aucune expérience préalable de spéléologie ou d'escalade n'est requise. Le rythme est détendu et l'itinéraire est soigneusement choisi pour équilibrer découverte et sécurité. Que vous soyez une famille curieuse, un couple recherchant autre chose que la plage, ou un amoureux de la nature dévoué, cette aventure souterraine sera l'un des moments forts les plus mémorables et inattendus de votre séjour à l'île Maurice."
+      ],
+      "highlights": [
+        {
+          "label": "Durée",
+          "value": "3 – 4 heures"
+        },
+        {
+          "label": "Lieu",
+          "value": "Nord-Est de l'île Maurice"
+        },
+        {
+          "label": "Taille du groupe",
+          "value": "Petits groupes privés"
+        },
+        {
+          "label": "Difficulté",
+          "value": "Facile à Modérée"
+        },
+        {
+          "label": "Guide",
+          "value": "Guide géologue local expert"
+        },
+        {
+          "label": "Sécurité",
+          "value": "Briefing complet et équipement"
+        }
+      ],
+      "included": [
+        "Guide local expert en géologie",
+        "Briefing de sécurité complet avant l'entrée",
+        "Casque de sécurité et lampe frontale",
+        "Commentaire géologique tout au long",
+        "Assistance photographique",
+        "Transferts hôtel (disponibles sur demande)"
+      ],
+      "notIncluded": [
+        "Chaussures fermées (essentielles — sandales non autorisées)",
+        "Assurance voyage (fortement recommandée)",
+        "Nourriture et boissons personnelles",
+        "Équipement photographique professionnel"
+      ],
+      "pricing": [
+        {
+          "name": "Exploration Guidée des Grottes",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une exploration guidée de 3 à 4 heures des 7 grottes volcaniques avec commentaire géologique expert.",
+          "features": [
+            "Guide expert",
+            "Casque et lampe de sécurité",
+            "Les 7 grottes",
+            "Arrêts photo",
+            "Perspectives géologiques"
+          ]
+        },
+        {
+          "name": "Visite en Groupe Privé",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une exploration privée exclusive pour votre groupe — idéale pour les familles, couples et petits groupes.",
+          "features": [
+            "Guide privé",
+            "Rythme flexible",
+            "Arrêts photo sur mesure",
+            "Expérience de groupe dédiée",
+            "Transferts hôtel"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "L'exploration des grottes est-elle sûre ?",
+          "answer": "Oui. La visite des 7 Grottes est entièrement guidée par un expert local expérimenté et convient aux débutants. Un briefing de sécurité complet est donné avant l'entrée, et casques et lampes frontales sont fournis. L'itinéraire a été soigneusement sélectionné pour offrir une véritable expérience souterraine tout en maintenant les normes de sécurité les plus élevées."
+        },
+        {
+          "question": "Les enfants peuvent-ils participer à l'exploration ?",
+          "answer": "Oui, les enfants de 8 ans et plus peuvent participer avec un parent ou tuteur. L'itinéraire est accessible aux enfants raisonnablement actifs et le rythme est toujours adapté au groupe. Merci de nous indiquer l'âge des enfants lors de la réservation afin que nous puissions nous préparer en conséquence et confirmer l'itinéraire le plus adapté."
+        },
+        {
+          "question": "Ai-je besoin d'une expérience de spéléologie préalable ?",
+          "answer": "Aucune expérience préalable n'est requise. L'Exploration des 7 Grottes est conçue pour les visiteurs découvrant pour la première fois les environnements souterrains. Votre guide vous accompagnera à chaque étape et le rythme est entièrement détendu — pas de précipitation, pas d'escalade, et pas de passages étroits nécessitant des compétences particulières."
+        },
+        {
+          "question": "Que dois-je porter ?",
+          "answer": "Des vêtements confortables et ajustés que vous ne craignez pas de salir sont idéaux. Des chaussures fermées avec une bonne adhérence sont essentielles — sandales, chaussures ouvertes et tongs ne sont pas autorisées pour des raisons de sécurité. La température à l'intérieur des grottes est légèrement plus fraîche qu'à l'extérieur, une couche légère est donc recommandée. Les casques sont fournis."
+        },
+        {
+          "question": "La photographie est-elle autorisée dans les grottes ?",
+          "answer": "Absolument — la photographie est vivement encouragée. Smartphones et appareils photo compacts fonctionnent bien à l'intérieur des grottes. Votre guide vous indiquera les meilleures formations et angles de lumière pour des clichés mémorables. Merci de veiller à ne pas toucher ni vous appuyer sur les formations géologiques lors de vos prises de vue."
+        },
+        {
+          "question": "Quel est le meilleur moment de la journée pour visiter ?",
+          "answer": "Les grottes peuvent être explorées le matin ou l'après-midi, et les conditions à l'intérieur restent constantes tout au long de la journée, quel que soit le temps extérieur. Les départs matinaux sont populaires auprès des visiteurs souhaitant combiner l'exploration des grottes avec une autre activité l'après-midi. Nous confirmerons l'heure de départ idéale lors de votre réservation."
+        }
+      ]
+    },
+    "wild-south-experience": {
+      "name": "L'Expérience du Sud Sauvage",
+      "pageTitle": "Sud Sauvage Île Maurice — Gris Gris, Bassins Naturels et Plages Cachées",
+      "pageDescription": "Explorez la côte sud spectaculaire et préservée de l'île Maurice — falaises de Gris Gris, bassins rocheux naturels, plages cachées et points de vue pittoresques. Réservez avec MauTravel.",
+      "heroSubtitle": "Découvrez le littoral sud sauvage et préservé de l'île Maurice — falaises volcaniques, vagues déferlantes, bassins rocheux secrets et plages cachées que la foule des complexes hôteliers ne trouve jamais.",
+      "duration": "Journée Complète (7 – 9 heures)",
+      "about": [
+        "La côte sud de l'île Maurice est un monde à part des lagons calmes et des hôtels de complexe que la plupart des visiteurs connaissent. Ici, l'océan Indien rencontre l'île de plein fouet — falaises volcaniques spectaculaires, ressac puissant et paysage côtier authentiquement sauvage et préservé. L'Expérience du Sud Sauvage est notre exploration signature d'une journée complète de ce littoral extraordinaire.",
+        "La pièce maîtresse est Gris Gris, sans doute le point de vue le plus spectaculaire de toute l'île — un promontoire en haut de falaise où les vagues s'écrasent spectaculairement contre la roche volcanique noire tandis que l'océan s'étend sans interruption jusqu'à l'Antarctique. De là, le voyage se poursuit le long de la côte sud, découvrant des bassins rocheux naturels sculptés par des siècles d'action des vagues, des plages secrètes accessibles uniquement à pied, et de vastes points de vue panoramiques sur l'océan et les hauts plateaux.",
+        "Contrairement à une excursion insulaire standard, l'Expérience du Sud Sauvage est conçue pour les visiteurs souhaitant aller au-delà des scènes de carte postale et rencontrer l'île Maurice sous sa forme la plus brute et authentique. Votre guide apporte une connaissance locale approfondie de chaque sentier caché, point de vue et bassin le long de l'itinéraire — des lieux tout simplement absents de tout guide touristique."
+      ],
+      "highlights": [
+        {
+          "label": "Durée",
+          "value": "Journée complète (7 – 9 heures)"
+        },
+        {
+          "label": "Itinéraire",
+          "value": "Circuit côtier du sud"
+        },
+        {
+          "label": "Taille du groupe",
+          "value": "Groupes privés (2–8 pers.)"
+        },
+        {
+          "label": "Points forts",
+          "value": "Gris Gris, bassins naturels, plages cachées"
+        },
+        {
+          "label": "Guide",
+          "value": "Guide côtier local expert"
+        },
+        {
+          "label": "Transport",
+          "value": "Véhicule privé climatisé"
+        }
+      ],
+      "included": [
+        "Guide local expert",
+        "Véhicule privé climatisé",
+        "Prise en charge et retour à l'hôtel",
+        "Eau en bouteille tout au long",
+        "Déjeuner emballé ou arrêt déjeuner dans un restaurant local"
+      ],
+      "notIncluded": [
+        "Maillot de bain et serviette (pour les bassins naturels)",
+        "Chaussures robustes pour terrain rocheux",
+        "Assurance voyage",
+        "Achats personnels dans les commerces locaux"
+      ],
+      "pricing": [
+        {
+          "name": "Journée Sud Sauvage",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une exploration privée d'une journée complète de la côte sud avec un guide local compétent.",
+          "features": [
+            "Guide privé",
+            "Véhicule climatisé",
+            "Transferts hôtel",
+            "Eau en bouteille",
+            "Expérience de 7–9 heures"
+          ]
+        },
+        {
+          "name": "Combo Sud & Hauts Plateaux",
+          "price": "Contactez-nous pour le prix",
+          "description": "Combinez l'itinéraire côtier du Sud Sauvage avec le paysage des hauts plateaux des Gorges de la Rivière Noire pour une journée sud complète.",
+          "features": [
+            "Itinéraire Sud Sauvage",
+            "Gorges de la Rivière Noire",
+            "Journée complète",
+            "Déjeuner inclus",
+            "Groupe privé"
+          ]
+        },
+        {
+          "name": "Spécial Photographie",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une version de la visite du Sud Sauvage axée sur la photographie, programmée pour la lumière dorée à Gris Gris et les falaises côtières.",
+          "features": [
+            "Horaire aube ou crépuscule",
+            "Arrêts falaise prolongés",
+            "Connaissance photographique du guide",
+            "Groupe privé uniquement"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Le Sud Sauvage convient-il aux familles avec de jeunes enfants ?",
+          "answer": "L'Expérience du Sud Sauvage convient mieux aux adultes et enfants plus âgés (10+) en raison du terrain accidenté en haut des falaises près de Gris Gris et de certains bassins naturels. Les sections en véhicule conviennent à tous les âges. Merci de nous contacter pour discuter de la composition de votre groupe."
+        },
+        {
+          "question": "Pouvons-nous nager dans les bassins naturels ?",
+          "answer": "Oui — les bassins rocheux naturels le long de la côte sud sont suffisamment abrités pour une baignade sûre la plupart des jours. Cependant, le littoral ouvert de Gris Gris ne convient pas à la baignade en raison des forts courants et vagues. Votre guide évaluera toujours les conditions avant toute entrée dans l'eau."
+        },
+        {
+          "question": "Comment est l'accès routier sur la côte sud ?",
+          "answer": "La majeure partie de l'itinéraire côtier sud est accessible par de bonnes routes goudronnées. Certains lieux cachés impliquent de courtes marches sur des pistes côtières accidentées. Nos véhicules sont bien entretenus et adaptés au terrain. Nous recommandons de porter des chaussures confortables pour les sections de marche."
+        },
+        {
+          "question": "Est-ce différent d'une Excursion Sud standard ?",
+          "answer": "Oui, considérablement. Une Excursion Sud standard se concentre généralement sur des arrêts populaires comme les Terres Colorées de Chamarel, Le Morne et les distilleries de rhum. L'Expérience du Sud Sauvage se concentre exclusivement sur les paysages côtiers bruts, les sites naturels cachés et les lieux moins visités que la plupart des opérateurs touristiques n'incluent pas."
+        },
+        {
+          "question": "À quelle heure la visite commence-t-elle et se termine-t-elle ?",
+          "answer": "La visite part généralement entre 7h30 et 8h30 de votre hôtel et revient en fin d'après-midi (vers 16h00–17h00). Les heures de départ peuvent être ajustées pour les photographes souhaitant capter la lumière du petit matin. Les horaires exacts sont confirmés lors de la réservation."
+        }
+      ]
+    },
+    "mangrove-kayaking": {
+      "name": "Kayak dans la Mangrove",
+      "pageTitle": "Kayak dans la Mangrove Île Maurice — Excursions Kayak Côtières Guidées",
+      "pageDescription": "Pagayez à travers les anciennes forêts de mangrove et chenaux côtiers abrités de l'île Maurice lors d'une excursion en kayak guidée. Une expérience naturelle paisible et immersive pour tous niveaux. Réservez avec MauTravel.",
+      "heroSubtitle": "Glissez silencieusement à travers d'anciennes forêts de mangrove et de paisibles chenaux côtiers, découvrant les écosystèmes de zones humides extraordinaires de l'île Maurice et la faune cachée qui y élit domicile.",
+      "duration": "2 – 3 heures",
+      "about": [
+        "Les forêts de mangrove de l'île Maurice comptent parmi les trésors naturels les plus extraordinaires et les moins visités de l'île. Ces zones humides côtières protégées — où la mer rencontre la terre dans un enchevêtrement de racines, de chenaux peu profonds et d'eau riche en faune — offrent un aspect complètement différent de l'île par rapport aux plages des complexes hôteliers que connaissent la plupart des visiteurs.",
+        "L'expérience de kayak dans la mangrove guidée de MauTravel vous emmène à travers des chenaux abrités sur un kayak assis dessus, accompagné d'un guide local compétent qui vous indiquera les oiseaux, poissons et la vie marine qui habitent ces écosystèmes fragiles. Le rythme est entièrement doux — ce n'est pas un sport d'adrénaline mais une rencontre paisible et immersive avec la nature.",
+        "Aucune expérience préalable de kayak n'est nécessaire. Les itinéraires sont calmes et abrités, adaptés aux familles, couples et voyageurs solo de tous niveaux de forme physique. Une courte leçon de pagayage est donnée avant le départ, et le guide accompagne le groupe tout au long pour s'assurer que chacun est à l'aise et profite de l'expérience à son propre rythme."
+      ],
+      "highlights": [
+        {
+          "label": "Durée",
+          "value": "2 – 3 heures"
+        },
+        {
+          "label": "Lieu",
+          "value": "Mangroves de la côte ouest, île Maurice"
+        },
+        {
+          "label": "Taille du groupe",
+          "value": "Petits groupes privés"
+        },
+        {
+          "label": "Expérience",
+          "value": "Aucune expérience de pagayage requise"
+        },
+        {
+          "label": "Convient à",
+          "value": "Tous âges et niveaux"
+        },
+        {
+          "label": "Sécurité",
+          "value": "Gilets de sauvetage et guide certifié"
+        }
+      ],
+      "included": [
+        "Kayak assis dessus et pagaie",
+        "Gilet de sauvetage et équipement de sécurité",
+        "Guide local certifié",
+        "Briefing technique de pagayage",
+        "Rafraîchissements légers"
+      ],
+      "notIncluded": [
+        "Transferts hôtel (disponibles sur demande)",
+        "Combinaison (non requise — l'eau est chaude)",
+        "Assurance voyage",
+        "Articles personnels (crème solaire, serviette, chapeau)"
+      ],
+      "pricing": [
+        {
+          "name": "Excursion Kayak Guidée",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une excursion guidée de 2 à 3 heures à travers les chenaux de mangrove de l'île Maurice avec un guide local certifié.",
+          "features": [
+            "Kayak et pagaie fournis",
+            "Gilet de sauvetage inclus",
+            "Guide certifié",
+            "Commentaire nature",
+            "Rafraîchissements légers"
+          ]
+        },
+        {
+          "name": "Excursion en Groupe Privé",
+          "price": "Contactez-nous pour le prix",
+          "description": "Une expérience de kayak privée exclusive pour votre groupe — idéale pour les familles et couples.",
+          "features": [
+            "Guide privé",
+            "Kayaks dédiés à votre groupe",
+            "Rythme flexible",
+            "Itinéraire personnalisé",
+            "Rafraîchissements légers"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ai-je besoin d'expérience en kayak ?",
+          "answer": "Pas du tout. Nos itinéraires de mangrove suivent des chenaux calmes et abrités, idéaux pour les pagayeurs débutants. Votre guide donnera une courte leçon de technique avant le départ et pagaiera à vos côtés tout au long de l'expérience."
+        },
+        {
+          "question": "Convient-il aux enfants ?",
+          "answer": "Oui — le kayak dans la mangrove est l'une de nos expériences les plus adaptées aux familles. Les enfants de 6 ans et plus peuvent pagayer en kayak tandem avec un parent. Des gilets de sauvetage sont fournis dans toutes les tailles. Merci de nous indiquer l'âge des enfants lors de la réservation afin que nous puissions préparer l'équipement adéquat."
+        },
+        {
+          "question": "Que dois-je porter ?",
+          "answer": "Portez des vêtements légers et confortables que vous ne craignez pas de mouiller légèrement. Un chapeau, des lunettes de soleil et une crème solaire respectueuse des récifs sont fortement recommandés. Des chaussures fermées (chaussures d'eau ou baskets) sont préférables aux sandales ou tongs."
+        },
+        {
+          "question": "Quelle faune pourrions-nous voir ?",
+          "answer": "Les chenaux de mangrove de l'île Maurice abritent diverses espèces d'oiseaux, notamment des hérons, martins-pêcheurs et aigrettes, ainsi que de petits poissons, crabes et autre vie marine visible dans l'eau claire peu profonde. Les observations varient selon la saison et l'heure de la journée — les sorties matinales sont particulièrement gratifiantes pour observer la faune."
+        },
+        {
+          "question": "Quel est le meilleur moment de la journée pour le kayak ?",
+          "answer": "Le matin est idéal — l'eau est la plus calme, la lumière est magnifique et l'activité de la faune est à son maximum. Des excursions l'après-midi sont également disponibles et offrent une expérience différente, tout aussi agréable. Nous confirmerons la meilleure heure de départ pour votre groupe lors de la réservation."
+        }
+      ]
+    },
+    "dolphin-encounter": {
+      "name": "Rencontre avec les Dauphins",
+      "pageTitle": "Rencontre avec les Dauphins Île Maurice — Nager avec les Dauphins Sauvages",
+      "pageDescription": "Nagez avec des dauphins sauvages dans la baie de Tamarin, île Maurice. Une rencontre inoubliable et éthique avec la faune dans les eaux chaudes de l'océan Indien. Réservez avec MauTravel.",
+      "heroSubtitle": "Vivez l'une des rencontres avec la faune les plus magiques de l'océan Indien — nager aux côtés de bancs de dauphins à long bec sauvages dans les eaux chaudes et cristallines de la baie de Tamarin.",
+      "duration": "2 – 4 heures",
+      "about": [
+        "L'île Maurice est l'un des rares endroits au monde où vous pouvez nager avec des dauphins sauvages dans leur habitat naturel. La baie de Tamarin, sur la côte ouest, abrite des bancs résidents de dauphins à long bec, qui se rassemblent dans la baie tôt le matin avant de repartir vers le large.",
+        "La rencontre avec les dauphins de MauTravel est une expérience faunique éthique et respectueuse. Nous travaillons exclusivement avec des opérateurs qui suivent des directives strictes pour minimiser le dérangement des dauphins. Les visiteurs entrent dans l'eau discrètement et laissent les dauphins s'approcher naturellement — pas de poursuite, pas de contact, pas de captivité.",
+        "L'expérience commence généralement à l'aube, lorsque les dauphins sont les plus actifs près du rivage. Vous voyagerez en bateau pour trouver le banc, puis vous glisserez doucement dans l'eau pour observer et nager à leurs côtés. C'est un moment de pure magie que les voyageurs décrivent comme un moment fort de leur vie."
+      ],
+      "highlights": [
+        {
+          "label": "Durée",
+          "value": "2 – 4 heures"
+        },
+        {
+          "label": "Lieu",
+          "value": "Baie de Tamarin, côte ouest"
+        },
+        {
+          "label": "Taille du groupe",
+          "value": "Petits groupes uniquement"
+        },
+        {
+          "label": "Meilleur moment",
+          "value": "Départ tôt le matin"
+        },
+        {
+          "label": "Éthique",
+          "value": "Dauphins sauvages et non captifs"
+        },
+        {
+          "label": "Sécurité",
+          "value": "Gilets de sauvetage et briefing de sécurité"
+        }
+      ],
+      "included": [
+        "Transfert en bateau vers le lieu des dauphins",
+        "Masque et palmes de snorkeling",
+        "Gilet de sauvetage",
+        "Guide et briefing de sécurité",
+        "Rafraîchissements légers à bord"
+      ],
+      "notIncluded": [
+        "Transferts hôtel (disponibles sur demande)",
+        "Photographie sous-marine professionnelle",
+        "Assurance voyage",
+        "Combinaison (location disponible)"
+      ],
+      "pricing": [
+        {
+          "name": "Standard",
+          "price": "XX € par personne",
+          "description": "Rejoignez un petit bateau partagé pour l'expérience de rencontre avec les dauphins.",
+          "features": [
+            "Bateau partagé",
+            "Équipement de snorkeling",
+            "Guide inclus"
+          ]
+        },
+        {
+          "name": "Forfait Famille",
+          "price": "XXX € (jusqu'à 4)",
+          "description": "Un bateau familial dédié pour une expérience plus intime.",
+          "features": [
+            "Bateau semi-privé",
+            "Guide famille",
+            "Briefing adapté aux enfants",
+            "Rafraîchissements"
+          ]
+        },
+        {
+          "name": "Charter Privé",
+          "price": "À partir de XXX €",
+          "description": "Un bateau privé exclusif pour votre groupe — l'expérience dauphins ultime.",
+          "features": [
+            "Bateau et équipage privés",
+            "Durée flexible",
+            "Équipement de snorkeling",
+            "Rafraîchissements",
+            "Occasion photo"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Est-il garanti que nous verrons des dauphins ?",
+          "answer": "Bien que les dauphins soient résidents de la baie de Tamarin et les observations très fréquentes, nous ne pouvons garantir des rencontres car il s'agit d'animaux sauvages. Dans le rare cas où aucun dauphin ne serait observé, nous discuterons des options incluant un remboursement partiel ou une activité alternative."
+        },
+        {
+          "question": "Les non-nageurs peuvent-ils participer ?",
+          "answer": "Les non-nageurs peuvent participer à la sortie en bateau et observer depuis la surface, mais ne pourront pas nager avec les dauphins. Des gilets de sauvetage sont fournis pour tous les invités à bord."
+        },
+        {
+          "question": "Est-ce adapté aux enfants ?",
+          "answer": "Oui, les enfants de 5 ans et plus peuvent participer. L'expérience est douce et adaptée aux familles. Les enfants doivent être accompagnés d'un adulte dans l'eau."
+        },
+        {
+          "question": "À quelle heure la visite part-elle ?",
+          "answer": "La visite part généralement au lever du soleil (vers 6h00–7h00) lorsque les dauphins sont les plus actifs près du rivage. Les heures de départ exactes seront confirmées lors de la réservation."
+        },
+        {
+          "question": "Les dauphins sont-ils sauvages ou captifs ?",
+          "answer": "Les dauphins sont totalement sauvages et libres. Nous travaillons uniquement avec des opérateurs éthiques qui respectent le comportement naturel des dauphins. Il n'y a ni nourrissage, ni contact, ni captivité."
+        }
+      ]
+    },
+    "parasailing": {
+      "name": "Parachute Ascensionnel",
+      "pageTitle": "Parachute Ascensionnel Île Maurice — Survolez l'Océan Indien",
+      "pageDescription": "Survolez le magnifique lagon de l'île Maurice lors d'une aventure en parachute ascensionnel. Options solo, tandem ou triple disponibles. Réservez avec MauTravel.",
+      "heroSubtitle": "Vivez le frisson de voler haut au-dessus de l'océan Indien, avec des vues panoramiques à couper le souffle sur le lagon turquoise, les plages blanches et le littoral spectaculaire de l'île Maurice s'étendant en contrebas.",
+      "duration": "15 – 20 minutes",
+      "about": [
+        "Le parachute ascensionnel à l'île Maurice est une expérience exaltante qui combine le frisson du vol avec l'un des paysages les plus magnifiques de l'océan Indien. Attaché en toute sécurité à un parachute moderne et tiré par un bateau à moteur professionnel, vous décollerez doucement de l'eau et vous élèverez jusqu'à des hauteurs de 150 mètres.",
+        "Depuis votre point de vue dans le ciel, les vues sont tout simplement spectaculaires — les nuances variées de bleu et de vert du lagon, le ruban blanc de la plage s'étendant dans les deux directions, et les sommets volcaniques de l'intérieur de l'île se dressant derrière vous. C'est une perspective de l'île Maurice que vous n'oublierez jamais.",
+        "Le parachute ascensionnel est disponible en configurations solo, tandem (deux personnes) et triple (trois personnes), idéal pour les couples, familles et amis. Le décollage et l'atterrissage se font tous deux depuis le bateau, vous n'avez donc même pas besoin de vous mouiller — une excellente option pour les non-nageurs."
+      ],
+      "highlights": [
+        {
+          "label": "Temps de vol",
+          "value": "15 – 20 minutes en l'air"
+        },
+        {
+          "label": "Lieu",
+          "value": "Côte ouest, île Maurice"
+        },
+        {
+          "label": "Options",
+          "value": "Solo, Tandem ou Triple"
+        },
+        {
+          "label": "Hauteur",
+          "value": "Jusqu'à 150 mètres d'altitude"
+        },
+        {
+          "label": "Convient à",
+          "value": "Non-nageurs bienvenus"
+        },
+        {
+          "label": "Sécurité",
+          "value": "Harnais et équipement modernes"
+        }
+      ],
+      "included": [
+        "Vol en parachute ascensionnel (15–20 minutes)",
+        "Harnais de sécurité et gilet de sauvetage",
+        "Équipage de bateau et opérateur professionnel",
+        "Briefing de sécurité avant le décollage"
+      ],
+      "notIncluded": [
+        "Transferts hôtel",
+        "Location de caméra d'action",
+        "Assurance voyage",
+        "Photos et vidéos (disponibles sur demande)"
+      ],
+      "pricing": [
+        {
+          "name": "Solo",
+          "price": "XX € par personne",
+          "description": "Envolez-vous seul — vol solo complet de 15 minutes.",
+          "features": [
+            "Vol solo",
+            "Harnais de sécurité",
+            "Équipage de bateau"
+          ]
+        },
+        {
+          "name": "Tandem",
+          "price": "XX € par personne",
+          "description": "Volez ensemble — parfait pour les couples et meilleurs amis.",
+          "features": [
+            "Vol côte à côte",
+            "Système de harnais partagé",
+            "Équipage de bateau",
+            "Occasion photo"
+          ]
+        },
+        {
+          "name": "Triple",
+          "price": "XX € par personne",
+          "description": "Trois personnes dans les airs à la fois — le plus grand plaisir de vos vacances.",
+          "features": [
+            "Configuration de vol triple",
+            "Tout l'équipement de sécurité",
+            "Temps de vol plus long",
+            "Idéal pour les familles"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Dois-je savoir nager ?",
+          "answer": "Aucune capacité de nage n'est requise. Le décollage et l'atterrissage se font tous deux depuis le bateau — vous n'avez pas besoin d'entrer dans l'eau. Des gilets de sauvetage sont fournis pour tous les passagers."
+        },
+        {
+          "question": "Y a-t-il une limite de poids ?",
+          "answer": "Oui, des restrictions de poids et d'âge s'appliquent pour des raisons de sécurité. Merci de nous contacter avec vos détails et nous confirmerons l'éligibilité avant la réservation."
+        },
+        {
+          "question": "Est-ce effrayant ?",
+          "answer": "La plupart des invités sont surpris de la douceur et de la sérénité du parachute ascensionnel. La montée est progressive et le vol lui-même est calme et paisible. Beaucoup disent que c'est bien moins effrayant qu'ils ne le pensaient !"
+        },
+        {
+          "question": "Puis-je faire du parachute ascensionnel si je suis enceinte ?",
+          "answer": "Le parachute ascensionnel n'est pas recommandé pour les invitées enceintes. Merci de nous contacter pour discuter d'activités alternatives."
+        },
+        {
+          "question": "Que dois-je porter ?",
+          "answer": "Portez des vêtements confortables et attachez tout objet non fixé. Évitez les tongs pour des raisons de sécurité — chaussures fermées ou pieds nus sont préférables. Un change de vêtements est utile car vous pourriez être éclaboussé sur le bateau."
+        }
+      ]
+    },
+    "underwater-walk": {
+      "name": "Marche Sous-Marine",
+      "pageTitle": "Marche Sous-Marine Île Maurice — Expérience Sea Walk",
+      "pageDescription": "Marchez sur le fond marin à l'île Maurice avec un casque pressurisé — découvrez des récifs coralliens vibrants et des poissons tropicaux. Aucune expérience de natation requise. Réservez avec MauTravel.",
+      "heroSubtitle": "Marchez sur le fond de l'océan et découvrez le monde sous-marin extraordinaire de l'île Maurice — aucune expérience de plongée requise. Descendez simplement dans un casque pressurisé et rencontrez les poissons tropicaux face à face.",
+      "duration": "30 – 45 minutes",
+      "about": [
+        "La Marche Sous-Marine — également connue sous le nom de Sea Walk — est l'une des expériences aquatiques les plus uniques et accessibles de l'île Maurice. Contrairement à la plongée sous-marine, aucune formation ou capacité de nage n'est requise. Les visiteurs de tous âges et niveaux de natation peuvent participer.",
+        "Portant un casque pressurisé spécialement conçu qui maintient l'air à un niveau confortable, vous descendez une courte échelle dans les eaux chaudes et claires et marchez doucement sur le fond marin sablonneux. Le monde autour de vous se transforme — poissons tropicaux, oursins et formations coralliennes vibrantes vous entourent dans un aquarium vivant.",
+        "La descente est progressive et totalement sûre, accompagnée en permanence d'un guide sous-marin professionnel. La plupart des invités sont émerveillés par la naturalité et le confort de l'expérience — beaucoup la décrivent comme l'un des points forts de tout leur séjour à l'île Maurice."
+      ],
+      "highlights": [
+        {
+          "label": "Durée",
+          "value": "30 – 45 minutes"
+        },
+        {
+          "label": "Lieu",
+          "value": "Blue Bay, sud-est de l'île Maurice"
+        },
+        {
+          "label": "Âge Min / Max",
+          "value": "8 – 60 ans"
+        },
+        {
+          "label": "Natation requise",
+          "value": "Aucune natation requise"
+        },
+        {
+          "label": "Guide",
+          "value": "Guide sous-marin certifié"
+        },
+        {
+          "label": "Équipement",
+          "value": "Casque de sécurité pressurisé"
+        }
+      ],
+      "included": [
+        "Casque sous-marin pressurisé",
+        "Guide sous-marin certifié",
+        "Briefing de sécurité avant la descente",
+        "Nourrissage des poissons sous l'eau",
+        "Photos basiques par le guide"
+      ],
+      "notIncluded": [
+        "Forfait photographie sous-marine professionnelle (disponible sur demande)",
+        "Transferts hôtel",
+        "Assurance voyage",
+        "Combinaison (non requise — l'eau est chaude)"
+      ],
+      "pricing": [
+        {
+          "name": "Standard",
+          "price": "XX € par personne",
+          "description": "Marche sous-marine individuelle avec guide certifié.",
+          "features": [
+            "Descente de 30–45 minutes",
+            "Guide inclus",
+            "Équipement de sécurité",
+            "Nourrissage des poissons"
+          ]
+        },
+        {
+          "name": "Avec Photos",
+          "price": "XX € par personne",
+          "description": "La même expérience plus un forfait photo sous-marine professionnel.",
+          "features": [
+            "Descente de 30–45 minutes",
+            "Set de photos sous-marines",
+            "Livraison numérique",
+            "Guide inclus"
+          ]
+        },
+        {
+          "name": "Forfait Famille",
+          "price": "XXX € (jusqu'à 4)",
+          "description": "Une descente de groupe dédiée pour les familles — mémorable pour tous les âges.",
+          "features": [
+            "Descente de groupe familial",
+            "Guide dédié",
+            "Forfait photo",
+            "Horaires flexibles"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Dois-je savoir nager ?",
+          "answer": "Aucune capacité de nage n'est requise. La marche sous-marine utilise un casque pressurisé qui maintient votre tête complètement sèche pendant toute la descente. Vous marchez sur le fond marin plutôt que de nager."
+        },
+        {
+          "question": "Est-ce adapté aux personnes claustrophobes ?",
+          "answer": "Le casque est ouvert en bas et vous êtes toujours dans un environnement bien éclairé et ouvert. Cependant, si vous souffrez d'une claustrophobie importante, nous vous recommandons d'en discuter avec nous avant de réserver."
+        },
+        {
+          "question": "Est-ce sûr pour les participants plus âgés ?",
+          "answer": "La marche en mer convient aux adultes jusqu'à environ 60 ans. Les invités souffrant de problèmes cardiaques, auriculaires ou respiratoires doivent consulter leur médecin avant de participer."
+        },
+        {
+          "question": "À quelle profondeur allons-nous sous l'eau ?",
+          "answer": "La descente est d'environ 3 à 4 mètres sous la surface — suffisamment profond pour vous immerger pleinement dans l'écosystème récifal tout en restant sûr et confortable."
+        },
+        {
+          "question": "Verrons-nous des poissons tropicaux ?",
+          "answer": "Oui — le site de marche en mer est situé au-dessus d'un récif corallien vibrant grouillant de poissons tropicaux, oursins, étoiles de mer et autre vie marine. Le nourrissage des poissons est inclus pour les attirer près de vous."
+        }
+      ]
+    }
+  }
+}

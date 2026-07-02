@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Users, Fuel, Settings } from "lucide-react";
 import { VEHICLES } from "@/lib/constants";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
@@ -7,20 +8,22 @@ import { AnimatedSection } from "@/components/shared/AnimatedSection";
 import { HomeSectionCarousel } from "@/components/shared/HomeSectionCarousel";
 
 export function CarRentalSection() {
+  const t = useTranslations("home.carRental");
+
   return (
     <section className="section-padding bg-navy">
       <div className="container-xl">
         <AnimatedSection>
           <SectionHeader
-            eyebrow="Car Rental"
-            title="Drive Mauritius Your Way"
-            description="Choose from our fleet of well-maintained vehicles and discover every corner of the island at your own pace."
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            description={t("description")}
             light
           />
         </AnimatedSection>
 
         <AnimatedSection delay={0.1}>
-          <HomeSectionCarousel viewAllHref="/car-rental" viewAllLabel="View Full Fleet" light>
+          <HomeSectionCarousel viewAllHref="/car-rental" viewAllLabel={t("viewAll")} light>
             {VEHICLES.map((vehicle) => (
               <div
                 key={vehicle.id}
@@ -41,7 +44,7 @@ export function CarRentalSection() {
                   <div className="flex flex-wrap gap-3 mb-4">
                     <div className="flex items-center gap-1.5 text-white/60 text-xs">
                       <Users className="w-3.5 h-3.5" />
-                      {vehicle.seats} seats
+                      {vehicle.seats} {t("seats")}
                     </div>
                     <div className="flex items-center gap-1.5 text-white/60 text-xs">
                       <Settings className="w-3.5 h-3.5" />
@@ -56,7 +59,7 @@ export function CarRentalSection() {
                   <WhatsAppButton
                     service={`Car Rental — ${vehicle.name}`}
                     size="sm"
-                    label="Book This Vehicle"
+                    label={t("bookThisVehicle")}
                     className="w-full justify-center"
                   />
                 </div>

@@ -1,13 +1,17 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { REVIEWS, ACTIVITY_REVIEWS } from "@/lib/constants";
-
-const ALL_REVIEWS = [...REVIEWS, ...ACTIVITY_REVIEWS];
 import { SectionHeader } from "@/components/shared/SectionHeader";
 import { AnimatedSection } from "@/components/shared/AnimatedSection";
 import { cn } from "@/lib/utils";
+
+const ALL_REVIEWS = [
+  ...REVIEWS.map((r) => ({ ...r, activityKey: undefined as string | undefined })),
+  ...ACTIVITY_REVIEWS,
+];
 
 const AUTOPLAY_MS = 4500;
 const RESUME_DELAY_MS = 2500;
@@ -29,6 +33,9 @@ function StarRating({ rating }: { rating: number }) {
 }
 
 export function ReviewsSection() {
+  const t = useTranslations("home.reviews");
+  const tReviews = useTranslations("reviews.items");
+  const tActivities = useTranslations("activities.items");
   const [current, setCurrent] = useState(0);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const resumeRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -70,9 +77,9 @@ export function ReviewsSection() {
       <div className="container-xl">
         <AnimatedSection>
           <SectionHeader
-            eyebrow="Customer Reviews"
-            title="What Our Travellers Say"
-            description="Join thousands of happy travellers who have trusted MauTravel for their Mauritius experiences."
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            description={t("description")}
             light
           />
         </AnimatedSection>
@@ -81,9 +88,9 @@ export function ReviewsSection() {
         <AnimatedSection delay={0.1}>
           <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto mb-16">
             {[
-              { label: "Reviews", value: "500+" },
-              { label: "Rating", value: "4.9★" },
-              { label: "Happy Clients", value: "2000+" },
+              { label: t("statReviews"), value: "500+" },
+              { label: t("statRating"), value: "4.9★" },
+              { label: t("statHappyClients"), value: "2000+" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <p className="font-heading font-bold text-white text-3xl mb-1">{stat.value}</p>
@@ -105,13 +112,13 @@ export function ReviewsSection() {
           >
             <div className="bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 text-center">
               <Quote className="w-10 h-10 text-gold/30 mx-auto mb-6" />
-              {ALL_REVIEWS[current].activity && (
+              {ALL_REVIEWS[current].activityKey && (
                 <span className="inline-block bg-gold/20 text-gold text-xs font-semibold px-3 py-1 rounded-full mb-5">
-                  {ALL_REVIEWS[current].activity}
+                  {tActivities.raw(ALL_REVIEWS[current].activityKey!).name}
                 </span>
               )}
               <p className="text-white/90 text-lg md:text-xl leading-relaxed italic mb-8">
-                &ldquo;{ALL_REVIEWS[current].text}&rdquo;
+                &ldquo;{tReviews.raw(ALL_REVIEWS[current].id).text}&rdquo;
               </p>
               <StarRating rating={ALL_REVIEWS[current].rating} />
               <div className="mt-4">

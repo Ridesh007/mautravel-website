@@ -1,6 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { ChevronRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 interface Breadcrumb {
@@ -19,6 +20,7 @@ interface PageHeroProps {
 }
 
 export function PageHero({ title, subtitle, image, breadcrumbs, eyebrow, className, children }: PageHeroProps) {
+  const t = useTranslations("common");
   return (
     <section className={cn("relative h-[65vh] min-h-[520px] md:h-[65vh] md:min-h-[560px] flex items-end", className)}>
       <Image
@@ -34,7 +36,7 @@ export function PageHero({ title, subtitle, image, breadcrumbs, eyebrow, classNa
         {breadcrumbs && (
           <nav className="flex items-center gap-1.5 text-sm text-white/60 mb-4 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">
-              Home
+              {t("breadcrumbHome")}
             </Link>
             {breadcrumbs.map((bc, i) => (
               <span key={bc.href} className="flex items-center gap-1.5">

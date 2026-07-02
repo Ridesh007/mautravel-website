@@ -2,7 +2,8 @@
 
 import { useRef, useEffect, useCallback, Children, cloneElement, isValidElement } from "react";
 import type { ReactElement } from "react";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -18,6 +19,7 @@ const AUTOPLAY_MS = 4500;
 const RESUME_DELAY_MS = 2500;
 
 export function HomeSectionCarousel({ children, viewAllHref, viewAllLabel, light = false }: Props) {
+  const t = useTranslations("home");
   const items = Children.toArray(children);
   const count = items.length;
 
@@ -136,10 +138,10 @@ export function HomeSectionCarousel({ children, viewAllHref, viewAllLabel, light
 
       <div className="flex items-center justify-between mt-8">
         <div className="flex gap-2">
-          <button onClick={() => go(-1)} aria-label="Previous" className={cn(btnBase, btnStyle)}>
+          <button onClick={() => go(-1)} aria-label={t("previousSlide")} className={cn(btnBase, btnStyle)}>
             <ChevronLeft className="w-4 h-4" />
           </button>
-          <button onClick={() => go(1)} aria-label="Next" className={cn(btnBase, btnStyle)}>
+          <button onClick={() => go(1)} aria-label={t("nextSlide")} className={cn(btnBase, btnStyle)}>
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>

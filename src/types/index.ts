@@ -1,35 +1,24 @@
-export interface NavLink {
-  label: string;
+// Structural (locale-independent) shapes. All translatable text lives in
+// messages/<locale>.json and is merged in at render time, keyed by `id`/`slug`.
+
+export interface HeroSlideStructural {
+  id: string;
+  image: string;
   href: string;
 }
 
-export interface HeroSlide {
-  image: string;
-  label: string;
-  title: string;
-  subtitle: string;
-  cta: { label: string; href: string };
-}
-
-export interface Tour {
+export interface TourStructural {
   id: string;
-  name: string;
   image: string;
-  description: string;
   duration: string;
-  highlights: string[];
   slug: string;
 }
 
-export interface Activity {
+export interface ActivityStructural {
   id: string;
-  name: string;
   image: string;
-  description: string;
   duration: string;
   difficulty?: string;
-  highlights?: string[];
-  suitableFor?: string;
   slug: string;
 }
 
@@ -45,36 +34,27 @@ export interface Vehicle {
   objectFit?: "cover" | "contain";
 }
 
-export interface Property {
+export interface PropertyStructural {
   id: string;
-  name: string;
-  type: string;
   image: string;
-  description: string;
   bedrooms: number;
   guests: number;
-  amenities: string[];
   priceFrom: string;
   slug: string;
 }
 
-export interface Review {
+export interface ReviewStructural {
   id: string;
   name: string;
   country: string;
   rating: number;
-  text: string;
   date: string;
-  activity?: string;
 }
 
-export interface Event {
+export interface EventStructural {
   id: string;
-  title: string;
   date: string;
-  category: string;
   image: string;
-  description: string;
   slug: string;
 }
 
@@ -115,26 +95,14 @@ export interface ActivityLocation {
   image: string;
 }
 
-export interface ActivityDetail {
+/** Structural (non-text) data for an activity detail page — icons + images only. */
+export interface ActivityDetailStructural {
   slug: string;
-  name: string;
-  pageTitle: string;
-  pageDescription: string;
   heroImage: string;
-  heroSubtitle: string;
   duration: string;
   difficulty?: string;
-  about: string[];
-  highlights: ActivityHighlight[];
-  included: string[];
-  notIncluded: string[];
+  highlightIcons: string[];
   gallery: string[];
-  locations?: ActivityLocation[];
-  pricing: ActivityPricingTier[];
-  pricingNote?: string;
-  faqs: FAQ[];
-  activityReviews?: {
-    items: ActivityReview[];
-    note?: string;
-  };
+  locationImages?: string[];
+  activityReviews?: ActivityReview[];
 }

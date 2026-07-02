@@ -1,0 +1,2110 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "airportTransfers": "空港送迎",
+    "tours": "ツアー",
+    "activities": "アクティビティ",
+    "carRental": "レンタカー",
+    "properties": "宿泊施設",
+    "events": "イベント",
+    "reviews": "レビュー",
+    "contact": "お問い合わせ",
+    "bookNow": "今すぐ予約",
+    "bookViaWhatsapp": "WhatsAppで予約",
+    "toggleMenu": "メニューを開く"
+  },
+  "footer": {
+    "tagline": "モーリシャスの信頼できるツアーオペレーター。情熱と専門知識、心遣いをもって、特別な旅の体験をお届けします。",
+    "servicesHeading": "サービス",
+    "companyHeading": "会社情報",
+    "contactHeading": "お問い合わせ",
+    "whatsappUs": "WhatsAppで連絡",
+    "addressLine": "モーリシャス、インド洋",
+    "rights": "全著作権所有。",
+    "privacyPolicy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "faqs": "よくある質問",
+    "reviews": "レビュー",
+    "contact": "お問い合わせ"
+  },
+  "common": {
+    "readMore": "続きを読む",
+    "viewAll": "すべて見る",
+    "bookNow": "今すぐ予約",
+    "contactUs": "お問い合わせ",
+    "whatsapp": "WhatsApp",
+    "requestQuote": "見積もりを依頼",
+    "learnMore": "詳しく見る",
+    "exploreMore": "もっと見る",
+    "loading": "読み込み中…",
+    "backHome": "ホームに戻る",
+    "breadcrumbHome": "ホーム",
+    "notFoundTitle": "ページが見つかりません",
+    "notFoundDescription": "申し訳ございません。お探しのページが見つかりませんでした。",
+    "errorTitle": "エラーが発生しました",
+    "errorDescription": "予期しないエラーが発生しました。もう一度お試しください。",
+    "retry": "再試行",
+    "skipToContent": "コンテンツへスキップ",
+    "close": "閉じる",
+    "from": "〜から",
+    "perNight": "/泊",
+    "perDay": "/日",
+    "guest": "名",
+    "guestsPlural": "名"
+  },
+  "forms": {
+    "fullName": "氏名",
+    "fullNamePlaceholder": "お名前",
+    "email": "メールアドレス",
+    "emailPlaceholder": "your@email.com",
+    "service": "サービス",
+    "selectService": "サービスを選択",
+    "serviceAirportTransfer": "空港送迎",
+    "servicePrivateTour": "プライベートツアー",
+    "serviceActivity": "アクティビティ",
+    "serviceCarRental": "レンタカー",
+    "serviceProperty": "宿泊施設",
+    "serviceHolidayPackage": "休暇パッケージ",
+    "serviceOther": "その他",
+    "numberOfGuests": "人数",
+    "travelDate": "旅行日",
+    "additionalDetails": "補足事項",
+    "additionalDetailsPlaceholder": "ご旅行のご予定や特別なご要望をお知らせください…",
+    "sendViaWhatsapp": "WhatsAppで送信",
+    "disclaimer": "メッセージはWhatsAppで開きます。営業時間内は30分以内に返信いたします。",
+    "requiredField": "この項目は必須です",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "quoteFormTitle": "見積もりを依頼",
+    "quoteFormSubtitle": "情報をご入力いただければ、WhatsAppにて迅速に無料お見積もりをご案内します。"
+  },
+  "popup": {
+    "title": "🌍 このサイトをあなたの言語で表示しますか？",
+    "message": "お使いのブラウザの言語が{language}であることを検出しました。MauTravelは複数の言語に対応しており、モーリシャス旅行の計画がより簡単になります。切り替えますか？",
+    "switchTo": "{language}に切り替える",
+    "continueIn": "{language}のまま続ける",
+    "closeAria": "言語ポップアップを閉じる"
+  },
+  "switcher": {
+    "label": "言語",
+    "ariaLabel": "言語を選択",
+    "searchPlaceholder": "言語を検索…",
+    "noResults": "言語が見つかりません"
+  },
+  "seo": {
+    "home": {
+      "title": "MauTravel — Mauritius Tour Operator",
+      "description": "MauTravel is Mauritius's trusted Tour Operator — offering premium airport transfers, private tours, activities, car rental, properties, and more."
+    },
+    "airportTransfers": {
+      "title": "Airport Transfers",
+      "description": "Private luxury airport transfers from SSR International Airport to any destination in Mauritius. 24/7, fixed prices, professional drivers."
+    },
+    "tours": {
+      "title": "Private Tours",
+      "description": "Expert-guided private tours across Mauritius — North, South, East, West and custom itineraries. Discover the island with MauTravel."
+    },
+    "activities": {
+      "title": "Activities in Mauritius",
+      "description": "Book thrilling activities in Mauritius — catamaran cruises, dolphin encounters, tandem paragliding, parasailing, hiking adventures and more."
+    },
+    "carRental": {
+      "title": "Car Rental Mauritius",
+      "description": "Rent a car in Mauritius with MauTravel. Well-maintained vehicles, competitive daily rates, island-wide delivery. Explore at your own pace."
+    },
+    "events": {
+      "title": "Events & Festivals in Mauritius",
+      "description": "Discover the rich calendar of festivals, cultural events and seasonal celebrations in Mauritius. Plan your visit around the island's best events."
+    },
+    "reviews": {
+      "title": "Customer Reviews",
+      "description": "Read what travellers from around the world say about MauTravel. Hundreds of 5-star reviews from satisfied clients."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with MauTravel — book a service, request a quote or ask us anything about your Mauritius holiday. Fast WhatsApp response."
+    },
+    "faqs": {
+      "title": "FAQs",
+      "description": "Frequently asked questions about MauTravel — booking, pricing, airport transfers, cancellation policy, group discounts and more."
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "description": "MauTravel Privacy Policy — how we collect, use and protect your personal information."
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "description": "MauTravel Terms & Conditions — please read before booking our services."
+    },
+    "properties": {
+      "title": "Properties in Mauritius",
+      "description": "Hand-picked villas, apartments and beachfront properties in Mauritius. Book your perfect Mauritius accommodation with MauTravel."
+    }
+  },
+  "home": {
+    "heroSlides": [
+      {
+        "label": "Airport Transfers",
+        "title": "Arrive in Pure Comfort",
+        "subtitle": "Luxury private transfers from SSR International Airport to your destination — on time, every time.",
+        "cta": "Book a Transfer"
+      },
+      {
+        "label": "Private Tours",
+        "title": "Discover Mauritius",
+        "subtitle": "Expert-guided private tours revealing the island's most breathtaking landscapes and hidden gems.",
+        "cta": "Explore Tours"
+      },
+      {
+        "label": "Activities",
+        "title": "Unforgettable Experiences",
+        "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
+        "cta": "View Activities"
+      },
+      {
+        "label": "Car Rental",
+        "title": "Explore on Your Terms",
+        "subtitle": "Premium vehicles at your disposal — discover every corner of Mauritius with total freedom.",
+        "cta": "View Vehicles"
+      },
+      {
+        "label": "Properties",
+        "title": "Stay Where You Belong",
+        "subtitle": "Hand-picked villas, apartments and beachfront retreats for a stay beyond expectations.",
+        "cta": "View Properties"
+      },
+      {
+        "label": "Mauritius",
+        "title": "Your Island Story Begins",
+        "subtitle": "MauTravel — Mauritius's trusted Tour Operator for discerning travellers.",
+        "cta": "Contact Us"
+      }
+    ],
+    "contactUs": "Contact Us",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "goToSlide": "Go to slide {n}",
+    "scroll": "scroll",
+    "whyChoose": {
+      "eyebrow": "Why MauTravel",
+      "title": "Your Island, Our Expertise",
+      "description": "We combine deep local knowledge with genuine care for every traveller who chooses MauTravel.",
+      "showMore": "Show more",
+      "showLess": "Show less",
+      "features": [
+        {
+          "icon": "ShieldCheck",
+          "title": "Licensed Local Experts",
+          "description": "Fully licensed and government-registered Tour Operator with deep local knowledge built over years of experience."
+        },
+        {
+          "icon": "Clock",
+          "title": "Reliable & Punctual",
+          "description": "We understand your time is precious. Our services are designed around precision and reliability."
+        },
+        {
+          "icon": "Tag",
+          "title": "Transparent Pricing",
+          "description": "Fixed, all-inclusive pricing with no hidden fees. What you see is exactly what you pay."
+        },
+        {
+          "icon": "Star",
+          "title": "Personalized Service",
+          "description": "Every itinerary is crafted around your specific needs, preferences and travel style."
+        },
+        {
+          "icon": "Users",
+          "title": "Trusted Local Partners",
+          "description": "Our curated network of vetted local partners ensures consistent quality across every service."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Fast WhatsApp Booking",
+          "description": "Book anything instantly via WhatsApp — our team responds quickly and efficiently."
+        },
+        {
+          "icon": "Heart",
+          "title": "Excellent Customer Care",
+          "description": "From first inquiry to final farewell, we're with you every step of your Mauritius journey."
+        },
+        {
+          "icon": "Globe",
+          "title": "Complete Travel Solutions",
+          "description": "One trusted partner for all your Mauritius travel needs — transfers, tours, stays and more."
+        }
+      ]
+    },
+    "airportTransfers": {
+      "eyebrow": "Airport Transfers",
+      "title": "Seamless Arrivals & Departures",
+      "description": "Start and end your Mauritius holiday in perfect comfort. Our professional drivers meet you at the airport and deliver you safely to your accommodation.",
+      "features": [
+        "Meet & greet at arrivals with name board",
+        "24/7 service — any flight, any time",
+        "Air-conditioned private vehicles",
+        "Free waiting time for flight delays",
+        "Fixed prices — no surprises",
+        "All hotel & villa destinations covered"
+      ],
+      "learnMore": "Learn More",
+      "badgeAvailable": "Available",
+      "badgeHours": "24 / 7"
+    },
+    "tours": {
+      "eyebrow": "Private Tours",
+      "title": "Explore Every Corner of Mauritius",
+      "description": "Our expert local guides reveal the island's most spectacular landscapes, cultural treasures and hidden gems.",
+      "viewAll": "View All Tours",
+      "badge": "Private Tour",
+      "learnMore": "Learn More",
+      "book": "Book"
+    },
+    "activities": {
+      "eyebrow": "Activities",
+      "title": "Thrilling Experiences Await",
+      "description": "From serene underwater walks to adrenaline-fueled quad biking — Mauritius offers an activity for every kind of traveller.",
+      "viewAll": "View All Activities",
+      "hot": "HOT",
+      "bookNow": "Book Now"
+    },
+    "carRental": {
+      "eyebrow": "Car Rental",
+      "title": "Drive Mauritius Your Way",
+      "description": "Choose from our fleet of well-maintained vehicles and discover every corner of the island at your own pace.",
+      "viewAll": "View Full Fleet",
+      "bookThisVehicle": "Book This Vehicle",
+      "seats": "seats"
+    },
+    "events": {
+      "eyebrow": "Events & Festivals",
+      "title": "What's On in Mauritius",
+      "description": "Discover the vibrant calendar of festivals, cultural events and seasonal celebrations that make Mauritius so special.",
+      "viewAll": "View All Events"
+    },
+    "reviews": {
+      "eyebrow": "Customer Reviews",
+      "title": "What Our Travellers Say",
+      "description": "Join thousands of happy travellers who have trusted MauTravel for their Mauritius experiences.",
+      "statReviews": "Reviews",
+      "statRating": "Rating",
+      "statHappyClients": "Happy Clients"
+    },
+    "cta": {
+      "eyebrow": "Ready to Start?",
+      "title": "Ready to Explore Mauritius?",
+      "description": "Let us handle every detail of your Mauritius experience. Get in touch today and let's start planning your perfect island escape.",
+      "whatsappUs": "WhatsApp Us",
+      "requestQuote": "Request a Quote"
+    },
+    "social": {
+      "eyebrow": "Follow Us",
+      "title": "Follow Our Mauritius Journey",
+      "description": "Stay inspired with daily Mauritius content — travel tips, stunning scenery, and behind-the-scenes moments from island life."
+    }
+  },
+  "airportTransfers": {
+    "hero": {
+      "title": "Airport Transfers",
+      "subtitle": "Comfortable, reliable and punctual private transfers from SSR International Airport to your destination across Mauritius.",
+      "eyebrow": "MauTravel Services"
+    },
+    "featuresHeading": {
+      "eyebrow": "Why Choose Us",
+      "title": "The MauTravel Transfer Promise",
+      "description": "From the moment you land to the moment you leave — your transfer experience is our priority."
+    },
+    "features": [
+      {
+        "title": "24/7 Availability",
+        "desc": "Any flight, any time — we never close."
+      },
+      {
+        "title": "Professional Drivers",
+        "desc": "Fully licensed, vetted and experienced."
+      },
+      {
+        "title": "All Destinations",
+        "desc": "Every hotel, villa and resort in Mauritius."
+      },
+      {
+        "title": "Fixed Pricing",
+        "desc": "No surprises. Pay what you're quoted."
+      }
+    ],
+    "typesHeading": {
+      "eyebrow": "Transfer Options",
+      "title": "Choose Your Transfer Type"
+    },
+    "types": [
+      {
+        "name": "Arrival Transfer",
+        "desc": "Met by your driver at arrivals with a name board. Assisted with luggage and driven directly to your accommodation.",
+        "price": "From €25"
+      },
+      {
+        "name": "Departure Transfer",
+        "desc": "Collected from your accommodation at the perfect time to ensure a stress-free departure to the airport.",
+        "price": "From €25"
+      },
+      {
+        "name": "Hotel to Hotel",
+        "desc": "Moving accommodation mid-stay? We provide comfortable, reliable transfers between any two destinations.",
+        "price": "From €30"
+      }
+    ],
+    "fleetHeading": {
+      "eyebrow": "Our Fleet",
+      "title": "Airport Pickup Vehicles",
+      "description": "Travel in comfort and style. Choose from our well-maintained fleet for your airport pickup."
+    },
+    "pricingBlock": {
+      "eyebrowLabel": "Pickup Price available after booking",
+      "startingFrom": "Starting from",
+      "price": "MUR 2,000",
+      "customTitle": "Need a custom quotation?",
+      "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "How do I find my driver at the airport?",
+        "a": "Your driver will be waiting at the arrivals hall holding a name board with your name clearly displayed. You will receive your driver's contact number in advance."
+      },
+      {
+        "q": "What if my flight is delayed?",
+        "a": "We monitor all flights in real time. Your driver will adjust accordingly at no extra charge — we wait for you."
+      },
+      {
+        "q": "How many passengers can the vehicle accommodate?",
+        "a": "We have vehicles for all group sizes — from solo travellers to large groups of 15+. Please specify your group size when booking."
+      },
+      {
+        "q": "Do you cover the whole island?",
+        "a": "Yes, we provide transfers to any address in Mauritius — north, south, east and west coast, including remote areas."
+      }
+    ],
+    "quoteHeading": "Request a Quote",
+    "quoteSubtitle": "Fill in your details and we'll provide a fast, no-obligation quote via WhatsApp."
+  },
+  "tours": {
+    "hero": {
+      "title": "Private Tours of Mauritius",
+      "subtitle": "Let our expert local guides reveal the very best of Mauritius — from dramatic volcanic landscapes to vibrant cultural treasures.",
+      "eyebrow": "MauTravel Tours"
+    },
+    "gridHeading": {
+      "eyebrow": "Our Tours",
+      "title": "Explore Every Corner of the Island",
+      "description": "Each tour is led by a knowledgeable local guide in a private, air-conditioned vehicle. No groups, no rushing — just you and Mauritius."
+    },
+    "badge": "Private Tour",
+    "highlightsLabel": "Tour Highlights",
+    "items": {
+      "north": {
+        "name": "North Tour",
+        "description": "Explore the vibrant north with Port Louis markets, Pamplemousses Botanical Garden, and the stunning Citadel fortress.",
+        "highlights": [
+          "Port Louis City Centre",
+          "Pamplemousses Botanical Garden",
+          "Caudan Waterfront",
+          "Citadel Fortress",
+          "Local street food"
+        ]
+      },
+      "south": {
+        "name": "South Tour",
+        "description": "Discover the dramatic south coast — the iconic Le Morne peninsula, Black River Gorges, and the famous coloured earths of Chamarel.",
+        "highlights": [
+          "Le Morne Brabant",
+          "Black River Gorges",
+          "Chamarel Coloured Earths",
+          "Rum Distillery",
+          "La Roche Qui Pleure"
+        ]
+      },
+      "east": {
+        "name": "East Tour",
+        "description": "Enjoy the serene east coast with pristine Belle Mare beach, the Mahebourg museum, and the breathtaking Blue Bay lagoon.",
+        "highlights": [
+          "Belle Mare Beach",
+          "Mahebourg History Museum",
+          "Blue Bay Marine Park",
+          "Île aux Aigrettes",
+          "Seafood lunch by the beach"
+        ]
+      },
+      "west": {
+        "name": "West Tour",
+        "description": "Experience the wild west — stunning sunsets over Flic en Flac beach, Casela World of Adventures, and Tamarin dolphin bay.",
+        "highlights": [
+          "Flic en Flac Beach",
+          "Casela World of Adventures",
+          "Tamarin Bay (dolphins)",
+          "Sunset viewpoint",
+          "Local cuisine"
+        ]
+      },
+      "custom": {
+        "name": "Custom Private Tour",
+        "description": "Design your perfect Mauritius day. Choose your destinations, pace, and experiences for a completely personalised adventure.",
+        "highlights": [
+          "Choose your own stops",
+          "Flexible schedule",
+          "Private vehicle",
+          "Personal guide",
+          "Customised itinerary"
+        ]
+      }
+    },
+    "includedHeading": {
+      "eyebrow": "What's Included",
+      "title": "Everything You Need, Nothing You Don't"
+    },
+    "included": [
+      {
+        "title": "Private Vehicle",
+        "desc": "Air-conditioned car or minibus depending on group size."
+      },
+      {
+        "title": "Local Expert Guide",
+        "desc": "Knowledgeable, friendly and passionate about Mauritius."
+      },
+      {
+        "title": "Flexible Itinerary",
+        "desc": "We adapt the day to your pace and interests."
+      },
+      {
+        "title": "Door to Door",
+        "desc": "Collected from and returned to your accommodation."
+      },
+      {
+        "title": "Bottled Water",
+        "desc": "Complimentary refreshments throughout the tour."
+      },
+      {
+        "title": "Free Cancellation",
+        "desc": "Cancel up to 48 hours before with no charge."
+      }
+    ],
+    "quoteHeading": "Plan Your Private Tour",
+    "quoteSubtitle": "Tell us about your group and we'll create a personalised tour quote."
+  },
+  "activities": {
+    "hero": {
+      "title": "Activities in Mauritius",
+      "subtitle": "Curated experiences for every kind of adventurer — from tranquil underwater walks to exhilarating paragliding flights above the island.",
+      "eyebrow": "Things To Do"
+    },
+    "gridHeading": {
+      "eyebrow": "Our Activities",
+      "title": "Unforgettable Mauritius Experiences",
+      "description": "We partner with the best activity providers in Mauritius to guarantee safety, quality and memories that last a lifetime."
+    },
+    "viewDetails": "View Details",
+    "safety": {
+      "title": "Safety First, Always",
+      "description": "All our activity partners are fully licensed, insured and adhere to the highest safety standards in Mauritius. We hand-pick every provider to ensure your experience is not only thrilling — but completely safe."
+    },
+    "quoteHeading": "Book an Activity",
+    "quoteSubtitle": "Tell us which activity interests you and we'll get back to you with availability and pricing.",
+    "readMore": "Read more",
+    "showLess": "Show less",
+    "suitableForLabel": "Suitable for",
+    "showMorePhotos": "Show {n} More Photos",
+    "showLessPhotos": "Show Less",
+    "previousReview": "Previous review",
+    "nextReview": "Next review",
+    "verifiedReviews": "{count} verified reviews",
+    "items": {
+      "paragliding": {
+        "name": "Tandem Paragliding",
+        "description": "Soar above Mauritius's mountains, lagoons and coastline on a tandem paragliding flight with a certified professional pilot."
+      },
+      "hiking-adventures": {
+        "name": "Hiking Adventures",
+        "description": "Conquer the volcanic peaks and forested ridges of Mauritius on guided hikes suited to every fitness level. From the iconic Le Morne Brabant to hidden summits like Pieter Both and Piton Savanne, each trail rewards you with breathtaking panoramic views of the island's lagoons, forests and coastline. Our experienced guides ensure a safe, memorable and deeply rewarding experience in the Mauritian highlands.",
+        "suitableFor": "Beginners to experienced hikers",
+        "highlights": [
+          "Le Morne Brabant",
+          "Signal Mountain",
+          "Pieter Both",
+          "Le Pouce",
+          "Piton de la Petite Rivière Noire",
+          "Corps de Garde",
+          "Lion Mountain",
+          "Piton Savanne",
+          "Tourelle du Tamarin",
+          "Deux Mamelles",
+          "Trois Mamelles",
+          "Montagne Cocotte",
+          "Montagne Calebasses"
+        ]
+      },
+      "waterfalls-river-treks": {
+        "name": "Waterfalls & River Treks",
+        "description": "Follow wild river gorges and jungle trails to some of Mauritius's most spectacular hidden waterfalls. From the thundering seven-tiered Tamarind Falls to the tranquil Eau Bleue and dramatic Rochester Falls, each trek immerses you in lush tropical nature. Swim in crystal-clear pools beneath cascades and discover landscapes most visitors never see.",
+        "suitableFor": "Nature lovers & adventure seekers",
+        "highlights": [
+          "Tamarind Falls (7 Cascades)",
+          "Minissy Waterfall",
+          "Rochester Falls",
+          "500ft Waterfall",
+          "Alexandra Falls",
+          "Eau Bleue Waterfall",
+          "Rioux Waterfall",
+          "Léon Waterfall",
+          "La Nicolière River Trek"
+        ]
+      },
+      "7-caves-exploration": {
+        "name": "7 Caves Exploration",
+        "description": "Explore one of Mauritius's most fascinating underground adventures as you journey through ancient volcanic lava tunnels carved thousands of years ago. Experience spectacular rock formations, hidden chambers, and learn about the island's volcanic origins with an experienced local guide.",
+        "suitableFor": "Families, couples, groups & adventure seekers",
+        "highlights": [
+          "Explore ancient volcanic lava tubes",
+          "Discover unique underground formations",
+          "Learn the geological history of Mauritius",
+          "Safe guided exploration",
+          "Perfect for adventure lovers",
+          "Amazing photography opportunities"
+        ]
+      },
+      "mangrove-kayaking": {
+        "name": "Mangrove Kayaking",
+        "description": "Paddle silently through Mauritius's ancient mangrove forests and sheltered coastal channels — a peaceful, immersive nature experience suitable for all abilities.",
+        "suitableFor": "All ages & abilities",
+        "highlights": [
+          "Mangrove forest channels",
+          "Coastal wildlife spotting",
+          "Sheltered lagoon paddling",
+          "No experience needed"
+        ]
+      },
+      "wild-south-experience": {
+        "name": "The Wild South Experience",
+        "description": "Discover the untamed and dramatic southern coast of Mauritius — a world away from the resort beaches, where raw volcanic cliffs meet pounding ocean waves. Stand at Gris Gris where the Indian Ocean crashes against jagged black rocks, swim in secluded natural pools, stumble upon hidden beaches and drink in some of the most scenic viewpoints the island has to offer.",
+        "suitableFor": "Nature lovers & photographers",
+        "highlights": [
+          "Gris Gris cliffs & viewpoint",
+          "Natural rock pools",
+          "Hidden southern beaches",
+          "Scenic coastal viewpoints",
+          "Southern coastal exploration"
+        ]
+      },
+      "dolphins": {
+        "name": "Dolphin Encounter",
+        "description": "Swim with wild dolphins in the warm waters of Tamarin Bay on the west coast — a magical, unforgettable experience."
+      },
+      "parasailing": {
+        "name": "Parasailing",
+        "description": "Soar high above the Mauritius lagoon with incredible panoramic views of the coastline and crystal-clear waters below."
+      },
+      "underwater-walk": {
+        "name": "Underwater Walk",
+        "description": "Walk on the seabed in a pressurised helmet and discover Mauritius's vibrant coral reef — no diving experience needed."
+      }
+    }
+  },
+  "carRental": {
+    "hero": {
+      "title": "Car Rental in Mauritius",
+      "subtitle": "Discover Mauritius on your own terms with our well-maintained fleet of vehicles. Pick up from the airport or your hotel — we come to you.",
+      "eyebrow": "Car Rental"
+    },
+    "includedHeading": {
+      "eyebrow": "What's Included",
+      "title": "Everything in the Price",
+      "description": "Transparent, all-inclusive daily rates with no nasty surprises."
+    },
+    "included": [
+      "Unlimited mileage across Mauritius",
+      "Third-party insurance included",
+      "24/7 roadside assistance",
+      "Airport and hotel delivery",
+      "Clean, maintained vehicles",
+      "No hidden fees"
+    ],
+    "fleetHeading": {
+      "eyebrow": "Our Fleet",
+      "title": "Choose Your Vehicle",
+      "description": "From economy hatchbacks to premium SUVs and family minivans — we have the right car for every journey."
+    },
+    "vehicles": {
+      "suzuki-swift": {
+        "name": "Suzuki Swift",
+        "features": [
+          "Air Conditioning",
+          "Automatic Gearbox",
+          "5 Passengers",
+          "Petrol"
+        ]
+      },
+      "toyota-yaris": {
+        "name": "Toyota Yaris",
+        "features": [
+          "Air Conditioning",
+          "Automatic Gearbox",
+          "5 Passengers",
+          "Petrol"
+        ]
+      },
+      "nissan-march": {
+        "name": "Nissan March",
+        "features": [
+          "Air Conditioning",
+          "Automatic Gearbox",
+          "5 Passengers",
+          "Petrol"
+        ]
+      }
+    },
+    "seatsLabel": "seats",
+    "bookThisVehicle": "Book This Vehicle",
+    "reviewHeading": {
+      "eyebrow": "Customer Review",
+      "title": "What Our Clients Say"
+    },
+    "review": {
+      "text": "The Nissan March car provided by MauTravel was very smooth. We travelled to Mauritius from India and found that self driving was a better option. The car rental service is very trustworthy. They even had to take back the car for some other work for a day but they made sure that an exchange was provided in time so that our planned activities could take place smoothly. I would highly recommend this car rental service. MauTravel team is very approachable and it's easy to communicate if there is any query.",
+      "author": "Verified Customer — India"
+    },
+    "drivingHeading": "Driving in Mauritius",
+    "drivingInfo": [
+      "Mauritius drives on the <b>left-hand side</b> of the road, similar to the UK, Australia and India. Roads are generally well-maintained and signposted.",
+      "The island is compact — most destinations are reachable within 1–2 hours from anywhere. A rental car is the perfect way to explore at your own pace.",
+      "You will need a <b>valid driving licence</b> from your home country. Most international licences are accepted.",
+      "The minimum driving age in Mauritius is <b>18 years</b>. Renters must be 21 or over."
+    ],
+    "quoteHeading": "Request a Quote",
+    "quoteSubtitle": "Let us know your dates and we'll confirm the best available vehicle."
+  },
+  "events": {
+    "hero": {
+      "title": "Events & Festivals in Mauritius",
+      "subtitle": "Mauritius's multicultural heritage creates a vibrant calendar of festivals and celebrations throughout the year — each one a unique window into island life.",
+      "eyebrow": "What's On"
+    },
+    "gridHeading": {
+      "eyebrow": "2026 Calendar",
+      "title": "Mauritius Events & Festivals",
+      "description": "Mauritius is a melting pot of Hindu, Muslim, Christian and Chinese cultures — each contributing unique and spectacular celebrations throughout the year."
+    },
+    "planYourVisit": "Plan Your Visit",
+    "culturalHeading": "Plan Your Visit Around Mauritius's Festivals",
+    "culturalText": "Experiencing a Mauritius festival is one of the most memorable parts of any island visit. From the spectacular fireworks of Chinese New Year in Port Louis to the devotion and colour of Thaipoosam Cavadee, these events offer a genuine window into Mauritius's extraordinary multicultural identity. Our team can help you plan your stay to coincide with the celebrations most meaningful to you.",
+    "talkToTeam": "Talk to Our Team",
+    "items": {
+      "cavadee-2026": {
+        "title": "Thaipoosam Cavadee",
+        "category": "Religious Festival",
+        "description": "One of Mauritius's most colourful Hindu festivals, featuring devotees carrying ornate Cavadees to temples across the island."
+      },
+      "chinese-new-year": {
+        "title": "Chinese New Year",
+        "category": "Cultural Festival",
+        "description": "Mauritius celebrates the Chinese New Year with spectacular lion dances, fireworks and festivities in Port Louis's Chinatown."
+      },
+      "holi-2026": {
+        "title": "Holi Festival of Colours",
+        "category": "Hindu Festival",
+        "description": "Celebrate the Festival of Colours across Mauritius with vibrant powder throwing, music, and communal celebrations."
+      },
+      "independence-day": {
+        "title": "Mauritius Independence Day",
+        "category": "National Holiday",
+        "description": "Mauritius celebrates its National Day with parades, cultural events, and ceremonies across the island."
+      },
+      "diwali-2026": {
+        "title": "Diwali Festival of Lights",
+        "category": "Hindu Festival",
+        "description": "The Festival of Lights transforms Mauritius into a magical spectacle of lamps, fireworks and communal celebration."
+      },
+      "kite-festival": {
+        "title": "International Kite Festival",
+        "category": "Cultural Event",
+        "description": "A spectacular kite festival held on Mauritius's beaches during the windy August month — a family favourite."
+      }
+    }
+  },
+  "reviews": {
+    "hero": {
+      "title": "Customer Reviews",
+      "subtitle": "Read what thousands of happy travellers from around the world say about their experiences with MauTravel.",
+      "eyebrow": "What Clients Say"
+    },
+    "stats": [
+      {
+        "value": "4.9 / 5",
+        "label": "Average Rating"
+      },
+      {
+        "value": "500+",
+        "label": "Verified Reviews"
+      },
+      {
+        "value": "2,000+",
+        "label": "Happy Clients"
+      }
+    ],
+    "generalHeading": {
+      "eyebrow": "Client Testimonials",
+      "title": "Stories From Our Travellers",
+      "description": "Every review is from a real client who experienced MauTravel's services firsthand."
+    },
+    "activityHeading": {
+      "eyebrow": "Activity Experiences",
+      "title": "What Adventurers Say",
+      "description": "From catamaran cruises to cave explorations — real stories from guests who booked activities through MauTravel."
+    },
+    "ctaEyebrow": "Share Your Experience",
+    "ctaTitle": "Travelled with MauTravel?",
+    "ctaText": "We'd love to hear about your experience. Leave us a review on Google — it helps other travellers discover MauTravel and means the world to our team.",
+    "ctaButton": "Share Your Story",
+    "items": {
+      "1": {
+        "text": "MauTravel made our honeymoon in Mauritius absolutely perfect. The airport transfer was seamless, the south tour was incredible, and every single detail was taken care of. We cannot recommend them highly enough!"
+      },
+      "2": {
+        "text": "We booked a full week itinerary through MauTravel and it was the best decision we made. Professional, friendly, and they knew exactly what would suit our family with young children. Truly exceptional service."
+      },
+      "3": {
+        "text": "Notre voyage à l'île Maurice était magique grâce à MauTravel. Le service était impeccable — ponctualité parfaite, guides extraordinaires et des expériences mémorables. Nous reviendrons certainement!"
+      },
+      "5": {
+        "text": "MauTravel handled everything for our family vacation — airport pick-up, tours, activities, and accommodation. Every single experience was exceptional. The team's attention to detail is remarkable."
+      },
+      "act-2": {
+        "text": "I was genuinely nervous but the pilot made me feel completely safe from the very first moment. Flying above Mauritius is one of the most breathtaking things I've ever experienced."
+      },
+      "act-3": {
+        "text": "Swimming with wild dolphins in Tamarin Bay was magical for the whole family. The kids couldn't stop talking about it for days — one of those memories that lasts forever."
+      },
+      "act-4": {
+        "text": "Our guide was brilliant — knowledgeable, encouraging and genuinely passionate about Mauritius. The summit views were absolutely worth the effort. Already planning our next hike."
+      },
+      "act-5": {
+        "text": "Such a fascinating underground experience — ancient lava tunnels, incredible formations and a guide who made the geology come alive. Wonderful for the whole family."
+      },
+      "act-6": {
+        "text": "The trek to Tamarind Falls was spectacular. Wild jungle, natural swimming pools and a guide who knew every trail perfectly. Exactly the Mauritius most tourists never get to see."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Our team is ready to help you plan the perfect Mauritius experience. Reach us via WhatsApp for the fastest response.",
+      "eyebrow": "Get in Touch"
+    },
+    "partnerEyebrow": "For Businesses",
+    "partnerTitle": "Partner With MauTravel",
+    "partnerDescription": "Are you a car owner, property host, activity operator, or driver? Expand your reach by listing with MauTravel and connecting with thousands of visitors to Mauritius every year.",
+    "partnerListings": [
+      {
+        "title": "List Your Vehicle",
+        "description": "Own a car, minivan, or luxury vehicle? Partner with MauTravel and reach thousands of tourists looking for reliable transport.",
+        "cta": "Advertise Your Car"
+      },
+      {
+        "title": "List Your Property",
+        "description": "Have a villa, apartment, or beachfront property to rent? List it with MauTravel and connect with quality travellers.",
+        "cta": "Advertise Your Property"
+      },
+      {
+        "title": "List an Activity or Tour",
+        "description": "Offer a tour, excursion, or unique activity experience? Grow your bookings by partnering with MauTravel.",
+        "cta": "Advertise Your Activity"
+      },
+      {
+        "title": "Register as a Driver",
+        "description": "Professional driver looking for more work? Join the MauTravel driver network and receive regular booking referrals.",
+        "cta": "Join as a Driver"
+      }
+    ],
+    "reachHeading": "How to Reach Us",
+    "reachDescription": "The quickest way to reach us is via WhatsApp. We respond to all messages promptly and can handle bookings, quotes and enquiries directly in the chat.",
+    "items": [
+      {
+        "label": "WhatsApp (Fastest)",
+        "value": "Message us on WhatsApp"
+      },
+      {
+        "label": "Phone",
+        "value": ""
+      },
+      {
+        "label": "Email",
+        "value": ""
+      },
+      {
+        "label": "Location",
+        "value": "Mauritius, Indian Ocean"
+      },
+      {
+        "label": "Response Time",
+        "value": "Usually within 30 minutes"
+      }
+    ],
+    "chatPrompt": "Need help right now? Tap below to start a WhatsApp conversation.",
+    "openChat": "Open WhatsApp Chat",
+    "enquiryHeading": "Send an Enquiry",
+    "enquiryDescription": "Fill in the form below and we'll send your message via WhatsApp — no forms, no waiting."
+  },
+  "faqs": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to the most common questions about MauTravel's services and how to make the most of your Mauritius visit.",
+      "eyebrow": "Help Centre"
+    },
+    "stillQuestions": "Still Have Questions?",
+    "stillQuestionsText": "Our team is happy to answer any question you might have about Mauritius travel. Reach us on WhatsApp for a fast, friendly response.",
+    "askOnWhatsapp": "Ask Us on WhatsApp",
+    "items": [
+      {
+        "question": "How do I book a service with MauTravel?",
+        "answer": "The easiest way is to tap our WhatsApp button and send us a message. We respond quickly and can confirm your booking within minutes. You can also use the contact form on our website."
+      },
+      {
+        "question": "Are your prices fixed or negotiable?",
+        "answer": "Our prices are transparent and fixed with no hidden fees. We believe in honest, straightforward pricing so you know exactly what you're paying for."
+      },
+      {
+        "question": "Do you provide airport pick-up services?",
+        "answer": "Yes, we offer 24/7 airport transfer services from Sir Seewoosagur Ramgoolam International Airport to any destination in Mauritius. Our driver will meet you at arrivals with a name board."
+      },
+      {
+        "question": "Are your guides English-speaking?",
+        "answer": "Yes, all our guides speak English fluently. We also have guides who speak French, German, and several other languages. Please let us know your preferred language when booking."
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "answer": "We understand plans can change. We offer free cancellation up to 48 hours before your booked service. Please contact us as soon as possible if you need to cancel or reschedule."
+      },
+      {
+        "question": "Do you offer group discounts?",
+        "answer": "Yes, we offer attractive rates for groups of 6 or more travellers. Contact us with your group size and requirements for a custom quote."
+      },
+      {
+        "question": "Is MauTravel licensed and registered?",
+        "answer": "Yes, MauTravel is a fully licensed and government-registered Tour Operator in Mauritius. We comply with all tourism regulations and industry standards."
+      },
+      {
+        "question": "Can you arrange full holiday packages?",
+        "answer": "Absolutely. We can arrange comprehensive holiday packages including accommodation, transfers, tours, activities and more — all customised to your preferences and budget."
+      }
+    ]
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Privacy Policy"
+    },
+    "lastUpdated": "Last updated: June 2025",
+    "intro": "MauTravel (“we”, “us”, “our”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose and safeguard your personal information when you visit our website or use our services.",
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "content": "We collect information you voluntarily provide to us — including your name, email address, telephone number, and travel details — when you make a booking, request a quote or contact us via WhatsApp, email or our contact form. We may also collect non-personal information such as browser type, device information and website usage data through cookies and analytics tools."
+      },
+      {
+        "title": "2. How We Use Your Information",
+        "content": "We use your information to process bookings and reservations, provide customer support, send booking confirmations and updates, improve our services and website, and comply with legal obligations. We do not sell, trade or rent your personal information to third parties."
+      },
+      {
+        "title": "3. WhatsApp Communications",
+        "content": "When you contact us via WhatsApp, your messages are transmitted through WhatsApp's platform. Please refer to WhatsApp's Privacy Policy for information on how they process your data. We store WhatsApp conversation records only as long as necessary to provide our services."
+      },
+      {
+        "title": "4. Data Security",
+        "content": "We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, alteration, disclosure or destruction. However, no method of transmission over the internet is 100% secure."
+      },
+      {
+        "title": "5. Data Retention",
+        "content": "We retain your personal information for as long as necessary to fulfil the purposes outlined in this policy, or as required by applicable law. Booking records are typically retained for 7 years for accounting and legal purposes."
+      },
+      {
+        "title": "6. Your Rights",
+        "content": "You have the right to access, correct or delete your personal information held by us. You may also object to the processing of your data or request a restriction on processing. To exercise these rights, please contact us at info@mautravel.mu."
+      },
+      {
+        "title": "7. Cookies",
+        "content": "Our website uses cookies to enhance your browsing experience. You can control cookie settings through your browser preferences. Essential cookies required for the website to function cannot be disabled."
+      },
+      {
+        "title": "8. Changes to This Policy",
+        "content": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. We encourage you to review this policy periodically."
+      },
+      {
+        "title": "9. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at info@mautravel.mu or via WhatsApp."
+      }
+    ]
+  },
+  "terms": {
+    "hero": {
+      "title": "Terms & Conditions"
+    },
+    "lastUpdated": "Last updated: June 2025",
+    "sections": [
+      {
+        "title": "1. Acceptance of Terms",
+        "content": "By booking any service with MauTravel, you agree to be bound by these Terms and Conditions. Please read them carefully before making a booking. If you do not agree to these terms, please do not use our services."
+      },
+      {
+        "title": "2. Booking and Confirmation",
+        "content": "Bookings are confirmed upon receipt of payment or a written confirmation from MauTravel via WhatsApp or email. A booking is not confirmed until you receive explicit confirmation from us. We reserve the right to decline any booking at our discretion."
+      },
+      {
+        "title": "3. Pricing",
+        "content": "All prices quoted are in Euros (€) unless otherwise stated. Prices are fixed at the time of booking and will not change after confirmation. Quoted prices are inclusive of all taxes and fees unless specifically noted otherwise."
+      },
+      {
+        "title": "4. Payment",
+        "content": "Payment terms will be specified at the time of booking. We accept payment via bank transfer, cash or other methods agreed upon. Full payment may be required before service delivery for certain bookings."
+      },
+      {
+        "title": "5. Cancellation Policy",
+        "content": "Cancellations made more than 48 hours before the scheduled service will receive a full refund. Cancellations made between 24–48 hours before the service may be subject to a 50% cancellation fee. Cancellations made less than 24 hours before the service may be charged in full. No-shows will be charged in full. Refunds will be processed within 5–10 business days."
+      },
+      {
+        "title": "6. Changes and Modifications",
+        "content": "MauTravel reserves the right to make changes to services where necessary due to circumstances beyond our control (weather, safety concerns, etc.). In such cases, we will offer alternative arrangements or a full refund. Clients wishing to modify a confirmed booking should contact us as soon as possible, and changes are subject to availability."
+      },
+      {
+        "title": "7. Client Responsibilities",
+        "content": "Clients are responsible for providing accurate information at the time of booking, arriving on time for transfers and tours, ensuring they have valid travel documents, and behaving in a manner that does not endanger themselves or others. MauTravel accepts no responsibility for delays or losses caused by client error."
+      },
+      {
+        "title": "8. Limitation of Liability",
+        "content": "MauTravel's liability is limited to the value of the booked service. We are not responsible for indirect or consequential losses, including flight delays, missed connections, loss of enjoyment or any losses beyond our direct control."
+      },
+      {
+        "title": "9. Governing Law",
+        "content": "These Terms and Conditions are governed by the laws of the Republic of Mauritius. Any disputes shall be subject to the exclusive jurisdiction of the courts of Mauritius."
+      },
+      {
+        "title": "10. Contact",
+        "content": "For any questions about these Terms and Conditions, please contact us at info@mautravel.mu."
+      }
+    ]
+  },
+  "properties": {
+    "hero": {
+      "title": "Properties in Mauritius",
+      "subtitle": "From intimate garden apartments to breathtaking beachfront villas — we curate only the finest accommodation across the island.",
+      "eyebrow": "Accommodation"
+    },
+    "gridHeading": {
+      "eyebrow": "Available Properties",
+      "title": "Find Your Perfect Stay",
+      "description": "Every property we list has been personally inspected to ensure it meets MauTravel's standards for quality, comfort and value."
+    },
+    "bedrooms": "bedrooms",
+    "upTo": "Up to",
+    "guests": "guests",
+    "quoteHeading": "Request Availability",
+    "quoteSubtitle": "Tell us your dates and party size and we'll find the perfect property for your stay.",
+    "items": {
+      "beachfront-villa": {
+        "name": "Beachfront Villa",
+        "type": "Luxury Villa",
+        "description": "A stunning beachfront villa with private pool, direct beach access, and panoramic ocean views over the Indian Ocean.",
+        "amenities": [
+          "Private Pool",
+          "Beach Access",
+          "Fully Equipped Kitchen",
+          "Garden",
+          "Housekeeping",
+          "Chef Available"
+        ]
+      },
+      "garden-apartment": {
+        "name": "Garden Apartment",
+        "type": "Apartment",
+        "description": "A beautifully furnished apartment set in a lush tropical garden, perfect for couples or small families exploring Mauritius.",
+        "amenities": [
+          "Tropical Garden",
+          "Swimming Pool",
+          "Air Conditioning",
+          "Wi-Fi",
+          "Parking"
+        ]
+      },
+      "luxury-penthouse": {
+        "name": "Ocean View Penthouse",
+        "type": "Penthouse",
+        "description": "The ultimate luxury penthouse with wrap-around terrace, private jacuzzi, and sweeping views of the Indian Ocean.",
+        "amenities": [
+          "Wrap-around Terrace",
+          "Private Jacuzzi",
+          "Concierge",
+          "Gym Access",
+          "Panoramic Views"
+        ]
+      },
+      "jungle-villa": {
+        "name": "Jungle Retreat Villa",
+        "type": "Villa",
+        "description": "Escape into nature with this secluded villa set within Mauritius's lush tropical interior, far from the crowds.",
+        "amenities": [
+          "Nature Trails",
+          "Private Pool",
+          "BBQ Area",
+          "Yoga Deck",
+          "Chef Available"
+        ]
+      }
+    }
+  },
+  "activityDetails": {
+    "ui": {
+      "heroEyebrow": "MauTravel Activities",
+      "activitiesBreadcrumb": "Activities",
+      "aboutEyebrow": "About the Activity",
+      "aboutTitle": "What to Expect",
+      "includedTitle": "What's Included",
+      "notIncludedTitle": "Not Included",
+      "locationsEyebrow": "Flying Locations",
+      "locationsTitle": "Where You'll Take Flight",
+      "locationsDescription": "Your pilot selects the ideal take-off site on the day based on prevailing wind and weather conditions — ensuring the safest and most spectacular experience possible.",
+      "galleryEyebrow": "Gallery",
+      "galleryTitle": "Experience in Pictures",
+      "reviewsEyebrow": "Customer Reviews",
+      "reviewsTitle": "What Our Guests Say",
+      "reviewsSubtitle": "Real experiences from guests who have enjoyed this activity in Mauritius.",
+      "averageRating": "Average Rating",
+      "basedOnReviews": "Based on verified customer reviews",
+      "reviewsCtaTitle": "Ready to Create Your Own Story?",
+      "reviewsCtaSubtitle": "Join hundreds of happy guests and discover Mauritius from the sky.",
+      "pricingEyebrow": "Pricing",
+      "pricingQuoteTitle": "Request a Quotation",
+      "pricingQuoteText": "Pricing for this activity is tailored to your group size, dates, and specific requirements. Get in touch via WhatsApp and we'll respond quickly with a personalised quote — no obligation.",
+      "requestQuotation": "Request a Quotation",
+      "pricingPackagesTitle": "Choose Your Package",
+      "mostPopular": "Most Popular",
+      "bookThisPackage": "Book This Package",
+      "howToBookEyebrow": "How to Book",
+      "howToBookTitle": "3 Easy Steps to Your Adventure",
+      "step1Title": "Contact via WhatsApp",
+      "step1Desc": "Tap the WhatsApp button and send us your preferred date, group size, and any questions. We respond quickly.",
+      "step2Title": "Receive Your Quote",
+      "step2Desc": "We'll confirm availability and send you a personalised quote with everything included — no hidden fees.",
+      "step3Title": "Confirm & Enjoy",
+      "step3Desc": "Confirm your booking, receive your voucher, and get ready for an unforgettable Mauritius experience.",
+      "stepLabel": "Step",
+      "bookNamedViaWhatsapp": "Book {name} via WhatsApp",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Frequently Asked Questions",
+      "relatedEyebrow": "Explore More",
+      "relatedTitle": "Customers Also Enjoyed",
+      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+    },
+    "paragliding": {
+      "name": "Tandem Paragliding in Mauritius",
+      "pageTitle": "Tandem Paragliding Mauritius | MauTravel Tour Operator",
+      "pageDescription": "Soar above Mauritius on a tandem paragliding adventure with MauTravel. Four spectacular flying locations — Le Morne, Chamarel, Montagne Longue & Quatre Sœurs. From €170 per person. Certified professional pilots.",
+      "heroSubtitle": "Experience Mauritius from an entirely new perspective as you soar above mountains, lagoons, and breathtaking landscapes with a certified tandem paragliding pilot.",
+      "duration": "45 – 90 minutes (incl. briefing)",
+      "difficulty": "All levels — no experience needed",
+      "about": [
+        "MauTravel's tandem paragliding experience offers one of the most extraordinary perspectives of Mauritius — drifting freely above volcanic peaks, forested valleys, and the endless turquoise expanse of the Indian Ocean. With four exceptional flying sites across the island, each flight reveals a different and equally breathtaking side of Mauritius that simply cannot be appreciated from the ground.",
+        "From the dramatic central highlands of Montagne Longue and the east-coast splendour of Quatre Sœurs, to the forested ridges of Chamarel and the iconic lagoon of Le Morne — every location offers its own unique landscape and atmosphere. Your pilot selects the ideal take-off site on the day based on prevailing wind and weather conditions, ensuring the finest views and the safest possible flight for every guest.",
+        "Tandem paragliding is entirely suitable for beginners — no previous experience is required. You are secured alongside a fully certified, experienced professional pilot throughout the entire flight, from take-off to landing. All flights begin with a thorough safety briefing and equipment check. Advance booking is strongly recommended to confirm your preferred date and receive personalised assistance from our team."
+      ],
+      "highlights": [
+        {
+          "label": "Duration",
+          "value": "Approx. 45 – 90 min (incl. briefing)"
+        },
+        {
+          "label": "Tandem Pilot",
+          "value": "Certified & experienced professional"
+        },
+        {
+          "label": "Flying Locations",
+          "value": "Le Morne, Chamarel & more"
+        },
+        {
+          "label": "Suitable For",
+          "value": "All levels — beginners welcome"
+        },
+        {
+          "label": "Safety",
+          "value": "Full equipment & briefing provided"
+        },
+        {
+          "label": "Season",
+          "value": "Year-round, weather permitting"
+        }
+      ],
+      "locations": [
+        {
+          "name": "Montagne Longue",
+          "subtitle": "Central Highlands Flying",
+          "walkTime": "~20-min walk to take-off",
+          "description": "Set within the central highlands of Mauritius, Montagne Longue offers an authentic inland mountain paragliding experience unlike any other on the island. A gentle 20-minute ascent to the take-off point rewards you with sweeping panoramas across volcanic ridges and lush green valleys stretching in every direction.",
+          "landmarks": [
+            "Panoramic views of Gros Morne",
+            "Dramatic mountain ridge scenery",
+            "Potential extension toward Pieter Both (weather permitting)",
+            "Unique inland highland flying experience"
+          ]
+        },
+        {
+          "name": "Quatre Sœurs",
+          "subtitle": "East Coast Adventure",
+          "walkTime": "20–30-min ascent",
+          "description": "Perched on the east coast of Mauritius, Quatre Sœurs delivers a spectacular combination of mountain grandeur and ocean panoramas. A 20–30-minute ascent to the launch site reveals breathtaking views across verdant valleys, rugged ridges, and the shimmering Indian Ocean coastline stretching to the horizon.",
+          "landmarks": [
+            "Panoramic Indian Ocean vistas",
+            "Views toward Les Chats et la Souris and Montagne Bambous",
+            "Sweeping valleys and mountain ridge scenery",
+            "Dramatic east coast coastal panoramas"
+          ]
+        },
+        {
+          "name": "Chamarel",
+          "subtitle": "Rugged Valley Scenery",
+          "walkTime": "~10-min walk to take-off",
+          "description": "Chamarel's rugged and richly forested landscape provides a stunning natural amphitheatre for paragliding. Just a 10-minute walk from the launch area, pilots and passengers take flight from one of Mauritius's most scenic regions — with forested mountain ridges gradually opening toward the sparkling west coast and the vast Indian Ocean beyond.",
+          "landmarks": [
+            "Forested mountain and valley views",
+            "Gradual reveal of the west coast and Indian Ocean",
+            "Scenic Chamarel valley landscapes",
+            "Classic Mauritius highland flying experience"
+          ]
+        },
+        {
+          "name": "Le Morne",
+          "subtitle": "Mauritius's Most Iconic Flight",
+          "walkTime": "~30-min ascent",
+          "description": "Le Morne is widely regarded as the most celebrated paragliding destination on the island. The 30-minute ascent to the take-off site culminates in one of Mauritius's most spectacular launches — with the legendary turquoise Le Morne lagoon spread out below, and the world-famous underwater waterfall illusion often visible from above on clear days.",
+          "landmarks": [
+            "Breathtaking Le Morne lagoon and peninsula views",
+            "The iconic underwater waterfall illusion (visible from above)",
+            "Le Morne Brabant mountain scenery",
+            "Turquoise lagoon meeting the open Indian Ocean"
+          ]
+        }
+      ],
+      "included": [
+        "Certified professional tandem pilot",
+        "Full pre-flight safety briefing",
+        "Complete flight equipment (harness & helmet)",
+        "Tandem paragliding flight (~15–25 minutes)",
+        "Take-off location selected for best conditions",
+        "Third-party liability insurance"
+      ],
+      "notIncluded": [
+        "Hotel transfers (available on request — please enquire)",
+        "Personal travel insurance",
+        "Food, beverages, and personal expenses",
+        "Professional photo/video package (available separately upon request)",
+        "Gratuities for your pilot (entirely at your discretion)"
+      ],
+      "pricing": [
+        {
+          "name": "Tandem Paragliding Flight",
+          "price": "€170",
+          "description": "Per person — all inclusive",
+          "features": [
+            "Certified professional tandem pilot",
+            "Complete pre-flight safety briefing",
+            "Full flight equipment (harness & helmet)",
+            "Tandem paragliding flight (~15–25 minutes)",
+            "Take-off location selected for optimal conditions",
+            "Third-party liability insurance"
+          ]
+        }
+      ],
+      "pricingNote": "€170 per participant. Flights are operated by certified professional tandem pilots. The final take-off location — Le Morne, Chamarel, Montagne Longue, or Quatre Sœurs — is selected on the day based on weather and wind conditions to ensure the safest and most enjoyable experience for every guest.",
+      "activityReviewsNote": "These reviews are from guests who experienced tandem paragliding with one of MauTravel's trusted local activity partners.",
+      "faqs": [
+        {
+          "question": "Do I need previous paragliding experience?",
+          "answer": "No experience is required at all. Tandem paragliding means you fly secured in a harness alongside a certified professional pilot who manages every aspect of the flight — from launch to landing. Your only role is to relax, enjoy the views, and take it all in."
+        },
+        {
+          "question": "Is tandem paragliding safe?",
+          "answer": "Tandem paragliding with MauTravel is conducted exclusively with fully certified, experienced professional pilots using regularly inspected and approved safety equipment. All flights are weather-dependent and will only proceed when conditions are assessed as safe by your pilot. Your safety is the absolute priority at every step."
+        },
+        {
+          "question": "What should I wear and bring?",
+          "answer": "Wear comfortable, close-fitting clothing appropriate for the weather. Sturdy closed-toe shoes — trainers or walking shoes — are strongly recommended. Avoid scarves, loose layers, or flowing garments. Sunglasses with a secure strap and sunscreen are advisable. Your pilot will provide any additional pre-flight guidance."
+        },
+        {
+          "question": "Can children participate?",
+          "answer": "Children may participate subject to minimum age, weight, and health requirements. We recommend contacting MauTravel directly via WhatsApp with your child's age and weight before booking so we can confirm eligibility and advise accordingly."
+        },
+        {
+          "question": "How long is the total paragliding experience?",
+          "answer": "The complete experience — including the ascent to the take-off site, equipment fitting, safety briefing, and the flight itself — typically takes between 45 minutes and 2 hours depending on the location chosen. The actual paragliding flight lasts approximately 15–25 minutes."
+        },
+        {
+          "question": "What happens if the weather is unsuitable on my booking date?",
+          "answer": "Your pilot and the MauTravel team monitor wind and weather conditions carefully ahead of every flight. If conditions are not suitable on your scheduled date, we will contact you promptly to reschedule to the next available date at no additional charge."
+        },
+        {
+          "question": "Can I take my phone or camera during the flight?",
+          "answer": "We strongly recommend securing all personal belongings before take-off. Phones and cameras must be attached with a wrist strap or mounted on a secure harness. Your pilot will advise on what is safe to carry. A professional photo and video package may be available on request — please enquire when booking."
+        }
+      ]
+    },
+    "hiking-adventures": {
+      "name": "Hiking Adventures",
+      "pageTitle": "Hiking in Mauritius — Guided Mountain & Trail Hikes",
+      "pageDescription": "Explore Mauritius's volcanic peaks and forest trails on expert-guided hikes. Le Morne, Pieter Both, Le Pouce, Lion Mountain and more. Book with MauTravel.",
+      "heroSubtitle": "Conquer volcanic summits, traverse forested ridges, and discover sweeping panoramas of the Mauritian landscape on guided hikes suited to every level — from gentle walks to challenging peak ascents.",
+      "duration": "3 – 8 hours",
+      "difficulty": "All levels",
+      "about": [
+        "Mauritius is far more than beaches — its volcanic interior is laced with dramatic mountain trails, dense forests, and viewpoints that reward the effort with unforgettable panoramas of turquoise lagoons and rolling sugarcane fields. MauTravel partners with expert local guides who know every trail intimately.",
+        "Our hiking programme covers the full range of Mauritius's peaks and trails: the iconic UNESCO-listed Le Morne Brabant, the challenging rock scramble of Pieter Both, the accessible ridgeline of Le Pouce above Port Louis, and lesser-known gems like Piton Savanne, Tourelle du Tamarin and Montagne Cocotte. Each hike is tailored to your group's fitness level and interests.",
+        "All hikes are led by certified, experienced guides who provide full equipment guidance, safety briefings, and fascinating insights into the island's geology, flora and fauna. Whether you're a first-time hiker or a seasoned trail runner, we have a route that will challenge and inspire you."
+      ],
+      "highlights": [
+        {
+          "label": "Duration",
+          "value": "3 – 8 hours depending on trail"
+        },
+        {
+          "label": "Trails",
+          "value": "13 peaks & routes available"
+        },
+        {
+          "label": "Group size",
+          "value": "Private groups (2–12 pax)"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Easy to challenging"
+        },
+        {
+          "label": "Guide",
+          "value": "Certified local mountain guide"
+        },
+        {
+          "label": "Safety",
+          "value": "Full safety briefing & equipment"
+        }
+      ],
+      "included": [
+        "Certified local mountain guide",
+        "Safety briefing and trail notes",
+        "Bottled water throughout the hike",
+        "Hotel pick-up and drop-off",
+        "Light snack on longer hikes"
+      ],
+      "notIncluded": [
+        "Hiking boots (strongly recommended — rental available on request)",
+        "Travel insurance",
+        "Personal meals and additional drinks",
+        "National park entry fees where applicable"
+      ],
+      "pricing": [
+        {
+          "name": "Half Day Hike",
+          "price": "Contact for price",
+          "description": "A 3–4 hour guided hike on one of our shorter routes such as Le Pouce or Corps de Garde.",
+          "features": [
+            "Certified guide",
+            "Water included",
+            "Hotel transfers",
+            "Trail briefing"
+          ]
+        },
+        {
+          "name": "Full Day Hike",
+          "price": "Contact for price",
+          "description": "A 6–8 hour guided ascent of a major peak — Le Morne, Pieter Both or Piton de la Petite Rivière Noire.",
+          "features": [
+            "All half-day inclusions",
+            "Packed lunch",
+            "Summit certificate",
+            "Extended guide support"
+          ]
+        },
+        {
+          "name": "Private Group Package",
+          "price": "Contact for price",
+          "description": "Exclusive guided hiking for your group — choose your peak and we build a custom day around your abilities.",
+          "features": [
+            "Custom route planning",
+            "Private guide",
+            "Full day or half day",
+            "Flexible pace",
+            "Group transfers"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need prior hiking experience?",
+          "answer": "Not at all. We offer routes graded from beginner-friendly (Le Pouce, Signal Mountain) to challenging technical ascents (Pieter Both, Piton de la Petite Rivière Noire). Tell us your fitness level when booking and we'll match you to the perfect trail."
+        },
+        {
+          "question": "What should I wear and bring?",
+          "answer": "We recommend lightweight, breathable clothing, sturdy closed-toe shoes or hiking boots, a hat, sunscreen, and a small daypack. We provide water but suggest bringing extra snacks. A full kit list is sent upon booking confirmation."
+        },
+        {
+          "question": "Is Le Morne suitable for beginners?",
+          "answer": "The lower section of Le Morne Brabant is accessible to reasonably fit beginners. The upper section involves some scrambling and is recommended for those comfortable with heights and uneven terrain. Your guide will advise on the day based on conditions and your group's ability."
+        },
+        {
+          "question": "What is the best time of year for hiking in Mauritius?",
+          "answer": "The cooler, drier months of May to November are ideal for hiking. Trails can be slippery during the wet season (December to April) and some routes may be temporarily closed after heavy rain. We monitor conditions daily and will advise if a route needs to be adjusted."
+        },
+        {
+          "question": "How fit do I need to be for the full-day hikes?",
+          "answer": "Full-day hikes to major peaks such as Pieter Both or Le Morne Brabant require a good level of fitness and comfortable walking for 5–7 hours. If you are unsure, start with a half-day hike to assess your stamina, or contact us to discuss your fitness level before booking."
+        }
+      ]
+    },
+    "waterfalls-river-treks": {
+      "name": "Waterfalls & River Treks",
+      "pageTitle": "Waterfall Hikes & River Treks Mauritius",
+      "pageDescription": "Discover Mauritius's hidden waterfalls and jungle river treks — Tamarind Falls, Rochester Falls, 500ft Waterfall and more. Guided adventures with MauTravel.",
+      "heroSubtitle": "Follow wild rivers through tropical gorges, swim beneath thundering cascades, and discover the hidden natural wonders of Mauritius's lush interior — experiences that no beach excursion can match.",
+      "duration": "3 – 7 hours",
+      "difficulty": "Moderate",
+      "about": [
+        "Mauritius hides some of the Indian Ocean's most spectacular waterfalls and river gorges deep within its volcanic interior. MauTravel's waterfall and river trek experiences take you off the tourist trail and into landscapes of extraordinary natural beauty — thick jungle canopy, volcanic rock formations, and crystal-clear freshwater pools.",
+        "The undisputed highlight of any waterfall itinerary is the Tamarind Falls — also known as the 7 Cascades — a series of seven magnificent waterfalls cascading through a steep, forested gorge in the Tamarin area. Other unmissable destinations include the dramatically flat ledge of Rochester Falls, the powerful 500ft Waterfall, the tranquil Alexandra Falls, and the serene Eau Bleue and Léon waterfalls tucked away in the island's southern highlands.",
+        "Every trek is led by experienced local guides who know the safest river crossings, the best swimming pools, and the hidden viewpoints that make each journey unique. These are genuine wilderness experiences — not tourist paths — so you can expect mud, water, and memories that last a lifetime."
+      ],
+      "highlights": [
+        {
+          "label": "Duration",
+          "value": "3 – 7 hours depending on route"
+        },
+        {
+          "label": "Locations",
+          "value": "Multiple sites across Mauritius"
+        },
+        {
+          "label": "Group size",
+          "value": "Private groups (2–10 pax)"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Moderate — some river crossings"
+        },
+        {
+          "label": "Guide",
+          "value": "Experienced local trail guide"
+        },
+        {
+          "label": "Safety",
+          "value": "Safety briefing & proper footwear required"
+        }
+      ],
+      "included": [
+        "Certified local guide",
+        "Safety briefing and route notes",
+        "Bottled water throughout",
+        "Hotel transfers",
+        "Swimming stop at waterfalls"
+      ],
+      "notIncluded": [
+        "Water shoes or trekking sandals (essential — rental available)",
+        "Change of clothing for after swimming",
+        "Travel insurance",
+        "Personal snacks and meals"
+      ],
+      "pricing": [
+        {
+          "name": "Single Waterfall Trek",
+          "price": "Contact for price",
+          "description": "A half-day guided trek to one major waterfall with swimming — perfect for families or those short on time.",
+          "features": [
+            "Certified guide",
+            "Water & transfers",
+            "Swimming stop",
+            "3–4 hours"
+          ]
+        },
+        {
+          "name": "Tamarind 7 Cascades",
+          "price": "Contact for price",
+          "description": "The signature waterfall experience — a full traverse of all seven cascades in the Tamarin gorge.",
+          "features": [
+            "7 waterfall traverse",
+            "Full day guided",
+            "Multiple swims",
+            "Packed lunch",
+            "Private group"
+          ]
+        },
+        {
+          "name": "Multi-Waterfall Day",
+          "price": "Contact for price",
+          "description": "Visit two or three different waterfall sites in one day for the ultimate Mauritius waterfall experience.",
+          "features": [
+            "2–3 waterfall sites",
+            "Custom routing",
+            "Private vehicle",
+            "Full day",
+            "Lunch included"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How difficult are the river treks?",
+          "answer": "Most waterfall treks are rated moderate — they involve walking on uneven terrain, crossing streams, and scrambling over rocks. Participants should be reasonably fit and comfortable on rough ground. We do not recommend these treks for guests with serious mobility issues."
+        },
+        {
+          "question": "What footwear should I wear?",
+          "answer": "Water shoes or sturdy trekking sandals with grip are essential. Regular trainers are not suitable as they will get wet and can become slippery. If you don't have suitable footwear, please let us know and we can advise on rental options."
+        },
+        {
+          "question": "Is it safe to swim in the waterfalls?",
+          "answer": "Yes — we only swim at locations that our guides have assessed as safe. We avoid swimming during or immediately after heavy rainfall when currents can be stronger. Your guide will assess conditions on the day and make the final decision on swimming."
+        },
+        {
+          "question": "Can children participate?",
+          "answer": "Children aged 8 and above can join most waterfall treks with a parent or guardian. Some more challenging routes are adult-only. Please advise us of children's ages when booking so we can recommend the most suitable experience."
+        },
+        {
+          "question": "What is the best waterfall to visit in Mauritius?",
+          "answer": "Tamarind Falls (7 Cascades) is widely considered the most spectacular and is our most popular trek. Rochester Falls is the easiest and most accessible, making it great for families. The 500ft Waterfall offers the most dramatic single cascade. We can recommend the best option for your group."
+        }
+      ]
+    },
+    "7-caves-exploration": {
+      "name": "7 Caves Exploration",
+      "pageTitle": "7 Caves Exploration Mauritius | Volcanic Lava Tube Adventure | MauTravel",
+      "pageDescription": "Discover the hidden volcanic lava tubes of Mauritius on a guided 7 Caves Exploration. Journey through ancient underground chambers, spectacular rock formations and geological wonders. Book with MauTravel.",
+      "heroSubtitle": "Journey beneath the surface and discover the hidden volcanic world of Mauritius — ancient lava tubes, dramatic underground chambers, and geological wonders that most visitors never see.",
+      "duration": "3 – 4 hours",
+      "difficulty": "Easy to Moderate",
+      "about": [
+        "Beneath the lush surface of Mauritius lies a geological underworld of extraordinary beauty. Formed millions of years ago during periods of intense volcanic activity, the island's lava tubes are among its most remarkable and least-known natural treasures. The 7 Caves Exploration takes you deep into this hidden world — a series of interconnected volcanic tunnels and chambers that wind through ancient rock formations shaped by rivers of molten lava long before human eyes ever saw them.",
+        "Walking through these underground passages is a genuinely immersive experience. The cave walls reveal layer upon layer of volcanic history — smooth lava flows, dramatic stalactite formations, and rock textures in striking shades of black, red and ochre. Your expert local guide brings the geology to life, explaining how each chamber was formed and what it tells us about the volcanic origins of the island. It is a rare opportunity to understand Mauritius not just as a tropical paradise, but as a place of extraordinary geological significance.",
+        "The 7 Caves Exploration is designed to be accessible to a wide range of guests — no previous caving or climbing experience is required. The pace is relaxed and the route is carefully chosen to balance discovery with safety. Whether you are a curious family, a couple seeking something beyond the beach, or a dedicated nature lover, this underground adventure will be one of the most memorable and unexpected highlights of your time in Mauritius."
+      ],
+      "highlights": [
+        {
+          "label": "Duration",
+          "value": "3 – 4 hours"
+        },
+        {
+          "label": "Location",
+          "value": "North-East Mauritius"
+        },
+        {
+          "label": "Group size",
+          "value": "Small private groups"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Easy to Moderate"
+        },
+        {
+          "label": "Guide",
+          "value": "Expert local geologist guide"
+        },
+        {
+          "label": "Safety",
+          "value": "Full briefing & equipment"
+        }
+      ],
+      "included": [
+        "Expert local guide with geological knowledge",
+        "Full safety briefing before entry",
+        "Safety helmet and head torch",
+        "Geological commentary throughout",
+        "Photography assistance",
+        "Hotel transfers (available on request)"
+      ],
+      "notIncluded": [
+        "Closed-toe shoes (essential — sandals not permitted)",
+        "Travel insurance (strongly recommended)",
+        "Personal food and drinks",
+        "Professional photography equipment"
+      ],
+      "pricing": [
+        {
+          "name": "Guided Cave Exploration",
+          "price": "Contact for price",
+          "description": "A fully guided 3–4 hour exploration of all 7 volcanic caves with expert geological commentary.",
+          "features": [
+            "Expert guide",
+            "Safety helmet & torch",
+            "All 7 caves",
+            "Photography stops",
+            "Geological insights"
+          ]
+        },
+        {
+          "name": "Private Group Tour",
+          "price": "Contact for price",
+          "description": "An exclusive private exploration for your group — ideal for families, couples and small parties.",
+          "features": [
+            "Private guide",
+            "Flexible pace",
+            "Custom photography stops",
+            "Dedicated group experience",
+            "Hotel transfers"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is the cave exploration safe?",
+          "answer": "Yes. The 7 Caves tour is fully guided by an experienced local expert and is suitable for beginners. A comprehensive safety briefing is given before entry, and helmets and head torches are provided. The route has been carefully selected to offer a genuine underground experience while maintaining the highest safety standards throughout."
+        },
+        {
+          "question": "Can children join the exploration?",
+          "answer": "Yes, children aged 8 and above can participate with a parent or guardian. The route is accessible for reasonably active children and the pace is always set to suit the group. Please advise us of children's ages when booking so we can prepare accordingly and confirm the most suitable route."
+        },
+        {
+          "question": "Do I need previous caving experience?",
+          "answer": "No previous experience is required at all. The 7 Caves Exploration is designed for first-time visitors to underground environments. Your guide will walk you through every step and the pace is entirely relaxed — there is no rushing, no climbing, and no tight passages that require special skills."
+        },
+        {
+          "question": "What should I wear?",
+          "answer": "Comfortable, fitted clothing that you don't mind getting dusty is ideal. Closed-toe shoes with a good grip are essential — sandals, open shoes and flip-flops are not permitted for safety reasons. The temperature inside the caves is slightly cooler than outside, so a light layer is a good idea. Helmets are provided."
+        },
+        {
+          "question": "Is photography allowed inside the caves?",
+          "answer": "Absolutely — photography is warmly encouraged. Smartphones and compact cameras work well inside the caves. Your guide will point out the best formations and lighting angles for memorable shots. Please take care not to touch or lean on geological formations when positioning for photographs."
+        },
+        {
+          "question": "What is the best time of day to visit?",
+          "answer": "The caves can be explored in the morning or afternoon, and conditions inside remain consistent throughout the day regardless of external weather. Morning departures are popular for guests who wish to combine the cave exploration with another activity in the afternoon. We will confirm the ideal departure time when you book."
+        }
+      ]
+    },
+    "wild-south-experience": {
+      "name": "The Wild South Experience",
+      "pageTitle": "Wild South Mauritius — Gris Gris, Natural Pools & Hidden Beaches",
+      "pageDescription": "Explore the dramatic and untouched southern coast of Mauritius — Gris Gris cliffs, natural rock pools, hidden beaches and scenic viewpoints. Book with MauTravel.",
+      "heroSubtitle": "Discover the wild, untouched southern coastline of Mauritius — volcanic cliffs, crashing ocean waves, secret rock pools, and hidden beaches that the resort crowds never find.",
+      "duration": "Full Day (7 – 9 hours)",
+      "about": [
+        "The south coast of Mauritius is a world apart from the calm lagoons and resort hotels that most visitors experience. Here, the Indian Ocean meets the island with full force — dramatic volcanic cliffs, powerful surf, and rugged coastal scenery that feels genuinely wild and untouched. The Wild South Experience is our signature full-day exploration of this extraordinary coastline.",
+        "The centrepiece is Gris Gris, arguably the most dramatic viewpoint on the entire island — a clifftop promontory where waves crash spectacularly against black volcanic rock while the ocean stretches uninterrupted to Antarctica. From here, the journey continues along the southern coast, discovering natural rock pools carved by centuries of wave action, secret beaches accessible only by foot, and sweeping panoramic viewpoints over the ocean and the highlands.",
+        "Unlike a standard island tour, the Wild South Experience is designed for guests who want to move beyond the postcard scenes and encounter Mauritius in its most raw, authentic form. Your guide brings deep local knowledge of every hidden path, viewpoint and pool along the route — places that simply aren't in any guidebook."
+      ],
+      "highlights": [
+        {
+          "label": "Duration",
+          "value": "Full day (7 – 9 hours)"
+        },
+        {
+          "label": "Route",
+          "value": "Southern coastal circuit"
+        },
+        {
+          "label": "Group size",
+          "value": "Private groups (2–8 pax)"
+        },
+        {
+          "label": "Highlights",
+          "value": "Gris Gris, natural pools, hidden beaches"
+        },
+        {
+          "label": "Guide",
+          "value": "Expert local coastal guide"
+        },
+        {
+          "label": "Transport",
+          "value": "Private air-conditioned vehicle"
+        }
+      ],
+      "included": [
+        "Expert local guide",
+        "Private air-conditioned vehicle",
+        "Hotel pick-up and drop-off",
+        "Bottled water throughout",
+        "Packed lunch or lunch stop at local restaurant"
+      ],
+      "notIncluded": [
+        "Swimming costume and towel (for natural pools)",
+        "Sturdy footwear for rocky terrain",
+        "Travel insurance",
+        "Personal purchases at local shops"
+      ],
+      "pricing": [
+        {
+          "name": "Wild South Day",
+          "price": "Contact for price",
+          "description": "A full-day private exploration of the southern coast with a knowledgeable local guide.",
+          "features": [
+            "Private guide",
+            "Air-con vehicle",
+            "Hotel transfers",
+            "Bottled water",
+            "7–9 hour experience"
+          ]
+        },
+        {
+          "name": "South & Highlands Combo",
+          "price": "Contact for price",
+          "description": "Combine the Wild South coastal route with the Black River Gorges highland scenery for a comprehensive southern day.",
+          "features": [
+            "Wild South route",
+            "Black River Gorges",
+            "Full day",
+            "Lunch included",
+            "Private group"
+          ]
+        },
+        {
+          "name": "Photography Special",
+          "price": "Contact for price",
+          "description": "A photographer-focused version of the Wild South tour, timed for golden-hour light at Gris Gris and the coastal cliffs.",
+          "features": [
+            "Dawn or dusk timing",
+            "Extended cliff stops",
+            "Guide photography knowledge",
+            "Private group only"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is the Wild South suitable for families with young children?",
+          "answer": "The Wild South Experience is best suited to adults and older children (10+) due to the uneven cliff-top terrain near Gris Gris and some of the natural pool locations. The vehicle-based sections are suitable for all ages. Please contact us to discuss your group composition."
+        },
+        {
+          "question": "Can we swim at the natural pools?",
+          "answer": "Yes — the natural rock pools along the southern coast are sheltered enough for safe swimming on most days. However, the open coastline at Gris Gris is not suitable for swimming due to strong currents and waves. Your guide will always assess conditions before any water entry."
+        },
+        {
+          "question": "What is the road access like on the south coast?",
+          "answer": "Most of the southern coastal route is accessed via good tar roads. Some hidden locations involve short walks on rough coastal tracks. Our vehicles are well-maintained and suitable for the terrain. We recommend wearing comfortable shoes for the walking sections."
+        },
+        {
+          "question": "Is this different from a standard South Tour?",
+          "answer": "Yes, significantly. A standard South Tour typically focuses on popular stops like Chamarel Coloured Earths, Le Morne and rum distilleries. The Wild South Experience focuses exclusively on the raw coastal scenery, hidden natural spots and less-visited locations that most tour operators don't include."
+        },
+        {
+          "question": "What time does the tour start and finish?",
+          "answer": "The tour typically departs between 7:30–8:30am from your hotel and returns in the late afternoon (around 4:00–5:00pm). Departure times can be adjusted for photographers wishing to catch early morning light. Exact times are confirmed upon booking."
+        }
+      ]
+    },
+    "mangrove-kayaking": {
+      "name": "Mangrove Kayaking",
+      "pageTitle": "Mangrove Kayaking Mauritius — Guided Coastal Kayak Tours",
+      "pageDescription": "Paddle through Mauritius's ancient mangrove forests and sheltered coastal channels on a guided kayak tour. A peaceful, immersive nature experience for all abilities. Book with MauTravel.",
+      "heroSubtitle": "Glide silently through ancient mangrove forests and tranquil coastal channels, discovering Mauritius's extraordinary wetland ecosystems and the hidden wildlife that calls them home.",
+      "duration": "2 – 3 hours",
+      "about": [
+        "Mauritius's mangrove forests are among the island's most extraordinary and least-visited natural treasures. These protected coastal wetlands — where the sea meets the land in a tangle of roots, shallow channels and wildlife-rich water — offer a completely different side of the island from the resort beaches most visitors experience.",
+        "MauTravel's guided mangrove kayaking experience takes you through sheltered channels on a sit-on-top kayak, accompanied by a knowledgeable local guide who will point out the birds, fish and marine life that inhabit these fragile ecosystems. The pace is entirely gentle — this is not an adrenaline sport but a peaceful, immersive encounter with nature.",
+        "No prior kayaking experience is needed. The routes are calm and sheltered, suitable for families, couples and solo travellers of all fitness levels. A short paddling lesson is given before you set off, and the guide accompanies the group throughout to ensure everyone is comfortable and enjoying the experience at their own pace."
+      ],
+      "highlights": [
+        {
+          "label": "Duration",
+          "value": "2 – 3 hours"
+        },
+        {
+          "label": "Location",
+          "value": "West coast mangroves, Mauritius"
+        },
+        {
+          "label": "Group size",
+          "value": "Small private groups"
+        },
+        {
+          "label": "Experience",
+          "value": "No paddling experience needed"
+        },
+        {
+          "label": "Suitable for",
+          "value": "All ages & abilities"
+        },
+        {
+          "label": "Safety",
+          "value": "Life jackets & certified guide"
+        }
+      ],
+      "included": [
+        "Sit-on-top kayak and paddle",
+        "Life jacket and safety equipment",
+        "Certified local guide",
+        "Paddling technique briefing",
+        "Light refreshments"
+      ],
+      "notIncluded": [
+        "Hotel transfers (available on request)",
+        "Wetsuit (not required — water is warm)",
+        "Travel insurance",
+        "Personal items (sunscreen, towel, hat)"
+      ],
+      "pricing": [
+        {
+          "name": "Guided Kayak Tour",
+          "price": "Contact for price",
+          "description": "A 2–3 hour guided paddle through Mauritius's mangrove channels with a certified local guide.",
+          "features": [
+            "Kayak & paddle provided",
+            "Life jacket included",
+            "Certified guide",
+            "Nature commentary",
+            "Light refreshments"
+          ]
+        },
+        {
+          "name": "Private Group Tour",
+          "price": "Contact for price",
+          "description": "An exclusive private kayaking experience for your group — ideal for families and couples.",
+          "features": [
+            "Private guide",
+            "Dedicated kayaks for your group",
+            "Flexible pace",
+            "Personalised route",
+            "Light refreshments"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need kayaking experience?",
+          "answer": "Not at all. Our mangrove routes follow calm, sheltered channels that are ideal for first-time paddlers. Your guide will give a short technique lesson before you set off and will paddle alongside you throughout the experience."
+        },
+        {
+          "question": "Is it suitable for children?",
+          "answer": "Yes — mangrove kayaking is one of our most family-friendly experiences. Children aged 6 and above can paddle in tandem kayaks with a parent. Life jackets are provided in all sizes. Please let us know children's ages when booking so we can prepare the right equipment."
+        },
+        {
+          "question": "What should I wear?",
+          "answer": "Wear light, comfortable clothing that you don't mind getting slightly wet. A hat, sunglasses, and reef-safe sunscreen are strongly recommended. Secure footwear (water shoes or trainers) is preferred over sandals or flip-flops."
+        },
+        {
+          "question": "What wildlife might we see?",
+          "answer": "Mauritius's mangrove channels are home to a variety of bird species including herons, kingfishers and egrets, as well as small fish, crabs and other marine life visible in the shallow clear water. Sightings vary by season and time of day — early morning paddles tend to be particularly rewarding for wildlife."
+        },
+        {
+          "question": "What time of day is best for kayaking?",
+          "answer": "Early morning is ideal — the water is calmest, the light is beautiful, and wildlife activity is at its peak. Afternoon tours are also available and offer a different, equally enjoyable experience. We will confirm the best departure time for your group when booking."
+        }
+      ]
+    },
+    "dolphin-encounter": {
+      "name": "Dolphin Encounter",
+      "pageTitle": "Dolphin Encounter Mauritius — Swim with Wild Dolphins",
+      "pageDescription": "Swim with wild dolphins in Tamarin Bay, Mauritius. An unforgettable ethical wildlife encounter in the warm Indian Ocean. Book with MauTravel.",
+      "heroSubtitle": "Experience one of the most magical wildlife encounters in the Indian Ocean — swimming alongside pods of wild spinner dolphins in the warm, crystal-clear waters of Tamarin Bay.",
+      "duration": "2 – 4 hours",
+      "about": [
+        "Mauritius is one of very few places in the world where you can swim with wild dolphins in their natural habitat. Tamarin Bay on the west coast is home to resident pods of spinner dolphins, who gather in the bay during the early morning hours before heading out to sea.",
+        "MauTravel's dolphin encounter is an ethical, respectful wildlife experience. We work exclusively with operators who follow strict guidelines to ensure minimal disturbance to the dolphins. Guests enter the water quietly and allow the dolphins to approach naturally — there is no chasing, no touching, and no captivity.",
+        "The experience typically begins at dawn, when the dolphins are most active near shore. You'll travel by boat to find the pod, then gently slip into the water to observe and swim alongside them. It's a moment of pure magic that travellers describe as a life highlight."
+      ],
+      "highlights": [
+        {
+          "label": "Duration",
+          "value": "2 – 4 hours"
+        },
+        {
+          "label": "Location",
+          "value": "Tamarin Bay, west coast"
+        },
+        {
+          "label": "Group size",
+          "value": "Small groups only"
+        },
+        {
+          "label": "Best time",
+          "value": "Early morning departure"
+        },
+        {
+          "label": "Ethics",
+          "value": "Wild & non-captive dolphins"
+        },
+        {
+          "label": "Safety",
+          "value": "Life jackets & safety briefing"
+        }
+      ],
+      "included": [
+        "Boat transfer to dolphin location",
+        "Snorkelling mask and fins",
+        "Life jacket",
+        "Guide and safety briefing",
+        "Light refreshments on board"
+      ],
+      "notIncluded": [
+        "Hotel transfers (available on request)",
+        "Professional underwater photography",
+        "Travel insurance",
+        "Wetsuit (rental available)"
+      ],
+      "pricing": [
+        {
+          "name": "Standard",
+          "price": "€XX per person",
+          "description": "Join a small shared boat for the dolphin encounter experience.",
+          "features": [
+            "Shared boat",
+            "Snorkelling equipment",
+            "Guide included"
+          ]
+        },
+        {
+          "name": "Family Pack",
+          "price": "€XXX (up to 4)",
+          "description": "A dedicated family boat for a more intimate experience.",
+          "features": [
+            "Semi-private boat",
+            "Family guide",
+            "Child-friendly briefing",
+            "Refreshments"
+          ]
+        },
+        {
+          "name": "Private Charter",
+          "price": "From €XXX",
+          "description": "An exclusive private boat for your group — the ultimate dolphin experience.",
+          "features": [
+            "Private boat & crew",
+            "Flexible duration",
+            "Snorkelling equipment",
+            "Refreshments",
+            "Photo opportunity"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is it guaranteed we'll see dolphins?",
+          "answer": "While dolphins are resident in Tamarin Bay and sightings are very frequent, we cannot guarantee encounters as these are wild animals. In the rare event of no dolphin sighting, we'll discuss options including a partial refund or alternative activity."
+        },
+        {
+          "question": "Can non-swimmers participate?",
+          "answer": "Non-swimmers can join the boat trip and observe from above the water, but will not be able to swim with the dolphins. Life jackets are provided for all guests on board."
+        },
+        {
+          "question": "Is this suitable for children?",
+          "answer": "Yes, children aged 5 and above can participate. The experience is gentle and suitable for families. Children must be accompanied by an adult in the water."
+        },
+        {
+          "question": "What time does the tour depart?",
+          "answer": "The tour typically departs at sunrise (around 6:00–7:00am) when dolphins are most active near shore. Exact departure times will be confirmed when you book."
+        },
+        {
+          "question": "Are the dolphins wild or captive?",
+          "answer": "The dolphins are completely wild and free. We work only with ethical operators who respect the dolphins' natural behaviour. There is no feeding, no touching, and no captivity involved."
+        }
+      ]
+    },
+    "parasailing": {
+      "name": "Parasailing",
+      "pageTitle": "Parasailing Mauritius — Fly Above the Indian Ocean",
+      "pageDescription": "Soar high above Mauritius's stunning lagoon on a parasailing adventure. Solo, tandem or triple options available. Book with MauTravel.",
+      "heroSubtitle": "Experience the thrill of flying high above the Indian Ocean, with breathtaking panoramic views of Mauritius's turquoise lagoon, white beaches and dramatic coastline stretching below you.",
+      "duration": "15 – 20 minutes",
+      "about": [
+        "Parasailing in Mauritius is an exhilarating experience that combines the thrill of flying with some of the most beautiful scenery in the Indian Ocean. Tethered safely to a modern parachute and towed by a professional motorboat, you'll lift gently off the water and ascend to heights of up to 150 metres.",
+        "From your vantage point in the sky, the views are nothing short of spectacular — the varied blues and greens of the lagoon, the white ribbon of beach stretching in both directions, and the volcanic peaks of the island's interior rising behind you. It's a perspective of Mauritius that you'll never forget.",
+        "Parasailing is available in solo, tandem (two people), and triple (three people) configurations, making it ideal for couples, families, and friends. The take-off and landing both happen from the boat, so you don't even need to get wet — a great option for non-swimmers."
+      ],
+      "highlights": [
+        {
+          "label": "Flight time",
+          "value": "15 – 20 minutes airborne"
+        },
+        {
+          "label": "Location",
+          "value": "West coast, Mauritius"
+        },
+        {
+          "label": "Options",
+          "value": "Solo, Tandem or Triple"
+        },
+        {
+          "label": "Height",
+          "value": "Up to 150 metres altitude"
+        },
+        {
+          "label": "Suitable for",
+          "value": "Non-swimmers welcome"
+        },
+        {
+          "label": "Safety",
+          "value": "Modern harness & equipment"
+        }
+      ],
+      "included": [
+        "Parasailing flight (15–20 minutes)",
+        "Safety harness and life jacket",
+        "Boat crew and professional operator",
+        "Safety briefing before take-off"
+      ],
+      "notIncluded": [
+        "Hotel transfers",
+        "Action camera rental",
+        "Travel insurance",
+        "Photos and videos (available on request)"
+      ],
+      "pricing": [
+        {
+          "name": "Solo",
+          "price": "€XX per person",
+          "description": "Take to the skies alone — full 15-minute solo flight.",
+          "features": [
+            "Solo flight",
+            "Safety harness",
+            "Boat crew"
+          ]
+        },
+        {
+          "name": "Tandem",
+          "price": "€XX per person",
+          "description": "Fly together — perfect for couples and best friends.",
+          "features": [
+            "Side-by-side flight",
+            "Shared harness system",
+            "Boat crew",
+            "Photo opportunity"
+          ]
+        },
+        {
+          "name": "Triple",
+          "price": "€XX per person",
+          "description": "Three up in the air at once — the most fun you'll have on holiday.",
+          "features": [
+            "Triple flight configuration",
+            "All safety equipment",
+            "Longer ride time",
+            "Ideal for families"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need to be able to swim?",
+          "answer": "No swimming ability is required. Take-off and landing both take place from the boat — you don't need to enter the water. Life jackets are provided for all passengers."
+        },
+        {
+          "question": "Is there a weight limit?",
+          "answer": "Yes, weight and age restrictions apply for safety reasons. Please contact us with your details and we'll confirm suitability before booking."
+        },
+        {
+          "question": "Is it scary?",
+          "answer": "Most guests are surprised by how smooth and peaceful parasailing is. The ascent is gradual and the flight itself is quiet and serene. Many people say it's far less frightening than they expected!"
+        },
+        {
+          "question": "Can I parasail if I'm pregnant?",
+          "answer": "Parasailing is not recommended for pregnant guests. Please contact us to discuss alternative activities."
+        },
+        {
+          "question": "What should I wear?",
+          "answer": "Wear comfortable clothing and secure any loose items. Avoid flip-flops for safety reasons — closed shoes or bare feet are better. A change of clothes is useful as you may get splashed on the boat."
+        }
+      ]
+    },
+    "underwater-walk": {
+      "name": "Underwater Walk",
+      "pageTitle": "Underwater Walk Mauritius — Sea Walk Experience",
+      "pageDescription": "Walk on the seabed in Mauritius with a pressurised helmet — discover vibrant coral reefs and tropical fish. No swimming experience needed. Book with MauTravel.",
+      "heroSubtitle": "Walk on the ocean floor and discover Mauritius's extraordinary underwater world — no diving experience needed. Simply descend in a pressurised helmet and meet the tropical fish face-to-face.",
+      "duration": "30 – 45 minutes",
+      "about": [
+        "The Underwater Walk — also known as a Sea Walk — is one of Mauritius's most unique and accessible water experiences. Unlike scuba diving, there's no training or swimming ability required. Guests of all ages and swimming abilities can participate.",
+        "Wearing a specially designed pressurised helmet that maintains air at a comfortable level, you descend a short ladder into the warm, clear waters and walk gently on the sandy seabed. The world around you transforms — tropical fish, sea urchins, and vibrant coral formations surround you in a living aquarium.",
+        "The descent is gradual and completely safe, accompanied by a professional underwater guide at all times. Most guests are amazed by how natural and comfortable the experience feels — many describe it as one of the highlights of their entire Mauritius holiday."
+      ],
+      "highlights": [
+        {
+          "label": "Duration",
+          "value": "30 – 45 minutes"
+        },
+        {
+          "label": "Location",
+          "value": "Blue Bay, south-east Mauritius"
+        },
+        {
+          "label": "Min / Max age",
+          "value": "8 – 60 years"
+        },
+        {
+          "label": "Swimming required",
+          "value": "No swimming needed"
+        },
+        {
+          "label": "Guide",
+          "value": "Certified underwater guide"
+        },
+        {
+          "label": "Equipment",
+          "value": "Pressurised safety helmet"
+        }
+      ],
+      "included": [
+        "Pressurised underwater helmet",
+        "Certified underwater guide",
+        "Safety briefing before descent",
+        "Underwater fish feeding",
+        "Basic photos by guide"
+      ],
+      "notIncluded": [
+        "Professional underwater photography package (available on request)",
+        "Hotel transfers",
+        "Travel insurance",
+        "Wetsuit (not required — water is warm)"
+      ],
+      "pricing": [
+        {
+          "name": "Standard",
+          "price": "€XX per person",
+          "description": "Individual sea walk with certified guide.",
+          "features": [
+            "30–45 minute descent",
+            "Guide included",
+            "Safety equipment",
+            "Fish feeding"
+          ]
+        },
+        {
+          "name": "With Photos",
+          "price": "€XX per person",
+          "description": "The same experience plus a professional underwater photo package.",
+          "features": [
+            "30–45 minute descent",
+            "Underwater photo set",
+            "Digital delivery",
+            "Guide included"
+          ]
+        },
+        {
+          "name": "Family Pack",
+          "price": "€XXX (up to 4)",
+          "description": "A dedicated group descent for families — memorable for all ages.",
+          "features": [
+            "Family group descent",
+            "Dedicated guide",
+            "Photo package",
+            "Flexible timing"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need to know how to swim?",
+          "answer": "No swimming ability is required. The underwater walk uses a pressurised helmet that keeps your head completely dry throughout the descent. You walk on the seabed rather than swimming."
+        },
+        {
+          "question": "Is it suitable for people with claustrophobia?",
+          "answer": "The helmet is open at the bottom and you are always in a well-lit, open environment. However, if you have significant claustrophobia, we recommend discussing this with us before booking."
+        },
+        {
+          "question": "Is it safe for older participants?",
+          "answer": "The sea walk is suitable for adults up to approximately 60 years. Guests with heart conditions, ear problems, or respiratory issues should consult their doctor before participating."
+        },
+        {
+          "question": "How deep do we go underwater?",
+          "answer": "The descent is approximately 3–4 metres below the surface — deep enough to fully immerse you in the reef ecosystem while remaining safe and comfortable."
+        },
+        {
+          "question": "Will we see tropical fish?",
+          "answer": "Yes — the sea walk site is located above a vibrant coral reef teeming with tropical fish, sea urchins, starfish and other marine life. Fish feeding is included to attract fish close to you."
+        }
+      ]
+    }
+  }
+}

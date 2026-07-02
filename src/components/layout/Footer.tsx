@@ -1,5 +1,6 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { NAV_LINKS } from "@/lib/constants";
 import { getWhatsAppUrl, CONTACT_EMAIL, CONTACT_PHONE } from "@/lib/whatsapp";
 
@@ -11,6 +12,8 @@ const SOCIAL_LINKS = [
 ];
 
 export function Footer() {
+  const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
   return (
     <footer className="bg-navy text-white">
       <div className="container-xl pt-16 pb-8">
@@ -24,8 +27,7 @@ export function Footer() {
               <span className="font-heading font-bold text-xl text-white">MauTravel</span>
             </Link>
             <p className="text-white/70 text-sm leading-relaxed mb-6">
-              Mauritius&apos;s trusted Tour Operator. We craft extraordinary
-              travel experiences with passion, expertise and care.
+              {t("tagline")}
             </p>
             <div className="flex gap-3">
               {SOCIAL_LINKS.map((s) => (
@@ -46,7 +48,7 @@ export function Footer() {
           {/* Services */}
           <div>
             <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-widest">
-              Our Services
+              {t("servicesHeading")}
             </h3>
             <ul className="space-y-2">
               {NAV_LINKS.filter((l) => l.href !== "/" && l.href !== "/contact" && l.href !== "/reviews").map((link) => (
@@ -55,7 +57,7 @@ export function Footer() {
                     href={link.href}
                     className="text-white/70 hover:text-gold text-sm transition-colors"
                   >
-                    {link.label}
+                    {tNav(link.key)}
                   </Link>
                 </li>
               ))}
@@ -65,15 +67,15 @@ export function Footer() {
           {/* Company */}
           <div>
             <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-widest">
-              Company
+              {t("companyHeading")}
             </h3>
             <ul className="space-y-2">
               {[
-                { label: "Reviews", href: "/reviews" },
-                { label: "Contact", href: "/contact" },
-                { label: "FAQs", href: "/faqs" },
-                { label: "Privacy Policy", href: "/privacy-policy" },
-                { label: "Terms & Conditions", href: "/terms" },
+                { label: t("reviews"), href: "/reviews" },
+                { label: t("contact"), href: "/contact" },
+                { label: t("faqs"), href: "/faqs" },
+                { label: t("privacyPolicy"), href: "/privacy-policy" },
+                { label: t("terms"), href: "/terms" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -90,7 +92,7 @@ export function Footer() {
           {/* Contact */}
           <div>
             <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-widest">
-              Contact Us
+              {t("contactHeading")}
             </h3>
             <ul className="space-y-3">
               <li>
@@ -101,7 +103,7 @@ export function Footer() {
                   className="flex items-start gap-3 text-white/70 hover:text-gold text-sm transition-colors group"
                 >
                   <MessageCircle className="w-4 h-4 mt-0.5 shrink-0 group-hover:text-gold" />
-                  WhatsApp Us
+                  {t("whatsappUs")}
                 </a>
               </li>
               <li>
@@ -124,7 +126,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3 text-white/70 text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
-                Mauritius, Indian Ocean
+                {t("addressLine")}
               </li>
             </ul>
           </div>
@@ -133,17 +135,17 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/50 text-sm">
-            © {new Date().getFullYear()} MauTravel. All rights reserved.
+            © {new Date().getFullYear()} MauTravel. {t("rights")}
           </p>
           <div className="flex gap-6">
             <Link href="/privacy-policy" className="text-white/50 hover:text-white/80 text-sm transition-colors">
-              Privacy Policy
+              {t("privacyPolicy")}
             </Link>
             <Link href="/terms" className="text-white/50 hover:text-white/80 text-sm transition-colors">
-              Terms & Conditions
+              {t("terms")}
             </Link>
             <Link href="/faqs" className="text-white/50 hover:text-white/80 text-sm transition-colors">
-              FAQs
+              {t("faqs")}
             </Link>
           </div>
         </div>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 const INITIAL_COUNT = 8; // 1 banner + 7 squares visible by default
@@ -12,6 +13,7 @@ interface Props {
 }
 
 export function ActivityGallery({ images, name }: Props) {
+  const t = useTranslations("activities");
   const [showAll, setShowAll] = useState(false);
 
   const visible = showAll ? images : images.slice(0, INITIAL_COUNT);
@@ -56,9 +58,9 @@ export function ActivityGallery({ images, name }: Props) {
             className="inline-flex items-center gap-2 bg-navy hover:bg-navy/90 text-white font-semibold px-6 py-3 rounded-full transition-all duration-200 text-sm hover:-translate-y-0.5 shadow-sm"
           >
             {showAll ? (
-              <>Show Less <ChevronUp className="w-4 h-4" /></>
+              <>{t("showLessPhotos")} <ChevronUp className="w-4 h-4" /></>
             ) : (
-              <>Show {hidden} More Photos <ChevronDown className="w-4 h-4" /></>
+              <>{t("showMorePhotos", { n: hidden })} <ChevronDown className="w-4 h-4" /></>
             )}
           </button>
         </div>

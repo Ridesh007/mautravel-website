@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { CheckCircle2, Users, ChevronDown, ChevronUp } from "lucide-react";
 
 interface Props {
@@ -9,6 +10,7 @@ interface Props {
 }
 
 export function ActivityCardReadMore({ description, highlights, suitableFor }: Props) {
+  const t = useTranslations("activities");
   const [expanded, setExpanded] = useState(false);
   const hasExtra = !!(highlights?.length || suitableFor);
 
@@ -33,7 +35,7 @@ export function ActivityCardReadMore({ description, highlights, suitableFor }: P
           {suitableFor && (
             <p className="flex items-center gap-1.5 text-xs text-charcoal/50">
               <Users className="w-3.5 h-3.5" />
-              Suitable for: {suitableFor}
+              {t("suitableForLabel")}: {suitableFor}
             </p>
           )}
         </div>
@@ -45,9 +47,9 @@ export function ActivityCardReadMore({ description, highlights, suitableFor }: P
           className="text-xs text-gold font-semibold flex items-center gap-1 mb-4 hover:text-gold/80 transition-colors self-start"
         >
           {expanded ? (
-            <>Show less <ChevronUp className="w-3 h-3" /></>
+            <>{t("showLess")} <ChevronUp className="w-3 h-3" /></>
           ) : (
-            <>Read more <ChevronDown className="w-3 h-3" /></>
+            <>{t("readMore")} <ChevronDown className="w-3 h-3" /></>
           )}
         </button>
       )}

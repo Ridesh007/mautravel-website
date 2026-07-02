@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { MessageCircle } from "lucide-react";
 import { getBookingUrl, getQuoteUrl } from "@/lib/whatsapp";
 import { cn } from "@/lib/utils";
@@ -17,8 +18,10 @@ export function WhatsAppButton({
   className,
   label,
 }: WhatsAppButtonProps) {
+  const tNav = useTranslations("nav");
+  const tCommon = useTranslations("common");
   const href = variant === "book" ? getBookingUrl(service) : getQuoteUrl(service);
-  const defaultLabel = variant === "book" ? "Book via WhatsApp" : "Request a Quote";
+  const defaultLabel = variant === "book" ? tNav("bookViaWhatsapp") : tCommon("requestQuote");
 
   const sizeClasses = {
     sm: "text-sm px-4 py-2 gap-1.5",
