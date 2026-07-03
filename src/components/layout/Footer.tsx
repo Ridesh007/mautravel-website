@@ -4,11 +4,11 @@ import { Link } from "@/i18n/navigation";
 import { NAV_LINKS } from "@/lib/constants";
 import { getWhatsAppUrl, CONTACT_EMAIL, CONTACT_PHONE } from "@/lib/whatsapp";
 
-const SOCIAL_LINKS = [
-  { label: "TikTok", href: "https://tiktok.com/@mautravel", icon: "TK" },
+const SOCIAL_LINKS: { label: string; href: string | null; icon: string }[] = [
+  { label: "TikTok", href: "https://www.tiktok.com/@mautravel.premium", icon: "TK" },
   { label: "Instagram", href: "https://instagram.com/mautravel", icon: "IG" },
-  { label: "Facebook", href: "https://facebook.com/mautravel", icon: "FB" },
-  { label: "YouTube", href: "https://youtube.com/@mautravel", icon: "YT" },
+  { label: "Facebook", href: "https://www.facebook.com/share/p/1D3SmHdtsT/", icon: "FB" },
+  { label: "YouTube", href: null, icon: "YT" },
 ];
 
 export function Footer() {
@@ -30,18 +30,28 @@ export function Footer() {
               {t("tagline")}
             </p>
             <div className="flex gap-3">
-              {SOCIAL_LINKS.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={s.label}
-                  className="w-9 h-9 rounded-full bg-white/10 hover:bg-gold transition-colors flex items-center justify-center text-xs font-bold text-white"
-                >
-                  {s.icon}
-                </a>
-              ))}
+              {SOCIAL_LINKS.map((s) =>
+                s.href ? (
+                  <a
+                    key={s.label}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={s.label}
+                    className="w-9 h-9 rounded-full bg-white/10 hover:bg-gold transition-colors flex items-center justify-center text-xs font-bold text-white"
+                  >
+                    {s.icon}
+                  </a>
+                ) : (
+                  <span
+                    key={s.label}
+                    aria-label={s.label}
+                    className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-xs font-bold text-white cursor-default"
+                  >
+                    {s.icon}
+                  </span>
+                )
+              )}
             </div>
           </div>
 
