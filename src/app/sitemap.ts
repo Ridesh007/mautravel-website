@@ -7,6 +7,7 @@ const STATIC_PATHS = [
   "",
   "/airport-transfers",
   "/tours",
+  "/mauritius-holiday-package",
   "/activities",
   "/car-rental",
   "/events",

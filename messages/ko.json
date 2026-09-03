@@ -11,7 +11,8 @@
     "contact": "문의하기",
     "bookNow": "지금 예약",
     "bookViaWhatsapp": "WhatsApp으로 예약",
-    "toggleMenu": "메뉴 열기"
+    "toggleMenu": "메뉴 열기",
+    "mauritiusHoliday": "모리셔스 여행"
   },
   "footer": {
     "tagline": "모리셔스의 신뢰할 수 있는 여행사입니다. 열정과 전문성, 세심한 배려로 특별한 여행 경험을 만들어 드립니다.",
@@ -138,6 +139,10 @@
     "properties": {
       "title": "Properties in Mauritius",
       "description": "Hand-picked villas, apartments and beachfront properties in Mauritius. Book your perfect Mauritius accommodation with MauTravel."
+    },
+    "mauritiusPackage": {
+      "title": "완벽한 모리셔스 홀리데이 | 투어 & 액티비티 | MauTravel",
+      "description": "공항 이동, 북부 및 남부 투어, 카셀라, 일 오 세르프 섬, 패러글라이딩, 자연 체험 등이 포함된 세심하게 준비된 홀리데이 패키지로 MauTravel과 함께 모리셔스를 만나보세요."
     }
   },
   "home": {
@@ -278,7 +283,11 @@
       "eyebrow": "Events & Festivals",
       "title": "What's On in Mauritius",
       "description": "Discover the vibrant calendar of festivals, cultural events and seasonal celebrations that make Mauritius so special.",
-      "viewAll": "View All Events"
+      "viewAll": "View All Events",
+      "previousEvent": "Previous event",
+      "nextEvent": "Next event",
+      "carouselLabel": "Mauritius events carousel",
+      "goToEvent": "Go to event {n}"
     },
     "reviews": {
       "eyebrow": "Customer Reviews",
@@ -299,6 +308,18 @@
       "eyebrow": "Follow Us",
       "title": "Follow Our Mauritius Journey",
       "description": "Stay inspired with daily Mauritius content — travel tips, stunning scenery, and behind-the-scenes moments from island life."
+    },
+    "mauritiusHoliday": {
+      "eyebrow": "올인원 홀리데이 패키지",
+      "title": "모리셔스 여행, 즐길 준비 완료",
+      "description": "숙박, 공항 픽업, 프라이빗 투어, 섬 최고의 액티비티를 하나로 모은 여행 — 당신의 일정에 맞게 조정됩니다.",
+      "features": [
+        "숙박 옵션",
+        "공항 픽업 포함",
+        "프라이빗 투어 및 관광",
+        "액티비티 및 체험"
+      ],
+      "cta": "모리셔스 여행 살펴보기"
     }
   },
   "airportTransfers": {
@@ -1096,7 +1117,16 @@
       "faqTitle": "Frequently Asked Questions",
       "relatedEyebrow": "Explore More",
       "relatedTitle": "Customers Also Enjoyed",
-      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package.",
+      "guideEyebrow": "파일럿을 소개합니다",
+      "videoEyebrow": "체험 영상 보기",
+      "videoTitle": "패러글라이딩 체험 영상",
+      "videoComingSoon": "패러글라이딩 체험 영상 – 곧 공개",
+      "readMore": "더 보기",
+      "showLess": "간략히 보기",
+      "videoTapHint": "영상을 탭하여 전체 경험을 확인하세요",
+      "videoExpandAria": "전체 영상 보기",
+      "videoCloseAria": "영상 닫기"
     },
     "paragliding": {
       "name": "Tandem Paragliding in Mauritius",
@@ -1246,7 +1276,33 @@
           "question": "Can I take my phone or camera during the flight?",
           "answer": "We strongly recommend securing all personal belongings before take-off. Phones and cameras must be attached with a wrist strap or mounted on a secure harness. Your pilot will advise on what is safe to carry. A professional photo and video package may be available on request — please enquire when booking."
         }
-      ]
+      ],
+      "guide": {
+        "onlyPilotBadge": "모리셔스에서 유일하게 등록된 탠덤 패러글라이딩 파일럿",
+        "bio": [
+          "20년 이상의 경력과 비행에 대한 평생의 열정을 지닌, 모리셔스에서 유일하게 등록된 탠덤 패러글라이딩 파일럿과 함께 비행하세요.",
+          "그의 패러글라이딩 여정은 단 8세 때 시작되어, 수십 년에 걸쳐 하늘에서의 풍부한 경험으로 발전했습니다. 사고 없이 99회 이상의 성공적인 비행을 기록하며, 모든 비행에서 안전, 준비, 전문성, 그리고 손님의 편안함을 최우선으로 합니다.",
+          "Google 및 기타 소셜 플랫폼에서 높은 평점을 받고 있으며, 완전히 새로운 시각으로 모리셔스를 경험하고자 하는 손님들의 신뢰를 얻었습니다.",
+          "이륙부터 착륙까지, 여러분의 비행을 안전하고 편안하며 잊지 못할 경험으로 만드는 것을 최우선으로 하는 숙련된 파일럿이 함께합니다."
+        ],
+        "stats": [
+          {
+            "label": "20년 이상의 경력"
+          },
+          {
+            "label": "8세부터 비행 시작"
+          },
+          {
+            "label": "50회 이상의 성공적인 비행"
+          },
+          {
+            "label": "탁월한 고객 평점"
+          },
+          {
+            "label": "안전과 승객 편안함 최우선"
+          }
+        ]
+      }
     },
     "hiking-adventures": {
       "name": "Hiking Adventures",
@@ -2105,5 +2161,401 @@
         }
       ]
     }
+  },
+  "mauritiusPackage": {
+    "hero": {
+      "eyebrow": "당신만을 위한 완벽한 모리셔스 여행",
+      "titleLine1": "하나의 섬.",
+      "titleLine2": "무수한 추억.",
+      "description": "해안에서 해안까지, 모리셔스를 만나보세요. 상징적인 명소부터 숨겨진 절경, 야생동물, 청록빛 석호, 그리고 잊지 못할 모험까지—당신의 일정에 맞춰 설계된 하나의 여행으로 완성됩니다.",
+      "exploreCta": "여정 살펴보기",
+      "customizeCta": "내 여행 맞춤 설정하기",
+      "journey": {
+        "title": "당신의 여정",
+        "items": {
+          "north": "북부",
+          "wildSouth": "와일드 사우스",
+          "wildlife": "야생동물",
+          "westCoast": "서해안",
+          "ileAuxCerfs": "일 오 세르프 섬",
+          "adventure": "어드벤처"
+        }
+      }
+    },
+    "experience": {
+      "title": "모리셔스 체험",
+      "description": "이 패키지는 활기 넘치는 도시와 문화 명소부터 자연, 야생동물, 해변, 모험까지 진짜 모리셔스를 보여드리기 위해 설계되었습니다. 번거로운 준비는 저희가 맡을 테니, 편안하게 매 순간을 즐기세요.",
+      "journey": {
+        "north": "모리셔스 북부",
+        "wildSouth": "와일드 사우스",
+        "wildlifeNature": "야생동물과 자연",
+        "westCoast": "서해안",
+        "oceanExperiences": "해양 체험",
+        "adventureActivities": "모험 및 액티비티"
+      }
+    },
+    "airportTransfer": {
+      "eyebrow": "시작부터 끝까지 스트레스 없이",
+      "title": "공항 픽업 및 샌딩 서비스",
+      "description": "여행의 시작과 끝을 편안하게. SSR 국제공항에서 숙소까지 전용 차량으로 모셔다드리고, 출국 시 복귀 이동편도 준비해 드립니다.",
+      "benefits": {
+        "privateTransfer": "전용 차량",
+        "airportPickup": "공항 픽업",
+        "airportDropoff": "공항 샌딩",
+        "comfortableVehicle": "편안한 차량"
+      }
+    },
+    "discover": {
+      "north": {
+        "eyebrow": "북부 탐방",
+        "title": "문화, 정원, 그리고 해안의 삶",
+        "items": {
+          "pamplemousses": {
+            "name": "팜플레무스 식물원",
+            "description": "거대한 수련, 이국적인 식물, 향신료, 그리고 수백 년 된 고목들이 가득한 곳입니다."
+          },
+          "portLouis": {
+            "name": "포트루이스 & 코당 워터프론트",
+            "description": "수도 포트루이스를 둘러보며 다채로운 시장, 현지 문화, 활기찬 해안가 분위기를 만나보세요."
+          },
+          "grandBaie": {
+            "name": "그랑베",
+            "description": "아름다운 해변과 상점, 레스토랑이 늘어선 활기찬 해안 마을로, 청록빛 석호 전망이 일품입니다."
+          },
+          "capMalheureux": {
+            "name": "카프 말러",
+            "description": "상징적인 붉은 지붕 교회와 아름다운 해안 풍경, 그리고 숨 막히는 북부의 전망을 자랑합니다."
+          }
+        }
+      },
+      "south": {
+        "eyebrow": "경치가 아름다운 남부",
+        "title": "자연, 폭포, 그리고 야생의 풍경",
+        "items": {
+          "blackRiverGorges": {
+            "name": "블랙 리버 고지스",
+            "description": "파노라마 전망대, 울창한 숲, 그리고 모리셔스에서 가장 장엄한 풍경 중 하나를 만나보세요."
+          },
+          "alexandraFalls": {
+            "name": "알렉산드라 폭포",
+            "description": "푸르른 계곡과 쏟아지는 폭포를 한눈에 담을 수 있는 아름다운 전망대입니다."
+          },
+          "valleeDesCouleurs": {
+            "name": "라 발레 데 쿨뢰르 자연공원",
+            "description": "형형색색의 대지, 폭포, 전망대와 모험 체험이 어우러진 곳입니다."
+          },
+          "laVanille": {
+            "name": "라 바니유 자연공원 (크로커다일 파크)",
+            "description": "열대의 자연 속에서 거대 육지거북, 악어 등 매혹적인 야생동물을 만나보세요."
+          }
+        }
+      }
+    },
+    "casela": {
+      "eyebrow": "모험 가득한 하루",
+      "title": "카셀라 네이처 파크 체험",
+      "description": "야생동물과의 만남부터 짜릿한 스릴 넘치는 체험까지, 카셀라는 모리셔스 여행의 하이라이트 중 하나입니다.",
+      "experiences": {
+        "safari": "사파리",
+        "ziplining": "짚라인",
+        "toboggan": "토보건",
+        "quadBiking": "쿼드바이크",
+        "walkWithLions": "사자와 함께 걷기",
+        "wildlifeEncounters": "야생동물과의 만남"
+      },
+      "note": "선택된 일부 체험은 선택 사항이거나 추가 요금이 발생할 수 있습니다."
+    },
+    "sunset": {
+      "eyebrow": "천천히 즐기세요. 여기는 모리셔스입니다.",
+      "title": "플릭 앙 플락의 노을",
+      "description": "바닷가에서 여유를 즐기며 황금빛으로 물드는 모리셔스의 하늘을 감상하세요. 잊지 못할 하루를 마무리하는 완벽한 방법입니다."
+    },
+    "water": {
+      "title": "물 위에서 즐기는 모리셔스",
+      "items": {
+        "ileAuxCerfs": {
+          "name": "일 오 세르프 섬",
+          "description": "수정처럼 맑은 석호와 새하얀 백사장이 펼쳐진, 여유로운 섬 휴양지입니다."
+        },
+        "grseWaterfall": {
+          "name": "GRSE 폭포",
+          "description": "강을 따라 아름다운 경치를 즐기며 그랑 리비에르 수드 에스트 폭포까지 보트로 이동합니다."
+        },
+        "snorkelling": {
+          "name": "스노클링",
+          "description": "모리셔스의 다채로운 해양 생물과 신비로운 수중 세계를 탐험해 보세요."
+        },
+        "catamaran": {
+          "name": "카타마란 크루즈",
+          "description": "바닷바람을 만끽하며 눈부신 해안 풍경 속에서 특별한 하루를 보내세요."
+        }
+      },
+      "carousel": {
+        "regionLabel": "모리셔스 수상 체험 캐러셀",
+        "previousSlide": "이전 체험",
+        "nextSlide": "다음 체험",
+        "goToSlide": "{n}번 슬라이드로 이동"
+      }
+    },
+    "adventure": {
+      "title": "액티비티 및 체험",
+      "items": {
+        "paragliding": {
+          "name": "패러글라이딩",
+          "headline": "천국 위를 날다",
+          "description": "석호와 산 위를 활공하며 평생 잊지 못할 모리셔스의 하늘 전망을 만나보세요."
+        },
+        "parasailing": {
+          "name": "패러세일링",
+          "headline": "석호 위 높이 날아오르다",
+          "description": "청록빛 바다 위로 솟아올라 하늘에서 펼쳐지는 광활한 해안 풍경을 감상하세요."
+        },
+        "dolphinWatching": {
+          "name": "돌고래 관찰",
+          "headline": "모리셔스의 야생 돌고래를 만나다",
+          "description": "이른 아침 보트 투어를 통해 자연 속에서 뛰노는 돌고래들을 관찰해 보세요."
+        },
+        "underseaWalk": {
+          "name": "해저 산책",
+          "headline": "바다 밑을 걷다",
+          "description": "가이드와 함께 수면 아래 산호초를 가까이서 탐험하세요—다이빙 경험이 전혀 필요 없습니다."
+        },
+        "quadBiking": {
+          "name": "쿼드바이크",
+          "headline": "거친 트레일을 달리다",
+          "description": "짜릿한 쿼드바이크를 타고 험준한 지형과 경치 좋은 오솔길을 탐험하세요."
+        },
+        "waterfallTrekking": {
+          "name": "폭포 트레킹",
+          "headline": "숨겨진 폭포를 찾아서",
+          "description": "울창한 숲길을 트레킹하며 모리셔스에서 가장 아름다운 비밀의 폭포들을 발견하세요."
+        }
+      },
+      "note": "선택된 일부 액티비티는 본 패키지에 포함되어 있습니다. 그 외 액티비티는 선택 사항이거나 추가 요금이 발생할 수 있습니다.",
+      "carousel": {
+        "regionLabel": "모리셔스 모험 액티비티 캐러셀",
+        "previousSlide": "이전 액티비티",
+        "nextSlide": "다음 액티비티",
+        "goToSlide": "{n}번 슬라이드로 이동",
+        "viewActivity": "액티비티 보기"
+      }
+    },
+    "flexibility": {
+      "eyebrow": "당신의 여행, 당신의 방식으로",
+      "title": "당신의 일정에 딱 맞게",
+      "description": "5일간 머무르시나요, 아니면 2주간 머무르시나요? 커플, 가족, 혹은 그룹으로 여행하시나요? 체류 기간, 인원 수, 그리고 원하시는 체험에 맞춰 모리셔스 여행을 맞춤 조정해 드립니다.",
+      "duration": {
+        "options": {
+          "5": "5일",
+          "7": "7일",
+          "10": "10일",
+          "14": "14일",
+          "custom": "직접 설정"
+        }
+      },
+      "travellersNote": "혼자 여행하시는 분, 커플, 가족, 그룹 모두 이용 가능합니다.",
+      "ctaButton": "내 여행 맞춤 설정하기"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "subtitle": "MauTravel과 함께하는 모리셔스 여행 계획에 대해 알아야 할 모든 것.",
+      "items": [
+        {
+          "question": "모리셔스 홀리데이 패키지는 맞춤 설정이 가능한가요?",
+          "answer": "네, 가능합니다. 체류 기간, 인원 수, 포함하고 싶은 체험에 맞춰 패키지를 조정할 수 있습니다. 관광, 자연, 모험, 그리고 휴식 사이의 이상적인 균형을 찾아드리겠습니다."
+        },
+        {
+          "question": "홀리데이 패키지의 일수는 어떻게 되나요?",
+          "answer": "정해진 기간은 없습니다. 5일, 7일, 10일, 2주 또는 그 외 어떤 기간이든 여행 일정에 맞춰 체험 내용을 조정해 드립니다."
+        },
+        {
+          "question": "커플, 가족 또는 그룹을 위한 패키지 구성도 가능한가요?",
+          "answer": "네, 가능합니다. 혼자 여행하시는 분, 커플, 가족, 그룹 모두를 위한 여행을 구성할 수 있으며, 교통편 등 세부 사항은 인원 수에 맞춰 조정됩니다."
+        },
+        {
+          "question": "일부 액티비티나 관광지를 변경할 수 있나요?",
+          "answer": "네, 가능합니다. 이 페이지에 소개된 체험들은 모리셔스 여행에 포함될 수 있는 예시입니다. 관광지나 액티비티를 추가, 삭제 또는 변경하고 싶으시면 MauTravel이 고객님의 관심사와 가능한 시간에 맞춰 패키지를 조정해 드립니다."
+        },
+        {
+          "question": "모리셔스 홀리데이 패키지의 비용은 얼마인가요?",
+          "answer": "요금은 체류 기간, 인원 수, 선택하신 체험, 최종 패키지 구성에 따라 달라집니다. 여행 날짜와 인원 수를 MauTravel에 알려주시면 맞춤 견적을 준비해 드리겠습니다."
+        },
+        {
+          "question": "숙박과 식사가 포함되나요?",
+          "answer": "숙박과 식사 구성은 여행을 위해 만들어진 패키지에 따라 달라집니다. 맞춤 견적서에 포함 사항과 선택 가능한 추가 사항이 명확하게 안내됩니다."
+        },
+        {
+          "question": "관광지 입장료가 포함되나요?",
+          "answer": "입장료는 여행을 위해 최종 선택된 관광지와 액티비티에 따라 달라집니다. 포함된 입장료와 추가 요금은 확정 전 견적서에 명확하게 안내됩니다."
+        },
+        {
+          "question": "교통편이 포함되나요?",
+          "answer": "여행에 포함된 체험을 위한 전용 교통편은 물론, 공항 픽업 및 샌딩 서비스도 준비해 드립니다. 적합한 차량은 그룹 인원 수에 따라 달라집니다."
+        },
+        {
+          "question": "패러글라이딩과 같은 액티비티도 포함되나요?",
+          "answer": "여행을 구성할 때 특정 액티비티를 포함할 수 있습니다. 패러글라이딩, 패러세일링, 돌고래 체험, 해저 산책, 쿼드바이크, 폭포 트레킹 등도 취향과 예약 가능 여부, 현장 상황에 따라 추가하실 수 있습니다."
+        },
+        {
+          "question": "날씨로 인해 액티비티가 영향을 받으면 어떻게 되나요?",
+          "answer": "일부 야외 및 해양 액티비티는 날씨에 영향을 받습니다. 안전하게 진행할 수 없는 경우, MauTravel이 예약 가능 여부와 액티비티 제공업체의 조건에 따라 적절한 대안이나 일정 변경을 도와드립니다."
+        },
+        {
+          "question": "모리셔스 여행은 어떻게 예약하나요?",
+          "answer": "여행 날짜, 인원 수, 관심 있는 체험을 MauTravel에 알려주세요. 고객님의 일정에 맞춰 여행을 조정해 드리고, 확정하시기 전에 상세 정보와 맞춤 견적을 안내해 드리겠습니다."
+        }
+      ],
+      "showMore": "더 보기",
+      "showLess": "간략히 보기"
+    },
+    "customizeForm": {
+      "eyebrow": "여행 계획을 함께 세워볼까요",
+      "title": "모리셔스 여행에 대해 알려주세요",
+      "description": "여행에 대한 몇 가지 정보를 알려주시면 고객님의 일정에 맞춰 MauTravel 여행 체험을 구성해 드리겠습니다.",
+      "groups": {
+        "trip": "여행 정보",
+        "experiences": "체험 정보",
+        "final": "최종 정보"
+      },
+      "dates": {
+        "label": "모리셔스에는 언제 방문하시나요?",
+        "arrival": "도착일",
+        "departure": "출발일"
+      },
+      "travellers": {
+        "label": "누구와 함께 여행하시나요?",
+        "adults": "성인",
+        "children": "어린이",
+        "decreaseAdults": "성인 인원 줄이기",
+        "increaseAdults": "성인 인원 늘리기",
+        "decreaseChildren": "어린이 인원 줄이기",
+        "increaseChildren": "어린이 인원 늘리기"
+      },
+      "travellerType": {
+        "label": "누구와 함께 여행하시나요?",
+        "options": {
+          "solo": "혼자",
+          "couple": "커플",
+          "family": "가족",
+          "friends": "친구",
+          "group": "그룹"
+        }
+      },
+      "duration": {
+        "label": "얼마나 머무르시나요?",
+        "options": {
+          "5": "5일",
+          "7": "7일",
+          "10": "10일",
+          "14": "14일",
+          "custom": "직접 설정"
+        },
+        "customLabel": "일수",
+        "daysUnit": "일"
+      },
+      "destinations": {
+        "label": "방문하고 싶은 장소는 어디인가요?",
+        "placeholder": "장소 선택",
+        "searchPlaceholder": "장소 검색...",
+        "noResults": "검색 결과가 없습니다",
+        "casela": "카셀라 네이처 파크",
+        "flicEnFlac": "플릭 앙 플락",
+        "remove": "삭제"
+      },
+      "activities": {
+        "label": "관심 있는 체험은 무엇인가요?"
+      },
+      "holidayStyle": {
+        "label": "어떤 스타일의 여행을 원하시나요?",
+        "options": {
+          "adventure": "모험",
+          "nature": "자연",
+          "beaches": "해변",
+          "culture": "문화",
+          "wildlife": "야생동물",
+          "relaxation": "휴식",
+          "everything": "다양하게 즐기기"
+        }
+      },
+      "accommodation": {
+        "label": "숙박은 이미 예약하셨나요?",
+        "options": {
+          "booked": "이미 예약함",
+          "help": "MauTravel의 도움을 받고 싶음",
+          "undecided": "아직 결정하지 못함"
+        }
+      },
+      "transfers": {
+        "label": "공항 이동 서비스가 필요하신가요?",
+        "options": {
+          "yes": "네",
+          "no": "아니요",
+          "unsure": "아직 잘 모르겠음"
+        }
+      },
+      "specialRequests": {
+        "label": "그 외에 저희가 알아야 할 사항이 있나요?",
+        "placeholder": "특별한 요청 사항, 추가하고 싶은 장소, 동행하는 자녀, 편의시설 관련 요구 사항 등 여행 계획에 도움이 될 만한 내용을 알려주세요."
+      },
+      "submit": "WhatsApp으로 여행 요청 보내기",
+      "submitNote": "결제는 필요하지 않습니다—요청 내용을 검토한 후 맞춤 견적을 보내드리겠습니다.",
+      "validation": {
+        "stayOrDates": "체류 기간 또는 여행 날짜를 선택해 주세요."
+      },
+      "message": {
+        "greeting": "안녕하세요, MauTravel입니다! 👋",
+        "intro": "모리셔스 여행을 맞춤 설정하고 싶습니다.",
+        "tripDetails": "여행 정보",
+        "arrival": "도착",
+        "departure": "출발",
+        "stay": "체류 기간",
+        "travellersHeading": "여행 인원",
+        "adults": "성인",
+        "children": "어린이",
+        "travellingAs": "여행 형태",
+        "placesHeading": "방문하고 싶은 장소",
+        "activitiesHeading": "관심 있는 액티비티",
+        "styleHeading": "여행 스타일",
+        "accommodationHeading": "숙박",
+        "transfersHeading": "공항 이동",
+        "specialRequestHeading": "특별 요청 사항",
+        "closing": "저희에게 가장 알맞은 일정을 추천해 주시고 견적을 보내주실 수 있을까요?"
+      }
+    },
+    "whyTravel": {
+      "eyebrow": "왜 MauTravel과 함께해야 할까요?",
+      "title": "고객님의 모리셔스 여행,",
+      "titleAccent": "믿고 맡기세요",
+      "description": "도착하는 순간부터 섬 곳곳에서 즐기는 체험까지, MauTravel이 여행의 모든 준비를 하나로 모아 정리해 드립니다. 준비하는 시간은 줄이고, 모리셔스를 즐기는 시간은 늘리세요.",
+      "benefits": {
+        "contact": {
+          "title": "하나의 창구",
+          "description": "이동, 투어, 체험까지 한 팀이 모두 책임지고 준비합니다."
+        },
+        "builtAround": {
+          "title": "일정에 맞춘 구성",
+          "description": "체류 기간, 인원 수, 관심사에 맞춰 조정됩니다."
+        },
+        "transport": {
+          "title": "전용 교통편",
+          "description": "확정된 체험 일정에 맞춰 준비됩니다."
+        },
+        "localExperience": {
+          "title": "현지 모리셔스 체험",
+          "description": "유명 명소부터 숨겨진 절경까지."
+        },
+        "support": {
+          "title": "여행 내내 함께하는 지원",
+          "description": "여행 기간 내내 언제든 연락 가능한 담당자가 있습니다."
+        }
+      },
+      "closing": "모리셔스를 즐기는 것은 고객님의 몫, 여정을 준비하는 것은 저희의 몫입니다."
+    }
+  },
+  "holidayPopup": {
+    "title": "모리셔스 여행을 계획 중이신가요?",
+    "message": "숙박, 공항 픽업, 투어, 액티비티, 맞춤 체험을 하나로 모은 모리셔스 완전 패키지를 확인해보세요.",
+    "cta": "모리셔스 패키지 살펴보기",
+    "closeAria": "팝업 닫기"
   }
 }

@@ -11,7 +11,8 @@
     "contact": "Contact",
     "bookNow": "Nu Boeken",
     "bookViaWhatsapp": "Boek via WhatsApp",
-    "toggleMenu": "Menu openen"
+    "toggleMenu": "Menu openen",
+    "mauritiusHoliday": "Vakantie Mauritius"
   },
   "footer": {
     "tagline": "Mauritius' vertrouwde touroperator. Wij creëren buitengewone reiservaringen met passie, expertise en zorg.",
@@ -138,6 +139,10 @@
     "properties": {
       "title": "Properties in Mauritius",
       "description": "Hand-picked villas, apartments and beachfront properties in Mauritius. Book your perfect Mauritius accommodation with MauTravel."
+    },
+    "mauritiusPackage": {
+      "title": "De Complete Mauritius-vakantie | Tours & Activiteiten | MauTravel",
+      "description": "Beleef Mauritius met MauTravel via een zorgvuldig samengesteld vakantiepakket met vliegveldtransfers, tours door het Noorden en Zuiden, Casela, Île aux Cerfs, paragliding, natuurervaringen en meer."
     }
   },
   "home": {
@@ -278,7 +283,11 @@
       "eyebrow": "Events & Festivals",
       "title": "What's On in Mauritius",
       "description": "Discover the vibrant calendar of festivals, cultural events and seasonal celebrations that make Mauritius so special.",
-      "viewAll": "View All Events"
+      "viewAll": "View All Events",
+      "previousEvent": "Previous event",
+      "nextEvent": "Next event",
+      "carouselLabel": "Mauritius events carousel",
+      "goToEvent": "Go to event {n}"
     },
     "reviews": {
       "eyebrow": "Customer Reviews",
@@ -299,6 +308,18 @@
       "eyebrow": "Follow Us",
       "title": "Follow Our Mauritius Journey",
       "description": "Stay inspired with daily Mauritius content — travel tips, stunning scenery, and behind-the-scenes moments from island life."
+    },
+    "mauritiusHoliday": {
+      "eyebrow": "Compleet Vakantiepakket",
+      "title": "Uw Mauritius Vakantie, Klaar om te Genieten",
+      "description": "Een georganiseerde ervaring met accommodatie, luchthaventransfers, privétours en de beste activiteiten van het eiland — aangepast aan uw verblijf.",
+      "features": [
+        "Accommodatie-opties",
+        "Luchthaventransfers inbegrepen",
+        "Privétours & sightseeing",
+        "Activiteiten & ervaringen"
+      ],
+      "cta": "Ontdek Vakantie Mauritius"
     }
   },
   "airportTransfers": {
@@ -1096,7 +1117,16 @@
       "faqTitle": "Frequently Asked Questions",
       "relatedEyebrow": "Explore More",
       "relatedTitle": "Customers Also Enjoyed",
-      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package.",
+      "guideEyebrow": "Maak Kennis Met Uw Piloot",
+      "videoEyebrow": "Bekijk De Ervaring",
+      "videoTitle": "Paragliding-Ervaring Video",
+      "videoComingSoon": "Paragliding-Ervaring Video – Binnenkort Beschikbaar",
+      "readMore": "Lees Meer",
+      "showLess": "Minder Tonen",
+      "videoTapHint": "Tik op de video om de volledige ervaring te bekijken",
+      "videoExpandAria": "Volledige video bekijken",
+      "videoCloseAria": "Video sluiten"
     },
     "paragliding": {
       "name": "Tandem Paragliding in Mauritius",
@@ -1246,7 +1276,33 @@
           "question": "Can I take my phone or camera during the flight?",
           "answer": "We strongly recommend securing all personal belongings before take-off. Phones and cameras must be attached with a wrist strap or mounted on a secure harness. Your pilot will advise on what is safe to carry. A professional photo and video package may be available on request — please enquire when booking."
         }
-      ]
+      ],
+      "guide": {
+        "onlyPilotBadge": "De Enige Geregistreerde Tandem Paragliding-Piloot op Mauritius",
+        "bio": [
+          "Vlieg met de enige geregistreerde tandem paragliding-piloot op Mauritius, met meer dan 20 jaar ervaring en een levenslange passie voor vliegen.",
+          "Zijn reis met paragliding begon al op zijn 8e en groeide door de jaren heen uit tot decennia aan ervaring in de lucht. Met meer dan 99 succesvolle vluchten zonder ongelukken wordt elke vlucht benaderd met sterke focus op veiligheid, voorbereiding, professionaliteit en het comfort van de gast.",
+          "Hij wordt zeer goed beoordeeld op Google en andere sociale platforms en heeft het vertrouwen gewonnen van gasten die Mauritius vanuit een totaal ander perspectief willen ervaren.",
+          "Van start tot landing wordt u begeleid door een ervaren piloot wiens prioriteit het is om uw vlucht veilig, comfortabel en onvergetelijk te maken."
+        ],
+        "stats": [
+          {
+            "label": "20+ Jaar Ervaring"
+          },
+          {
+            "label": "Vliegt Sinds Zijn 8e"
+          },
+          {
+            "label": "50+ Geslaagde Vluchten"
+          },
+          {
+            "label": "Uitstekende Gastbeoordelingen"
+          },
+          {
+            "label": "Veiligheid & Comfort van de Gast Voorop"
+          }
+        ]
+      }
     },
     "hiking-adventures": {
       "name": "Hiking Adventures",
@@ -2105,5 +2161,401 @@
         }
       ]
     }
+  },
+  "mauritiusPackage": {
+    "hero": {
+      "eyebrow": "Uw Complete Mauritius-ervaring",
+      "titleLine1": "Eén Eiland.",
+      "titleLine2": "Ontelbare Herinneringen.",
+      "description": "Ontdek Mauritius van kust tot kust: iconische plekken, verborgen landschappen, wilde dieren, tropische lagunes en onvergetelijke avonturen, samengebracht in een vakantie die is afgestemd op uw verblijf.",
+      "exploreCta": "Ontdek Uw Reis",
+      "customizeCta": "Personaliseer Mijn Vakantie",
+      "journey": {
+        "title": "Uw Reis",
+        "items": {
+          "north": "Noorden",
+          "wildSouth": "Wilde Zuiden",
+          "wildlife": "Wilde Dieren",
+          "westCoast": "Westkust",
+          "ileAuxCerfs": "Île aux Cerfs",
+          "adventure": "Avontuur"
+        }
+      }
+    },
+    "experience": {
+      "title": "Uw Mauritius-ervaring",
+      "description": "Dit pakket is ontworpen om u het echte Mauritius te laten zien: van levendige steden en culturele bezienswaardigheden tot natuur, wilde dieren, stranden en avontuur. Wij regelen de logistiek, zodat u kunt ontspannen en van elk moment kunt genieten.",
+      "journey": {
+        "north": "Noord-Mauritius",
+        "wildSouth": "Wilde Zuiden",
+        "wildlifeNature": "Wilde Dieren & Natuur",
+        "westCoast": "Westkust",
+        "oceanExperiences": "Ervaringen op Zee",
+        "adventureActivities": "Avontuur & Activiteiten"
+      }
+    },
+    "airportTransfer": {
+      "eyebrow": "Begin en Eindig Zorgeloos",
+      "title": "Ophalen en Wegbrengen van het Vliegveld",
+      "description": "Begin en eindig uw vakantie zorgeloos. Wij regelen uw privétransfer van SSR International Airport naar uw accommodatie en uw retourtransfer voor uw vertrek.",
+      "benefits": {
+        "privateTransfer": "Privétransfer",
+        "airportPickup": "Ophalen van het vliegveld",
+        "airportDropoff": "Wegbrengen naar het vliegveld",
+        "comfortableVehicle": "Comfortabel voertuig"
+      }
+    },
+    "discover": {
+      "north": {
+        "eyebrow": "Ontdek het Noorden",
+        "title": "Cultuur, Tuinen en Leven aan de Kust",
+        "items": {
+          "pamplemousses": {
+            "name": "Botanische Tuin van Pamplemousses",
+            "description": "Thuisbasis van reusachtige waterlelies, exotische planten, specerijen en eeuwenoude bomen."
+          },
+          "portLouis": {
+            "name": "Port Louis & Caudan Waterfront",
+            "description": "Ontdek de hoofdstad, haar kleurrijke markten, de lokale cultuur en de levendige boulevard."
+          },
+          "grandBaie": {
+            "name": "Grand Baie",
+            "description": "Een levendig kustdorp met prachtige stranden, winkels, restaurants en uitzicht op een turquoise lagune."
+          },
+          "capMalheureux": {
+            "name": "Cap Malheureux",
+            "description": "Een iconisch kerkje met rood dak, prachtige kustlandschappen en adembenemende uitzichten over het noorden."
+          }
+        }
+      },
+      "south": {
+        "eyebrow": "Het Schilderachtige Zuiden",
+        "title": "Natuur, Watervallen en Wilde Landschappen",
+        "items": {
+          "blackRiverGorges": {
+            "name": "Black River Gorges",
+            "description": "Panoramische uitzichtpunten, dichte bossen en enkele van de spectaculairste landschappen van Mauritius."
+          },
+          "alexandraFalls": {
+            "name": "Alexandra Falls",
+            "description": "Een prachtig uitzichtpunt met zicht op weelderige valleien en bruisende watervallen."
+          },
+          "valleeDesCouleurs": {
+            "name": "Natuurpark La Vallée des Couleurs",
+            "description": "Kleurrijke aarde, watervallen, uitzichtpunten en avontuurlijke belevenissen."
+          },
+          "laVanille": {
+            "name": "La Vanille Nature Park / Krokodillenpark",
+            "description": "Reuzenschildpadden, krokodillen en fascinerende wilde dieren in een tropische omgeving."
+          }
+        }
+      }
+    },
+    "casela": {
+      "eyebrow": "Een Dag Vol Avontuur",
+      "title": "Beleef de Casela Nature Parks",
+      "description": "Van ontmoetingen met wilde dieren tot avontuurlijke belevenissen boordevol adrenaline: Casela is een van de hoogtepunten van uw Mauritius-vakantie.",
+      "experiences": {
+        "safari": "Safari",
+        "ziplining": "Zipline",
+        "toboggan": "Toboggan",
+        "quadBiking": "Quadrijden",
+        "walkWithLions": "Wandelen met Leeuwen",
+        "wildlifeEncounters": "Ontmoetingen met Wilde Dieren"
+      },
+      "note": "Bepaalde ervaringen zijn optioneel of kunnen extra kosten met zich meebrengen."
+    },
+    "sunset": {
+      "eyebrow": "Vertraag. U bent op Mauritius.",
+      "title": "Zonsondergang bij Flic-en-Flac",
+      "description": "Ontspan aan de oceaan en zie de Mauritiaanse hemel goudkleurig worden. De perfecte afsluiting van een onvergetelijke dag."
+    },
+    "water": {
+      "title": "Beleef Mauritius vanaf het Water",
+      "items": {
+        "ileAuxCerfs": {
+          "name": "Île aux Cerfs",
+          "description": "Kristalheldere lagunes, witte zandstranden en een ontspannen eilandontsnapping."
+        },
+        "grseWaterfall": {
+          "name": "GRSE-waterval",
+          "description": "Geniet van een schilderachtige boottocht over de rivier naar de prachtige waterval van Grand River South East."
+        },
+        "snorkelling": {
+          "name": "Snorkelen",
+          "description": "Ontdek het zeeleven en de kleurrijke onderwaterwereld van Mauritius."
+        },
+        "catamaran": {
+          "name": "Catamarantocht",
+          "description": "Geniet van de zeebries, prachtige uitzichten op de kust en een onvergetelijke dag op het water."
+        }
+      },
+      "carousel": {
+        "regionLabel": "Carrousel met waterervaringen op Mauritius",
+        "previousSlide": "Vorige ervaring",
+        "nextSlide": "Volgende ervaring",
+        "goToSlide": "Ga naar slide {n}"
+      }
+    },
+    "adventure": {
+      "title": "Activiteiten & Ervaringen",
+      "items": {
+        "paragliding": {
+          "name": "Paragliding",
+          "headline": "Zweef Boven het Paradijs",
+          "description": "Zweef boven de lagune en de bergen voor een adembenemend uitzicht op Mauritius dat u nooit zult vergeten."
+        },
+        "parasailing": {
+          "name": "Parasailing",
+          "headline": "Vlieg Hoog Boven de Lagune",
+          "description": "Stijg op boven het turquoise water en geniet van weidse uitzichten op de kust vanuit de lucht."
+        },
+        "dolphinWatching": {
+          "name": "Dolfijnen Spotten",
+          "headline": "Ontmoet de Wilde Dolfijnen van Mauritius",
+          "description": "Bekijk dolfijnen die in hun natuurlijke omgeving spelen tijdens een boottocht vroeg in de ochtend."
+        },
+        "underseaWalk": {
+          "name": "Onderwaterwandeling",
+          "headline": "Wandel over de Oceaanbodem",
+          "description": "Ontdek het rif van dichtbij tijdens een begeleide wandeling onder water, geen duikervaring vereist."
+        },
+        "quadBiking": {
+          "name": "Quadrijden",
+          "headline": "Verken Ongetemde Paden",
+          "description": "Ontdek ruige landschappen en schilderachtige achterafweggetjes tijdens een adrenalinevol quadavontuur."
+        },
+        "waterfallTrekking": {
+          "name": "Watervaltrekking",
+          "headline": "Jaag op Verborgen Watervallen",
+          "description": "Trek door weelderige bospaden om enkele van de mooiste verborgen watervallen van Mauritius te ontdekken."
+        }
+      },
+      "note": "Bepaalde activiteiten zijn inbegrepen in dit pakket. Andere kunnen optioneel zijn of extra kosten met zich meebrengen.",
+      "carousel": {
+        "regionLabel": "Carrousel met avontuurlijke activiteiten op Mauritius",
+        "previousSlide": "Vorige activiteit",
+        "nextSlide": "Volgende activiteit",
+        "goToSlide": "Ga naar slide {n}",
+        "viewActivity": "Bekijk activiteit"
+      }
+    },
+    "flexibility": {
+      "eyebrow": "Uw Vakantie, Op Uw Manier",
+      "title": "Afgestemd op Uw Verblijf",
+      "description": "Blijft u 5 dagen of twee weken? Reist u als koppel, gezin of groep? Wij passen uw Mauritius-vakantie aan op de duur van uw verblijf, het aantal reizigers en de ervaringen waar u van wilt genieten.",
+      "duration": {
+        "options": {
+          "5": "5 Dagen",
+          "7": "7 Dagen",
+          "10": "10 Dagen",
+          "14": "14 Dagen",
+          "custom": "Op Maat"
+        }
+      },
+      "travellersNote": "Beschikbaar voor alleenreizenden, koppels, gezinnen en groepen.",
+      "ctaButton": "Personaliseer Mijn Vakantie"
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Alles wat u moet weten om uw Mauritius-vakantie met MauTravel te plannen.",
+      "items": [
+        {
+          "question": "Kan het Mauritius Vakantiepakket worden aangepast?",
+          "answer": "Ja. Het pakket kan worden aangepast aan de duur van uw verblijf, het aantal reizigers en de ervaringen die u wilt toevoegen. Wij helpen u de juiste balans te vinden tussen sightseeing, natuur, avontuur en tijd om te ontspannen."
+        },
+        {
+          "question": "Voor hoeveel dagen geldt het vakantiepakket?",
+          "answer": "Er is geen vaste duur. Wij kunnen de ervaring aanpassen aan een korter of langer verblijf, of u nu 5 dagen, 7 dagen, 10 dagen, twee weken of een andere periode naar Mauritius komt."
+        },
+        {
+          "question": "Kan het pakket worden geregeld voor koppels, gezinnen of groepen?",
+          "answer": "Ja. De vakantie kan worden geregeld voor alleenreizenden, koppels, gezinnen en groepen. Vervoer en andere regelingen kunnen worden aangepast aan het aantal reizigers."
+        },
+        {
+          "question": "Kan ik bepaalde activiteiten of bezienswaardigheden wijzigen?",
+          "answer": "Ja. De ervaringen op deze pagina geven weer wat uw Mauritius-vakantie kan omvatten. Als u een bezienswaardigheid of activiteit wilt toevoegen, verwijderen of vervangen, kan MauTravel het pakket aanpassen aan uw interesses en de beschikbare tijd."
+        },
+        {
+          "question": "Wat kost het Mauritius Vakantiepakket?",
+          "answer": "De prijs hangt af van de duur van uw verblijf, het aantal reizigers, de gekozen ervaringen en de uiteindelijke inhoud van het pakket. Neem contact op met MauTravel met uw reisdata en groepsgrootte, en wij stellen een persoonlijke offerte samen."
+        },
+        {
+          "question": "Zijn accommodatie en maaltijden inbegrepen?",
+          "answer": "De regelingen voor accommodatie en maaltijden hangen af van het pakket dat voor uw reis wordt samengesteld. In uw persoonlijke offerte staat duidelijk wat is inbegrepen en welke opties eventueel kunnen worden toegevoegd."
+        },
+        {
+          "question": "Zijn de entreekosten voor bezienswaardigheden inbegrepen?",
+          "answer": "De entreekosten hangen af van de uiteindelijke bezienswaardigheden en activiteiten die voor uw vakantie zijn gekozen. Alle inbegrepen entreekosten en eventuele extra kosten worden duidelijk vermeld in uw offerte voordat u bevestigt."
+        },
+        {
+          "question": "Is vervoer inbegrepen?",
+          "answer": "Er kan privévervoer worden geregeld voor de ervaringen die deel uitmaken van uw vakantie, evenals het ophalen en wegbrengen naar het vliegveld. Het juiste voertuig hangt af van de grootte van uw groep."
+        },
+        {
+          "question": "Zijn activiteiten zoals paragliding inbegrepen?",
+          "answer": "Bepaalde activiteiten kunnen worden opgenomen wanneer uw vakantie wordt samengesteld. Activiteiten zoals paragliding, parasailing, ervaringen met dolfijnen, onderwaterwandelingen, quadrijden en watervaltrekking kunnen ook worden toegevoegd, afhankelijk van uw voorkeuren, beschikbaarheid en de omstandigheden."
+        },
+        {
+          "question": "Wat gebeurt er als een activiteit wordt beïnvloed door het weer?",
+          "answer": "Sommige buiten- en zeeactiviteiten zijn afhankelijk van het weer. Als een ervaring niet veilig kan plaatsvinden, helpt MauTravel u waar mogelijk met geschikte alternatieven of het verzetten van de activiteit, afhankelijk van de beschikbaarheid en de voorwaarden van de activiteitaanbieder."
+        },
+        {
+          "question": "Hoe boek ik mijn Mauritius-vakantie?",
+          "answer": "Neem contact op met MauTravel met uw reisdata, het aantal reizigers en de ervaringen die u interesseren. Wij helpen de vakantie af te stemmen op uw verblijf en geven u alle details en een persoonlijke offerte voordat u bevestigt."
+        }
+      ],
+      "showMore": "Meer tonen",
+      "showLess": "Minder tonen"
+    },
+    "customizeForm": {
+      "eyebrow": "Laten We Uw Verblijf Plannen",
+      "title": "Vertel Ons Over Uw Mauritius-vakantie",
+      "description": "Deel enkele details over uw reis en wij helpen de MauTravel-vakantie-ervaring af te stemmen op uw verblijf.",
+      "groups": {
+        "trip": "Uw Reis",
+        "experiences": "Uw Ervaringen",
+        "final": "Laatste Details"
+      },
+      "dates": {
+        "label": "Wanneer bezoekt u Mauritius?",
+        "arrival": "Aankomstdatum",
+        "departure": "Vertrekdatum"
+      },
+      "travellers": {
+        "label": "Wie reist er mee?",
+        "adults": "Volwassenen",
+        "children": "Kinderen",
+        "decreaseAdults": "Aantal volwassenen verlagen",
+        "increaseAdults": "Aantal volwassenen verhogen",
+        "decreaseChildren": "Aantal kinderen verlagen",
+        "increaseChildren": "Aantal kinderen verhogen"
+      },
+      "travellerType": {
+        "label": "Met wie reist u?",
+        "options": {
+          "solo": "Alleen",
+          "couple": "Als koppel",
+          "family": "Als gezin",
+          "friends": "Met vrienden",
+          "group": "Als groep"
+        }
+      },
+      "duration": {
+        "label": "Hoe lang blijft u?",
+        "options": {
+          "5": "5 Dagen",
+          "7": "7 Dagen",
+          "10": "10 Dagen",
+          "14": "14 Dagen",
+          "custom": "Op Maat"
+        },
+        "customLabel": "Aantal dagen",
+        "daysUnit": "Dagen"
+      },
+      "destinations": {
+        "label": "Welke plekken zou u graag bezoeken?",
+        "placeholder": "Selecteer plekken",
+        "searchPlaceholder": "Zoek plekken...",
+        "noResults": "Geen plekken gevonden",
+        "casela": "Casela Nature Parks",
+        "flicEnFlac": "Flic-en-Flac",
+        "remove": "Verwijderen"
+      },
+      "activities": {
+        "label": "Welke ervaringen interesseren u?"
+      },
+      "holidayStyle": {
+        "label": "Wat voor soort vakantie zoekt u?",
+        "options": {
+          "adventure": "Avontuur",
+          "nature": "Natuur",
+          "beaches": "Stranden",
+          "culture": "Cultuur",
+          "wildlife": "Wilde Dieren",
+          "relaxation": "Ontspanning",
+          "everything": "Een Beetje van Alles"
+        }
+      },
+      "accommodation": {
+        "label": "Heeft u uw accommodatie al geregeld?",
+        "options": {
+          "booked": "Al geboekt",
+          "help": "Ik wil graag hulp van MauTravel",
+          "undecided": "Nog niet beslist"
+        }
+      },
+      "transfers": {
+        "label": "Heeft u vliegveldtransfers nodig?",
+        "options": {
+          "yes": "Ja",
+          "no": "Nee",
+          "unsure": "Nog niet zeker"
+        }
+      },
+      "specialRequests": {
+        "label": "Is er nog iets dat u ons wilt laten weten?",
+        "placeholder": "Vertel ons over eventuele speciale verzoeken, plekken die u wilt toevoegen, meereizende kinderen, toegankelijkheidseisen of iets anders dat ons helpt uw vakantie te plannen."
+      },
+      "submit": "Verstuur Mijn Vakantieverzoek via WhatsApp",
+      "submitNote": "Geen betaling vereist — wij bekijken uw aanvraag en sturen u een persoonlijke offerte.",
+      "validation": {
+        "stayOrDates": "Kies een verblijfsduur of uw reisdata."
+      },
+      "message": {
+        "greeting": "Hallo MauTravel! 👋",
+        "intro": "Ik wil graag mijn Mauritius-vakantie personaliseren.",
+        "tripDetails": "REISDETAILS",
+        "arrival": "Aankomst",
+        "departure": "Vertrek",
+        "stay": "Verblijf",
+        "travellersHeading": "REIZIGERS",
+        "adults": "Volwassenen",
+        "children": "Kinderen",
+        "travellingAs": "Reist als",
+        "placesHeading": "PLEKKEN DIE IK WIL BEZOEKEN",
+        "activitiesHeading": "ACTIVITEITEN DIE MIJ INTERESSEREN",
+        "styleHeading": "VAKANTIESTIJL",
+        "accommodationHeading": "ACCOMMODATIE",
+        "transfersHeading": "VLIEGVELDTRANSFERS",
+        "specialRequestHeading": "SPECIAAL VERZOEK",
+        "closing": "Kunt u de beste regeling voor ons aanbevelen en mij een offerte sturen?"
+      }
+    },
+    "whyTravel": {
+      "eyebrow": "Waarom Reizen met MauTravel?",
+      "title": "Uw Mauritius-vakantie,",
+      "titleAccent": "Helemaal Geregeld",
+      "description": "Vanaf het moment dat u aankomt tot de ervaringen die u over het hele eiland beleeft, brengt MauTravel de regelingen voor uw vakantie samen, zodat u minder tijd kwijt bent aan organiseren en meer tijd overhoudt om van Mauritius te genieten.",
+      "benefits": {
+        "contact": {
+          "title": "Eén Aanspreekpunt",
+          "description": "Eén team regelt uw transfers, tours en ervaringen."
+        },
+        "builtAround": {
+          "title": "Afgestemd op Uw Verblijf",
+          "description": "Aangepast aan uw verblijf, groepsgrootte en interesses."
+        },
+        "transport": {
+          "title": "Privévervoer",
+          "description": "Geregeld rond uw bevestigde ervaringen."
+        },
+        "localExperience": {
+          "title": "Authentieke Mauritius-ervaring",
+          "description": "Van beroemde bezienswaardigheden tot verborgen landschappen."
+        },
+        "support": {
+          "title": "Ondersteuning Tijdens Uw Hele Vakantie",
+          "description": "Iemand om gedurende uw hele vakantie contact mee op te nemen."
+        }
+      },
+      "closing": "Geniet u van Mauritius. Wij zorgen voor de rest van de reis."
+    }
+  },
+  "holidayPopup": {
+    "title": "Plant U een Vakantie op Mauritius?",
+    "message": "Ontdek ons complete Mauritius vakantiepakket — accommodatie, luchthaventransfers, tours, activiteiten en op maat gemaakte ervaringen, afgestemd op uw verblijf.",
+    "cta": "Ontdek het Mauritius Pakket",
+    "closeAria": "Pop-up sluiten"
   }
 }

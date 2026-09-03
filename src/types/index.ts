@@ -95,6 +95,27 @@ export interface ActivityLocation {
   image: string;
 }
 
+export interface ActivityGuideStat {
+  icon: string;
+  label: string;
+}
+
+export interface ActivityGuide {
+  onlyPilotBadge: string;
+  bio: string[];
+  stats: ActivityGuideStat[];
+}
+
+/** Structural (non-text) data for a package attraction/experience card — image + optional link only. */
+export interface PackageItemStructural {
+  id: string;
+  image: string;
+  /** Link to an existing MauTravel route (e.g. an activity detail page), if one exists. */
+  href?: string;
+  /** Visible attribution text, required for Wikimedia Commons (CC BY/BY-SA) photos — omit for license-free sources. */
+  credit?: string;
+}
+
 /** Structural (non-text) data for an activity detail page — icons + images only. */
 export interface ActivityDetailStructural {
   slug: string;
@@ -105,4 +126,7 @@ export interface ActivityDetailStructural {
   gallery: string[];
   locationImages?: string[];
   activityReviews?: ActivityReview[];
+  guideStatIcons?: string[];
+  videoPlaceholder?: boolean;
+  videoSrc?: string;
 }

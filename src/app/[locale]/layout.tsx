@@ -11,6 +11,7 @@ import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { WhatsAppFloatingButton } from "@/components/shared/WhatsAppFloatingButton";
 import { LanguagePopup } from "@/components/i18n/LanguagePopup";
+import { MauritiusHolidayPopup } from "@/components/shared/MauritiusHolidayPopup";
 import { routing } from "@/i18n/routing";
 import { getLocaleConfig } from "@/i18n/locales";
 import { buildAlternates, ogLocale, SITE_URL } from "@/i18n/seo";
@@ -218,6 +219,7 @@ export default async function LocaleLayout({
           <Footer />
           <WhatsAppFloatingButton />
           <LanguagePopup />
+          <MauritiusHolidayPopup />
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-T550QLNF8Z"
             strategy="afterInteractive"

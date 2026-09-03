@@ -6,6 +6,7 @@ import type {
   PropertyStructural,
   ReviewStructural,
   EventStructural,
+  PackageItemStructural,
 } from "@/types";
 
 // All images are verified free Unsplash photos of real Mauritius locations (CDN-verified)
@@ -50,12 +51,39 @@ export const MU_PHOTOS = {
   portLouis: "1634972312739-d7237018e06a",
   // Green trees by blue sea — Mauritius (coast/nature)
   greenCoast: "1589745659208-9bdc6fb0ef23",
+
+  // ── Mauritius Holiday Package page — location-tagged on Unsplash, verified 200 ──
+  // Pamplemousses Botanical Garden — location tag "Pamplemousses, Île Maurice" (Remy Hellequin)
+  pamplemousses: "1781959719830-650e19fe3eeb",
+  // Port Louis harbour — location tag "Port Louis, Mauritius" (Yannick Sookree)
+  portLouisHarbour: "1741961934697-770dccc0e1ea",
+  // Grand Baie lagoon boats — location tag "Grand-Baie, Mauritius" (Ajit Sandhu)
+  grandBaie: "1662039071109-001778325956",
+  // Cap Malheureux red-roof church, aerial — location tag "Cap Malheureux, Mauritius"
+  capMalheureux: "1686740297492-7ab8937a2548",
+  // Casela Nature Parks (ostrich) — location tag "Casela Nature Parks, Royal Road, Cascavelle, Mauritius"
+  casela: "1741976628999-6fc59b75e2d0",
+  // La Vanille Nature Park crocodile — location tag "La Vanille Nature Park, Riviere des Anguilles, Mauritius"
+  laVanille: "1709078054826-4b5bd729ec60",
+  // Black River Gorges National Park — caption "Black River Gorges - Mauritius"
+  blackRiverGorges: "1540458886614-fb70955f6168",
+  // Snorkelling, Blue Bay Marine Park — location tag "Blue Bay Marine Park, Blue Bay, Mauritius"
+  snorkellingBlueBay: "1533914772478-15cc30e93990",
+  // Dolphins, Tamarin Bay — location tag "Baie du Tamarin, Mauritius" (Mauritius's dolphin-watching spot)
+  dolphinsTamarin: "1511220413245-032551094262",
+  // Genuine Mauritius sunset over the ocean (location tagged "Mauritius"; exact beach not confirmed as Flic-en-Flac)
+  mauritiusSunset: "1645189965761-a2d2aedbbcaa",
+  // Parasailing — real parasail-over-ocean shot; location tagged Raa Atoll, Maldives (no Mauritius-tagged photo exists on Unsplash)
+  parasailingGeneric: "1632904074880-b77f02b6d01e",
+  // Quad biking / ATV on a forest trail — real activity shot; no location tag (no Mauritius-tagged photo exists on Unsplash)
+  quadBikingGeneric: "1675428604186-a165487f857c",
 };
 
 export const NAV_LINKS = [
   { key: "home", href: "/" },
   { key: "airportTransfers", href: "/airport-transfers" },
   { key: "tours", href: "/tours" },
+  { key: "mauritiusHoliday", href: "/mauritius-holiday-package" },
   { key: "activities", href: "/activities" },
   { key: "carRental", href: "/car-rental" },
   // { key: "properties", href: "/properties" }, // HIDDEN — uncomment to restore
@@ -158,6 +186,85 @@ export const ACTIVITY_REVIEWS: (ReviewStructural & { activityKey: string })[] = 
   { id: "act-4", name: "James Carter", country: "Australia", rating: 5, activityKey: "hiking-adventures", date: "May 2026" },
   { id: "act-5", name: "Amélie Rousseau", country: "France", rating: 5, activityKey: "7-caves-exploration", date: "March 2026" },
   { id: "act-6", name: "Lena & Stefan Bauer", country: "Germany", rating: 5, activityKey: "waterfalls-river-treks", date: "June 2026" },
+];
+
+// ── Mauritius Holiday Package page (/mauritius-holiday-package) ─────────────
+// Structural-only: images + optional links to existing routes. All text lives
+// in messages/<locale>.json under "mauritiusPackage" — edit copy there, edit
+// the attraction list (add/remove/reorder) here.
+
+export const PACKAGE_HERO_IMAGE = MU(MU_PHOTOS.leMorneAerial);
+
+// Small circular "Your Journey" preview strip at the bottom of the hero.
+// Reuses images already verified/used elsewhere on this page — no new sourcing needed.
+export const HERO_JOURNEY_PREVIEW: PackageItemStructural[] = [
+  { id: "north", image: MU(MU_PHOTOS.pamplemousses, 200) },
+  { id: "wildSouth", image: MU(MU_PHOTOS.blackRiverGorges, 200) },
+  { id: "wildlife", image: MU(MU_PHOTOS.casela, 200) },
+  { id: "westCoast", image: MU(MU_PHOTOS.mauritiusSunset, 200) },
+  { id: "ileAuxCerfs", image: MU(MU_PHOTOS.flatIsland, 200) },
+  { id: "adventure", image: "/activities/paragliding/card.jpeg" },
+];
+// "Your Mauritius Experience" section — aerial coastal town, alongside the journey steps
+export const PACKAGE_EXPERIENCE_IMAGE = MU(MU_PHOTOS.flicEnFlacCity);
+// Real photo of SSR International Airport, Mauritius — the pick-up/drop-off curbside
+// canopy. Not on Unsplash (verified — no free SSR/Mauritius-airport photo exists there);
+// sourced from Wikimedia Commons instead, which — unlike Unsplash — requires visible
+// attribution under its licence. Keep PACKAGE_AIRPORT_IMAGE_CREDIT rendered alongside it.
+export const PACKAGE_AIRPORT_IMAGE =
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flughafen_Mauritius_2019-10-01.jpg/1920px-Flughafen_Mauritius_2019-10-01.jpg";
+export const PACKAGE_AIRPORT_IMAGE_CREDIT = "Photo: Z thomas / Wikimedia Commons, CC BY-SA 4.0";
+export const PACKAGE_CASELA_IMAGE = MU(MU_PHOTOS.casela);
+export const PACKAGE_SUNSET_IMAGE = MU(MU_PHOTOS.mauritiusSunset);
+
+export const NORTH_ATTRACTIONS: PackageItemStructural[] = [
+  { id: "pamplemousses", image: MU(MU_PHOTOS.pamplemousses, 400) },
+  { id: "portLouis", image: MU(MU_PHOTOS.portLouisHarbour, 400) },
+  { id: "grandBaie", image: MU(MU_PHOTOS.grandBaie, 400) },
+  { id: "capMalheureux", image: MU(MU_PHOTOS.capMalheureux, 400) },
+];
+
+// NOTE: no genuine "Alexandra Falls" or "La Vallée des Couleurs" photo exists on Unsplash
+// (verified via exhaustive search) — sourced real photos of each specific spot from
+// Wikimedia Commons instead. Alexandra Falls' photo is CC BY-SA 4.0 (requires the visible
+// `credit` attribution below); the Vallée des Couleurs / Seven Coloured Earths photo is
+// CC0 (public domain — no attribution required).
+export const SOUTH_ATTRACTIONS: PackageItemStructural[] = [
+  { id: "blackRiverGorges", image: MU(MU_PHOTOS.blackRiverGorges, 400) },
+  {
+    id: "alexandraFalls",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/90/Alexandra_Falls_Mauritius_2019-09-28.jpg",
+    credit: "Photo: Z thomas / Wikimedia Commons, CC BY-SA 4.0",
+  },
+  {
+    id: "valleeDesCouleurs",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Seven_Coloured_Earths%2C_Chamarel%2C_March_2020_%284%29.jpg",
+  },
+  { id: "laVanille", image: MU(MU_PHOTOS.laVanille, 400) },
+];
+
+// NOTE: no genuine "Île aux Cerfs" or "GRSE Waterfall" photo exists on Unsplash
+// (verified via exhaustive search) — still using placeholders until real photos of
+// these specific spots are sourced.
+export const OCEAN_EXPERIENCES: PackageItemStructural[] = [
+  { id: "ileAuxCerfs", image: MU(MU_PHOTOS.flatIsland, 800) },
+  { id: "grseWaterfall", image: MU(MU_PHOTOS.underwaterWaterfall, 800) },
+  { id: "snorkelling", image: MU(MU_PHOTOS.snorkellingBlueBay, 800) },
+  { id: "catamaran", image: MU(MU_PHOTOS.catamaran, 800) },
+];
+
+// `href` only set where a matching route already exists under /activities — do not invent routes.
+// Quad Biking has no dedicated activity page yet, so its slide has no link.
+// Parasailing / Quad Biking: no Mauritius-tagged photo exists on Unsplash — using a real
+// photo of the activity itself (location unconfirmed) rather than an unrelated stock image.
+// Order matches the "Add Some Adventure" carousel; sized larger (1600w) for full-bleed display.
+export const ADVENTURE_ACTIVITIES: PackageItemStructural[] = [
+  { id: "paragliding", image: "/activities/paragliding/card.jpeg", href: "/activities/paragliding" },
+  { id: "parasailing", image: MU(MU_PHOTOS.parasailingGeneric, 1600), href: "/activities/parasailing" },
+  { id: "dolphinWatching", image: MU(MU_PHOTOS.dolphinsTamarin, 1600), href: "/activities/dolphin-encounter" },
+  { id: "underseaWalk", image: MU(MU_PHOTOS.flatIsland, 1600), href: "/activities/underwater-walk" },
+  { id: "quadBiking", image: MU(MU_PHOTOS.quadBikingGeneric, 1600) },
+  { id: "waterfallTrekking", image: "/activities/waterfall-river-treks/card.jpeg", href: "/activities/waterfalls-river-treks" },
 ];
 
 export const EVENTS: EventStructural[] = [

@@ -2,11 +2,11 @@ import Image from "next/image";
 import {
   Clock, MapPin, Users, Star, Zap, UserCheck, Shield,
   Heart, Anchor, Sunrise, CheckCircle2, XCircle, MessageCircle,
-  FileText, ChevronRight, LucideIcon,
+  FileText, ChevronRight, LucideIcon, Award, Sparkles, ShieldCheck,
 } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import type { ActivityHighlight, ActivityPricingTier, ActivityLocation, ActivityReview, FAQ } from "@/types";
+import type { ActivityGuide, ActivityHighlight, ActivityPricingTier, ActivityLocation, ActivityReview, FAQ } from "@/types";
 import { PageHero } from "@/components/shared/PageHero";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 import { SectionHeader } from "@/components/shared/SectionHeader";
@@ -15,11 +15,14 @@ import { CtaSection } from "@/components/sections/CtaSection";
 import { ActivityFaqAccordion } from "@/components/templates/ActivityFaqAccordion";
 import { ActivityReviewCarousel } from "@/components/templates/ActivityReviewCarousel";
 import { ActivityGallery } from "@/components/templates/ActivityGallery";
+import { ActivityAboutExpandable } from "@/components/templates/ActivityAboutExpandable";
+import { ActivityVideoSection } from "@/components/templates/ActivityVideoSection";
+import { ActivityLocationCard } from "@/components/templates/ActivityLocationCard";
 import { cn } from "@/lib/utils";
 
 const ICONS: Record<string, LucideIcon> = {
   Clock, MapPin, Users, Star, Zap, UserCheck, Shield,
-  Heart, Anchor, Sunrise, CheckCircle2,
+  Heart, Anchor, Sunrise, CheckCircle2, Award, Sparkles, ShieldCheck,
 };
 
 const isPlaceholderPrice = (price: string) =>
@@ -44,6 +47,9 @@ export interface MergedActivityDetail {
   pricingNote?: string;
   faqs: FAQ[];
   activityReviews?: { items: ActivityReview[]; note?: string };
+  guide?: ActivityGuide;
+  videoPlaceholder?: boolean;
+  videoSrc?: string;
 }
 
 export interface RelatedActivity {
@@ -115,10 +121,20 @@ export async function ActivityPageTemplate({ detail, related, locale }: Props) {
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-6 leading-tight">
                 {t("aboutTitle")}
               </h2>
-              <div className="space-y-4">
+              {/* Desktop: full text, no collapse */}
+              <div className="hidden lg:block space-y-4">
                 {detail.about.map((para, i) => (
                   <p key={i} className="text-charcoal/70 leading-relaxed">{para}</p>
                 ))}
+              </div>
+
+              {/* Mobile/tablet: collapsed behind Read More */}
+              <div className="lg:hidden">
+                <ActivityAboutExpandable
+                  paragraphs={detail.about}
+                  readMoreLabel={t("readMore")}
+                  showLessLabel={t("showLess")}
+                />
               </div>
             </AnimatedSection>
 
@@ -158,6 +174,64 @@ export async function ActivityPageTemplate({ detail, related, locale }: Props) {
         </div>
       </section>
 
+      {/* ── Video (shown only when detail.videoPlaceholder is set; sits directly above Meet Your Pilot) ── */}
+      {detail.videoPlaceholder && (
+        <section className="section-padding bg-white">
+          <div className="container-xl max-w-4xl">
+            <AnimatedSection>
+              <SectionHeader eyebrow={t("videoEyebrow")} title={t("videoTitle")} />
+            </AnimatedSection>
+            <AnimatedSection delay={0.1}>
+              <ActivityVideoSection
+                videoSrc={detail.videoSrc}
+                comingSoonLabel={t("videoComingSoon")}
+                tapHintLabel={t("videoTapHint")}
+                expandAria={t("videoExpandAria")}
+                closeAria={t("videoCloseAria")}
+              />
+            </AnimatedSection>
+          </div>
+        </section>
+      )}
+
+      {/* ── Meet Your Pilot (shown only when detail.guide is provided) ── */}
+      {detail.guide && (
+        <section className="section-padding bg-cream">
+          <div className="container-xl">
+            <AnimatedSection className="max-w-2xl mx-auto text-center">
+              <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-5 leading-tight">
+                {t("guideEyebrow")}
+              </h2>
+
+              {/* Strongest trust element — visually promoted above the standard highlight grid */}
+              <div className="inline-flex items-center gap-2.5 bg-navy text-white px-5 py-3 rounded-full shadow-md mb-7 max-w-full">
+                <ShieldCheck className="w-5 h-5 text-gold shrink-0" />
+                <span className="font-heading font-bold text-sm md:text-base leading-snug">
+                  {detail.guide.onlyPilotBadge}
+                </span>
+              </div>
+
+              <div className="space-y-4 mb-8 text-left">
+                {detail.guide.bio.map((para, i) => (
+                  <p key={i} className="text-charcoal/70 leading-relaxed text-sm md:text-base">{para}</p>
+                ))}
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {detail.guide.stats.map((stat) => {
+                  const Icon = ICONS[stat.icon] ?? Star;
+                  return (
+                    <div key={stat.label} className="flex items-center gap-2 bg-white rounded-xl px-3 py-2.5 shadow-sm">
+                      <Icon className="w-4 h-4 text-gold shrink-0" />
+                      <span className="text-charcoal text-xs font-semibold leading-tight">{stat.label}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </AnimatedSection>
+          </div>
+        </section>
+      )}
+
       {/* ── Flying Locations (shown only when detail.locations is provided) ── */}
       {detail.locations && detail.locations.length > 0 && (
         <section className="section-padding bg-cream">
@@ -171,40 +245,7 @@ export async function ActivityPageTemplate({ detail, related, locale }: Props) {
             </AnimatedSection>
             <AnimatedGrid className="grid grid-cols-1 md:grid-cols-2 gap-6" stagger={0.08}>
               {detail.locations.map((loc: ActivityLocation) => (
-                <div
-                  key={loc.name}
-                  className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-                >
-                  <div className="relative aspect-[16/9] overflow-hidden">
-                    <Image
-                      src={loc.image}
-                      alt={`${loc.name} — ${detail.name}`}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      loading="lazy"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/20 to-transparent" />
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <span className="inline-block bg-gold text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">
-                        {loc.walkTime}
-                      </span>
-                      <h3 className="font-heading font-bold text-white text-xl leading-tight">{loc.name}</h3>
-                      <p className="text-white/70 text-sm mt-0.5">{loc.subtitle}</p>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <p className="text-charcoal/70 text-sm leading-relaxed mb-4">{loc.description}</p>
-                    <ul className="space-y-2">
-                      {loc.landmarks.map((lm) => (
-                        <li key={lm} className="flex items-start gap-2 text-sm text-charcoal/60">
-                          <MapPin className="w-3.5 h-3.5 text-gold mt-0.5 shrink-0" />
-                          {lm}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
+                <ActivityLocationCard key={loc.name} loc={loc} activityName={detail.name} />
               ))}
             </AnimatedGrid>
           </div>

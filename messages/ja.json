@@ -11,7 +11,8 @@
     "contact": "お問い合わせ",
     "bookNow": "今すぐ予約",
     "bookViaWhatsapp": "WhatsAppで予約",
-    "toggleMenu": "メニューを開く"
+    "toggleMenu": "メニューを開く",
+    "mauritiusHoliday": "モーリシャス旅行"
   },
   "footer": {
     "tagline": "モーリシャスの信頼できるツアーオペレーター。情熱と専門知識、心遣いをもって、特別な旅の体験をお届けします。",
@@ -138,6 +139,10 @@
     "properties": {
       "title": "Properties in Mauritius",
       "description": "Hand-picked villas, apartments and beachfront properties in Mauritius. Book your perfect Mauritius accommodation with MauTravel."
+    },
+    "mauritiusPackage": {
+      "title": "モーリシス完全ホリデー | ツアー＆アクティビティ | MauTravel",
+      "description": "MauTravelとともに、空港送迎、北部・南部ツアー、カセラ、イル・オー・セルフ島、パラグライダー、自然体験など、丁寧に手配されたホリデーパッケージでモーリシスを満喫しましょう。"
     }
   },
   "home": {
@@ -278,7 +283,11 @@
       "eyebrow": "Events & Festivals",
       "title": "What's On in Mauritius",
       "description": "Discover the vibrant calendar of festivals, cultural events and seasonal celebrations that make Mauritius so special.",
-      "viewAll": "View All Events"
+      "viewAll": "View All Events",
+      "previousEvent": "Previous event",
+      "nextEvent": "Next event",
+      "carouselLabel": "Mauritius events carousel",
+      "goToEvent": "Go to event {n}"
     },
     "reviews": {
       "eyebrow": "Customer Reviews",
@@ -299,6 +308,18 @@
       "eyebrow": "Follow Us",
       "title": "Follow Our Mauritius Journey",
       "description": "Stay inspired with daily Mauritius content — travel tips, stunning scenery, and behind-the-scenes moments from island life."
+    },
+    "mauritiusHoliday": {
+      "eyebrow": "オールインクルーシブ休暇パッケージ",
+      "title": "モーリシャス旅行、準備万端",
+      "description": "宿泊、空港送迎、プライベートツアー、島内最高のアクティビティをまとめた、滞在に合わせてカスタマイズできる旅の体験です。",
+      "features": [
+        "宿泊オプション",
+        "空港送迎込み",
+        "プライベートツアー・観光",
+        "アクティビティ・体験"
+      ],
+      "cta": "モーリシャス旅行を見る"
     }
   },
   "airportTransfers": {
@@ -1096,7 +1117,16 @@
       "faqTitle": "Frequently Asked Questions",
       "relatedEyebrow": "Explore More",
       "relatedTitle": "Customers Also Enjoyed",
-      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package.",
+      "guideEyebrow": "パイロットをご紹介",
+      "videoEyebrow": "体験動画を見る",
+      "videoTitle": "パラグライディング体験動画",
+      "videoComingSoon": "パラグライディング体験動画 – 近日公開",
+      "readMore": "続きを読む",
+      "showLess": "閉じる",
+      "videoTapHint": "動画をタップして完全な体験をご覧ください",
+      "videoExpandAria": "動画を全画面で見る",
+      "videoCloseAria": "動画を閉じる"
     },
     "paragliding": {
       "name": "Tandem Paragliding in Mauritius",
@@ -1246,7 +1276,33 @@
           "question": "Can I take my phone or camera during the flight?",
           "answer": "We strongly recommend securing all personal belongings before take-off. Phones and cameras must be attached with a wrist strap or mounted on a secure harness. Your pilot will advise on what is safe to carry. A professional photo and video package may be available on request — please enquire when booking."
         }
-      ]
+      ],
+      "guide": {
+        "onlyPilotBadge": "モーリシャス唯一の登録タンデムパラグライディングパイロット",
+        "bio": [
+          "モーリシャス唯一の登録タンデムパラグライディングパイロットと共に、20年以上の経験と生涯にわたる飛行への情熱を携えて飛行しましょう。",
+          "パラグライディングとの出会いはわずか8歳の時に始まり、長年にわたって空での豊富な経験へと発展しました。事故なく99回以上のフライトを成功させており、安全性、準備、プロフェッショナリズム、そしてお客様の快適さを常に重視しています。",
+          "Googleやその他のソーシャルプラットフォームで高い評価を得ており、モーリシャスをまったく新しい視点から体験したいゲストからの信頼を獲得しています。",
+          "離陸から着陸まで、経験豊富なパイロットが同行し、あなたのフライトを安全で快適、そして忘れられないものにすることを最優先しています。"
+        ],
+        "stats": [
+          {
+            "label": "20年以上の経験"
+          },
+          {
+            "label": "8歳から飛行"
+          },
+          {
+            "label": "50回以上の飛行実績"
+          },
+          {
+            "label": "優れたゲスト評価"
+          },
+          {
+            "label": "安全性とお客様の快適さを最優先"
+          }
+        ]
+      }
     },
     "hiking-adventures": {
       "name": "Hiking Adventures",
@@ -2105,5 +2161,401 @@
         }
       ]
     }
+  },
+  "mauritiusPackage": {
+    "hero": {
+      "eyebrow": "モーリシスを丸ごと体験する旅",
+      "titleLine1": "ひとつの島に、",
+      "titleLine2": "数えきれない思い出を。",
+      "description": "モーリシスを海岸から海岸まで巡る旅——象徴的な名所、知られざる絶景、野生動物、透き通るラグーン、そして忘れられない冒険の数々。すべてを、あなたの滞在に合わせてデザインされたホリデーに凝縮しました。",
+      "exploreCta": "旅の行程を見る",
+      "customizeCta": "マイホリデーをカスタマイズ",
+      "journey": {
+        "title": "あなたの旅程",
+        "items": {
+          "north": "北部",
+          "wildSouth": "ワイルドサウス",
+          "wildlife": "野生動物",
+          "westCoast": "西海岸",
+          "ileAuxCerfs": "イル・オー・セルフ島",
+          "adventure": "アドベンチャー"
+        }
+      }
+    },
+    "experience": {
+      "title": "モーリシス体験",
+      "description": "このパッケージは、活気あふれる街や文化的名所から、大自然、野生動物、ビーチ、アドベンチャーまで、本当のモーリシスをご紹介するためにデザインされています。手配は私たちにお任せいただき、ひとときひとときをゆったりとお楽しみください。",
+      "journey": {
+        "north": "モーリシス北部",
+        "wildSouth": "ワイルドサウス",
+        "wildlifeNature": "野生動物と自然",
+        "westCoast": "西海岸",
+        "oceanExperiences": "海のアクティビティ",
+        "adventureActivities": "アドベンチャー＆アクティビティ"
+      }
+    },
+    "airportTransfer": {
+      "eyebrow": "始まりも終わりもストレスフリーに",
+      "title": "空港送迎サービス",
+      "description": "旅の始まりから終わりまでストレスフリーに。SSR国際空港からご宿泊先までの専用送迎、そしてご帰国時の復路送迎も手配いたします。",
+      "benefits": {
+        "privateTransfer": "専用送迎",
+        "airportPickup": "空港出迎え",
+        "airportDropoff": "空港お見送り",
+        "comfortableVehicle": "快適な車両"
+      }
+    },
+    "discover": {
+      "north": {
+        "eyebrow": "北部を巡る",
+        "title": "文化、庭園、そして海辺の暮らし",
+        "items": {
+          "pamplemousses": {
+            "name": "パンプルムース植物園",
+            "description": "巨大な睡蓮、エキゾチックな植物、香辛料、そして樹齢数百年の古木が生い茂ります。"
+          },
+          "portLouis": {
+            "name": "ポートルイス＆コーダン・ウォーターフロント",
+            "description": "首都ポートルイスを探訪し、色とりどりの市場、地元の文化、活気ある波止場の雰囲気を体感してください。"
+          },
+          "grandBaie": {
+            "name": "グランベー",
+            "description": "美しいビーチやショップ、レストランが並び、ターコイズブルーのラグーンを望む賑やかな海辺の町。"
+          },
+          "capMalheureux": {
+            "name": "カップ・マルウー",
+            "description": "象徴的な赤い屋根の教会と美しい海岸線、北部ならではの息をのむ絶景が広がります。"
+          }
+        }
+      },
+      "south": {
+        "eyebrow": "風光明媚な南部",
+        "title": "大自然、滝、そして野性味あふれる風景",
+        "items": {
+          "blackRiverGorges": {
+            "name": "ブラックリバー渓谷",
+            "description": "パノラマの展望台、深い森、モーリシスでも屈指の壮大な景観が広がります。"
+          },
+          "alexandraFalls": {
+            "name": "アレクサンドラの滝",
+            "description": "緑豊かな渓谷と流れ落ちる滝を見渡す美しい展望スポット。"
+          },
+          "valleeDesCouleurs": {
+            "name": "ラ・バレ・デ・クルール自然公園",
+            "description": "色鮮やかな大地、滝、展望台、そしてアドベンチャー体験が楽しめます。"
+          },
+          "laVanille": {
+            "name": "ラ・バニーユ自然公園（クロコダイルパーク）",
+            "description": "南国の風景の中で、巨大リクガメやワニなど魅力あふれる野生動物に出会えます。"
+          }
+        }
+      }
+    },
+    "casela": {
+      "eyebrow": "冒険に満ちた一日",
+      "title": "カセラ・ネイチャーパークを体験",
+      "description": "野生動物とのふれあいからアドレナリン全開のアクティビティまで、カセラはモーリシス旅行のハイライトのひとつです。",
+      "experiences": {
+        "safari": "サファリ",
+        "ziplining": "ジップライン",
+        "toboggan": "トボガン",
+        "quadBiking": "クアッドバイク",
+        "walkWithLions": "ライオンと歩く",
+        "wildlifeEncounters": "野生動物とのふれあい"
+      },
+      "note": "一部の体験はオプションとなる場合や、追加料金が発生する場合があります。"
+    },
+    "sunset": {
+      "eyebrow": "ゆっくりと。ここはモーリシスです。",
+      "title": "フリック・アン・フラックの夕日",
+      "description": "海辺でくつろぎながら、モーリシスの空が黄金色に染まる瞬間をお楽しみください。忘れられない一日を締めくくる最高のひとときです。"
+    },
+    "water": {
+      "title": "水上から楽しむモーリシス",
+      "items": {
+        "ileAuxCerfs": {
+          "name": "イル・オー・セルフ島",
+          "description": "透き通るラグーンと白砂のビーチが広がる、くつろぎの島リゾート。"
+        },
+        "grseWaterfall": {
+          "name": "GRSEの滝",
+          "description": "川沿いを進む景色豊かなボートクルーズで、美しいグラン・リヴィエール・スードエストの滝へ。"
+        },
+        "snorkelling": {
+          "name": "シュノーケリング",
+          "description": "モーリシスの色鮮やかな海中世界と海洋生物を探検しましょう。"
+        },
+        "catamaran": {
+          "name": "カタマランクルーズ",
+          "description": "潮風を感じながら、絶景の海岸線を望む、水上での忘れられない一日を。"
+        }
+      },
+      "carousel": {
+        "regionLabel": "モーリシスの水上体験カルーセル",
+        "previousSlide": "前の体験",
+        "nextSlide": "次の体験",
+        "goToSlide": "スライド{n}へ移動"
+      }
+    },
+    "adventure": {
+      "title": "アクティビティ＆体験",
+      "items": {
+        "paragliding": {
+          "name": "パラグライダー",
+          "headline": "楽園の空を舞う",
+          "description": "ラグーンと山々の上を滑空し、忘れられない鳥の目線でモーリシスを見渡しましょう。"
+        },
+        "parasailing": {
+          "name": "パラセーリング",
+          "headline": "ラグーンの上空を飛ぶ",
+          "description": "ターコイズブルーの海の上空へ舞い上がり、空から広がる海岸線の絶景を満喫してください。"
+        },
+        "dolphinWatching": {
+          "name": "ドルフィンウォッチング",
+          "headline": "モーリシスの野生イルカに出会う",
+          "description": "早朝のボートツアーで、自然の中でたわむれるイルカたちの姿をご覧ください。"
+        },
+        "underseaWalk": {
+          "name": "海底散歩",
+          "headline": "海の底を歩く",
+          "description": "ガイド付きで海面下のサンゴ礁を間近に探検——ダイビング経験は一切不要です。"
+        },
+        "quadBiking": {
+          "name": "クアッドバイク",
+          "headline": "手つかずの道を駆け抜ける",
+          "description": "アドレナリン全開のクアッドバイクで、荒々しい大地と風光明媚な小道を探検しましょう。"
+        },
+        "waterfallTrekking": {
+          "name": "滝トレッキング",
+          "headline": "秘境の滝を追い求めて",
+          "description": "緑豊かな森の小道をトレッキングし、モーリシスで最も美しい隠れた滝を発見してください。"
+        }
+      },
+      "note": "選択されたアクティビティは本パッケージに含まれています。それ以外はオプションとなる場合や、追加料金が発生する場合があります。",
+      "carousel": {
+        "regionLabel": "モーリシスのアドベンチャーアクティビティカルーセル",
+        "previousSlide": "前のアクティビティ",
+        "nextSlide": "次のアクティビティ",
+        "goToSlide": "スライド{n}へ移動",
+        "viewActivity": "アクティビティを見る"
+      }
+    },
+    "flexibility": {
+      "eyebrow": "あなたの休日を、あなたらしく",
+      "title": "あなたの滞在に合わせて",
+      "description": "5日間の滞在でも、2週間の滞在でも。カップル、家族、グループでの旅行でも。滞在日数、人数、そしてお楽しみいただきたい体験に合わせて、モーリシス旅行を自由に調整いたします。",
+      "duration": {
+        "options": {
+          "5": "5日間",
+          "7": "7日間",
+          "10": "10日間",
+          "14": "14日間",
+          "custom": "カスタム"
+        }
+      },
+      "travellersNote": "お一人様、カップル、ご家族、グループでのご利用が可能です。",
+      "ctaButton": "マイホリデーをカスタマイズ"
+    },
+    "faq": {
+      "title": "よくあるご質問",
+      "subtitle": "MauTravelとのモーリシス旅行計画について、知っておきたいことをすべてご紹介します。",
+      "items": [
+        {
+          "question": "モーリシス・ホリデーパッケージはカスタマイズできますか？",
+          "answer": "はい、可能です。滞在日数、人数、そしてお楽しみいただきたい体験に応じてパッケージを調整できます。観光、自然、アドベンチャー、そしてゆったりとくつろぐ時間との理想的なバランスをご提案いたします。"
+        },
+        {
+          "question": "ホリデーパッケージの日数は決まっていますか？",
+          "answer": "固定の日数はございません。5日間、7日間、10日間、2週間、あるいはその他の期間でも、滞在の長さに合わせて体験内容を調整いたします。"
+        },
+        {
+          "question": "カップル、ご家族、グループでの手配も可能ですか？",
+          "answer": "はい、可能です。お一人様、カップル、ご家族、グループそれぞれに合わせて旅行を手配いたします。人数に応じて交通手段などの内容も調整いたします。"
+        },
+        {
+          "question": "アクティビティや観光スポットの一部を変更できますか？",
+          "answer": "はい、可能です。このページに掲載されている体験は、モーリシス旅行に含めることができる一例です。観光スポットやアクティビティの追加、削除、変更をご希望の場合は、ご興味とご利用可能な時間に応じてMauTravelがパッケージを調整いたします。"
+        },
+        {
+          "question": "モーリシス・ホリデーパッケージの料金はいくらですか？",
+          "answer": "料金は滞在日数、人数、選択された体験内容、最終的なパッケージ内容によって異なります。旅行日程とグループ人数をMauTravelまでお知らせいただければ、個別のお見積りをご用意いたします。"
+        },
+        {
+          "question": "宿泊と食事は含まれていますか？",
+          "answer": "宿泊と食事の手配は、ご旅行用に作成されたパッケージ内容によって異なります。含まれる内容とオプションの追加事項は、個別のお見積りに明確に記載いたします。"
+        },
+        {
+          "question": "観光施設の入場料は含まれていますか？",
+          "answer": "入場料は、最終的に選択された観光スポットやアクティビティによって異なります。含まれる入場料および追加費用については、ご確認前のお見積りに明確に記載いたします。"
+        },
+        {
+          "question": "交通手段は含まれていますか？",
+          "answer": "ご旅行に含まれる体験にあわせて専用交通手段を手配できるほか、空港の送迎も承ります。適切な車両はグループの人数によって異なります。"
+        },
+        {
+          "question": "パラグライダーなどのアクティビティは含まれていますか？",
+          "answer": "旅行の手配時に、特定のアクティビティを含めることができます。パラグライダー、パラセーリング、イルカ体験、海底散歩、クアッドバイク、滝トレッキングなども、ご希望、空き状況、当日の状況に応じて追加可能です。"
+        },
+        {
+          "question": "天候の影響でアクティビティが実施できない場合はどうなりますか？",
+          "answer": "一部の屋外・海洋アクティビティは天候に左右されます。安全に実施できない場合、MauTravelが空き状況やアクティビティ提供会社の条件に応じて、代替案や日程変更のご案内をサポートいたします。"
+        },
+        {
+          "question": "モーリシス旅行はどのように予約すればよいですか？",
+          "answer": "旅行日程、人数、ご興味のある体験内容をMauTravelまでお知らせください。滞在内容に合わせた調整を行い、ご確認いただく前に詳細情報と個別のお見積りをご提供いたします。"
+        }
+      ],
+      "showMore": "もっと見る",
+      "showLess": "閉じる"
+    },
+    "customizeForm": {
+      "eyebrow": "ご旅行プランを一緒に考えましょう",
+      "title": "モーリシス旅行についてお聞かせください",
+      "description": "ご旅行についての詳細をいくつかお聞かせいただければ、MauTravelの旅行体験をあなたの滞在に合わせてご提案いたします。",
+      "groups": {
+        "trip": "ご旅行について",
+        "experiences": "ご希望の体験",
+        "final": "最終確認"
+      },
+      "dates": {
+        "label": "モーリシスへのご旅行はいつですか？",
+        "arrival": "到着日",
+        "departure": "出発日"
+      },
+      "travellers": {
+        "label": "ご旅行の人数は？",
+        "adults": "大人",
+        "children": "子供",
+        "decreaseAdults": "大人を減らす",
+        "increaseAdults": "大人を増やす",
+        "decreaseChildren": "子供を減らす",
+        "increaseChildren": "子供を増やす"
+      },
+      "travellerType": {
+        "label": "どなたとご旅行されますか？",
+        "options": {
+          "solo": "お一人様",
+          "couple": "カップル",
+          "family": "ご家族",
+          "friends": "友人同士",
+          "group": "グループ"
+        }
+      },
+      "duration": {
+        "label": "滞在日数はどのくらいですか？",
+        "options": {
+          "5": "5日間",
+          "7": "7日間",
+          "10": "10日間",
+          "14": "14日間",
+          "custom": "カスタム"
+        },
+        "customLabel": "日数",
+        "daysUnit": "日間"
+      },
+      "destinations": {
+        "label": "訪れてみたい場所はどこですか？",
+        "placeholder": "場所を選択",
+        "searchPlaceholder": "場所を検索...",
+        "noResults": "該当する場所が見つかりません",
+        "casela": "カセラ・ネイチャーパーク",
+        "flicEnFlac": "フリック・アン・フラック",
+        "remove": "削除"
+      },
+      "activities": {
+        "label": "興味のある体験はどれですか？"
+      },
+      "holidayStyle": {
+        "label": "どのような旅行をお探しですか？",
+        "options": {
+          "adventure": "アドベンチャー",
+          "nature": "自然",
+          "beaches": "ビーチ",
+          "culture": "文化",
+          "wildlife": "野生動物",
+          "relaxation": "リラクゼーション",
+          "everything": "いろいろ楽しみたい"
+        }
+      },
+      "accommodation": {
+        "label": "宿泊先の手配はお済みですか？",
+        "options": {
+          "booked": "予約済み",
+          "help": "MauTravelに手配をお願いしたい",
+          "undecided": "まだ決めていない"
+        }
+      },
+      "transfers": {
+        "label": "空港送迎は必要ですか？",
+        "options": {
+          "yes": "はい",
+          "no": "いいえ",
+          "unsure": "まだわからない"
+        }
+      },
+      "specialRequests": {
+        "label": "その他お知らせいただきたいことはありますか？",
+        "placeholder": "特別なご要望、追加したい場所、同行するお子様、バリアフリー対応のご要望など、旅行プランの参考になる情報がございましたらお知らせください。"
+      },
+      "submit": "WhatsAppで旅行のご要望を送信",
+      "submitNote": "お支払いは不要です——ご要望を確認の上、個別のお見積りをお送りいたします。",
+      "validation": {
+        "stayOrDates": "滞在日数または旅行日程をお選びください。"
+      },
+      "message": {
+        "greeting": "こんにちは、MauTravelです！👋",
+        "intro": "モーリシス旅行をカスタマイズしたいです。",
+        "tripDetails": "旅行の詳細",
+        "arrival": "到着",
+        "departure": "出発",
+        "stay": "滞在期間",
+        "travellersHeading": "同行者",
+        "adults": "大人",
+        "children": "子供",
+        "travellingAs": "旅行形態",
+        "placesHeading": "訪れたい場所",
+        "activitiesHeading": "興味のあるアクティビティ",
+        "styleHeading": "旅行のスタイル",
+        "accommodationHeading": "宿泊",
+        "transfersHeading": "空港送迎",
+        "specialRequestHeading": "特別なご要望",
+        "closing": "私たちにぴったりの手配をご提案いただき、お見積りをお送りいただけますか？"
+      }
+    },
+    "whyTravel": {
+      "eyebrow": "MauTravelが選ばれる理由",
+      "title": "モーリシス旅行を、",
+      "titleAccent": "すべておまかせ",
+      "description": "ご到着の瞬間から島内でのあらゆる体験まで、MauTravelが旅行の手配をひとつにまとめてご提案。手配の手間を減らし、モーリシスを楽しむ時間をより多く。",
+      "benefits": {
+        "contact": {
+          "title": "窓口はひとつだけ",
+          "description": "送迎、ツアー、体験の手配をひとつのチームが担当します。"
+        },
+        "builtAround": {
+          "title": "滞在に合わせて設計",
+          "description": "滞在期間、人数、ご興味に合わせて調整いたします。"
+        },
+        "transport": {
+          "title": "専用交通手段",
+          "description": "ご確定いただいた体験内容に合わせて手配します。"
+        },
+        "localExperience": {
+          "title": "モーリシスならではの体験",
+          "description": "有名な観光名所から、知られざる絶景まで。"
+        },
+        "support": {
+          "title": "旅行中も安心のサポート",
+          "description": "旅行期間中、いつでもご連絡いただけます。"
+        }
+      },
+      "closing": "モーリシスを楽しむのはあなた。旅の道のりは私たちにおまかせください。"
+    }
+  },
+  "holidayPopup": {
+    "title": "モーリシャス旅行をご計画中ですか？",
+    "message": "宿泊、空港送迎、ツアー、アクティビティ、滞在に合わせたキュレーション体験をまとめた、モーリシャス完全旅行パッケージをご覧ください。",
+    "cta": "モーリシャスパッケージを見る",
+    "closeAria": "ポップアップを閉じる"
   }
 }

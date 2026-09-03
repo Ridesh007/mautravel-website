@@ -11,7 +11,8 @@
     "contact": "联系我们",
     "bookNow": "立即预订",
     "bookViaWhatsapp": "通过WhatsApp预订",
-    "toggleMenu": "打开菜单"
+    "toggleMenu": "打开菜单",
+    "mauritiusHoliday": "毛里求斯度假"
   },
   "footer": {
     "tagline": "毛里求斯值得信赖的旅游运营商。我们以热情、专业和细心打造非凡的旅行体验。",
@@ -138,6 +139,10 @@
     "properties": {
       "title": "Properties in Mauritius",
       "description": "Hand-picked villas, apartments and beachfront properties in Mauritius. Book your perfect Mauritius accommodation with MauTravel."
+    },
+    "mauritiusPackage": {
+      "title": "毛里求斯全览假期 | 旅游行程与活动 | MauTravel",
+      "description": "跟随MauTravel探索毛里求斯，享受精心安排的假期套餐，涵盖机场接送、南北部游览、卡塞拉自然公园、鹿岛、滑翔伞、自然体验等更多精彩内容。"
     }
   },
   "home": {
@@ -278,7 +283,11 @@
       "eyebrow": "Events & Festivals",
       "title": "What's On in Mauritius",
       "description": "Discover the vibrant calendar of festivals, cultural events and seasonal celebrations that make Mauritius so special.",
-      "viewAll": "View All Events"
+      "viewAll": "View All Events",
+      "previousEvent": "Previous event",
+      "nextEvent": "Next event",
+      "carouselLabel": "Mauritius events carousel",
+      "goToEvent": "Go to event {n}"
     },
     "reviews": {
       "eyebrow": "Customer Reviews",
@@ -299,6 +308,18 @@
       "eyebrow": "Follow Us",
       "title": "Follow Our Mauritius Journey",
       "description": "Stay inspired with daily Mauritius content — travel tips, stunning scenery, and behind-the-scenes moments from island life."
+    },
+    "mauritiusHoliday": {
+      "eyebrow": "完整假期套餐",
+      "title": "您的毛里求斯假期，随时享受",
+      "description": "一站式安排的旅程，包含住宿、机场接送、私人游览及岛上最佳体验活动——根据您的行程量身定制。",
+      "features": [
+        "住宿选择",
+        "包含机场接送",
+        "私人游览与观光",
+        "活动与体验"
+      ],
+      "cta": "探索毛里求斯假期"
     }
   },
   "airportTransfers": {
@@ -1096,7 +1117,16 @@
       "faqTitle": "Frequently Asked Questions",
       "relatedEyebrow": "Explore More",
       "relatedTitle": "Customers Also Enjoyed",
-      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package.",
+      "guideEyebrow": "认识您的飞行员",
+      "videoEyebrow": "观看体验视频",
+      "videoTitle": "滑翔伞体验视频",
+      "videoComingSoon": "滑翔伞体验视频——敬请期待",
+      "readMore": "阅读更多",
+      "showLess": "收起",
+      "videoTapHint": "点击视频观看完整体验",
+      "videoExpandAria": "观看完整视频",
+      "videoCloseAria": "关闭视频"
     },
     "paragliding": {
       "name": "Tandem Paragliding in Mauritius",
@@ -1246,7 +1276,33 @@
           "question": "Can I take my phone or camera during the flight?",
           "answer": "We strongly recommend securing all personal belongings before take-off. Phones and cameras must be attached with a wrist strap or mounted on a secure harness. Your pilot will advise on what is safe to carry. A professional photo and video package may be available on request — please enquire when booking."
         }
-      ]
+      ],
+      "guide": {
+        "onlyPilotBadge": "毛里求斯唯一注册的双人滑翔伞飞行员",
+        "bio": [
+          "与毛里求斯唯一注册的双人滑翔伞飞行员一起飞行，他拥有超过20年的经验和对飞行的终身热爱。",
+          "他与滑翔伞的缘分始于8岁，历经数十年发展成丰富的空中飞行经验。凭借99多次成功飞行且从未发生事故的记录，每一次飞行都高度重视安全、准备工作、专业性和乘客的舒适度。",
+          "他在Google及其他社交平台上均获得极高评价，赢得了众多希望从全新视角体验毛里求斯的客人的信任。",
+          "从起飞到降落，都将有一位经验丰富的飞行员陪伴您，他的首要任务是让您的飞行安全、舒适且难忘。"
+        ],
+        "stats": [
+          {
+            "label": "20+ 年经验"
+          },
+          {
+            "label": "8岁起开始飞行"
+          },
+          {
+            "label": "50+ 次成功飞行"
+          },
+          {
+            "label": "极佳的客户评价"
+          },
+          {
+            "label": "安全与乘客舒适至上"
+          }
+        ]
+      }
     },
     "hiking-adventures": {
       "name": "Hiking Adventures",
@@ -2105,5 +2161,401 @@
         }
       ]
     }
+  },
+  "mauritiusPackage": {
+    "hero": {
+      "eyebrow": "您的毛里求斯完整体验",
+      "titleLine1": "一座海岛。",
+      "titleLine2": "无数回忆。",
+      "description": "从海岸到海岸，探索毛里求斯的方方面面——标志性景点、隐秘风光、野生动物、热带泻湖与难忘的冒险，全部融入一场专为您的旅程量身打造的假期。",
+      "exploreCta": "探索您的旅程",
+      "customizeCta": "定制我的假期",
+      "journey": {
+        "title": "您的旅程",
+        "items": {
+          "north": "北部",
+          "wildSouth": "狂野南部",
+          "wildlife": "野生动物",
+          "westCoast": "西海岸",
+          "ileAuxCerfs": "鹿岛",
+          "adventure": "探险活动"
+        }
+      }
+    },
+    "experience": {
+      "title": "您的毛里求斯体验",
+      "description": "这套行程旨在为您呈现真实的毛里求斯——从活力小镇与人文景点，到自然风光、野生动物、海滩与探险活动。所有后勤安排我们都会妥善打理，让您尽情放松，享受每一刻。",
+      "journey": {
+        "north": "毛里求斯北部",
+        "wildSouth": "狂野南部",
+        "wildlifeNature": "野生动物与自然",
+        "westCoast": "西海岸",
+        "oceanExperiences": "海上体验",
+        "adventureActivities": "探险与活动"
+      }
+    },
+    "airportTransfer": {
+      "eyebrow": "轻松开启，从容结束",
+      "title": "机场接送服务",
+      "description": "让您的假期从始至终毫无压力。我们将安排私人专车，从西沃萨古尔·拉姆古兰国际机场（SSR International Airport）接您前往住宿地点，并在您离境时安排返程接送。",
+      "benefits": {
+        "privateTransfer": "私人专车",
+        "airportPickup": "机场接机",
+        "airportDropoff": "机场送机",
+        "comfortableVehicle": "舒适车辆"
+      }
+    },
+    "discover": {
+      "north": {
+        "eyebrow": "探索北部",
+        "title": "文化、花园与海岸风情",
+        "items": {
+          "pamplemousses": {
+            "name": "帕姆普勒穆斯植物园 (Pamplemousses)",
+            "description": "这里生长着巨型睡莲、奇花异草、香料植物以及百年古树。"
+          },
+          "portLouis": {
+            "name": "路易港与凯丹海滨长廊 (Port Louis & Caudan Waterfront)",
+            "description": "探索毛里求斯首都，感受多彩的市场、当地文化与活力四射的海滨风光。"
+          },
+          "grandBaie": {
+            "name": "大湾 (Grand Baie)",
+            "description": "热闹的海滨小镇，拥有美丽的沙滩、商店、餐厅以及碧绿的泻湖景观。"
+          },
+          "capMalheureux": {
+            "name": "不幸角 (Cap Malheureux)",
+            "description": "标志性的红顶教堂，秀丽的海岸风光，以及令人屏息的北部景致。"
+          }
+        }
+      },
+      "south": {
+        "eyebrow": "风光旖旎的南部",
+        "title": "自然、瀑布与野性风光",
+        "items": {
+          "blackRiverGorges": {
+            "name": "黑河峡谷国家公园 (Black River Gorges)",
+            "description": "全景观景台、茂密的森林，以及毛里求斯最壮观的风光之一。"
+          },
+          "alexandraFalls": {
+            "name": "亚历山德拉瀑布 (Alexandra Falls)",
+            "description": "俯瞰葱郁山谷与飞泻瀑布的绝美观景点。"
+          },
+          "valleeDesCouleurs": {
+            "name": "七彩大地自然公园 (La Vallée des Couleurs)",
+            "description": "斑斓的七彩土地、瀑布、观景台与探险体验。"
+          },
+          "laVanille": {
+            "name": "香草自然公园／鳄鱼公园 (La Vanille Nature Park)",
+            "description": "在热带环境中近距离接触巨龟、鳄鱼等奇妙野生动物。"
+          }
+        }
+      }
+    },
+    "casela": {
+      "eyebrow": "精彩探险的一天",
+      "title": "畅游卡塞拉自然公园 (Casela Nature Parks)",
+      "description": "从近距离接触野生动物到肾上腺素飙升的刺激体验，卡塞拉是您毛里求斯假期中的一大亮点。",
+      "experiences": {
+        "safari": "野生动物园游猎",
+        "ziplining": "高空滑索",
+        "toboggan": "滑道",
+        "quadBiking": "四驱越野车",
+        "walkWithLions": "与狮同行",
+        "wildlifeEncounters": "野生动物近距离接触"
+      },
+      "note": "部分体验项目为可选项目，可能需另行付费。"
+    },
+    "sunset": {
+      "eyebrow": "放慢脚步，您已身处毛里求斯。",
+      "title": "弗拉克湾日落 (Flic-en-Flac)",
+      "description": "漫步海边，静看毛里求斯的天空渐染金黄。这是为难忘一天画上完美句点的方式。"
+    },
+    "water": {
+      "title": "从水上探索毛里求斯",
+      "items": {
+        "ileAuxCerfs": {
+          "name": "鹿岛 (Île aux Cerfs)",
+          "description": "清澈见底的泻湖、洁白的沙滩，令人放松身心的海岛度假胜地。"
+        },
+        "grseWaterfall": {
+          "name": "东南大河瀑布 (GRSE Waterfall)",
+          "description": "乘船沿河而上，欣赏沿途风光，抵达秀美的东南大河瀑布 (Grand River South East)。"
+        },
+        "snorkelling": {
+          "name": "浮潜",
+          "description": "探索毛里求斯绚丽多彩的海底世界与海洋生物。"
+        },
+        "catamaran": {
+          "name": "双体船巡游",
+          "description": "感受海风轻拂，饱览壮丽海岸风光，度过难忘的一天。"
+        }
+      },
+      "carousel": {
+        "regionLabel": "毛里求斯水上体验轮播",
+        "previousSlide": "上一项体验",
+        "nextSlide": "下一项体验",
+        "goToSlide": "跳转至第 {n} 张"
+      }
+    },
+    "adventure": {
+      "title": "活动与体验",
+      "items": {
+        "paragliding": {
+          "name": "滑翔伞",
+          "headline": "翱翔天际，俯瞰天堂",
+          "description": "在泻湖与群山之上翱翔，从空中俯瞰毛里求斯，感受您永生难忘的绝美视角。"
+        },
+        "parasailing": {
+          "name": "拖曳伞",
+          "headline": "高飞泻湖之上",
+          "description": "腾空跃起，越过碧绿的海水，从空中饱览壮阔的海岸风光。"
+        },
+        "dolphinWatching": {
+          "name": "观赏海豚",
+          "headline": "邂逅毛里求斯的野生海豚",
+          "description": "清晨乘船出海，观赏海豚在自然栖息地中嬉戏畅游。"
+        },
+        "underseaWalk": {
+          "name": "海底漫步",
+          "headline": "漫步海底世界",
+          "description": "在向导带领下漫步海底，近距离探索珊瑚礁——无需任何潜水经验。"
+        },
+        "quadBiking": {
+          "name": "四驱越野车",
+          "headline": "驰骋未经雕琢的越野道",
+          "description": "驾驶四驱越野车，穿越崎岖地形与风景如画的乡间小路，尽享肾上腺素飙升的刺激。"
+        },
+        "waterfallTrekking": {
+          "name": "瀑布徒步",
+          "headline": "追寻隐秘瀑布",
+          "description": "穿行于郁郁葱葱的丛林小径，探寻毛里求斯最秀美的隐秘瀑布。"
+        }
+      },
+      "note": "部分活动已包含在本套餐内，其他活动可能为可选项目或需另行付费。",
+      "carousel": {
+        "regionLabel": "毛里求斯探险活动轮播",
+        "previousSlide": "上一项活动",
+        "nextSlide": "下一项活动",
+        "goToSlide": "跳转至第 {n} 张",
+        "viewActivity": "查看活动详情"
+      }
+    },
+    "flexibility": {
+      "eyebrow": "您的假期，由您做主",
+      "title": "为您的行程量身定制",
+      "description": "计划停留5天还是两周？与伴侣、家人还是团队一同出行？我们都会根据您的停留时长、出行人数以及您想体验的项目，为您量身调整毛里求斯假期。",
+      "duration": {
+        "options": {
+          "5": "5天",
+          "7": "7天",
+          "10": "10天",
+          "14": "14天",
+          "custom": "自定义"
+        }
+      },
+      "travellersNote": "适用于单人出行、情侣、家庭及团体旅客。",
+      "ctaButton": "定制我的假期"
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "关于与MauTravel规划毛里求斯假期，您需要了解的一切。",
+      "items": [
+        {
+          "question": "毛里求斯假期套餐可以定制吗？",
+          "answer": "可以。该套餐可根据您的停留时长、出行人数以及您希望体验的项目进行调整。我们会协助您在观光、自然探索、探险活动与休闲放松之间找到理想的平衡。"
+        },
+        {
+          "question": "假期套餐的天数是多久？",
+          "answer": "行程天数没有固定限制。无论您计划在毛里求斯停留5天、7天、10天、两周或其他时长，我们都能相应调整体验内容。"
+        },
+        {
+          "question": "该套餐可以为情侣、家庭或团体安排吗？",
+          "answer": "可以。该假期可为单人旅客、情侣、家庭及团体安排。交通及其他安排均可根据出行人数进行调整。"
+        },
+        {
+          "question": "我可以更改部分活动或景点吗？",
+          "answer": "可以。本页面展示的体验项目代表了您毛里求斯假期可包含的内容。如果您想增加、删减或替换某个景点或活动，MauTravel可根据您的兴趣与可支配时间调整套餐。"
+        },
+        {
+          "question": "毛里求斯假期套餐的费用是多少？",
+          "answer": "价格取决于您的停留时长、出行人数、所选体验项目以及最终套餐内容。请将您的出行日期与团队人数告知MauTravel，我们将为您准备个性化报价。"
+        },
+        {
+          "question": "是否包含住宿与餐饮？",
+          "answer": "住宿与餐饮安排取决于为您行程制定的具体套餐。您的个性化报价中将清楚列明所含项目及任何可选附加项目。"
+        },
+        {
+          "question": "景点门票是否包含在内？",
+          "answer": "门票费用取决于您假期最终选定的景点与活动。所有已包含的门票费用及任何额外费用，都将在确认前的报价中明确列出。"
+        },
+        {
+          "question": "是否包含交通安排？",
+          "answer": "我们可为您行程中包含的体验项目安排私人交通，同时也包括机场接送服务。所需车辆类型将根据您的团队人数而定。"
+        },
+        {
+          "question": "滑翔伞等活动是否包含在内？",
+          "answer": "在安排您的假期时，可将部分特定活动纳入套餐。根据您的偏好、可预订情况及现场条件，滑翔伞、拖曳伞、海豚体验、海底漫步、四驱越野车及瀑布徒步等活动也均可另行添加。"
+        },
+        {
+          "question": "如果活动受天气影响会怎样？",
+          "answer": "部分户外及海上活动受天气条件影响。若某项体验因天气原因无法安全进行，MauTravel将根据可预订情况及活动供应商的相关条件，协助安排合适的替代方案或改期。"
+        },
+        {
+          "question": "如何预订我的毛里求斯假期？",
+          "answer": "请将您的出行日期、出行人数及您感兴趣的体验项目告知MauTravel。我们将协助根据您的行程进行调整，并在您确认前提供详细信息及个性化报价。"
+        }
+      ],
+      "showMore": "显示更多",
+      "showLess": "收起"
+    },
+    "customizeForm": {
+      "eyebrow": "让我们规划您的行程",
+      "title": "告诉我们您的毛里求斯假期计划",
+      "description": "分享一些关于您旅程的详细信息，我们将协助为您量身打造MauTravel假期体验。",
+      "groups": {
+        "trip": "您的行程",
+        "experiences": "您的体验",
+        "final": "最后详情"
+      },
+      "dates": {
+        "label": "您计划何时到访毛里求斯？",
+        "arrival": "抵达日期",
+        "departure": "离开日期"
+      },
+      "travellers": {
+        "label": "谁将参与此次旅行？",
+        "adults": "成人",
+        "children": "儿童",
+        "decreaseAdults": "减少成人人数",
+        "increaseAdults": "增加成人人数",
+        "decreaseChildren": "减少儿童人数",
+        "increaseChildren": "增加儿童人数"
+      },
+      "travellerType": {
+        "label": "您与谁同行？",
+        "options": {
+          "solo": "独自出行",
+          "couple": "情侣",
+          "family": "家庭",
+          "friends": "朋友",
+          "group": "团体"
+        }
+      },
+      "duration": {
+        "label": "您计划停留多久？",
+        "options": {
+          "5": "5天",
+          "7": "7天",
+          "10": "10天",
+          "14": "14天",
+          "custom": "自定义"
+        },
+        "customLabel": "天数",
+        "daysUnit": "天"
+      },
+      "destinations": {
+        "label": "您希望游览哪些地方？",
+        "placeholder": "选择地点",
+        "searchPlaceholder": "搜索地点...",
+        "noResults": "未找到相关地点",
+        "casela": "卡塞拉自然公园 (Casela Nature Parks)",
+        "flicEnFlac": "弗拉克湾 (Flic-en-Flac)",
+        "remove": "移除"
+      },
+      "activities": {
+        "label": "您对哪些体验项目感兴趣？"
+      },
+      "holidayStyle": {
+        "label": "您希望体验哪种类型的假期？",
+        "options": {
+          "adventure": "探险",
+          "nature": "自然",
+          "beaches": "海滩",
+          "culture": "文化",
+          "wildlife": "野生动物",
+          "relaxation": "休闲放松",
+          "everything": "丰富多样"
+        }
+      },
+      "accommodation": {
+        "label": "您已安排好住宿了吗？",
+        "options": {
+          "booked": "已预订",
+          "help": "希望MauTravel协助安排",
+          "undecided": "尚未决定"
+        }
+      },
+      "transfers": {
+        "label": "您需要机场接送服务吗？",
+        "options": {
+          "yes": "需要",
+          "no": "不需要",
+          "unsure": "尚未确定"
+        }
+      },
+      "specialRequests": {
+        "label": "还有其他需要我们了解的事项吗？",
+        "placeholder": "请告诉我们任何特殊需求、您想增加的地点、随行儿童、无障碍设施需求，或任何有助于我们规划行程的信息。"
+      },
+      "submit": "通过WhatsApp发送我的假期需求",
+      "submitNote": "无需支付任何费用——我们将审核您的需求并为您发送个性化报价。",
+      "validation": {
+        "stayOrDates": "请选择停留时长或出行日期。"
+      },
+      "message": {
+        "greeting": "您好，MauTravel！👋",
+        "intro": "我想定制我的毛里求斯假期。",
+        "tripDetails": "行程详情",
+        "arrival": "抵达",
+        "departure": "离开",
+        "stay": "停留时长",
+        "travellersHeading": "出行人数",
+        "adults": "成人",
+        "children": "儿童",
+        "travellingAs": "出行类型",
+        "placesHeading": "我想游览的地点",
+        "activitiesHeading": "我感兴趣的活动",
+        "styleHeading": "假期风格",
+        "accommodationHeading": "住宿安排",
+        "transfersHeading": "机场接送",
+        "specialRequestHeading": "特殊需求",
+        "closing": "能否请您为我们推荐最合适的安排，并发送一份报价给我？"
+      }
+    },
+    "whyTravel": {
+      "eyebrow": "为什么选择MauTravel？",
+      "title": "您的毛里求斯假期，",
+      "titleAccent": "尽在掌控",
+      "description": "从您抵达的那一刻起，到您在岛上尽情体验的每一个精彩瞬间，MauTravel为您统筹安排假期的方方面面，让您少花时间操心，多花时间享受毛里求斯。",
+      "benefits": {
+        "contact": {
+          "title": "统一联络窗口",
+          "description": "由同一支团队为您安排接送、行程与体验。"
+        },
+        "builtAround": {
+          "title": "为您量身打造",
+          "description": "根据您的停留时长、团队人数与兴趣爱好量身定制。"
+        },
+        "transport": {
+          "title": "私人交通",
+          "description": "根据您已确认的体验项目安排交通。"
+        },
+        "localExperience": {
+          "title": "本地毛里求斯体验",
+          "description": "从著名景点到隐秘风光，一应俱全。"
+        },
+        "support": {
+          "title": "全程随行支持",
+          "description": "假期全程均有专人可供联系。"
+        }
+      },
+      "closing": "您尽情享受毛里求斯，行程安排交给我们。"
+    }
+  },
+  "holidayPopup": {
+    "title": "正在计划毛里求斯之旅吗？",
+    "message": "了解我们的完整毛里求斯假期套餐——住宿、机场接送、游览、活动及量身定制的体验，根据您的行程安排。",
+    "cta": "探索毛里求斯套餐",
+    "closeAria": "关闭弹窗"
   }
 }

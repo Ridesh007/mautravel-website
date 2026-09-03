@@ -11,7 +11,8 @@
     "contact": "Contact",
     "bookNow": "Réserver",
     "bookViaWhatsapp": "Réserver via WhatsApp",
-    "toggleMenu": "Ouvrir le menu"
+    "toggleMenu": "Ouvrir le menu",
+    "mauritiusHoliday": "Séjour à Maurice"
   },
   "footer": {
     "tagline": "L'opérateur touristique de confiance de l'île Maurice. Nous créons des expériences de voyage extraordinaires avec passion, expertise et soin.",
@@ -138,6 +139,10 @@
     "properties": {
       "title": "Propriétés à l'Île Maurice",
       "description": "Villas, appartements et propriétés en bord de mer soigneusement sélectionnés à l'île Maurice. Réservez votre hébergement idéal avec MauTravel."
+    },
+    "mauritiusPackage": {
+      "title": "Le séjour complet à l'île Maurice | Circuits et activités | MauTravel",
+      "description": "Découvrez l'île Maurice avec MauTravel grâce à un séjour soigneusement organisé, comprenant transferts aéroport, circuits dans le Nord et le Sud, Casela, l'Île aux Cerfs, le parapente, des expériences dans la nature et bien plus encore."
     }
   },
   "home": {
@@ -278,7 +283,11 @@
       "eyebrow": "Événements & Festivals",
       "title": "L'Actualité à l'Île Maurice",
       "description": "Découvrez le calendrier vibrant des festivals, événements culturels et célébrations saisonnières qui rendent l'île Maurice si spéciale.",
-      "viewAll": "Voir Tous les Événements"
+      "viewAll": "Voir Tous les Événements",
+      "previousEvent": "Previous event",
+      "nextEvent": "Next event",
+      "carouselLabel": "Mauritius events carousel",
+      "goToEvent": "Go to event {n}"
     },
     "reviews": {
       "eyebrow": "Avis Clients",
@@ -299,6 +308,18 @@
       "eyebrow": "Suivez-Nous",
       "title": "Suivez Notre Aventure Mauricienne",
       "description": "Restez inspiré avec du contenu quotidien sur l'île Maurice — conseils de voyage, paysages superbes et moments des coulisses de la vie insulaire."
+    },
+    "mauritiusHoliday": {
+      "eyebrow": "Forfait Vacances Complet",
+      "title": "Vos Vacances à Maurice, Prêtes à Vivre",
+      "description": "Une expérience organisée réunissant hébergement, transferts aéroport, excursions privées et les meilleures activités de l'île — adaptée à votre séjour.",
+      "features": [
+        "Options d'hébergement",
+        "Transferts aéroport inclus",
+        "Excursions privées et visites",
+        "Activités et expériences"
+      ],
+      "cta": "Découvrir le Séjour à Maurice"
     }
   },
   "airportTransfers": {
@@ -1096,7 +1117,16 @@
       "faqTitle": "Questions Fréquemment Posées",
       "relatedEyebrow": "Découvrir Plus",
       "relatedTitle": "Les Clients Ont Aussi Apprécié",
-      "relatedDescription": "Combinez les activités pour l'aventure mauricienne ultime — notre équipe peut créer le forfait multi-activités parfait."
+      "relatedDescription": "Combinez les activités pour l'aventure mauricienne ultime — notre équipe peut créer le forfait multi-activités parfait.",
+      "guideEyebrow": "Rencontrez Votre Pilote",
+      "videoEyebrow": "Regardez L'Expérience",
+      "videoTitle": "Vidéo de l'Expérience de Parapente",
+      "videoComingSoon": "Vidéo de l'Expérience de Parapente – Bientôt Disponible",
+      "readMore": "Lire la Suite",
+      "showLess": "Réduire",
+      "videoTapHint": "Touchez la vidéo pour voir l'expérience complète",
+      "videoExpandAria": "Voir la vidéo complète",
+      "videoCloseAria": "Fermer la vidéo"
     },
     "paragliding": {
       "name": "Parapente en Tandem à l'Île Maurice",
@@ -1246,7 +1276,33 @@
           "question": "Puis-je emporter mon téléphone ou appareil photo pendant le vol ?",
           "answer": "Nous recommandons fortement de sécuriser tous vos effets personnels avant le décollage. Les téléphones et appareils photo doivent être attachés avec une dragonne ou fixés sur un harnais sécurisé. Votre pilote vous conseillera sur ce qu'il est sûr d'emporter. Un forfait photo et vidéo professionnel peut être disponible sur demande — merci de nous consulter lors de la réservation."
         }
-      ]
+      ],
+      "guide": {
+        "onlyPilotBadge": "Le Seul Pilote de Parapente en Tandem Agréé à Maurice",
+        "bio": [
+          "Volez avec le seul pilote de parapente en tandem agréé à l'île Maurice, fort de plus de 20 ans d'expérience et d'une passion de toujours pour le vol.",
+          "Son parcours dans le parapente a commencé à seulement 8 ans, se transformant au fil des décennies en une solide expérience dans les airs. Avec plus de 99 vols réussis sans aucun accident, chaque vol est abordé avec une attention particulière portée à la sécurité, à la préparation, au professionnalisme et au confort des passagers.",
+          "Très bien noté sur Google et d'autres plateformes sociales, il a gagné la confiance de visiteurs souhaitant découvrir l'île Maurice sous un angle totalement différent.",
+          "Du décollage à l'atterrissage, vous serez accompagné par un pilote expérimenté dont la priorité est de rendre votre vol sûr, confortable et inoubliable."
+        ],
+        "stats": [
+          {
+            "label": "Plus de 20 Ans d'Expérience"
+          },
+          {
+            "label": "Vole Depuis l'Âge de 8 Ans"
+          },
+          {
+            "label": "Plus de 50 Vols Réussis"
+          },
+          {
+            "label": "Excellentes Évaluations Clients"
+          },
+          {
+            "label": "Sécurité et Confort des Passagers Avant Tout"
+          }
+        ]
+      }
     },
     "hiking-adventures": {
       "name": "Randonnées Aventure",
@@ -2105,5 +2161,401 @@
         }
       ]
     }
+  },
+  "mauritiusPackage": {
+    "hero": {
+      "eyebrow": "Votre expérience mauricienne complète",
+      "titleLine1": "Une île.",
+      "titleLine2": "Des souvenirs à l'infini.",
+      "description": "Découvrez l'île Maurice d'une côte à l'autre — sites emblématiques, paysages secrets, faune sauvage, lagons tropicaux et aventures inoubliables, réunis dans des vacances pensées autour de votre séjour.",
+      "exploreCta": "Découvrir votre voyage",
+      "customizeCta": "Personnaliser mes vacances",
+      "journey": {
+        "title": "Votre voyage",
+        "items": {
+          "north": "Nord",
+          "wildSouth": "Sud sauvage",
+          "wildlife": "Faune",
+          "westCoast": "Côte ouest",
+          "ileAuxCerfs": "Île aux Cerfs",
+          "adventure": "Aventure"
+        }
+      }
+    },
+    "experience": {
+      "title": "Votre expérience mauricienne",
+      "description": "Ce séjour a été conçu pour vous faire découvrir la véritable île Maurice — des villes animées et des sites culturels à la nature, la faune, les plages et les aventures. Nous prenons en charge toute la logistique afin que vous puissiez vous détendre et profiter de chaque instant.",
+      "journey": {
+        "north": "Nord de l'île Maurice",
+        "wildSouth": "Sud sauvage",
+        "wildlifeNature": "Faune et nature",
+        "westCoast": "Côte ouest",
+        "oceanExperiences": "Expériences en mer",
+        "adventureActivities": "Aventure et activités"
+      }
+    },
+    "airportTransfer": {
+      "eyebrow": "Un séjour sans stress, du début à la fin",
+      "title": "Transferts aéroport aller-retour",
+      "description": "Commencez et terminez vos vacances en toute sérénité. Nous organisons votre transfert privé depuis l'aéroport international SSR jusqu'à votre hébergement, ainsi que votre transfert retour pour le départ.",
+      "benefits": {
+        "privateTransfer": "Transfert privé",
+        "airportPickup": "Prise en charge à l'aéroport",
+        "airportDropoff": "Dépose à l'aéroport",
+        "comfortableVehicle": "Véhicule confortable"
+      }
+    },
+    "discover": {
+      "north": {
+        "eyebrow": "Explorez le Nord",
+        "title": "Culture, jardins et vie côtière",
+        "items": {
+          "pamplemousses": {
+            "name": "Jardin botanique de Pamplemousses",
+            "description": "Un havre de nénuphars géants, de plantes exotiques, d'épices et d'arbres centenaires."
+          },
+          "portLouis": {
+            "name": "Port-Louis et le Caudan Waterfront",
+            "description": "Découvrez la capitale, ses marchés colorés, sa culture locale et son front de mer animé."
+          },
+          "grandBaie": {
+            "name": "Grand Baie",
+            "description": "Un village côtier plein de vie, avec de belles plages, des boutiques, des restaurants et des vues sur un lagon turquoise."
+          },
+          "capMalheureux": {
+            "name": "Cap Malheureux",
+            "description": "Une église emblématique au toit rouge, un cadre côtier magnifique et des vues à couper le souffle sur le nord de l'île."
+          }
+        }
+      },
+      "south": {
+        "eyebrow": "Le Sud pittoresque",
+        "title": "Nature, cascades et paysages sauvages",
+        "items": {
+          "blackRiverGorges": {
+            "name": "Gorges de la Rivière Noire",
+            "description": "Des points de vue panoramiques, des forêts denses et certains des paysages les plus spectaculaires de l'île Maurice."
+          },
+          "alexandraFalls": {
+            "name": "Chutes Alexandra",
+            "description": "Un magnifique point de vue surplombant des vallées luxuriantes et des cascades."
+          },
+          "valleeDesCouleurs": {
+            "name": "Parc naturel de la Vallée des Couleurs",
+            "description": "Des terres aux couleurs surprenantes, des cascades, des points de vue et des expériences d'aventure."
+          },
+          "laVanille": {
+            "name": "La Vanille Nature Park / Parc aux crocodiles",
+            "description": "Tortues géantes, crocodiles et une faune fascinante dans un cadre tropical."
+          }
+        }
+      }
+    },
+    "casela": {
+      "eyebrow": "Une journée d'aventure",
+      "title": "Vivez l'expérience Casela Nature Parks",
+      "description": "Entre rencontres avec la faune et sensations fortes, Casela est l'un des temps forts de votre séjour à l'île Maurice.",
+      "experiences": {
+        "safari": "Safari",
+        "ziplining": "Tyrolienne",
+        "toboggan": "Toboggan",
+        "quadBiking": "Quad",
+        "walkWithLions": "Marche avec les lions",
+        "wildlifeEncounters": "Rencontres avec la faune"
+      },
+      "note": "Certaines expériences peuvent être optionnelles ou entraîner des frais supplémentaires."
+    },
+    "sunset": {
+      "eyebrow": "Prenez votre temps. Vous êtes à l'île Maurice.",
+      "title": "Coucher de soleil à Flic-en-Flac",
+      "description": "Détendez-vous face à l'océan et regardez le ciel mauricien se parer d'or. La façon idéale de conclure une journée inoubliable."
+    },
+    "water": {
+      "title": "Vivez l'île Maurice depuis l'eau",
+      "items": {
+        "ileAuxCerfs": {
+          "name": "Île aux Cerfs",
+          "description": "Des lagons cristallins, des plages de sable blanc et une escapade insulaire des plus relaxantes."
+        },
+        "grseWaterfall": {
+          "name": "Cascade GRSE",
+          "description": "Profitez d'une balade en bateau pittoresque le long de la rivière jusqu'à la magnifique cascade de la Grande Rivière Sud-Est."
+        },
+        "snorkelling": {
+          "name": "Snorkeling",
+          "description": "Explorez la vie marine et l'univers sous-marin coloré de l'île Maurice."
+        },
+        "catamaran": {
+          "name": "Croisière en catamaran",
+          "description": "Profitez de la brise marine, de vues côtières splendides et d'une journée mémorable sur l'eau."
+        }
+      },
+      "carousel": {
+        "regionLabel": "Carrousel des expériences aquatiques à l'île Maurice",
+        "previousSlide": "Expérience précédente",
+        "nextSlide": "Expérience suivante",
+        "goToSlide": "Aller à la diapositive {n}"
+      }
+    },
+    "adventure": {
+      "title": "Activités et expériences",
+      "items": {
+        "paragliding": {
+          "name": "Parapente",
+          "headline": "Survolez le paradis",
+          "description": "Planez au-dessus du lagon et des montagnes pour une vue à vol d'oiseau de l'île Maurice que vous n'oublierez jamais."
+        },
+        "parasailing": {
+          "name": "Parachute ascensionnel",
+          "headline": "Envolez-vous au-dessus du lagon",
+          "description": "Élevez-vous au-dessus des eaux turquoise et admirez des vues côtières à couper le souffle depuis le ciel."
+        },
+        "dolphinWatching": {
+          "name": "Observation des dauphins",
+          "headline": "À la rencontre des dauphins sauvages de l'île Maurice",
+          "description": "Observez les dauphins jouer dans leur habitat naturel lors d'une excursion en bateau au petit matin."
+        },
+        "underseaWalk": {
+          "name": "Marche sous-marine",
+          "headline": "Marchez sur le fond de l'océan",
+          "description": "Découvrez le récif de près lors d'une marche guidée sous la surface — aucune expérience de plongée requise."
+        },
+        "quadBiking": {
+          "name": "Quad",
+          "headline": "Parcourez des pistes sauvages",
+          "description": "Explorez des paysages accidentés et des routes pittoresques lors d'une aventure en quad riche en adrénaline."
+        },
+        "waterfallTrekking": {
+          "name": "Randonnée vers les cascades",
+          "headline": "À la découverte des cascades cachées",
+          "description": "Randonnez à travers des sentiers forestiers luxuriants pour découvrir certaines des plus belles cascades cachées de l'île Maurice."
+        }
+      },
+      "note": "Certaines activités sont incluses dans ce séjour. D'autres peuvent être optionnelles ou entraîner des frais supplémentaires.",
+      "carousel": {
+        "regionLabel": "Carrousel des activités d'aventure à l'île Maurice",
+        "previousSlide": "Activité précédente",
+        "nextSlide": "Activité suivante",
+        "goToSlide": "Aller à la diapositive {n}",
+        "viewActivity": "Voir l'activité"
+      }
+    },
+    "flexibility": {
+      "eyebrow": "Vos vacances, à votre façon",
+      "title": "Adapté à votre séjour",
+      "description": "Vous partez 5 jours ou deux semaines ? En couple, en famille ou en groupe ? Nous adaptons votre séjour à l'île Maurice en fonction de la durée de votre voyage, du nombre de voyageurs et des expériences que vous souhaitez vivre.",
+      "duration": {
+        "options": {
+          "5": "5 jours",
+          "7": "7 jours",
+          "10": "10 jours",
+          "14": "14 jours",
+          "custom": "Personnalisé"
+        }
+      },
+      "travellersNote": "Disponible pour les voyageurs seuls, les couples, les familles et les groupes.",
+      "ctaButton": "Personnaliser mes vacances"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "subtitle": "Tout ce que vous devez savoir pour organiser votre séjour à l'île Maurice avec MauTravel.",
+      "items": [
+        {
+          "question": "Le séjour à l'île Maurice peut-il être personnalisé ?",
+          "answer": "Oui. Le séjour peut être adapté selon la durée de votre voyage, le nombre de voyageurs et les expériences que vous souhaitez inclure. Nous vous aiderons à trouver le bon équilibre entre visites, nature, aventure et détente."
+        },
+        {
+          "question": "Sur combien de jours ce séjour est-il prévu ?",
+          "answer": "Il n'y a pas de durée fixe. Nous pouvons adapter l'expérience à des séjours plus courts ou plus longs, que vous visitiez l'île Maurice pendant 5 jours, 7 jours, 10 jours, deux semaines ou une autre durée."
+        },
+        {
+          "question": "Le séjour peut-il être organisé pour des couples, des familles ou des groupes ?",
+          "answer": "Oui. Les vacances peuvent être organisées pour des voyageurs seuls, des couples, des familles et des groupes. Le transport et les autres modalités peuvent être adaptés selon le nombre de voyageurs."
+        },
+        {
+          "question": "Puis-je modifier certaines activités ou attractions ?",
+          "answer": "Oui. Les expériences présentées sur cette page illustrent ce que votre séjour à l'île Maurice peut inclure. Si vous souhaitez ajouter, retirer ou remplacer une attraction ou une activité, MauTravel peut ajuster le séjour en fonction de vos envies et du temps disponible."
+        },
+        {
+          "question": "Combien coûte le séjour à l'île Maurice ?",
+          "answer": "Le tarif dépend de la durée de votre séjour, du nombre de voyageurs, des expériences choisies et du contenu final du séjour. Contactez MauTravel avec vos dates de voyage et la taille de votre groupe, et nous vous préparerons un devis personnalisé."
+        },
+        {
+          "question": "L'hébergement et les repas sont-ils inclus ?",
+          "answer": "Les modalités d'hébergement et de repas dépendent du séjour créé pour votre voyage. Votre devis personnalisé indiquera clairement ce qui est inclus et les options supplémentaires éventuelles."
+        },
+        {
+          "question": "Les frais d'entrée des attractions sont-ils inclus ?",
+          "answer": "Les frais d'entrée dépendent des attractions et activités finalement retenues pour votre séjour. Tous les frais d'entrée inclus ainsi que les éventuels frais supplémentaires seront clairement indiqués dans votre devis avant confirmation."
+        },
+        {
+          "question": "Le transport est-il inclus ?",
+          "answer": "Un transport privé peut être organisé pour les expériences incluses dans votre séjour, ainsi que pour la prise en charge et la dépose à l'aéroport. Le véhicule approprié dépendra de la taille de votre groupe."
+        },
+        {
+          "question": "Des activités comme le parapente sont-elles incluses ?",
+          "answer": "Certaines activités peuvent être incluses lors de l'organisation de votre séjour. Des activités comme le parapente, le parachute ascensionnel, les expériences avec les dauphins, la marche sous-marine et le quad peuvent également être ajoutées selon vos préférences, les disponibilités et les conditions."
+        },
+        {
+          "question": "Que se passe-t-il si une activité est affectée par la météo ?",
+          "answer": "Certaines activités de plein air et en mer dépendent de la météo. Si une expérience ne peut se dérouler en toute sécurité, MauTravel vous aidera à trouver des alternatives adaptées ou à reprogrammer l'activité si possible, selon les disponibilités et les conditions du prestataire."
+        },
+        {
+          "question": "Comment réserver mon séjour à l'île Maurice ?",
+          "answer": "Contactez MauTravel avec vos dates de voyage, le nombre de voyageurs et les expériences qui vous intéressent. Nous vous aiderons à adapter le séjour et vous fournirons tous les détails ainsi qu'un devis personnalisé avant confirmation."
+        }
+      ],
+      "showMore": "Voir plus",
+      "showLess": "Voir moins"
+    },
+    "customizeForm": {
+      "eyebrow": "Planifions votre séjour",
+      "title": "Parlez-nous de votre séjour à l'île Maurice",
+      "description": "Partagez quelques détails sur votre voyage et nous vous aiderons à adapter l'expérience MauTravel à votre séjour.",
+      "groups": {
+        "trip": "Votre voyage",
+        "experiences": "Vos expériences",
+        "final": "Derniers détails"
+      },
+      "dates": {
+        "label": "Quand visitez-vous l'île Maurice ?",
+        "arrival": "Date d'arrivée",
+        "departure": "Date de départ"
+      },
+      "travellers": {
+        "label": "Qui voyage ?",
+        "adults": "Adultes",
+        "children": "Enfants",
+        "decreaseAdults": "Diminuer le nombre d'adultes",
+        "increaseAdults": "Augmenter le nombre d'adultes",
+        "decreaseChildren": "Diminuer le nombre d'enfants",
+        "increaseChildren": "Augmenter le nombre d'enfants"
+      },
+      "travellerType": {
+        "label": "Avec qui voyagez-vous ?",
+        "options": {
+          "solo": "Seul(e)",
+          "couple": "En couple",
+          "family": "En famille",
+          "friends": "Entre amis",
+          "group": "En groupe"
+        }
+      },
+      "duration": {
+        "label": "Combien de temps restez-vous ?",
+        "options": {
+          "5": "5 jours",
+          "7": "7 jours",
+          "10": "10 jours",
+          "14": "14 jours",
+          "custom": "Personnalisé"
+        },
+        "customLabel": "Nombre de jours",
+        "daysUnit": "Jours"
+      },
+      "destinations": {
+        "label": "Quels lieux aimeriez-vous visiter ?",
+        "placeholder": "Sélectionner des lieux",
+        "searchPlaceholder": "Rechercher des lieux...",
+        "noResults": "Aucun lieu trouvé",
+        "casela": "Casela Nature Parks",
+        "flicEnFlac": "Flic-en-Flac",
+        "remove": "Retirer"
+      },
+      "activities": {
+        "label": "Quelles expériences vous intéressent ?"
+      },
+      "holidayStyle": {
+        "label": "Quel type de vacances recherchez-vous ?",
+        "options": {
+          "adventure": "Aventure",
+          "nature": "Nature",
+          "beaches": "Plages",
+          "culture": "Culture",
+          "wildlife": "Faune",
+          "relaxation": "Détente",
+          "everything": "Un peu de tout"
+        }
+      },
+      "accommodation": {
+        "label": "Avez-vous déjà organisé votre hébergement ?",
+        "options": {
+          "booked": "Déjà réservé",
+          "help": "Je souhaite l'aide de MauTravel",
+          "undecided": "Pas encore décidé"
+        }
+      },
+      "transfers": {
+        "label": "Avez-vous besoin de transferts aéroport ?",
+        "options": {
+          "yes": "Oui",
+          "no": "Non",
+          "unsure": "Pas encore sûr(e)"
+        }
+      },
+      "specialRequests": {
+        "label": "Autre chose que vous aimeriez nous indiquer ?",
+        "placeholder": "Parlez-nous de toute demande particulière, des lieux que vous aimeriez ajouter, d'enfants voyageant avec vous, de besoins d'accessibilité, ou de tout autre élément qui nous aiderait à organiser votre séjour."
+      },
+      "submit": "Envoyer ma demande de séjour sur WhatsApp",
+      "submitNote": "Aucun paiement requis — nous examinerons votre demande et vous enverrons un devis personnalisé.",
+      "validation": {
+        "stayOrDates": "Veuillez choisir une durée de séjour ou vos dates de voyage."
+      },
+      "message": {
+        "greeting": "Bonjour MauTravel ! 👋",
+        "intro": "Je souhaite personnaliser mon séjour à l'île Maurice.",
+        "tripDetails": "DÉTAILS DU VOYAGE",
+        "arrival": "Arrivée",
+        "departure": "Départ",
+        "stay": "Séjour",
+        "travellersHeading": "VOYAGEURS",
+        "adults": "Adultes",
+        "children": "Enfants",
+        "travellingAs": "Voyage en tant que",
+        "placesHeading": "LIEUX QUE J'AIMERAIS VISITER",
+        "activitiesHeading": "ACTIVITÉS QUI M'INTÉRESSENT",
+        "styleHeading": "STYLE DE VACANCES",
+        "accommodationHeading": "HÉBERGEMENT",
+        "transfersHeading": "TRANSFERTS AÉROPORT",
+        "specialRequestHeading": "DEMANDE PARTICULIÈRE",
+        "closing": "Pourriez-vous me recommander la meilleure formule et m'envoyer un devis ?"
+      }
+    },
+    "whyTravel": {
+      "eyebrow": "Pourquoi voyager avec MauTravel ?",
+      "title": "Votre séjour à l'île Maurice,",
+      "titleAccent": "pris en charge",
+      "description": "Dès votre arrivée et tout au long des expériences que vous vivrez sur l'île, MauTravel coordonne l'organisation de votre séjour afin que vous passiez moins de temps à organiser et plus de temps à profiter de l'île Maurice.",
+      "benefits": {
+        "contact": {
+          "title": "Un interlocuteur unique",
+          "description": "Une seule équipe organise vos transferts, excursions et expériences."
+        },
+        "builtAround": {
+          "title": "Conçu autour de votre séjour",
+          "description": "Adapté à la durée de votre séjour, à la taille de votre groupe et à vos centres d'intérêt."
+        },
+        "transport": {
+          "title": "Transport privé",
+          "description": "Organisé en fonction de vos expériences confirmées."
+        },
+        "localExperience": {
+          "title": "Une expérience mauricienne authentique",
+          "description": "Des sites emblématiques aux paysages les plus secrets."
+        },
+        "support": {
+          "title": "Assistance tout au long de votre séjour",
+          "description": "Un interlocuteur disponible pendant toute la durée de vos vacances."
+        }
+      },
+      "closing": "Profitez de l'île Maurice. Nous nous occupons du reste."
+    }
+  },
+  "holidayPopup": {
+    "title": "Vous planifiez des vacances à Maurice ?",
+    "message": "Découvrez notre forfait vacances complet à Maurice — hébergement, transferts aéroport, excursions, activités et expériences sur mesure, organisés autour de votre séjour.",
+    "cta": "Découvrir le Forfait Maurice",
+    "closeAria": "Fermer la fenêtre"
   }
 }

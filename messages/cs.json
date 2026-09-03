@@ -11,7 +11,8 @@
     "contact": "Kontakt",
     "bookNow": "Rezervovat Nyní",
     "bookViaWhatsapp": "Rezervovat přes WhatsApp",
-    "toggleMenu": "Otevřít menu"
+    "toggleMenu": "Otevřít menu",
+    "mauritiusHoliday": "Dovolená na Mauriciu"
   },
   "footer": {
     "tagline": "Důvěryhodný cestovní operátor na Mauriciu. Vytváříme výjimečné cestovatelské zážitky s vášní, odborností a péčí.",
@@ -138,6 +139,10 @@
     "properties": {
       "title": "Properties in Mauritius",
       "description": "Hand-picked villas, apartments and beachfront properties in Mauritius. Book your perfect Mauritius accommodation with MauTravel."
+    },
+    "mauritiusPackage": {
+      "title": "The Complete Mauritius Holiday | Tours & Activities | MauTravel",
+      "description": "Experience Mauritius with MauTravel through a carefully arranged holiday package featuring airport transfers, North and South tours, Casela, Île aux Cerfs, paragliding, nature experiences and more."
     }
   },
   "home": {
@@ -278,7 +283,11 @@
       "eyebrow": "Events & Festivals",
       "title": "What's On in Mauritius",
       "description": "Discover the vibrant calendar of festivals, cultural events and seasonal celebrations that make Mauritius so special.",
-      "viewAll": "View All Events"
+      "viewAll": "View All Events",
+      "previousEvent": "Previous event",
+      "nextEvent": "Next event",
+      "carouselLabel": "Mauritius events carousel",
+      "goToEvent": "Go to event {n}"
     },
     "reviews": {
       "eyebrow": "Customer Reviews",
@@ -299,6 +308,18 @@
       "eyebrow": "Follow Us",
       "title": "Follow Our Mauritius Journey",
       "description": "Stay inspired with daily Mauritius content — travel tips, stunning scenery, and behind-the-scenes moments from island life."
+    },
+    "mauritiusHoliday": {
+      "eyebrow": "Kompletní Dovolenkový Balíček",
+      "title": "Vaše Dovolená na Mauriciu, Připravena k Užívání",
+      "description": "Organizovaný zážitek spojující ubytování, letištní transfery, soukromé výlety a nejlepší aktivity ostrova — přizpůsobený vašemu pobytu.",
+      "features": [
+        "Možnosti ubytování",
+        "Letištní transfery v ceně",
+        "Soukromé výlety a prohlídky",
+        "Aktivity a zážitky"
+      ],
+      "cta": "Objevte Dovolenou na Mauriciu"
     }
   },
   "airportTransfers": {
@@ -1096,7 +1117,16 @@
       "faqTitle": "Frequently Asked Questions",
       "relatedEyebrow": "Explore More",
       "relatedTitle": "Customers Also Enjoyed",
-      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package.",
+      "guideEyebrow": "Poznejte Svého Pilota",
+      "videoEyebrow": "Podívejte Se Na Zážitek",
+      "videoTitle": "Video ze Zážitku Paraglidingu",
+      "videoComingSoon": "Video ze Zážitku Paraglidingu – Již Brzy",
+      "readMore": "Číst Více",
+      "showLess": "Zobrazit Méně",
+      "videoTapHint": "Klepnutím na video zobrazíte celý zážitek",
+      "videoExpandAria": "Zobrazit celé video",
+      "videoCloseAria": "Zavřít video"
     },
     "paragliding": {
       "name": "Tandem Paragliding in Mauritius",
@@ -1246,7 +1276,33 @@
           "question": "Can I take my phone or camera during the flight?",
           "answer": "We strongly recommend securing all personal belongings before take-off. Phones and cameras must be attached with a wrist strap or mounted on a secure harness. Your pilot will advise on what is safe to carry. A professional photo and video package may be available on request — please enquire when booking."
         }
-      ]
+      ],
+      "guide": {
+        "onlyPilotBadge": "Jediný Registrovaný Pilot Tandemového Paraglidingu na Mauriciu",
+        "bio": [
+          "Leťte s jediným registrovaným pilotem tandemového paraglidingu na Mauriciu, který přináší více než 20 let zkušeností a celoživotní vášeň pro létání.",
+          "Jeho cesta s paraglidingem začala už v 8 letech a během desetiletí se rozvinula v bohaté zkušenosti ve vzduchu. S více než 99 úspěšnými lety bez jediné nehody přistupuje ke každému letu s velkým důrazem na bezpečnost, přípravu, profesionalitu a pohodlí cestujícího.",
+          "Díky vynikajícímu hodnocení na Google i dalších sociálních platformách si získal důvěru hostů, kteří chtějí zažít Mauricius z zcela odlišné perspektivy.",
+          "Od startu až po přistání vás bude doprovázet zkušený pilot, jehož prioritou je, aby byl váš let bezpečný, pohodlný a nezapomenutelný."
+        ],
+        "stats": [
+          {
+            "label": "20+ Let Zkušeností"
+          },
+          {
+            "label": "Létá Od 8 Let"
+          },
+          {
+            "label": "50+ Úspěšných Letů"
+          },
+          {
+            "label": "Vynikající Hodnocení Hostů"
+          },
+          {
+            "label": "Bezpečnost a Pohodlí Cestujících na Prvním Místě"
+          }
+        ]
+      }
     },
     "hiking-adventures": {
       "name": "Hiking Adventures",
@@ -2105,5 +2161,401 @@
         }
       ]
     }
+  },
+  "mauritiusPackage": {
+    "hero": {
+      "eyebrow": "Your Complete Mauritius Experience",
+      "titleLine1": "One Island.",
+      "titleLine2": "Countless Memories.",
+      "description": "Discover Mauritius from coast to coast — iconic places, hidden landscapes, wildlife, tropical lagoons and unforgettable adventures, brought together into a holiday designed around your stay.",
+      "exploreCta": "Explore Your Journey",
+      "customizeCta": "Customize My Holiday",
+      "journey": {
+        "title": "Your Journey",
+        "items": {
+          "north": "North",
+          "wildSouth": "Wild South",
+          "wildlife": "Wildlife",
+          "westCoast": "West Coast",
+          "ileAuxCerfs": "Île aux Cerfs",
+          "adventure": "Adventure"
+        }
+      }
+    },
+    "experience": {
+      "title": "Your Mauritius Experience",
+      "description": "This package has been designed to show you the real Mauritius — from vibrant towns and cultural sites to nature, wildlife, beaches and adventures. We take care of the logistics so you can relax and enjoy every moment.",
+      "journey": {
+        "north": "North Mauritius",
+        "wildSouth": "Wild South",
+        "wildlifeNature": "Wildlife & Nature",
+        "westCoast": "West Coast",
+        "oceanExperiences": "Ocean Experiences",
+        "adventureActivities": "Adventure & Activities"
+      }
+    },
+    "airportTransfer": {
+      "eyebrow": "Start & End Stress-Free",
+      "title": "Airport Pick-up & Drop-off",
+      "description": "Start and end your holiday stress-free. We arrange your private transfer from SSR International Airport to your accommodation and your return transfer for your departure.",
+      "benefits": {
+        "privateTransfer": "Private transfer",
+        "airportPickup": "Airport pick-up",
+        "airportDropoff": "Airport drop-off",
+        "comfortableVehicle": "Comfortable vehicle"
+      }
+    },
+    "discover": {
+      "north": {
+        "eyebrow": "Explore the North",
+        "title": "Culture, Gardens & Coastal Life",
+        "items": {
+          "pamplemousses": {
+            "name": "Pamplemousses Botanical Garden",
+            "description": "Home to giant water lilies, exotic plants, spices and centuries-old trees."
+          },
+          "portLouis": {
+            "name": "Port Louis & Caudan Waterfront",
+            "description": "Discover the capital city, its colourful markets, local culture and vibrant waterfront."
+          },
+          "grandBaie": {
+            "name": "Grand Baie",
+            "description": "A lively coastal village with beautiful beaches, shops, restaurants and turquoise lagoon views."
+          },
+          "capMalheureux": {
+            "name": "Cap Malheureux",
+            "description": "An iconic red-roof church, beautiful coastal scenery and breathtaking northern views."
+          }
+        }
+      },
+      "south": {
+        "eyebrow": "The Scenic South",
+        "title": "Nature, Waterfalls & Wild Landscapes",
+        "items": {
+          "blackRiverGorges": {
+            "name": "Black River Gorges",
+            "description": "Panoramic viewpoints, dense forests and some of Mauritius' most spectacular scenery."
+          },
+          "alexandraFalls": {
+            "name": "Alexandra Falls",
+            "description": "A beautiful viewpoint overlooking lush valleys and cascading waterfalls."
+          },
+          "valleeDesCouleurs": {
+            "name": "La Vallée des Couleurs Nature Park",
+            "description": "Colourful earth, waterfalls, viewpoints and adventure experiences."
+          },
+          "laVanille": {
+            "name": "La Vanille Nature Park / Crocodile Park",
+            "description": "Giant tortoises, crocodiles and fascinating wildlife in a tropical setting."
+          }
+        }
+      }
+    },
+    "casela": {
+      "eyebrow": "A Day of Adventure",
+      "title": "Experience Casela Nature Parks",
+      "description": "From wildlife encounters to adrenaline-filled experiences, Casela is one of the highlights of your Mauritius holiday.",
+      "experiences": {
+        "safari": "Safari",
+        "ziplining": "Ziplining",
+        "toboggan": "Toboggan",
+        "quadBiking": "Quad Biking",
+        "walkWithLions": "Walk with Lions",
+        "wildlifeEncounters": "Wildlife Encounters"
+      },
+      "note": "Selected experiences may be optional or incur additional charges."
+    },
+    "sunset": {
+      "eyebrow": "Slow down. You're in Mauritius.",
+      "title": "Sunset at Flic-en-Flac",
+      "description": "Relax by the ocean and watch the Mauritian sky turn gold. The perfect way to end an unforgettable day."
+    },
+    "water": {
+      "title": "Experience Mauritius from the Water",
+      "items": {
+        "ileAuxCerfs": {
+          "name": "Île aux Cerfs",
+          "description": "Crystal clear lagoons, white sand beaches and a relaxing island escape."
+        },
+        "grseWaterfall": {
+          "name": "GRSE Waterfall",
+          "description": "Enjoy a scenic boat ride along the river towards the beautiful Grand River South East waterfall."
+        },
+        "snorkelling": {
+          "name": "Snorkelling",
+          "description": "Explore the marine life and colourful underwater world of Mauritius."
+        },
+        "catamaran": {
+          "name": "Catamaran Cruise",
+          "description": "Enjoy the ocean breeze, stunning coastal views and a memorable day on the water."
+        }
+      },
+      "carousel": {
+        "regionLabel": "Mauritius water experiences carousel",
+        "previousSlide": "Previous experience",
+        "nextSlide": "Next experience",
+        "goToSlide": "Go to slide {n}"
+      }
+    },
+    "adventure": {
+      "title": "Activities & Experiences",
+      "items": {
+        "paragliding": {
+          "name": "Paragliding",
+          "headline": "Soar Above Paradise",
+          "description": "Glide above the lagoon and mountains for a bird's-eye view of Mauritius you'll never forget."
+        },
+        "parasailing": {
+          "name": "Parasailing",
+          "headline": "Fly High Above the Lagoon",
+          "description": "Rise above the turquoise water and take in sweeping coastal views from the sky."
+        },
+        "dolphinWatching": {
+          "name": "Dolphin Watching",
+          "headline": "Meet Mauritius' Wild Dolphins",
+          "description": "Watch dolphins play in their natural habitat on an early-morning boat excursion."
+        },
+        "underseaWalk": {
+          "name": "Undersea Walk",
+          "headline": "Walk on the Ocean Floor",
+          "description": "Discover the reef up close on a guided walk beneath the surface — no diving experience needed."
+        },
+        "quadBiking": {
+          "name": "Quad Biking",
+          "headline": "Ride Untamed Trails",
+          "description": "Explore rugged landscapes and scenic backroads on an adrenaline-filled quad bike adventure."
+        },
+        "waterfallTrekking": {
+          "name": "Waterfall Trekking",
+          "headline": "Chase Hidden Waterfalls",
+          "description": "Trek through lush forest trails to discover some of Mauritius' most beautiful hidden waterfalls."
+        }
+      },
+      "note": "Selected activities are included in this package. Others may be optional or incur additional charges.",
+      "carousel": {
+        "regionLabel": "Mauritius adventure activities carousel",
+        "previousSlide": "Previous activity",
+        "nextSlide": "Next activity",
+        "goToSlide": "Go to slide {n}",
+        "viewActivity": "View activity"
+      }
+    },
+    "flexibility": {
+      "eyebrow": "Your Holiday, Your Way",
+      "title": "Made to Fit Your Stay",
+      "description": "Staying for 5 days or two weeks? Travelling as a couple, family or group? We'll adapt your Mauritius holiday around your length of stay, number of travellers and the experiences you want to enjoy.",
+      "duration": {
+        "options": {
+          "5": "5 Days",
+          "7": "7 Days",
+          "10": "10 Days",
+          "14": "14 Days",
+          "custom": "Custom"
+        }
+      },
+      "travellersNote": "Available for solo travellers, couples, families and groups.",
+      "ctaButton": "Customize My Holiday"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about planning your Mauritius holiday with MauTravel.",
+      "items": [
+        {
+          "question": "Can the Mauritius Holiday Package be customised?",
+          "answer": "Yes. The package can be adapted according to your length of stay, number of travellers and the experiences you'd like to include. We'll help you create the right balance of sightseeing, nature, adventure and time to relax."
+        },
+        {
+          "question": "How many days is the holiday package for?",
+          "answer": "There is no fixed duration. We can adapt the experience for shorter or longer stays, whether you're visiting Mauritius for 5 days, 7 days, 10 days, two weeks or another duration."
+        },
+        {
+          "question": "Can the package be arranged for couples, families or groups?",
+          "answer": "Yes. The holiday can be arranged for solo travellers, couples, families and groups. Transport and other arrangements can be adapted according to the number of travellers."
+        },
+        {
+          "question": "Can I change some of the activities or attractions?",
+          "answer": "Yes. The experiences shown on this page represent what your Mauritius holiday can include. If you'd like to add, remove or replace an attraction or activity, MauTravel can adjust the package according to your interests and available time."
+        },
+        {
+          "question": "How much does the Mauritius Holiday Package cost?",
+          "answer": "Pricing depends on the length of your stay, number of travellers, selected experiences and final package inclusions. Contact MauTravel with your travel dates and group size and we'll prepare a personalised quotation."
+        },
+        {
+          "question": "Are accommodation and meals included?",
+          "answer": "Accommodation and meal arrangements depend on the package created for your trip. Your personalised quotation will clearly show what is included and any optional additions."
+        },
+        {
+          "question": "Are attraction entrance fees included?",
+          "answer": "Entrance fees depend on the final attractions and activities selected for your holiday. All included entrance fees and any additional charges will be clearly stated in your quotation before confirmation."
+        },
+        {
+          "question": "Is transportation included?",
+          "answer": "Private transportation can be arranged for the experiences included in your holiday, as well as airport pick-up and drop-off. The appropriate vehicle will depend on the size of your group."
+        },
+        {
+          "question": "Are activities such as paragliding included?",
+          "answer": "Selected activities can be included when your holiday is arranged. Activities such as paragliding, parasailing, dolphin experiences, undersea walks, quad biking and waterfall trekking can also be added depending on your preferences, availability and conditions."
+        },
+        {
+          "question": "What happens if an activity is affected by the weather?",
+          "answer": "Some outdoor and sea activities are weather-dependent. If an experience cannot safely operate, MauTravel will assist with suitable alternatives or rescheduling where possible, depending on availability and the activity provider's conditions."
+        },
+        {
+          "question": "How do I book my Mauritius Holiday?",
+          "answer": "Contact MauTravel with your travel dates, number of travellers and the experiences you're interested in. We'll help adapt the holiday to your stay and provide the details and personalised quotation before you confirm."
+        }
+      ],
+      "showMore": "Show more",
+      "showLess": "Show less"
+    },
+    "customizeForm": {
+      "eyebrow": "Let's Plan Your Stay",
+      "title": "Tell Us About Your Mauritius Holiday",
+      "description": "Share a few details about your trip and we'll help adapt the MauTravel holiday experience around your stay.",
+      "groups": {
+        "trip": "Your Trip",
+        "experiences": "Your Experiences",
+        "final": "Final Details"
+      },
+      "dates": {
+        "label": "When are you visiting Mauritius?",
+        "arrival": "Arrival Date",
+        "departure": "Departure Date"
+      },
+      "travellers": {
+        "label": "Who's travelling?",
+        "adults": "Adults",
+        "children": "Children",
+        "decreaseAdults": "Decrease adults",
+        "increaseAdults": "Increase adults",
+        "decreaseChildren": "Decrease children",
+        "increaseChildren": "Increase children"
+      },
+      "travellerType": {
+        "label": "Who are you travelling with?",
+        "options": {
+          "solo": "Solo",
+          "couple": "Couple",
+          "family": "Family",
+          "friends": "Friends",
+          "group": "Group"
+        }
+      },
+      "duration": {
+        "label": "How long are you staying?",
+        "options": {
+          "5": "5 Days",
+          "7": "7 Days",
+          "10": "10 Days",
+          "14": "14 Days",
+          "custom": "Custom"
+        },
+        "customLabel": "Number of days",
+        "daysUnit": "Days"
+      },
+      "destinations": {
+        "label": "Which places would you love to visit?",
+        "placeholder": "Select places",
+        "searchPlaceholder": "Search places...",
+        "noResults": "No places found",
+        "casela": "Casela Nature Parks",
+        "flicEnFlac": "Flic-en-Flac",
+        "remove": "Remove"
+      },
+      "activities": {
+        "label": "Which experiences interest you?"
+      },
+      "holidayStyle": {
+        "label": "What kind of holiday are you looking for?",
+        "options": {
+          "adventure": "Adventure",
+          "nature": "Nature",
+          "beaches": "Beaches",
+          "culture": "Culture",
+          "wildlife": "Wildlife",
+          "relaxation": "Relaxation",
+          "everything": "A Bit of Everything"
+        }
+      },
+      "accommodation": {
+        "label": "Have you arranged your accommodation?",
+        "options": {
+          "booked": "Already booked",
+          "help": "I'd like MauTravel to help",
+          "undecided": "Not decided yet"
+        }
+      },
+      "transfers": {
+        "label": "Do you need airport transfers?",
+        "options": {
+          "yes": "Yes",
+          "no": "No",
+          "unsure": "Not sure yet"
+        }
+      },
+      "specialRequests": {
+        "label": "Anything else you'd like us to know?",
+        "placeholder": "Tell us about any special requests, places you'd like to add, children travelling with you, accessibility requirements, or anything else that would help us plan your holiday."
+      },
+      "submit": "Send My Holiday Request on WhatsApp",
+      "submitNote": "No payment required — we'll review your request and send you a personalised quotation.",
+      "validation": {
+        "stayOrDates": "Please choose a length of stay or your travel dates."
+      },
+      "message": {
+        "greeting": "Hello MauTravel! 👋",
+        "intro": "I'd like to customise my Mauritius Holiday.",
+        "tripDetails": "TRIP DETAILS",
+        "arrival": "Arrival",
+        "departure": "Departure",
+        "stay": "Stay",
+        "travellersHeading": "TRAVELLERS",
+        "adults": "Adults",
+        "children": "Children",
+        "travellingAs": "Travelling as",
+        "placesHeading": "PLACES I'D LIKE TO VISIT",
+        "activitiesHeading": "ACTIVITIES I'M INTERESTED IN",
+        "styleHeading": "HOLIDAY STYLE",
+        "accommodationHeading": "ACCOMMODATION",
+        "transfersHeading": "AIRPORT TRANSFERS",
+        "specialRequestHeading": "SPECIAL REQUEST",
+        "closing": "Could you please recommend the best arrangement for us and send me a quotation?"
+      }
+    },
+    "whyTravel": {
+      "eyebrow": "Why Travel With MauTravel?",
+      "title": "Your Mauritius Holiday,",
+      "titleAccent": "Taken Care Of",
+      "description": "From the moment you arrive to the experiences you enjoy across the island, MauTravel brings your holiday arrangements together so you can spend less time organising and more time enjoying Mauritius.",
+      "benefits": {
+        "contact": {
+          "title": "One Point of Contact",
+          "description": "One team arranges your transfers, tours and experiences."
+        },
+        "builtAround": {
+          "title": "Built Around Your Stay",
+          "description": "Adapted to your stay, group size and interests."
+        },
+        "transport": {
+          "title": "Private Transport",
+          "description": "Arranged around your confirmed experiences."
+        },
+        "localExperience": {
+          "title": "Local Mauritius Experience",
+          "description": "From famous sights to hidden landscapes."
+        },
+        "support": {
+          "title": "Support Throughout Your Holiday",
+          "description": "Someone to contact throughout your holiday."
+        }
+      },
+      "closing": "You enjoy Mauritius. We'll help take care of the journey."
+    }
+  },
+  "holidayPopup": {
+    "title": "Plánujete Dovolenou na Mauriciu?",
+    "message": "Objevte náš kompletní dovolenkový balíček na Mauriciu — ubytování, letištní transfery, výlety, aktivity a zážitky přizpůsobené vašemu pobytu.",
+    "cta": "Objevte Balíček Mauricius",
+    "closeAria": "Zavřít okno"
   }
 }

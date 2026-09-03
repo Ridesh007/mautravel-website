@@ -8,21 +8,21 @@
 import type { ActivityDetailStructural, ActivityReview } from "@/types";
 
 const PARAGLIDING_REVIEWS: ActivityReview[] = [
-  { id: "r1", name: "Andrzej K", badge: "Local Guide · 24 Reviews · 844 Photos", date: "May 2026", rating: 5, text: "An unforgettable tandem paragliding experience. Bambam was incredibly professional, friendly and made me feel completely safe throughout the entire flight. Even after trying skydiving before, I can honestly say paragliding impressed me even more. Highly recommended." },
+  { id: "r1", name: "Andrzej K", badge: "Local Guide · 24 Reviews · 844 Photos", date: "May 2026", rating: 5, text: "An unforgettable tandem paragliding experience. The pilot was incredibly professional, friendly and made me feel completely safe throughout the entire flight. Even after trying skydiving before, I can honestly say paragliding impressed me even more. Highly recommended." },
   { id: "r2", name: "Dylan Seetaloo", badge: "Local Guide · 24 Reviews · 8 Photos", date: "May 2026", rating: 5, text: "This isn't just an activity — it's a memory you'll keep forever. The feeling of flying above Mauritius is impossible to describe. Absolutely breathtaking." },
   { id: "r3", name: "Beedasy Zubair", badge: "1 Review · 2 Photos", date: "April 2026", rating: 5, text: "Everything was perfectly organised from beginning to end. The pilot made me feel comfortable and confident throughout the flight. Truly an unforgettable experience." },
-  { id: "r4", name: "Gosia Kieda", badge: "Local Guide · 59 Reviews · 285 Photos", date: "May 2026", rating: 5, text: "Although I'm afraid of heights, Bambam explained everything patiently and made me feel completely safe. Thanks to him I achieved something I never thought I'd do." },
+  { id: "r4", name: "Gosia Kieda", badge: "Local Guide · 59 Reviews · 285 Photos", date: "May 2026", rating: 5, text: "Although I'm afraid of heights, the pilot explained everything patiently and made me feel completely safe. Thanks to him I achieved something I never thought I'd do." },
   { id: "r5", name: "Shaey Ma", badge: "1 Review", date: "June 2026", rating: 5, text: "I was nervous because of my fear of heights, but the team made me feel incredibly safe. Friendly, professional and unforgettable. I will definitely come back." },
   { id: "r6", name: "Raza Guide", badge: "Local Guide · 20 Reviews · 130 Photos", date: "June 2026", rating: 5, text: "One of the best experiences I've had in Mauritius. Very professional, excellent guidance and breathtaking views. Definitely worth doing." },
   { id: "r7", name: "Akash Seer", badge: "1 Review · 2 Photos", date: "April 2026", rating: 5, text: "The pilot immediately put me at ease. The views were spectacular and the flight was incredibly comfortable. Highly recommended." },
-  { id: "r8", name: "Aliyah Bheekhoo", badge: "1 Review · 1 Photo", date: "May 2026", rating: 5, text: "Best experience ever! Bambam was incredibly friendly and made me feel comfortable throughout the entire flight. Worth every euro." },
+  { id: "r8", name: "Aliyah Bheekhoo", badge: "1 Review · 1 Photo", date: "May 2026", rating: 5, text: "Best experience ever! The pilot was incredibly friendly and made me feel comfortable throughout the entire flight. Worth every euro." },
   { id: "r9", name: "Esha Chokowry", badge: "2 Reviews", date: "April 2026", rating: 5, text: "One of the most unforgettable experiences of my life. Once you're in the air, all the fear disappears and you're left with complete peace and breathtaking views." },
   { id: "r10", name: "Krishna Chakowry", badge: "Local Guide · 5 Reviews · 22 Photos", date: "April 2026", rating: 5, text: "Seeing Mauritius from a bird's-eye view was absolutely incredible. An experience I'll never forget." },
   { id: "r11", name: "Sakeena Chokowry", badge: "1 Review", date: "April 2026", rating: 5, text: "Smooth, safe and beyond exciting. The pilot was professional from take-off to landing. I highly recommend this experience." },
   { id: "r12", name: "Giacomo", badge: "Local Guide · 351 Reviews · 249 Photos", date: "May 2026", rating: 5, text: "Both my girlfriend and I enjoyed an incredible scenic flight. The team was welcoming, attentive and highly professional. The views over Mauritius were unforgettable." },
   { id: "r13", name: "Anne-Sophie Saudel", badge: "1 Review · 2 Photos", date: "May 2026", rating: 5, text: "My first paragliding experience couldn't have been better. Professional, reassuring and unforgettable." },
   { id: "r14", name: "Matthieu Gaubert", badge: "1 Review", date: "May 2026", rating: 5, text: "Despite changing weather conditions, the team remained professional and accommodating. A wonderful experience and a fantastic memory." },
-  { id: "r15", name: "Quentin Hemeury", badge: "5 Reviews · 1 Photo", date: "June 2026", rating: 5, text: "Flying above Quatre Sœurs during our honeymoon was unforgettable. Thomas was reassuring throughout the entire experience." },
+  { id: "r15", name: "Quentin Hemeury", badge: "5 Reviews · 1 Photo", date: "June 2026", rating: 5, text: "Flying above Quatre Sœurs during our honeymoon was unforgettable. The pilot was reassuring throughout the entire experience." },
   { id: "r16", name: "Alina Bikteeva", badge: "2 Reviews · 7 Photos", date: "June 2026", rating: 5, text: "Flying from Le Morne was one of the highlights of our trip. Booking through WhatsApp was simple and the views of the lagoon and underwater waterfall were incredible." },
   { id: "r17", name: "Sarah (S16)", badge: "5 Reviews · 1 Photo", date: "June 2026", rating: 5, text: "The best activity I experienced in Mauritius. The pilot understood exactly what I wanted to see and made the entire flight unforgettable." },
 ];
@@ -46,6 +46,9 @@ export const ACTIVITY_DETAILS: Record<string, ActivityDetailStructural> = {
       "/activities/paragliding/pg-7.jpg", "/activities/paragliding/pg-8.jpg", "/activities/paragliding/pg-9.jpg",
     ],
     activityReviews: PARAGLIDING_REVIEWS,
+    guideStatIcons: ["Award", "Sparkles", "CheckCircle2", "Star", "ShieldCheck"],
+    videoPlaceholder: true,
+    videoSrc: "/activities/paragliding/video.mp4",
   },
 
   "hiking-adventures": {

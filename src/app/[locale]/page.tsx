@@ -5,6 +5,7 @@ import { ToursSection } from "@/components/sections/ToursSection";
 import { ActivitiesSection } from "@/components/sections/ActivitiesSection";
 import { CarRentalSection } from "@/components/sections/CarRentalSection";
 // import { PropertiesSection } from "@/components/sections/PropertiesSection"; // HIDDEN — uncomment to restore
+import { MauritiusHolidaySection } from "@/components/sections/MauritiusHolidaySection";
 import { EventsSection } from "@/components/sections/EventsSection";
 import { ReviewsSection } from "@/components/sections/ReviewsSection";
 import { CtaSection } from "@/components/sections/CtaSection";
@@ -31,6 +32,7 @@ export default function HomePage() {
       <ActivitiesSection />
       <CarRentalSection />
       {/* <PropertiesSection /> */}{/* HIDDEN — uncomment to restore */}
+      <MauritiusHolidaySection />
       <EventsSection />
       <ReviewsSection />
       <CtaSection />

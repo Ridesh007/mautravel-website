@@ -11,7 +11,8 @@
     "contact": "Contacto",
     "bookNow": "Reservar Ahora",
     "bookViaWhatsapp": "Reservar por WhatsApp",
-    "toggleMenu": "Abrir menú"
+    "toggleMenu": "Abrir menú",
+    "mauritiusHoliday": "Vacaciones en Mauricio"
   },
   "footer": {
     "tagline": "El operador turístico de confianza de Mauricio. Creamos experiencias de viaje extraordinarias con pasión, experiencia y dedicación.",
@@ -138,6 +139,10 @@
     "properties": {
       "title": "Properties in Mauritius",
       "description": "Hand-picked villas, apartments and beachfront properties in Mauritius. Book your perfect Mauritius accommodation with MauTravel."
+    },
+    "mauritiusPackage": {
+      "title": "Las vacaciones completas en Mauricio | Tours y actividades | MauTravel",
+      "description": "Vive Mauricio con MauTravel a través de un paquete de vacaciones cuidadosamente organizado, con traslados al aeropuerto, tours por el norte y el sur, Casela, Île aux Cerfs, parapente, experiencias en la naturaleza y mucho más."
     }
   },
   "home": {
@@ -278,7 +283,11 @@
       "eyebrow": "Events & Festivals",
       "title": "What's On in Mauritius",
       "description": "Discover the vibrant calendar of festivals, cultural events and seasonal celebrations that make Mauritius so special.",
-      "viewAll": "View All Events"
+      "viewAll": "View All Events",
+      "previousEvent": "Previous event",
+      "nextEvent": "Next event",
+      "carouselLabel": "Mauritius events carousel",
+      "goToEvent": "Go to event {n}"
     },
     "reviews": {
       "eyebrow": "Customer Reviews",
@@ -299,6 +308,18 @@
       "eyebrow": "Follow Us",
       "title": "Follow Our Mauritius Journey",
       "description": "Stay inspired with daily Mauritius content — travel tips, stunning scenery, and behind-the-scenes moments from island life."
+    },
+    "mauritiusHoliday": {
+      "eyebrow": "Paquete de Vacaciones Completo",
+      "title": "Tus Vacaciones en Mauricio, Listas para Disfrutar",
+      "description": "Una experiencia organizada que reúne alojamiento, traslados al aeropuerto, tours privados y las mejores actividades de la isla — adaptada a tu estancia.",
+      "features": [
+        "Opciones de alojamiento",
+        "Traslados al aeropuerto incluidos",
+        "Tours privados y turismo",
+        "Actividades y experiencias"
+      ],
+      "cta": "Explorar Vacaciones en Mauricio"
     }
   },
   "airportTransfers": {
@@ -1096,7 +1117,16 @@
       "faqTitle": "Frequently Asked Questions",
       "relatedEyebrow": "Explore More",
       "relatedTitle": "Customers Also Enjoyed",
-      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package.",
+      "guideEyebrow": "Conoce a Tu Piloto",
+      "videoEyebrow": "Mira La Experiencia",
+      "videoTitle": "Video de la Experiencia de Parapente",
+      "videoComingSoon": "Video de la Experiencia de Parapente – Próximamente",
+      "readMore": "Leer Más",
+      "showLess": "Ver Menos",
+      "videoTapHint": "Toca el video para ver la experiencia completa",
+      "videoExpandAria": "Ver video completo",
+      "videoCloseAria": "Cerrar video"
     },
     "paragliding": {
       "name": "Tandem Paragliding in Mauritius",
@@ -1246,7 +1276,33 @@
           "question": "Can I take my phone or camera during the flight?",
           "answer": "We strongly recommend securing all personal belongings before take-off. Phones and cameras must be attached with a wrist strap or mounted on a secure harness. Your pilot will advise on what is safe to carry. A professional photo and video package may be available on request — please enquire when booking."
         }
-      ]
+      ],
+      "guide": {
+        "onlyPilotBadge": "El Único Piloto Registrado de Parapente en Tándem en Mauricio",
+        "bio": [
+          "Vuela con el único piloto registrado de parapente en tándem en Mauricio, con más de 20 años de experiencia y una pasión de toda la vida por el vuelo.",
+          "Su trayectoria en el parapente comenzó a los 8 años, convirtiéndose con el paso de las décadas en una amplia experiencia en el aire. Con más de 99 vuelos exitosos sin ningún accidente, cada vuelo se aborda con un fuerte enfoque en la seguridad, la preparación, el profesionalismo y la comodidad del pasajero.",
+          "Muy bien valorado en Google y otras plataformas sociales, se ha ganado la confianza de los huéspedes que buscan vivir Mauricio desde una perspectiva completamente distinta.",
+          "Desde el despegue hasta el aterrizaje, estarás acompañado por un piloto experimentado cuya prioridad es hacer que tu vuelo se sienta seguro, cómodo e inolvidable."
+        ],
+        "stats": [
+          {
+            "label": "Más de 20 Años de Experiencia"
+          },
+          {
+            "label": "Vuela Desde los 8 Años"
+          },
+          {
+            "label": "Más de 50 Vuelos Exitosos"
+          },
+          {
+            "label": "Excelentes Valoraciones de Huéspedes"
+          },
+          {
+            "label": "Seguridad y Comodidad del Pasajero Ante Todo"
+          }
+        ]
+      }
     },
     "hiking-adventures": {
       "name": "Hiking Adventures",
@@ -2105,5 +2161,401 @@
         }
       ]
     }
+  },
+  "mauritiusPackage": {
+    "hero": {
+      "eyebrow": "Tu experiencia completa en Mauricio",
+      "titleLine1": "Una isla.",
+      "titleLine2": "Recuerdos incontables.",
+      "description": "Descubre Mauricio de costa a costa: lugares emblemáticos, paisajes escondidos, fauna salvaje, lagunas tropicales y aventuras inolvidables, reunidos en unas vacaciones diseñadas en torno a tu estancia.",
+      "exploreCta": "Descubre tu viaje",
+      "customizeCta": "Personalizar mis vacaciones",
+      "journey": {
+        "title": "Tu viaje",
+        "items": {
+          "north": "Norte",
+          "wildSouth": "Sur salvaje",
+          "wildlife": "Fauna",
+          "westCoast": "Costa oeste",
+          "ileAuxCerfs": "Île aux Cerfs",
+          "adventure": "Aventura"
+        }
+      }
+    },
+    "experience": {
+      "title": "Tu experiencia en Mauricio",
+      "description": "Este paquete ha sido diseñado para mostrarte la auténtica Mauricio: desde ciudades llenas de vida y sitios culturales hasta naturaleza, fauna salvaje, playas y aventuras. Nosotros nos encargamos de la logística para que tú puedas relajarte y disfrutar de cada momento.",
+      "journey": {
+        "north": "Norte de Mauricio",
+        "wildSouth": "Sur salvaje",
+        "wildlifeNature": "Fauna y naturaleza",
+        "westCoast": "Costa oeste",
+        "oceanExperiences": "Experiencias en el mar",
+        "adventureActivities": "Aventura y actividades"
+      }
+    },
+    "airportTransfer": {
+      "eyebrow": "Comienza y termina sin estrés",
+      "title": "Traslados de ida y vuelta al aeropuerto",
+      "description": "Empieza y termina tus vacaciones sin estrés. Organizamos tu traslado privado desde el aeropuerto internacional SSR hasta tu alojamiento, así como tu traslado de regreso para tu salida.",
+      "benefits": {
+        "privateTransfer": "Traslado privado",
+        "airportPickup": "Recogida en el aeropuerto",
+        "airportDropoff": "Traslado al aeropuerto",
+        "comfortableVehicle": "Vehículo cómodo"
+      }
+    },
+    "discover": {
+      "north": {
+        "eyebrow": "Explora el norte",
+        "title": "Cultura, jardines y vida costera",
+        "items": {
+          "pamplemousses": {
+            "name": "Jardín Botánico de Pamplemousses",
+            "description": "Hogar de nenúfares gigantes, plantas exóticas, especias y árboles centenarios."
+          },
+          "portLouis": {
+            "name": "Port Louis y Caudan Waterfront",
+            "description": "Descubre la capital, sus mercados coloridos, su cultura local y su animado paseo marítimo."
+          },
+          "grandBaie": {
+            "name": "Grand Baie",
+            "description": "Un animado pueblo costero con hermosas playas, tiendas, restaurantes y vistas a una laguna turquesa."
+          },
+          "capMalheureux": {
+            "name": "Cap Malheureux",
+            "description": "Una emblemática iglesia de techo rojo, un paisaje costero precioso y vistas impresionantes del norte de la isla."
+          }
+        }
+      },
+      "south": {
+        "eyebrow": "El pintoresco sur",
+        "title": "Naturaleza, cascadas y paisajes salvajes",
+        "items": {
+          "blackRiverGorges": {
+            "name": "Black River Gorges",
+            "description": "Miradores panorámicos, bosques densos y algunos de los paisajes más espectaculares de Mauricio."
+          },
+          "alexandraFalls": {
+            "name": "Cascadas Alexandra",
+            "description": "Un hermoso mirador con vistas a valles frondosos y cascadas escalonadas."
+          },
+          "valleeDesCouleurs": {
+            "name": "Parque Natural La Vallée des Couleurs",
+            "description": "Tierras de colores sorprendentes, cascadas, miradores y experiencias de aventura."
+          },
+          "laVanille": {
+            "name": "La Vanille Nature Park / Parque de cocodrilos",
+            "description": "Tortugas gigantes, cocodrilos y una fauna fascinante en un entorno tropical."
+          }
+        }
+      }
+    },
+    "casela": {
+      "eyebrow": "Un día de aventura",
+      "title": "Vive la experiencia de Casela Nature Parks",
+      "description": "Desde encuentros con la fauna hasta experiencias cargadas de adrenalina, Casela es uno de los puntos culminantes de tus vacaciones en Mauricio.",
+      "experiences": {
+        "safari": "Safari",
+        "ziplining": "Tirolina",
+        "toboggan": "Tobogán",
+        "quadBiking": "Quad",
+        "walkWithLions": "Paseo con leones",
+        "wildlifeEncounters": "Encuentros con la fauna"
+      },
+      "note": "Algunas experiencias pueden ser opcionales o tener un coste adicional."
+    },
+    "sunset": {
+      "eyebrow": "Tómatelo con calma. Estás en Mauricio.",
+      "title": "Atardecer en Flic-en-Flac",
+      "description": "Relájate junto al océano y observa cómo el cielo mauriciano se tiñe de dorado. La forma perfecta de terminar un día inolvidable."
+    },
+    "water": {
+      "title": "Vive Mauricio desde el agua",
+      "items": {
+        "ileAuxCerfs": {
+          "name": "Île aux Cerfs",
+          "description": "Lagunas cristalinas, playas de arena blanca y una escapada isleña de lo más relajante."
+        },
+        "grseWaterfall": {
+          "name": "Cascada GRSE",
+          "description": "Disfruta de un paseo en barco muy pintoresco por el río hasta la hermosa cascada de Grand River South East."
+        },
+        "snorkelling": {
+          "name": "Snorkel",
+          "description": "Explora la vida marina y el colorido mundo submarino de Mauricio."
+        },
+        "catamaran": {
+          "name": "Crucero en catamarán",
+          "description": "Disfruta de la brisa marina, vistas costeras impresionantes y un día memorable sobre el agua."
+        }
+      },
+      "carousel": {
+        "regionLabel": "Carrusel de experiencias acuáticas en Mauricio",
+        "previousSlide": "Experiencia anterior",
+        "nextSlide": "Siguiente experiencia",
+        "goToSlide": "Ir a la diapositiva {n}"
+      }
+    },
+    "adventure": {
+      "title": "Actividades y experiencias",
+      "items": {
+        "paragliding": {
+          "name": "Parapente",
+          "headline": "Sobrevuela el paraíso",
+          "description": "Planea sobre la laguna y las montañas para disfrutar de una vista aérea de Mauricio que jamás olvidarás."
+        },
+        "parasailing": {
+          "name": "Parasailing",
+          "headline": "Vuela alto sobre la laguna",
+          "description": "Elévate por encima de las aguas turquesas y disfruta de amplias vistas costeras desde el cielo."
+        },
+        "dolphinWatching": {
+          "name": "Avistamiento de delfines",
+          "headline": "Conoce a los delfines salvajes de Mauricio",
+          "description": "Observa a los delfines jugar en su hábitat natural durante una excursión en barco a primera hora de la mañana."
+        },
+        "underseaWalk": {
+          "name": "Paseo submarino",
+          "headline": "Camina por el fondo del océano",
+          "description": "Descubre el arrecife de cerca en un paseo guiado bajo la superficie del mar — no se necesita experiencia en buceo."
+        },
+        "quadBiking": {
+          "name": "Quad",
+          "headline": "Recorre senderos salvajes",
+          "description": "Explora paisajes escarpados y caminos escénicos en una aventura en quad cargada de adrenalina."
+        },
+        "waterfallTrekking": {
+          "name": "Senderismo a cascadas",
+          "headline": "En busca de cascadas escondidas",
+          "description": "Camina por frondosos senderos forestales para descubrir algunas de las cascadas escondidas más bellas de Mauricio."
+        }
+      },
+      "note": "Algunas actividades están incluidas en este paquete. Otras pueden ser opcionales o tener un coste adicional.",
+      "carousel": {
+        "regionLabel": "Carrusel de actividades de aventura en Mauricio",
+        "previousSlide": "Actividad anterior",
+        "nextSlide": "Siguiente actividad",
+        "goToSlide": "Ir a la diapositiva {n}",
+        "viewActivity": "Ver actividad"
+      }
+    },
+    "flexibility": {
+      "eyebrow": "Tus vacaciones, a tu manera",
+      "title": "Adaptado a tu estancia",
+      "description": "¿Te quedas 5 días o dos semanas? ¿Viajas en pareja, en familia o en grupo? Adaptaremos tus vacaciones en Mauricio según la duración de tu estancia, el número de viajeros y las experiencias que quieras disfrutar.",
+      "duration": {
+        "options": {
+          "5": "5 días",
+          "7": "7 días",
+          "10": "10 días",
+          "14": "14 días",
+          "custom": "Personalizado"
+        }
+      },
+      "travellersNote": "Disponible para viajeros individuales, parejas, familias y grupos.",
+      "ctaButton": "Personalizar mis vacaciones"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Todo lo que necesitas saber para planificar tus vacaciones en Mauricio con MauTravel.",
+      "items": [
+        {
+          "question": "¿Se puede personalizar el paquete de vacaciones en Mauricio?",
+          "answer": "Sí. El paquete se puede adaptar según la duración de tu estancia, el número de viajeros y las experiencias que te gustaría incluir. Te ayudaremos a crear el equilibrio adecuado entre visitas turísticas, naturaleza, aventura y tiempo para relajarte."
+        },
+        {
+          "question": "¿Para cuántos días está pensado el paquete de vacaciones?",
+          "answer": "No hay una duración fija. Podemos adaptar la experiencia a estancias más cortas o más largas, ya sea que visites Mauricio durante 5 días, 7 días, 10 días, dos semanas u otra duración."
+        },
+        {
+          "question": "¿Se puede organizar el paquete para parejas, familias o grupos?",
+          "answer": "Sí. Las vacaciones se pueden organizar para viajeros individuales, parejas, familias y grupos. El transporte y otros arreglos pueden adaptarse según el número de viajeros."
+        },
+        {
+          "question": "¿Puedo cambiar algunas de las actividades o atracciones?",
+          "answer": "Sí. Las experiencias que se muestran en esta página representan lo que pueden incluir tus vacaciones en Mauricio. Si deseas añadir, eliminar o sustituir una atracción o actividad, MauTravel puede ajustar el paquete según tus intereses y el tiempo disponible."
+        },
+        {
+          "question": "¿Cuánto cuesta el paquete de vacaciones en Mauricio?",
+          "answer": "El precio depende de la duración de tu estancia, el número de viajeros, las experiencias seleccionadas y el contenido final del paquete. Contacta con MauTravel indicando tus fechas de viaje y el tamaño de tu grupo, y te prepararemos un presupuesto personalizado."
+        },
+        {
+          "question": "¿El alojamiento y las comidas están incluidos?",
+          "answer": "Los arreglos de alojamiento y comidas dependen del paquete creado para tu viaje. Tu presupuesto personalizado mostrará claramente qué está incluido y qué complementos opcionales existen."
+        },
+        {
+          "question": "¿Están incluidas las entradas a las atracciones?",
+          "answer": "Las entradas dependen de las atracciones y actividades finales seleccionadas para tus vacaciones. Todas las entradas incluidas y cualquier coste adicional se indicarán claramente en tu presupuesto antes de la confirmación."
+        },
+        {
+          "question": "¿El transporte está incluido?",
+          "answer": "Se puede organizar transporte privado para las experiencias incluidas en tus vacaciones, así como la recogida y el traslado al aeropuerto. El vehículo adecuado dependerá del tamaño de tu grupo."
+        },
+        {
+          "question": "¿Están incluidas actividades como el parapente?",
+          "answer": "Se pueden incluir actividades seleccionadas al organizar tus vacaciones. Actividades como el parapente, el parasailing, las experiencias con delfines, los paseos submarinos y el quad también se pueden añadir según tus preferencias, la disponibilidad y las condiciones."
+        },
+        {
+          "question": "¿Qué ocurre si una actividad se ve afectada por el clima?",
+          "answer": "Algunas actividades al aire libre y en el mar dependen del clima. Si una experiencia no puede realizarse de forma segura, MauTravel te ayudará a encontrar alternativas adecuadas o a reprogramarla cuando sea posible, según la disponibilidad y las condiciones del proveedor de la actividad."
+        },
+        {
+          "question": "¿Cómo reservo mis vacaciones en Mauricio?",
+          "answer": "Contacta con MauTravel indicando tus fechas de viaje, el número de viajeros y las experiencias que te interesan. Te ayudaremos a adaptar las vacaciones a tu estancia y te proporcionaremos los detalles y un presupuesto personalizado antes de que confirmes."
+        }
+      ],
+      "showMore": "Ver más",
+      "showLess": "Ver menos"
+    },
+    "customizeForm": {
+      "eyebrow": "Planifiquemos tu estancia",
+      "title": "Cuéntanos sobre tus vacaciones en Mauricio",
+      "description": "Comparte algunos detalles sobre tu viaje y te ayudaremos a adaptar la experiencia de vacaciones de MauTravel a tu estancia.",
+      "groups": {
+        "trip": "Tu viaje",
+        "experiences": "Tus experiencias",
+        "final": "Últimos detalles"
+      },
+      "dates": {
+        "label": "¿Cuándo visitas Mauricio?",
+        "arrival": "Fecha de llegada",
+        "departure": "Fecha de salida"
+      },
+      "travellers": {
+        "label": "¿Quién viaja?",
+        "adults": "Adultos",
+        "children": "Niños",
+        "decreaseAdults": "Reducir adultos",
+        "increaseAdults": "Aumentar adultos",
+        "decreaseChildren": "Reducir niños",
+        "increaseChildren": "Aumentar niños"
+      },
+      "travellerType": {
+        "label": "¿Con quién viajas?",
+        "options": {
+          "solo": "Solo/a",
+          "couple": "En pareja",
+          "family": "En familia",
+          "friends": "Con amigos",
+          "group": "En grupo"
+        }
+      },
+      "duration": {
+        "label": "¿Cuánto tiempo te quedas?",
+        "options": {
+          "5": "5 días",
+          "7": "7 días",
+          "10": "10 días",
+          "14": "14 días",
+          "custom": "Personalizado"
+        },
+        "customLabel": "Número de días",
+        "daysUnit": "Días"
+      },
+      "destinations": {
+        "label": "¿Qué lugares te gustaría visitar?",
+        "placeholder": "Selecciona lugares",
+        "searchPlaceholder": "Buscar lugares...",
+        "noResults": "No se encontraron lugares",
+        "casela": "Casela Nature Parks",
+        "flicEnFlac": "Flic-en-Flac",
+        "remove": "Quitar"
+      },
+      "activities": {
+        "label": "¿Qué experiencias te interesan?"
+      },
+      "holidayStyle": {
+        "label": "¿Qué tipo de vacaciones buscas?",
+        "options": {
+          "adventure": "Aventura",
+          "nature": "Naturaleza",
+          "beaches": "Playas",
+          "culture": "Cultura",
+          "wildlife": "Fauna",
+          "relaxation": "Relax",
+          "everything": "Un poco de todo"
+        }
+      },
+      "accommodation": {
+        "label": "¿Ya has organizado tu alojamiento?",
+        "options": {
+          "booked": "Ya reservado",
+          "help": "Me gustaría que MauTravel me ayude",
+          "undecided": "Aún sin decidir"
+        }
+      },
+      "transfers": {
+        "label": "¿Necesitas traslados al aeropuerto?",
+        "options": {
+          "yes": "Sí",
+          "no": "No",
+          "unsure": "Aún no lo sé"
+        }
+      },
+      "specialRequests": {
+        "label": "¿Algo más que quieras contarnos?",
+        "placeholder": "Cuéntanos sobre cualquier solicitud especial, lugares que te gustaría añadir, niños que viajen contigo, requisitos de accesibilidad o cualquier otra cosa que nos ayude a planificar tus vacaciones."
+      },
+      "submit": "Enviar mi solicitud de vacaciones por WhatsApp",
+      "submitNote": "No se requiere pago — revisaremos tu solicitud y te enviaremos un presupuesto personalizado.",
+      "validation": {
+        "stayOrDates": "Por favor, elige una duración de estancia o tus fechas de viaje."
+      },
+      "message": {
+        "greeting": "¡Hola MauTravel! 👋",
+        "intro": "Me gustaría personalizar mis vacaciones en Mauricio.",
+        "tripDetails": "DETALLES DEL VIAJE",
+        "arrival": "Llegada",
+        "departure": "Salida",
+        "stay": "Estancia",
+        "travellersHeading": "VIAJEROS",
+        "adults": "Adultos",
+        "children": "Niños",
+        "travellingAs": "Viajando como",
+        "placesHeading": "LUGARES QUE ME GUSTARÍA VISITAR",
+        "activitiesHeading": "ACTIVIDADES QUE ME INTERESAN",
+        "styleHeading": "ESTILO DE VACACIONES",
+        "accommodationHeading": "ALOJAMIENTO",
+        "transfersHeading": "TRASLADOS AL AEROPUERTO",
+        "specialRequestHeading": "SOLICITUD ESPECIAL",
+        "closing": "¿Podrían recomendarme la mejor opción y enviarme un presupuesto?"
+      }
+    },
+    "whyTravel": {
+      "eyebrow": "¿Por qué viajar con MauTravel?",
+      "title": "Tus vacaciones en Mauricio,",
+      "titleAccent": "en buenas manos",
+      "description": "Desde el momento en que llegas hasta las experiencias que disfrutas por toda la isla, MauTravel coordina todos los preparativos de tus vacaciones para que pases menos tiempo organizando y más tiempo disfrutando de Mauricio.",
+      "benefits": {
+        "contact": {
+          "title": "Un único punto de contacto",
+          "description": "Un solo equipo organiza tus traslados, tours y experiencias."
+        },
+        "builtAround": {
+          "title": "Diseñado en torno a tu estancia",
+          "description": "Adaptado a la duración de tu estancia, el tamaño de tu grupo y tus intereses."
+        },
+        "transport": {
+          "title": "Transporte privado",
+          "description": "Organizado según tus experiencias confirmadas."
+        },
+        "localExperience": {
+          "title": "Experiencia local auténtica de Mauricio",
+          "description": "Desde lugares famosos hasta paisajes escondidos."
+        },
+        "support": {
+          "title": "Asistencia durante todas tus vacaciones",
+          "description": "Alguien con quien contactar durante todas tus vacaciones."
+        }
+      },
+      "closing": "Disfruta de Mauricio. Nosotros nos encargamos del resto."
+    }
+  },
+  "holidayPopup": {
+    "title": "¿Estás Planeando unas Vacaciones en Mauricio?",
+    "message": "Descubre nuestro paquete completo de vacaciones en Mauricio — alojamiento, traslados al aeropuerto, tours, actividades y experiencias a medida, organizadas según tu estancia.",
+    "cta": "Explorar el Paquete de Mauricio",
+    "closeAria": "Cerrar ventana emergente"
   }
 }

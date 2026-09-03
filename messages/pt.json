@@ -11,7 +11,8 @@
     "contact": "Contacto",
     "bookNow": "Reservar Agora",
     "bookViaWhatsapp": "Reservar via WhatsApp",
-    "toggleMenu": "Abrir menu"
+    "toggleMenu": "Abrir menu",
+    "mauritiusHoliday": "Férias nas Maurícias"
   },
   "footer": {
     "tagline": "O operador turístico de confiança das Maurícias. Criamos experiências de viagem extraordinárias com paixão, especialização e cuidado.",
@@ -138,6 +139,10 @@
     "properties": {
       "title": "Properties in Mauritius",
       "description": "Hand-picked villas, apartments and beachfront properties in Mauritius. Book your perfect Mauritius accommodation with MauTravel."
+    },
+    "mauritiusPackage": {
+      "title": "As Férias Completas nas Maurícias | Tours e Atividades | MauTravel",
+      "description": "Viva as Maurícias com a MauTravel através de um pacote de férias cuidadosamente organizado, com transfers de aeroporto, tours pelo Norte e Sul, Casela, Île aux Cerfs, parapente, experiências na natureza e muito mais."
     }
   },
   "home": {
@@ -278,7 +283,11 @@
       "eyebrow": "Events & Festivals",
       "title": "What's On in Mauritius",
       "description": "Discover the vibrant calendar of festivals, cultural events and seasonal celebrations that make Mauritius so special.",
-      "viewAll": "View All Events"
+      "viewAll": "View All Events",
+      "previousEvent": "Previous event",
+      "nextEvent": "Next event",
+      "carouselLabel": "Mauritius events carousel",
+      "goToEvent": "Go to event {n}"
     },
     "reviews": {
       "eyebrow": "Customer Reviews",
@@ -299,6 +308,18 @@
       "eyebrow": "Follow Us",
       "title": "Follow Our Mauritius Journey",
       "description": "Stay inspired with daily Mauritius content — travel tips, stunning scenery, and behind-the-scenes moments from island life."
+    },
+    "mauritiusHoliday": {
+      "eyebrow": "Pacote de Férias Completo",
+      "title": "As Suas Férias nas Maurícias, Prontas a Desfrutar",
+      "description": "Uma experiência organizada que reúne alojamento, transferes de aeroporto, passeios privados e as melhores atividades da ilha — adaptada à sua estadia.",
+      "features": [
+        "Opções de alojamento",
+        "Transferes de aeroporto incluídos",
+        "Passeios privados e turismo",
+        "Atividades e experiências"
+      ],
+      "cta": "Explorar Férias nas Maurícias"
     }
   },
   "airportTransfers": {
@@ -1096,7 +1117,16 @@
       "faqTitle": "Frequently Asked Questions",
       "relatedEyebrow": "Explore More",
       "relatedTitle": "Customers Also Enjoyed",
-      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package."
+      "relatedDescription": "Combine activities for the ultimate Mauritius adventure — our team can build the perfect multi-activity package.",
+      "guideEyebrow": "Conheça O Seu Piloto",
+      "videoEyebrow": "Veja A Experiência",
+      "videoTitle": "Vídeo da Experiência de Parapente",
+      "videoComingSoon": "Vídeo da Experiência de Parapente – Brevemente",
+      "readMore": "Ler Mais",
+      "showLess": "Ver Menos",
+      "videoTapHint": "Toque no vídeo para ver a experiência completa",
+      "videoExpandAria": "Ver vídeo completo",
+      "videoCloseAria": "Fechar vídeo"
     },
     "paragliding": {
       "name": "Tandem Paragliding in Mauritius",
@@ -1246,7 +1276,33 @@
           "question": "Can I take my phone or camera during the flight?",
           "answer": "We strongly recommend securing all personal belongings before take-off. Phones and cameras must be attached with a wrist strap or mounted on a secure harness. Your pilot will advise on what is safe to carry. A professional photo and video package may be available on request — please enquire when booking."
         }
-      ]
+      ],
+      "guide": {
+        "onlyPilotBadge": "O Único Piloto Registado de Parapente em Tandem nas Maurícias",
+        "bio": [
+          "Voe com o único piloto registado de parapente em tandem nas Maurícias, com mais de 20 anos de experiência e uma paixão de sempre pelo voo.",
+          "A sua jornada no parapente começou com apenas 8 anos, transformando-se ao longo de décadas numa vasta experiência nos ares. Com mais de 99 voos bem-sucedidos sem qualquer acidente, cada voo é conduzido com um forte foco na segurança, preparação, profissionalismo e conforto do passageiro.",
+          "Com excelentes avaliações no Google e noutras plataformas sociais, conquistou a confiança de visitantes que procuram viver as Maurícias sob uma perspetiva totalmente diferente.",
+          "Da descolagem à aterragem, será acompanhado por um piloto experiente cuja prioridade é tornar o seu voo seguro, confortável e inesquecível."
+        ],
+        "stats": [
+          {
+            "label": "Mais de 20 Anos de Experiência"
+          },
+          {
+            "label": "A Voar Desde os 8 Anos"
+          },
+          {
+            "label": "Mais de 50 Voos Bem-Sucedidos"
+          },
+          {
+            "label": "Excelentes Avaliações dos Hóspedes"
+          },
+          {
+            "label": "Segurança e Conforto do Passageiro em Primeiro Lugar"
+          }
+        ]
+      }
     },
     "hiking-adventures": {
       "name": "Hiking Adventures",
@@ -2105,5 +2161,401 @@
         }
       ]
     }
+  },
+  "mauritiusPackage": {
+    "hero": {
+      "eyebrow": "A Sua Experiência Completa nas Maurícias",
+      "titleLine1": "Uma Ilha.",
+      "titleLine2": "Memórias Incontáveis.",
+      "description": "Descubra as Maurícias de costa a costa: lugares icónicos, paisagens escondidas, vida selvagem, lagoas tropicais e aventuras inesquecíveis, reunidos numa viagem pensada à medida da sua estadia.",
+      "exploreCta": "Explore a Sua Viagem",
+      "customizeCta": "Personalizar as Minhas Férias",
+      "journey": {
+        "title": "A Sua Viagem",
+        "items": {
+          "north": "Norte",
+          "wildSouth": "Sul Selvagem",
+          "wildlife": "Vida Selvagem",
+          "westCoast": "Costa Oeste",
+          "ileAuxCerfs": "Île aux Cerfs",
+          "adventure": "Aventura"
+        }
+      }
+    },
+    "experience": {
+      "title": "A Sua Experiência nas Maurícias",
+      "description": "Este pacote foi concebido para lhe mostrar as verdadeiras Maurícias: cidades vibrantes e locais culturais, mas também natureza, vida selvagem, praias e aventuras. Nós tratamos da logística para que possa relaxar e aproveitar cada momento.",
+      "journey": {
+        "north": "Maurícias Norte",
+        "wildSouth": "Sul Selvagem",
+        "wildlifeNature": "Vida Selvagem e Natureza",
+        "westCoast": "Costa Oeste",
+        "oceanExperiences": "Experiências no Oceano",
+        "adventureActivities": "Aventura e Atividades"
+      }
+    },
+    "airportTransfer": {
+      "eyebrow": "Comece e Termine Sem Preocupações",
+      "title": "Transfer de Chegada e Partida do Aeroporto",
+      "description": "Comece e termine as suas férias sem preocupações. Organizamos o seu transfer privado do Aeroporto Internacional SSR até ao seu alojamento e o transfer de regresso para a sua partida.",
+      "benefits": {
+        "privateTransfer": "Transfer privado",
+        "airportPickup": "Receção no aeroporto",
+        "airportDropoff": "Transporte para o aeroporto",
+        "comfortableVehicle": "Veículo confortável"
+      }
+    },
+    "discover": {
+      "north": {
+        "eyebrow": "Explore o Norte",
+        "title": "Cultura, Jardins e Vida Costeira",
+        "items": {
+          "pamplemousses": {
+            "name": "Jardim Botânico de Pamplemousses",
+            "description": "Lar de nenúfares gigantes, plantas exóticas, especiarias e árvores centenárias."
+          },
+          "portLouis": {
+            "name": "Port Louis e Caudan Waterfront",
+            "description": "Descubra a capital, os seus mercados coloridos, a cultura local e a animada marginal."
+          },
+          "grandBaie": {
+            "name": "Grand Baie",
+            "description": "Uma vila costeira animada com praias deslumbrantes, lojas, restaurantes e vistas para uma lagoa turquesa."
+          },
+          "capMalheureux": {
+            "name": "Cap Malheureux",
+            "description": "Uma icónica igreja de telhado vermelho, uma paisagem costeira encantadora e vistas de tirar o fôlego sobre o norte da ilha."
+          }
+        }
+      },
+      "south": {
+        "eyebrow": "O Pitoresco Sul",
+        "title": "Natureza, Cascatas e Paisagens Selvagens",
+        "items": {
+          "blackRiverGorges": {
+            "name": "Black River Gorges",
+            "description": "Miradouros panorâmicos, florestas densas e algumas das paisagens mais espetaculares das Maurícias."
+          },
+          "alexandraFalls": {
+            "name": "Alexandra Falls",
+            "description": "Um belo miradouro com vista sobre vales verdejantes e cascatas caudalosas."
+          },
+          "valleeDesCouleurs": {
+            "name": "Parque Natural La Vallée des Couleurs",
+            "description": "Terras de cores vivas, cascatas, miradouros e experiências de aventura."
+          },
+          "laVanille": {
+            "name": "La Vanille Nature Park / Parque dos Crocodilos",
+            "description": "Tartarugas gigantes, crocodilos e uma vida selvagem fascinante num cenário tropical."
+          }
+        }
+      }
+    },
+    "casela": {
+      "eyebrow": "Um Dia de Aventura",
+      "title": "Viva os Casela Nature Parks",
+      "description": "De encontros com a vida selvagem a experiências repletas de adrenalina, Casela é um dos pontos altos das suas férias nas Maurícias.",
+      "experiences": {
+        "safari": "Safari",
+        "ziplining": "Tirolesa",
+        "toboggan": "Slide de Toboggan",
+        "quadBiking": "Passeio de Moto 4",
+        "walkWithLions": "Caminhada com Leões",
+        "wildlifeEncounters": "Encontros com a Vida Selvagem"
+      },
+      "note": "As experiências selecionadas podem ser opcionais ou implicar custos adicionais."
+    },
+    "sunset": {
+      "eyebrow": "Abrande. Está nas Maurícias.",
+      "title": "Pôr do Sol em Flic-en-Flac",
+      "description": "Relaxe junto ao oceano e veja o céu mauriciano ganhar tons dourados. A forma perfeita de terminar um dia inesquecível."
+    },
+    "water": {
+      "title": "Viva as Maurícias a Partir da Água",
+      "items": {
+        "ileAuxCerfs": {
+          "name": "Île aux Cerfs",
+          "description": "Lagoas de águas cristalinas, praias de areia branca e uma escapadela relaxante numa ilha."
+        },
+        "grseWaterfall": {
+          "name": "Cascata de GRSE",
+          "description": "Aproveite um passeio de barco pitoresco ao longo do rio até à bela cascata de Grand River South East."
+        },
+        "snorkelling": {
+          "name": "Snorkeling",
+          "description": "Explore a vida marinha e o colorido mundo subaquático das Maurícias."
+        },
+        "catamaran": {
+          "name": "Cruzeiro de Catamarã",
+          "description": "Aproveite a brisa do oceano, vistas costeiras deslumbrantes e um dia memorável na água."
+        }
+      },
+      "carousel": {
+        "regionLabel": "Carrossel de experiências aquáticas nas Maurícias",
+        "previousSlide": "Experiência anterior",
+        "nextSlide": "Próxima experiência",
+        "goToSlide": "Ir para o slide {n}"
+      }
+    },
+    "adventure": {
+      "title": "Atividades e Experiências",
+      "items": {
+        "paragliding": {
+          "name": "Parapente",
+          "headline": "Voe Sobre o Paraíso",
+          "description": "Deslize sobre a lagoa e as montanhas para uma vista aérea das Maurícias que nunca esquecerá."
+        },
+        "parasailing": {
+          "name": "Paraquedismo Ascensional",
+          "headline": "Voe Alto Sobre a Lagoa",
+          "description": "Eleve-se sobre as águas turquesa e aprecie vistas costeiras panorâmicas a partir do céu."
+        },
+        "dolphinWatching": {
+          "name": "Observação de Golfinhos",
+          "headline": "Encontre os Golfinhos Selvagens das Maurícias",
+          "description": "Observe os golfinhos a brincar no seu habitat natural numa excursão de barco ao início da manhã."
+        },
+        "underseaWalk": {
+          "name": "Caminhada Subaquática",
+          "headline": "Caminhe no Fundo do Oceano",
+          "description": "Descubra o recife de perto numa caminhada guiada sob a superfície, sem necessidade de experiência em mergulho."
+        },
+        "quadBiking": {
+          "name": "Passeio de Moto 4",
+          "headline": "Percorra Trilhos Selvagens",
+          "description": "Explore paisagens acidentadas e estradas secundárias panorâmicas numa aventura de moto 4 repleta de adrenalina."
+        },
+        "waterfallTrekking": {
+          "name": "Trekking às Cascatas",
+          "headline": "Persiga Cascatas Escondidas",
+          "description": "Caminhe por trilhos de floresta exuberante para descobrir algumas das mais belas cascatas escondidas das Maurícias."
+        }
+      },
+      "note": "As atividades selecionadas estão incluídas neste pacote. Outras podem ser opcionais ou implicar custos adicionais.",
+      "carousel": {
+        "regionLabel": "Carrossel de atividades de aventura nas Maurícias",
+        "previousSlide": "Atividade anterior",
+        "nextSlide": "Próxima atividade",
+        "goToSlide": "Ir para o slide {n}",
+        "viewActivity": "Ver atividade"
+      }
+    },
+    "flexibility": {
+      "eyebrow": "As Suas Férias, à Sua Maneira",
+      "title": "Feitas à Medida da Sua Estadia",
+      "description": "Vai ficar 5 dias ou duas semanas? Vai viajar em casal, em família ou em grupo? Vamos adaptar as suas férias nas Maurícias à duração da sua estadia, ao número de viajantes e às experiências que deseja desfrutar.",
+      "duration": {
+        "options": {
+          "5": "5 Dias",
+          "7": "7 Dias",
+          "10": "10 Dias",
+          "14": "14 Dias",
+          "custom": "Personalizado"
+        }
+      },
+      "travellersNote": "Disponível para viajantes individuais, casais, famílias e grupos.",
+      "ctaButton": "Personalizar as Minhas Férias"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "subtitle": "Tudo o que precisa de saber para planear as suas férias nas Maurícias com a MauTravel.",
+      "items": [
+        {
+          "question": "O Pacote de Férias nas Maurícias pode ser personalizado?",
+          "answer": "Sim. O pacote pode ser adaptado de acordo com a duração da sua estadia, o número de viajantes e as experiências que deseja incluir. Vamos ajudá-lo a criar o equilíbrio certo entre visitas turísticas, natureza, aventura e tempo para relaxar."
+        },
+        {
+          "question": "Quantos dias tem o pacote de férias?",
+          "answer": "Não existe uma duração fixa. Podemos adaptar a experiência a estadias mais curtas ou mais longas, quer visite as Maurícias durante 5 dias, 7 dias, 10 dias, duas semanas ou outra duração."
+        },
+        {
+          "question": "O pacote pode ser organizado para casais, famílias ou grupos?",
+          "answer": "Sim. As férias podem ser organizadas para viajantes individuais, casais, famílias e grupos. O transporte e outros arranjos podem ser adaptados de acordo com o número de viajantes."
+        },
+        {
+          "question": "Posso alterar algumas das atividades ou atrações?",
+          "answer": "Sim. As experiências apresentadas nesta página representam o que as suas férias nas Maurícias podem incluir. Se quiser adicionar, remover ou substituir uma atração ou atividade, a MauTravel pode ajustar o pacote de acordo com os seus interesses e o tempo disponível."
+        },
+        {
+          "question": "Quanto custa o Pacote de Férias nas Maurícias?",
+          "answer": "O preço depende da duração da estadia, do número de viajantes, das experiências selecionadas e das inclusões finais do pacote. Contacte a MauTravel com as suas datas de viagem e o tamanho do grupo e prepararemos um orçamento personalizado."
+        },
+        {
+          "question": "O alojamento e as refeições estão incluídos?",
+          "answer": "As disposições de alojamento e refeições dependem do pacote criado para a sua viagem. O seu orçamento personalizado indicará claramente o que está incluído e quaisquer opções adicionais."
+        },
+        {
+          "question": "As taxas de entrada nas atrações estão incluídas?",
+          "answer": "As taxas de entrada dependem das atrações e atividades finais selecionadas para as suas férias. Todas as taxas de entrada incluídas e quaisquer custos adicionais serão claramente indicados no seu orçamento antes da confirmação."
+        },
+        {
+          "question": "O transporte está incluído?",
+          "answer": "Pode ser organizado transporte privado para as experiências incluídas nas suas férias, assim como a receção e o transporte para o aeroporto. O veículo adequado dependerá do tamanho do seu grupo."
+        },
+        {
+          "question": "Atividades como o parapente estão incluídas?",
+          "answer": "Algumas atividades selecionadas podem ser incluídas quando as suas férias são organizadas. Atividades como parapente, paraquedismo ascensional, experiências com golfinhos, caminhadas subaquáticas, passeios de moto 4 e trekking às cascatas também podem ser adicionadas consoante as suas preferências, disponibilidade e condições."
+        },
+        {
+          "question": "O que acontece se uma atividade for afetada pelas condições meteorológicas?",
+          "answer": "Algumas atividades ao ar livre e no mar dependem das condições meteorológicas. Se uma experiência não puder ser realizada em segurança, a MauTravel ajudará a encontrar alternativas adequadas ou a reagendar, sempre que possível, dependendo da disponibilidade e das condições do fornecedor da atividade."
+        },
+        {
+          "question": "Como faço a reserva das minhas Férias nas Maurícias?",
+          "answer": "Contacte a MauTravel com as suas datas de viagem, o número de viajantes e as experiências que lhe interessam. Vamos ajudar a adaptar as férias à sua estadia e fornecer os detalhes e um orçamento personalizado antes de confirmar."
+        }
+      ],
+      "showMore": "Ver mais",
+      "showLess": "Ver menos"
+    },
+    "customizeForm": {
+      "eyebrow": "Vamos Planear a Sua Estadia",
+      "title": "Fale-nos das Suas Férias nas Maurícias",
+      "description": "Partilhe alguns detalhes sobre a sua viagem e ajudaremos a adaptar a experiência de férias MauTravel à sua estadia.",
+      "groups": {
+        "trip": "A Sua Viagem",
+        "experiences": "As Suas Experiências",
+        "final": "Detalhes Finais"
+      },
+      "dates": {
+        "label": "Quando vai visitar as Maurícias?",
+        "arrival": "Data de Chegada",
+        "departure": "Data de Partida"
+      },
+      "travellers": {
+        "label": "Quem vai viajar?",
+        "adults": "Adultos",
+        "children": "Crianças",
+        "decreaseAdults": "Diminuir adultos",
+        "increaseAdults": "Aumentar adultos",
+        "decreaseChildren": "Diminuir crianças",
+        "increaseChildren": "Aumentar crianças"
+      },
+      "travellerType": {
+        "label": "Com quem vai viajar?",
+        "options": {
+          "solo": "Sozinho(a)",
+          "couple": "Casal",
+          "family": "Família",
+          "friends": "Amigos",
+          "group": "Grupo"
+        }
+      },
+      "duration": {
+        "label": "Quanto tempo vai ficar?",
+        "options": {
+          "5": "5 Dias",
+          "7": "7 Dias",
+          "10": "10 Dias",
+          "14": "14 Dias",
+          "custom": "Personalizado"
+        },
+        "customLabel": "Número de dias",
+        "daysUnit": "Dias"
+      },
+      "destinations": {
+        "label": "Que lugares gostaria de visitar?",
+        "placeholder": "Selecione os lugares",
+        "searchPlaceholder": "Pesquisar lugares...",
+        "noResults": "Nenhum lugar encontrado",
+        "casela": "Casela Nature Parks",
+        "flicEnFlac": "Flic-en-Flac",
+        "remove": "Remover"
+      },
+      "activities": {
+        "label": "Que experiências lhe interessam?"
+      },
+      "holidayStyle": {
+        "label": "Que tipo de férias procura?",
+        "options": {
+          "adventure": "Aventura",
+          "nature": "Natureza",
+          "beaches": "Praias",
+          "culture": "Cultura",
+          "wildlife": "Vida Selvagem",
+          "relaxation": "Relaxamento",
+          "everything": "Um Pouco de Tudo"
+        }
+      },
+      "accommodation": {
+        "label": "Já organizou o seu alojamento?",
+        "options": {
+          "booked": "Já reservado",
+          "help": "Gostaria da ajuda da MauTravel",
+          "undecided": "Ainda não decidido"
+        }
+      },
+      "transfers": {
+        "label": "Precisa de transfers de aeroporto?",
+        "options": {
+          "yes": "Sim",
+          "no": "Não",
+          "unsure": "Ainda não tenho a certeza"
+        }
+      },
+      "specialRequests": {
+        "label": "Há mais alguma coisa que gostaria que soubéssemos?",
+        "placeholder": "Conte-nos sobre pedidos especiais, lugares que gostaria de adicionar, crianças que viajam consigo, requisitos de acessibilidade, ou qualquer outra informação que nos ajude a planear as suas férias."
+      },
+      "submit": "Enviar o Meu Pedido de Férias no WhatsApp",
+      "submitNote": "Não é necessário qualquer pagamento — vamos analisar o seu pedido e enviar-lhe um orçamento personalizado.",
+      "validation": {
+        "stayOrDates": "Por favor, escolha uma duração de estadia ou as suas datas de viagem."
+      },
+      "message": {
+        "greeting": "Olá MauTravel! 👋",
+        "intro": "Gostaria de personalizar as minhas Férias nas Maurícias.",
+        "tripDetails": "DETALHES DA VIAGEM",
+        "arrival": "Chegada",
+        "departure": "Partida",
+        "stay": "Estadia",
+        "travellersHeading": "VIAJANTES",
+        "adults": "Adultos",
+        "children": "Crianças",
+        "travellingAs": "A viajar como",
+        "placesHeading": "LUGARES QUE GOSTARIA DE VISITAR",
+        "activitiesHeading": "ATIVIDADES DO MEU INTERESSE",
+        "styleHeading": "ESTILO DE FÉRIAS",
+        "accommodationHeading": "ALOJAMENTO",
+        "transfersHeading": "TRANSFERS DE AEROPORTO",
+        "specialRequestHeading": "PEDIDO ESPECIAL",
+        "closing": "Poderiam recomendar-nos a melhor organização e enviar-me um orçamento?"
+      }
+    },
+    "whyTravel": {
+      "eyebrow": "Porquê Viajar com a MauTravel?",
+      "title": "As Suas Férias nas Maurícias,",
+      "titleAccent": "Bem Tratadas",
+      "description": "Desde o momento em que chega até às experiências que desfruta por toda a ilha, a MauTravel reúne todos os arranjos das suas férias para que passe menos tempo a organizar e mais tempo a aproveitar as Maurícias.",
+      "benefits": {
+        "contact": {
+          "title": "Um Único Ponto de Contacto",
+          "description": "Uma equipa organiza os seus transfers, tours e experiências."
+        },
+        "builtAround": {
+          "title": "Feito à Medida da Sua Estadia",
+          "description": "Adaptado à sua estadia, tamanho do grupo e interesses."
+        },
+        "transport": {
+          "title": "Transporte Privado",
+          "description": "Organizado em torno das suas experiências confirmadas."
+        },
+        "localExperience": {
+          "title": "Experiência Autêntica das Maurícias",
+          "description": "Dos locais mais famosos às paisagens escondidas."
+        },
+        "support": {
+          "title": "Apoio Durante Toda a Viagem",
+          "description": "Alguém para contactar ao longo de toda a sua viagem."
+        }
+      },
+      "closing": "Você aproveita as Maurícias. Nós ajudamos a tratar da viagem."
+    }
+  },
+  "holidayPopup": {
+    "title": "A Planear Umas Férias nas Maurícias?",
+    "message": "Descubra o nosso pacote completo de férias nas Maurícias — alojamento, transferes de aeroporto, passeios, atividades e experiências à medida, organizados para a sua estadia.",
+    "cta": "Explorar o Pacote Maurícias",
+    "closeAria": "Fechar popup"
   }
 }

@@ -5,7 +5,7 @@ import { ACTIVITIES } from "@/lib/constants";
 import { ACTIVITY_DETAILS } from "@/lib/activity-data";
 import { ActivityPageTemplate, type MergedActivityDetail, type RelatedActivity } from "@/components/templates/ActivityPageTemplate";
 import { buildAlternates } from "@/i18n/seo";
-import type { ActivityHighlight, ActivityLocation, ActivityPricingTier, FAQ } from "@/types";
+import type { ActivityGuide, ActivityHighlight, ActivityLocation, ActivityPricingTier, FAQ } from "@/types";
 
 export async function generateStaticParams() {
   return ACTIVITIES.map((a) => ({ slug: a.slug }));
@@ -44,6 +44,9 @@ export default async function ActivityPage({
   const translatedLocations = t.has("locations")
     ? (t.raw("locations") as { name: string; subtitle: string; walkTime: string; description: string; landmarks: string[] }[])
     : undefined;
+  const translatedGuide = t.has("guide")
+    ? (t.raw("guide") as { onlyPilotBadge: string; bio: string[]; stats: { label: string }[] })
+    : undefined;
 
   const detail: MergedActivityDetail = {
     slug,
@@ -73,6 +76,18 @@ export default async function ActivityPage({
     activityReviews: structural.activityReviews
       ? { items: structural.activityReviews, note: t.has("activityReviewsNote") ? t("activityReviewsNote") : undefined }
       : undefined,
+    guide: translatedGuide
+      ? ({
+          onlyPilotBadge: translatedGuide.onlyPilotBadge,
+          bio: translatedGuide.bio,
+          stats: translatedGuide.stats.map((s, i) => ({
+            icon: structural.guideStatIcons?.[i] ?? "Star",
+            label: s.label,
+          })),
+        } satisfies ActivityGuide)
+      : undefined,
+    videoPlaceholder: structural.videoPlaceholder ?? false,
+    videoSrc: structural.videoSrc,
   };
 
   // Three related activities — exclude current, take first three
