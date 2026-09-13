@@ -1,6 +1,7 @@
 import type {
   HeroSlideStructural,
   TourStructural,
+  DestinationStructural,
   ActivityStructural,
   Vehicle,
   PropertyStructural,
@@ -10,7 +11,7 @@ import type {
 } from "@/types";
 
 // All images are verified free Unsplash photos of real Mauritius locations (CDN-verified)
-const MU = (id: string, w = 1920) =>
+export const MU = (id: string, w = 1920) =>
   `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=80`;
 
 // Mauritius CDN photo IDs (verified free license + real Mauritius location + 200 OK)
@@ -77,6 +78,152 @@ export const MU_PHOTOS = {
   parasailingGeneric: "1632904074880-b77f02b6d01e",
   // Quad biking / ATV on a forest trail — real activity shot; no location tag (no Mauritius-tagged photo exists on Unsplash)
   quadBikingGeneric: "1675428604186-a165487f857c",
+
+  // ── La Vallée des Couleurs adventure activities — generic verified stock, no Mauritius tag exists for these ──
+  // Man zip-lining through a forest canopy
+  ziplineGeneric: "1637511077877-3c6a00eb32ba",
+  // Suspended wood-and-rope pedestrian bridge over a forest (Monteverde, Costa Rica)
+  suspensionBridgeGeneric: "1679482468134-300543dc26c3",
+  // Woman on a zip line over jungle — used for "Bicycle Zipline" (no bike-on-cable photo exists)
+  bicycleZiplineGeneric: "1712782516688-cbcbf93b1b7c",
+  // Jeep driving an off-road dirt trail beside a forest
+  fourByFourGeneric: "1704812641798-02bc92f9f39d",
+
+  // ── La Vanille Nature Park — generic verified stock, no Mauritius tag exists for these ──
+  // Close-up giant tortoise face/head portrait
+  giantTortoiseGeneric: "1706957754445-273ee56b790a",
+  // Nile crocodile close-up, jaws open
+  nileCrocodileGeneric: "1774590552091-47215947e629",
+  // Wooden boardwalk winding through dense green tropical forest
+  tropicalPathGeneric: "1771904793441-f6995d734910",
+  // A hand feeding a giant tortoise
+  handFeedTortoiseGeneric: "1536746295297-2539b444b74d",
+  // A small crocodile held in a person's palm
+  babyCrocodileGeneric: "1734099308726-5d12f9ba9f8d",
+  // Butterfly close-up on a leaf
+  butterflyGeneric: "1634029450658-1e03987c8032",
+  // Triceratops skeleton in a museum display case
+  fossilMuseumGeneric: "1632665745163-84b8342ee740",
+  // Tiny baby tortoise resting on dirt and grass
+  babyTortoiseGeneric: "1743443776093-1582e14941b9",
+  // Aerial view of crocodiles clustered on a muddy riverbank
+  crocodileValleyGeneric: "1763390956088-a69023ad3cac",
+  // Taxidermy great auk (extinct flightless bird) — stand-in for a "Lost Land of the Dodo" exhibit; no dodo-specific photo exists
+  extinctBirdExhibitGeneric: "1787759153046-8d9c0e91346d",
+
+  // ── Black River Gorges National Park — generic verified stock, no Mauritius tag exists for these ──
+  // Wide panoramic green mountain valley (Kluane National Park, Yukon)
+  mountainValleyGeneric: "1464822759023-fed622ff2c3b",
+  // Solo hiker with backpack on a forest mountain trail
+  hikerTrailGeneric: "1760715651666-c3e408bfdda7",
+  // Colorful bird (resplendent quetzal) perched on a mossy branch
+  forestBirdGeneric: "1727288549018-8bcad5503acd",
+  // Observation deck with railing overlooking layered forested mountains
+  viewpointRailingGeneric: "1757641193893-138b55ac69c7",
+  // Wooden boardwalk through dense forest
+  forestBoardwalkGeneric: "1779284297734-3d726648a08e",
+  // Photographer carrying a camera across mountainous terrain
+  photographerMountainsGeneric: "1535426768830-b3d7a997de2e",
+  // Waterfall cascading through a lush green canyon
+  tropicalWaterfallGeneric: "1773814798794-e3bd2ff56cc7",
+  // Dense, moody misty forest interior
+  mistyForestGeneric: "1743749601691-2e1bd776ace3",
+  // Dramatic mountain peak shrouded in cloud/mist
+  mistyPeakGeneric: "1761857570544-83c168b5455b",
+  // Misty forested valley with layered mountains (gorge-like)
+  mistyValleyGeneric: "1765871319901-0aaafe3f1a2a",
+  // Aerial view of dense forest interspersed with mountain peaks
+  aerialForestMountainsGeneric: "1518108157836-e65356001781",
+  // Sunbeams through misty forest trees onto a path
+  sunbeamForestGeneric: "1757916797439-f001c3b20716",
+
+  // ── Port Louis destination page — verified real photos ──
+  // Elevated panoramic view of Port Louis from Signal Hill — city, harbour and mountains (Unsplash caption: "Mauritius Port Louis from Signal Hill")
+  portLouisSkyline: "1635427700425-3645af1fb8f9",
+
+  // ── Cap Malheureux / Notre Dame Auxiliatrice destination page ──
+  // Boats near an island — location tag "Mauritius" (Sergey Zhesterev)
+  capMalheureuxBoats: "1567067947263-a242e6434f06",
+  // Church interior with stained glass and wooden pews — generic verified stock, no
+  // location tag exists for the real Notre Dame Auxiliatrice interior specifically
+  churchInteriorGeneric: "1438032005730-c779502df39b",
+};
+
+// Port Louis destination page — Wikimedia Commons photos (verified real, identifiable locations).
+// Direct upload.wikimedia.org file URLs, per next.config.ts remote pattern allowlist.
+export const PORT_LOUIS_PHOTOS = {
+  // Port Louis Central Market — the market's own cast-iron gateway (the "VR" arch), the
+  // green market halls and the "Marché Central" opening-hours board, so the building is
+  // unmistakable. CC0, author Karsten Ratzke — no attribution required.
+  // Replaces a file titled "(Central Market)" that actually shows a rainy side street:
+  // a bicycle, a tree trunk and shuttered shopfronts, with no part of the market visible.
+  centralMarket: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Port_Louis%2C_Iron_Works_of_Port_Louis_Market.JPG",
+  // Inside the Central Market — the hand-painted herbal-tisane stall, used for the
+  // full-bleed "Experience the Heart of Port Louis" section, which describes the stalls
+  // rather than the building. CC BY-SA 4.0, author Sushil Dawka.
+  centralMarketStalls: "https://upload.wikimedia.org/wikipedia/commons/6/61/Herbal_tisanes_for_several_ailments_on_sale_at_the_Central_Market%2C_Port_Louis%2C_Mauritius.jpg",
+  centralMarketStallsCredit: "Photo: Sushil Dawka / Wikimedia Commons, CC BY-SA 4.0",
+  // Caudan Waterfront plaza — CC0 1.0, author Benoît Prieur, no credit required
+  caudanWaterfront: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vue_de_la_place_de_Caudan_Waterfront_%28Port_Louis%29_-_1.jpg",
+  // Fort Adelaide (the Citadel) — CC BY-SA 3.0, author Thierry
+  fortAdelaide: "https://upload.wikimedia.org/wikipedia/commons/d/d9/The_Citadel_of_Port_Louis.JPG",
+  fortAdelaideCredit: "Photo: Thierry / Wikimedia Commons, CC BY-SA 3.0",
+  // Aapravasi Ghat UNESCO World Heritage Site — CC BY-SA 4.0, author Suyash Dwivedi
+  aapravasiGhat: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aapravasi_Ghat_Museum%2C_Mauritius_%2841%29.jpg",
+  aapravasiGhatCredit: "Photo: Suyash Dwivedi / Wikimedia Commons, CC BY-SA 4.0",
+  // Chinatown, Port Louis — the paifang gateway, red lanterns and the Chinatown Food &
+  // Culture Festival banner, with Mauritian number plates in shot. CC BY-SA 3.0, author Sualkdd.
+  // Replaces a file titled "China Town" that actually shows the Royal Bridge canal: a real
+  // Port Louis street, but with nothing in frame that reads as Chinatown.
+  chinatown: "https://upload.wikimedia.org/wikipedia/commons/0/00/China_Town_-_panoramio.jpg",
+  chinatownCredit: "Photo: Sualkdd / Wikimedia Commons, CC BY-SA 3.0",
+  // Natural History Museum (Mauritius Institute) exterior — CC0, author Karsten Ratzke, no credit required
+  naturalHistoryMuseum: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Port_Louis%2C_Mauritius_Institute.JPG",
+  // Royal Road, Port Louis — a historic colonial-era street — CC BY-SA 4.0, author Z thomas
+  colonialStreet: "https://upload.wikimedia.org/wikipedia/commons/8/81/Royal_road_Port_Louis_2019-09-27.jpg",
+  colonialStreetCredit: "Photo: Z thomas / Wikimedia Commons, CC BY-SA 4.0",
+};
+
+// SSR Botanical Garden (Pamplemousses) destination page — Wikimedia Commons photos (verified real, on-site).
+export const SSR_GARDEN_PHOTOS = {
+  // Victoria cruziana giant water lily pond — CC0, author Benoît Prieur
+  giantWaterLilies: "https://upload.wikimedia.org/wikipedia/commons/9/99/Victoria_cruziana_pond_at_Sir_Seewoosagur_Ramgoolam_Botanical_Garden%2C_March_2020_%282%29.jpg",
+  // Avenue of Royal Palms (Poivre Avenue) — CC BY-SA 3.0, author Anne97432
+  palmAvenue: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Poivreavenue.jpg",
+  palmAvenueCredit: "Photo: Anne97432 / Wikimedia Commons, CC BY-SA 3.0",
+  // Pink lotus pond — CC0, author Benoît Prieur
+  lotusPond: "https://upload.wikimedia.org/wikipedia/commons/9/97/Pink_Lotus_Pond_at_Sir_Seewoosagur_Ramgoolam_Botanical_Garden_%281%29.jpg",
+  // Grand Bassin — the garden's own internal pond (not the southern Ganga Talao/Grand Bassin) — CC0, author Benoît Prieur
+  grandBassin: "https://upload.wikimedia.org/wikipedia/commons/8/89/Grand_bassin_au_jardin_botanique_de_Pamplemousses%2C_mars_2020.jpg",
+  // Baobab (Adansonia digitata) — a notable historic tree — CC BY-SA 3.0, author Liné1
+  historicTree: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Adansonia_digitata_01_by_Line1.JPG",
+  historicTreeCredit: "Photo: Liné1 / Wikimedia Commons, CC BY-SA 3.0",
+  // Château Mon Plaisir, the historic estate house — CC BY-SA 3.0, author Lonelyplanet
+  monPlaisir: "https://upload.wikimedia.org/wikipedia/commons/8/88/Mon_Plaisir_im_Sir_Seewoosagur_Ramgoolam_Botanical_Garden.jpg",
+  monPlaisirCredit: "Photo: Lonelyplanet / Wikimedia Commons, CC BY-SA 3.0",
+  // Latania verschaffeltii, an endemic Mascarene fan palm, photographed in the garden — Public Domain
+  exoticPlant: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Latania_verschaffeltii_Pamplemousses_Garden.JPG",
+};
+
+// Citadelle / Fort Adelaide destination page — Wikimedia Commons photos (verified real, on-site).
+export const CITADEL_PHOTOS = {
+  // Aerial/drone shot — fort's basalt bastion walls + Port Louis city + mountains together — CC BY-SA 3.0, author Arne Müseler
+  heroAerial: "https://upload.wikimedia.org/wikipedia/commons/d/dd/Mauritius_citadelle_fort_adelaide.jpg",
+  heroAerialCredit: "Photo: Arne Müseler / Wikimedia Commons, CC BY-SA 3.0",
+  // View from the fort over Champ de Mars racetrack, city and mountains — CC BY-SA 4.0, author Z thomas
+  viewFromFort: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pferderennbahn_port_Louis_2019-09-27.jpg",
+  viewFromFortCredit: "Photo: Z thomas / Wikimedia Commons, CC BY-SA 4.0",
+  // Basalt rampart wall with arched casemates, close/medium shot — CC BY-SA 4.0, author Z thomas
+  basaltWalls: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Fort_Adelaide_Port_Louis_2019-09-27_2.jpg",
+  basaltWallsCredit: "Photo: Z thomas / Wikimedia Commons, CC BY-SA 4.0",
+  // Main stone entrance archway with flanking cannon-barrel bollards — CC BY-SA 4.0, author Z thomas
+  entranceCannons: "https://upload.wikimedia.org/wikipedia/commons/6/62/Fort_Adelaide_Port_Louis_2019-09-27.jpg",
+  entranceCannonsCredit: "Photo: Z thomas / Wikimedia Commons, CC BY-SA 4.0",
+  // Wide shot from town looking up at the fort's ridge silhouette — Public Domain, author Karsten Ratzke
+  fortSilhouette: "https://upload.wikimedia.org/wikipedia/commons/3/38/Port_Louis%2C_Fort_Adelaide.JPG",
+  // Champ de Mars racecourse, elevated view with city and mountains — CC BY-SA 4.0, author Martin Falbisoner
+  champDeMars: "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Champ_de_Mars_Racecourse.JPG",
+  champDeMarsCredit: "Photo: Martin Falbisoner / Wikimedia Commons, CC BY-SA 4.0",
 };
 
 export const NAV_LINKS = [
@@ -102,12 +249,174 @@ export const HERO_SLIDES: HeroSlideStructural[] = [
   { id: "mauritius", image: MU(MU_PHOTOS.leMorneMountain), href: "/contact" },
 ];
 
+// `destinationSlugs` reference DestinationStructural entries in PLACES below, in display
+// order on each tour's /tours/[slug] detail page. Sourced from this tour's own `highlights`
+// (see messages/en.json tours.items.<id>.highlights) plus, where the region overlaps, the
+// matching discover section on /mauritius-holiday-package — no destinations invented.
 export const TOURS: TourStructural[] = [
-  { id: "north", image: MU(MU_PHOTOS.portLouis, 800), duration: "Full Day (8–9 hours)", slug: "north-tour" },
-  { id: "south", image: MU(MU_PHOTOS.leMorneAerial, 800), duration: "Full Day (8–9 hours)", slug: "south-tour" },
-  { id: "east", image: MU(MU_PHOTOS.belleMare, 800), duration: "Full Day (8–9 hours)", slug: "east-tour" },
-  { id: "west", image: MU(MU_PHOTOS.dinarobinPalms, 800), duration: "Full Day (8–9 hours)", slug: "west-tour" },
-  { id: "custom", image: MU(MU_PHOTOS.leMorneResort, 800), duration: "Flexible (half day or full day)", slug: "custom-tour" },
+  {
+    id: "north",
+    image: MU(MU_PHOTOS.portLouis, 800),
+    heroImage: MU(MU_PHOTOS.portLouis, 1920),
+    duration: "Full Day (8–9 hours)",
+    slug: "north-tour",
+    destinationSlugs: ["port-louis", "caudan-waterfront", "pamplemousses-botanical-garden", "citadel-fortress", "grand-baie", "cap-malheureux"],
+  },
+  {
+    id: "south",
+    image: MU(MU_PHOTOS.leMorneAerial, 800),
+    heroImage: MU(MU_PHOTOS.leMorneAerial, 1920),
+    duration: "Full Day (8–9 hours)",
+    slug: "south-tour",
+    destinationSlugs: ["le-morne-brabant", "black-river-gorges", "chamarel", "rhumerie-de-chamarel", "la-roche-qui-pleure", "alexandra-falls", "la-vallee-des-couleurs", "la-vanille-nature-park", "gris-gris", "rochester-falls"],
+  },
+  {
+    id: "east",
+    image: MU(MU_PHOTOS.belleMare, 800),
+    heroImage: MU(MU_PHOTOS.belleMare, 1920),
+    duration: "Full Day (8–9 hours)",
+    slug: "east-tour",
+    destinationSlugs: ["belle-mare-beach", "mahebourg-history-museum", "blue-bay-marine-park", "ile-aux-aigrettes", "ile-aux-cerfs", "grse-waterfall"],
+  },
+  {
+    id: "west",
+    image: MU(MU_PHOTOS.dinarobinPalms, 800),
+    heroImage: MU(MU_PHOTOS.dinarobinPalms, 1920),
+    duration: "Full Day (8–9 hours)",
+    slug: "west-tour",
+    destinationSlugs: ["flic-en-flac-beach", "casela-world-of-adventures", "tamarin-bay"],
+  },
+  {
+    id: "custom",
+    image: MU(MU_PHOTOS.leMorneResort, 800),
+    heroImage: MU(MU_PHOTOS.leMorneResort, 1920),
+    duration: "Flexible (half day or full day)",
+    slug: "custom-tour",
+    destinationSlugs: [],
+  },
+];
+
+// Structural data for /places/[slug] destination pages, also used to render the
+// "Places You'll Discover" cards on each /tours/[slug] page. Text (name/shortDescription/tag)
+// lives in messages/<locale>.json under places.items.<slug>. Images reuse verified
+// Mauritius-tagged photos already used elsewhere on the site (see MU_PHOTOS above) —
+// duplicated across a couple of places where no distinct genuine photo exists yet.
+export const PLACES: DestinationStructural[] = [
+  // North
+  { slug: "port-louis", image: MU(MU_PHOTOS.portLouisSkyline, 1600) },
+  { slug: "caudan-waterfront", image: PORT_LOUIS_PHOTOS.caudanWaterfront },
+  { slug: "pamplemousses-botanical-garden", image: SSR_GARDEN_PHOTOS.giantWaterLilies },
+  { slug: "citadel-fortress", image: CITADEL_PHOTOS.heroAerial, credit: CITADEL_PHOTOS.heroAerialCredit },
+  { slug: "grand-baie", image: MU(MU_PHOTOS.grandBaie, 1600) },
+  { slug: "cap-malheureux", image: MU(MU_PHOTOS.capMalheureux, 1600) },
+  {
+    slug: "aapravasi-ghat",
+    image: PORT_LOUIS_PHOTOS.aapravasiGhat,
+    credit: PORT_LOUIS_PHOTOS.aapravasiGhatCredit,
+  },
+
+  // North — nearby beaches referenced from the Grand Baie destination page (no
+  // dedicated verified Mauritius-tagged photo exists yet for these three; reusing
+  // already-verified generic Mauritius beach photos, consistent with the pattern above)
+  {
+    // Was Flat Island — a different island off the north coast. Now the real Péreybère beach.
+    slug: "pereybere",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Plage_de_Pereybere_2016.jpg",
+    credit: "Photo: Gonzolito / Wikimedia Commons, CC BY-SA 4.0",
+  },
+  {
+    // Was a generic "Mauritius island coast" shot. Now Mont Choisy bay from the air.
+    slug: "mont-choisy",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/69/Aerial_view_of_the_Mon_Choisy_Beach_and_Trou_aux_Biches_Beach_in_Mauritius_%2853698215480%29.jpg",
+    credit: "Photo: dronepicr / Wikimedia Commons, CC BY 2.0",
+  },
+  {
+    // Was a generic rocky beach (shared with two southern sites). Now the real Trou aux Biches sand.
+    slug: "trou-aux-biches",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/71/Aerial_view_of_the_Trou_aux_Biches_Beach%2C_Mauritius_%2853697771176%29.jpg",
+    credit: "Photo: dronepicr / Wikimedia Commons, CC BY 2.0",
+  },
+
+  // South
+  { slug: "le-morne-brabant", image: MU(MU_PHOTOS.leMorneMountain, 1600) },
+  { slug: "black-river-gorges", image: MU(MU_PHOTOS.blackRiverGorges, 1600) },
+  {
+    slug: "chamarel",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Seven_Coloured_Earths%2C_Chamarel%2C_March_2020_%284%29.jpg",
+  },
+  {
+    slug: "rhumerie-de-chamarel",
+    // Genuine aerial photo of the Rhumerie de Chamarel estate — CC BY 2.0, author dronepicr
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Rhumerie_de_Chamarel_Restaurant_and_Rum_Distillery_in_Mauritius_%2853697998963%29.jpg",
+    credit: "Photo: dronepicr / Wikimedia Commons, CC BY 2.0",
+  },
+  {
+    // The Souillac headland this rock sits on — the same coast, a few minutes' walk away.
+    slug: "la-roche-qui-pleure",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/23/2006-10-08_Gris_Gris_Beach%2C_Mauritius.jpg",
+    credit: "Photo: Hansueli Krapf / Wikimedia Commons, CC BY-SA 3.0",
+  },
+  {
+    slug: "alexandra-falls",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/90/Alexandra_Falls_Mauritius_2019-09-28.jpg",
+    credit: "Photo: Z thomas / Wikimedia Commons, CC BY-SA 4.0",
+  },
+  {
+    // ⚠ NEEDS AUTHENTIC PHOTO — this card previously showed Chamarel's Seven Coloured
+    // Earths, which is a DIFFERENT attraction (Chamarel has seven colours, this park
+    // has twenty-three) and made the two cards identical. No freely-licensed photo of
+    // La Vallée des Couleurs exists on Wikimedia Commons. Until MauTravel-owned or
+    // licensed photography of the park is available this uses a neutral southern-
+    // Mauritius nature photo that does not depict any other named attraction.
+    slug: "la-vallee-des-couleurs",
+    image: MU(MU_PHOTOS.coastForest, 1600),
+  },
+  { slug: "la-vanille-nature-park", image: MU(MU_PHOTOS.laVanille, 1600) },
+  {
+    // Was a generic rocky beach. Now the actual Gris Gris clifftop.
+    slug: "gris-gris",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/51/2006-10-03_Gris_Gris_Beach%2C_Mauritius.jpg",
+    credit: "Photo: Hansueli Krapf / Wikimedia Commons, CC BY-SA 3.0",
+  },
+  {
+    // Was a generic waterfall shared with GRSE. Now Rochester Falls' own basalt columns.
+    slug: "rochester-falls",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/14/2006-10-03_Rochester_Falls%2C_Mauritius.jpg",
+    credit: "Photo: Hansueli Krapf / Wikimedia Commons, CC BY-SA 3.0",
+  },
+
+  // East
+  { slug: "belle-mare-beach", image: MU(MU_PHOTOS.belleMare, 1600) },
+  {
+    // Was a beach photo for a museum. Now the actual National History Museum building.
+    slug: "mahebourg-history-museum",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/ea/National_History_Museum_building%2C_Mahebourg%2C_Mauritius.jpg",
+    credit: "Photo: आशीष भटनागर / Wikimedia Commons, CC BY-SA 3.0",
+  },
+  { slug: "blue-bay-marine-park", image: MU(MU_PHOTOS.snorkellingBlueBay, 1600) },
+  {
+    // Was a generic green coastline. Now the reserve itself, seen from offshore.
+    slug: "ile-aux-aigrettes",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ile_aux_Aigrettes_Nature_Reserve_from_offshore%2C_Mauritius.JPG",
+    credit: "Photo: Shoestring / Wikimedia Commons, CC BY-SA 4.0",
+  },
+  {
+    // Was Flat Island — a different island. Now Île aux Cerfs itself.
+    slug: "ile-aux-cerfs",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/dd/Mauritius_Ile_aux_Cerfs_aerial.jpg",
+    credit: "Photo: Arne Müseler / Wikimedia Commons, CC BY-SA 3.0 DE",
+  },
+  {
+    // Was the same generic waterfall as Rochester Falls. Now the real Grand River South East falls.
+    slug: "grse-waterfall",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/55/Grand_river_south_east_Mauritius_2019-09-29.jpg",
+    credit: "Photo: Z thomas / Wikimedia Commons, CC BY-SA 4.0",
+  },
+
+  // West
+  { slug: "flic-en-flac-beach", image: MU(MU_PHOTOS.flicEnFlac, 1600) },
+  { slug: "casela-world-of-adventures", image: MU(MU_PHOTOS.casela, 1600) },
+  { slug: "tamarin-bay", image: MU(MU_PHOTOS.dolphinsTamarin, 1600) },
 ];
 
 export const ACTIVITIES: ActivityStructural[] = [

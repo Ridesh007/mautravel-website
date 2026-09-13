@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { Clock, CheckCircle2 } from "lucide-react";
+import { Clock, CheckCircle2, ChevronRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { TOURS } from "@/lib/constants";
 import { PageHero } from "@/components/shared/PageHero";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
@@ -36,6 +37,7 @@ export default async function ToursPage({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "tours" });
+  const tCommon = await getTranslations({ locale, namespace: "common" });
   const included = t.raw("included") as IncludedText[];
 
   return (
@@ -94,8 +96,13 @@ export default async function ToursPage({
                         </ul>
                       </div>
                       <div className="flex flex-wrap gap-3">
+                        <Link
+                          href={`/tours/${tour.slug}`}
+                          className="inline-flex items-center gap-2 bg-navy hover:bg-navy/90 text-white font-semibold px-6 py-3 rounded-full transition-all duration-200 text-sm hover:-translate-y-0.5 shadow-sm"
+                        >
+                          {tCommon("learnMore")} <ChevronRight className="w-4 h-4" />
+                        </Link>
                         <WhatsAppButton service={text.name} size="md" />
-                        <WhatsAppButton service={text.name} size="md" variant="quote" />
                       </div>
                     </div>
                   </div>

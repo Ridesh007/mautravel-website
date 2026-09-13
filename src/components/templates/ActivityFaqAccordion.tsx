@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ArrowRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import type { FAQ } from "@/types";
 
@@ -27,10 +28,24 @@ export function ActivityFaqAccordion({ faqs }: { faqs: FAQ[] }) {
               <ChevronDown className="w-4 h-4 text-navy" />
             </span>
           </button>
-          <div className={cn("overflow-hidden transition-all duration-300", open === i ? "max-h-64 opacity-100" : "max-h-0 opacity-0")}>
-            <p className="px-5 md:px-6 pb-5 text-charcoal/70 text-sm leading-relaxed">
-              {faq.answer}
-            </p>
+          <div className={cn("overflow-hidden transition-all duration-300", open === i ? "max-h-96 opacity-100" : "max-h-0 opacity-0")}>
+            <div className="px-5 md:px-6 pb-5">
+              <p className="text-charcoal/70 text-sm leading-relaxed">{faq.answer}</p>
+              {faq.links && faq.links.length > 0 && (
+                <div className="flex flex-wrap gap-4 mt-3">
+                  {faq.links.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold hover:text-navy transition-colors duration-200"
+                    >
+                      {link.label}
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       ))}

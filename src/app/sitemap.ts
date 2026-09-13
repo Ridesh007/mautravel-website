@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { locales, localeConfigs, defaultLocale } from "@/i18n/locales";
 import { SITE_URL } from "@/i18n/seo";
-import { ACTIVITIES } from "@/lib/constants";
+import { ACTIVITIES, TOURS, PLACES } from "@/lib/constants";
 
 const STATIC_PATHS = [
   "",
@@ -20,8 +20,10 @@ const STATIC_PATHS = [
 ];
 
 const ACTIVITY_PATHS = ACTIVITIES.map((a) => `/activities/${a.slug}`);
+const TOUR_DETAIL_PATHS = TOURS.map((t) => `/tours/${t.slug}`);
+const PLACE_PATHS = PLACES.map((p) => `/places/${p.slug}`);
 
-const ALL_PATHS = [...STATIC_PATHS, ...ACTIVITY_PATHS];
+const ALL_PATHS = [...STATIC_PATHS, ...ACTIVITY_PATHS, ...TOUR_DETAIL_PATHS, ...PLACE_PATHS];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
@@ -38,7 +40,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${SITE_URL}/${locale}${path}`,
         lastModified: new Date(),
         changeFrequency: path === "" ? "weekly" : "monthly",
-        priority: path === "" ? 1 : path.startsWith("/activities/") ? 0.7 : 0.8,
+        priority:
+          path === ""
+            ? 1
+            : path.startsWith("/activities/") || path.startsWith("/tours/")
+              ? 0.7
+              : path.startsWith("/places/")
+                ? 0.6
+                : 0.8,
         alternates: { languages },
       });
     }
