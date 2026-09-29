@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useId } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { AnimatePresence, motion } from "framer-motion";
 import { X, Globe } from "lucide-react";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { localeConfigs } from "@/i18n/locales";
+import { usePresence } from "@/lib/use-presence";
+import { cn } from "@/lib/utils";
 
 const CHOICE_COOKIE = "mautravel-lang-choice";
 const DISMISS_COOKIE = "mautravel-lang-dismissed";
@@ -27,6 +28,8 @@ export function LanguagePopup() {
   const router = useRouter();
   const [detected, setDetected] = useState<(typeof localeConfigs)[number] | null>(null);
   const [visible, setVisible] = useState(false);
+  const { mounted, closing } = usePresence(visible, 250);
+  const titleId = useId();
 
   useEffect(() => {
     if (getCookie(CHOICE_COOKIE) || getCookie(DISMISS_COOKIE)) return;
@@ -65,15 +68,15 @@ export function LanguagePopup() {
   const currentConfig = localeConfigs.find((l) => l.code === locale);
 
   return (
-    <AnimatePresence>
-      {visible && detected && (
-        <motion.div
-          initial={{ opacity: 0, y: 24, scale: 0.96 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          exit={{ opacity: 0, y: 24, scale: 0.96 }}
-          transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-          className="fixed z-[60] bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:bottom-6 sm:w-96"
+    <>
+      {mounted && detected && (
+        <div
+          className={cn(
+            "fixed z-[60] bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:bottom-6 sm:w-96 duration-250",
+            closing ? "animate-out fade-out slide-out-to-bottom-6 zoom-out-96 fill-mode-forwards ease-[cubic-bezier(0.22,1,0.36,1)]" : "animate-in fade-in slide-in-from-bottom-6 zoom-in-96 ease-[cubic-bezier(0.22,1,0.36,1)]"
+          )}
           role="dialog"
+          aria-labelledby={titleId}
           aria-live="polite"
         >
           <div className="relative bg-white rounded-3xl shadow-2xl border border-gray-100 p-6 pt-8">
@@ -89,7 +92,7 @@ export function LanguagePopup() {
               <div className="w-9 h-9 rounded-full bg-gold/10 flex items-center justify-center shrink-0">
                 <Globe className="w-4 h-4 text-gold" />
               </div>
-              <h2 className="font-heading font-bold text-navy text-base leading-snug">
+              <h2 id={titleId} className="font-heading font-bold text-navy text-base leading-snug">
                 {t("title")}
               </h2>
             </div>
@@ -101,21 +104,21 @@ export function LanguagePopup() {
             <div className="flex flex-col gap-2">
               <button
                 onClick={handleSwitch}
-                className="flex items-center justify-center gap-2 bg-gold hover:bg-gold/90 text-white text-sm font-semibold px-5 py-3 rounded-full transition-all duration-200 shadow-md hover:shadow-lg"
+                className="flex items-center justify-center gap-2 bg-gold hover:bg-gold/90 text-navy text-sm font-semibold px-5 py-3 rounded-full transition-all duration-200 shadow-md hover:shadow-lg"
               >
                 <span>{detected.flag}</span>
                 {t("switchTo", { language: detected.nativeName })}
               </button>
               <button
                 onClick={handleContinue}
-                className="text-center text-sm font-medium text-charcoal/60 hover:text-navy px-5 py-2.5 rounded-full transition-colors"
+                className="text-center text-sm font-medium text-charcoal/70 hover:text-navy px-5 py-2.5 rounded-full transition-colors"
               >
                 {t("continueIn", { language: currentConfig?.nativeName ?? locale })}
               </button>
             </div>
           </div>
-        </motion.div>
+        </div>
       )}
-    </AnimatePresence>
+    </>
   );
 }

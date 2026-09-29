@@ -64,7 +64,7 @@ export function SocialSection() {
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy">
             {t("title")}
           </h2>
-          <p className="mt-4 text-charcoal/60 max-w-xl mx-auto">
+          <p className="mt-4 text-charcoal/70 max-w-xl mx-auto">
             {t("description")}
           </p>
         </AnimatedSection>
@@ -86,7 +86,7 @@ export function SocialSection() {
                 <h3 className="font-bold text-navy group-hover:text-white transition-colors text-sm">
                   {social.name}
                 </h3>
-                <p className="text-charcoal/60 group-hover:text-white/80 transition-colors text-xs mt-0.5">
+                <p className="text-charcoal/75 group-hover:text-white/80 transition-colors text-xs mt-0.5">
                   {social.handle}
                 </p>
               </div>

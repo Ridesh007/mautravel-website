@@ -49,12 +49,12 @@ export function ActivitiesSection() {
                     alt={text.name}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    sizes="(max-width: 640px) 60vw, (max-width: 1024px) 50vw, 25vw"
+                    sizes="(min-width: 1280px) 300px, (min-width: 1024px) 25vw, (min-width: 640px) 50vw, 60vw"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/20 to-transparent" />
                   {activity.id === "paragliding" && (
-                    <div className="absolute top-3 right-3 flex items-center gap-1 bg-gold text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-md">
+                    <div className="absolute top-3 right-3 flex items-center gap-1 bg-gold text-navy text-xs font-bold px-2.5 py-1 rounded-full shadow-md">
                       <Flame className="w-3 h-3" />
                       {t("hot")}
                     </div>
@@ -71,7 +71,7 @@ export function ActivitiesSection() {
                       <p className="text-white/80 text-xs leading-relaxed mb-3 line-clamp-2">
                         {text.description}
                       </p>
-                      <WhatsAppButton service={text.name} size="sm" label={t("bookNow")} className="relative z-20 w-full justify-center" />
+                      <WhatsAppButton service={text.name} size="sm" label={t("bookNow")} srContext={text.name} className="relative z-20 w-full justify-center" />
                     </div>
                   </div>
                 </div>

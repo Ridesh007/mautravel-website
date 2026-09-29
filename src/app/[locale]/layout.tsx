@@ -4,7 +4,7 @@ import Script from "next/script";
 import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
 import { NextIntlClientProvider } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
@@ -15,6 +15,7 @@ import { MauritiusHolidayPopup } from "@/components/shared/MauritiusHolidayPopup
 import { routing } from "@/i18n/routing";
 import { getLocaleConfig } from "@/i18n/locales";
 import { buildAlternates, ogLocale, SITE_URL } from "@/i18n/seo";
+import { CLIENT_NAMESPACES, pickMessages } from "@/i18n/client-messages";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -198,6 +199,7 @@ export default async function LocaleLayout({
   const localeConfig = getLocaleConfig(locale);
   const t = await getTranslations({ locale, namespace: "seo.home" });
   const { websiteSchema, organizationSchema } = getSchemas(locale, t);
+  const clientMessages = pickMessages(await getMessages({ locale }), CLIENT_NAMESPACES);
 
   return (
     <html
@@ -211,7 +213,7 @@ export default async function LocaleLayout({
         <meta name="theme-color" content="#0F2044" />
       </head>
       <body className="min-h-full flex flex-col bg-white text-foreground">
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={clientMessages}>
           <JsonLd data={websiteSchema} />
           <JsonLd data={organizationSchema} />
           <Navbar />
@@ -220,9 +222,12 @@ export default async function LocaleLayout({
           <WhatsAppFloatingButton />
           <LanguagePopup />
           <MauritiusHolidayPopup />
+          {/* The tiny inline stub queues gtag() calls into dataLayer right after hydration;
+              the ~190 KB gtag.js library loads once the page is idle and replays the queue,
+              so the page_view is still recorded but GA no longer competes with first render. */}
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-T550QLNF8Z"
-            strategy="afterInteractive"
+            strategy="lazyOnload"
           />
           <Script id="google-analytics" strategy="afterInteractive">
             {`

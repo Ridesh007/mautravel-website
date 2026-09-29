@@ -30,7 +30,7 @@ export function ActivityLocationCard({ loc, activityName }: { loc: ActivityLocat
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/20 to-transparent" />
           <div className="absolute bottom-4 left-4 right-4">
-            <span className="inline-block bg-gold text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">
+            <span className="inline-block bg-gold text-navy text-xs font-semibold px-3 py-1 rounded-full mb-2">
               {loc.walkTime}
             </span>
             <h3 className="font-heading font-bold text-white text-xl leading-tight">{loc.name}</h3>

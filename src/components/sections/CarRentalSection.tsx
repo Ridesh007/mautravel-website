@@ -35,7 +35,7 @@ export function CarRentalSection() {
                     alt={vehicle.name}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500 brightness-90 group-hover:brightness-100"
-                    sizes="(max-width: 640px) 85vw, (max-width: 1024px) 50vw, 33vw"
+                    sizes="(min-width: 1280px) 400px, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 85vw"
                     loading="lazy"
                   />
                 </div>
@@ -60,6 +60,7 @@ export function CarRentalSection() {
                     service={`Car Rental — ${vehicle.name}`}
                     size="sm"
                     label={t("bookThisVehicle")}
+                    srContext={vehicle.name}
                     className="w-full justify-center"
                   />
                 </div>

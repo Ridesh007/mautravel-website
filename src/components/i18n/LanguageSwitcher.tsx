@@ -3,16 +3,14 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Globe, Search, Check } from "lucide-react";
-import { AnimatePresence, motion } from "framer-motion";
+import dynamic from "next/dynamic";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { localeConfigs } from "@/i18n/locales";
 import { cn } from "@/lib/utils";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-} from "@/components/ui/sheet";
+import { usePresence } from "@/lib/use-presence";
+
+// Loaded on first open only — keeps @base-ui/react out of every page's initial JS.
+const LanguageSheet = dynamic(() => import("./LanguageSheet"), { ssr: false });
 
 interface LanguageSwitcherProps {
   variant?: "light" | "dark";
@@ -26,6 +24,9 @@ export function LanguageSwitcher({ variant = "dark", className }: LanguageSwitch
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  // Once the sheet has been opened, keep it mounted so its close animation can play
+  const [sheetRequested, setSheetRequested] = useState(false);
+  const { mounted: dropdownMounted, closing: dropdownClosing } = usePresence(open, 150);
   const [query, setQuery] = useState("");
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -117,26 +118,28 @@ export function LanguageSwitcher({ variant = "dark", className }: LanguageSwitch
           <span>{current.flag}</span>
           <span className="hidden xl:inline">{current.nativeName}</span>
         </button>
-        <AnimatePresence>
-          {open && (
-            <motion.div
-              initial={{ opacity: 0, y: -8, scale: 0.98 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: -8, scale: 0.98 }}
-              transition={{ duration: 0.15 }}
-              className="absolute right-0 mt-2 w-72 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden z-50"
-              role="listbox"
-            >
-              {list(switchTo)}
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {dropdownMounted && (
+          <div
+            className={cn(
+              "absolute right-0 mt-2 w-72 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden z-50 duration-150",
+              dropdownClosing
+                ? "animate-out fade-out slide-out-to-top-2 zoom-out-98 fill-mode-forwards"
+                : "animate-in fade-in slide-in-from-top-2 zoom-in-98"
+            )}
+            role="listbox"
+          >
+            {list(switchTo)}
+          </div>
+        )}
       </div>
 
       {/* Mobile */}
       <div className={cn("lg:hidden", className)}>
         <button
-          onClick={() => setMobileOpen(true)}
+          onClick={() => {
+            setSheetRequested(true);
+            setMobileOpen(true);
+          }}
           className={triggerClasses}
           aria-label={t("ariaLabel")}
         >
@@ -144,14 +147,11 @@ export function LanguageSwitcher({ variant = "dark", className }: LanguageSwitch
           <span>{current.flag}</span>
           <span>{current.nativeName}</span>
         </button>
-        <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
-          <SheetContent side="bottom" className="rounded-t-3xl max-h-[80vh]">
-            <SheetHeader>
-              <SheetTitle>{t("label")}</SheetTitle>
-            </SheetHeader>
+        {sheetRequested && (
+          <LanguageSheet open={mobileOpen} onOpenChange={setMobileOpen} title={t("label")}>
             {list(switchTo)}
-          </SheetContent>
-        </Sheet>
+          </LanguageSheet>
+        )}
       </div>
     </>
   );

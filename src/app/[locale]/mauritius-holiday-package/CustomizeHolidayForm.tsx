@@ -581,7 +581,7 @@ export function CustomizeHolidayForm() {
       <div className="text-center">
         <button
           type="submit"
-          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-4 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-base"
+          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold/90 text-navy font-semibold px-8 py-4 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-base"
         >
           <MessageCircle className="w-5 h-5" />
           {t("customizeForm.submit")}

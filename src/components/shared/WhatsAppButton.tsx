@@ -9,6 +9,8 @@ interface WhatsAppButtonProps {
   size?: "sm" | "md" | "lg";
   className?: string;
   label?: string;
+  /** Visually hidden context appended to the link text for screen readers, e.g. the tour name */
+  srContext?: string;
 }
 
 export function WhatsAppButton({
@@ -17,6 +19,7 @@ export function WhatsAppButton({
   size = "md",
   className,
   label,
+  srContext,
 }: WhatsAppButtonProps) {
   const tNav = useTranslations("nav");
   const tCommon = useTranslations("common");
@@ -35,13 +38,14 @@ export function WhatsAppButton({
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "inline-flex items-center font-semibold rounded-full bg-[#25D366] hover:bg-[#20c45e] text-white transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5",
+        "relative inline-flex items-center font-semibold rounded-full bg-[#25D366] hover:bg-[#20c45e] text-white transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5",
         sizeClasses[size],
         className
       )}
     >
       <MessageCircle className={cn(size === "sm" ? "w-4 h-4" : "w-5 h-5")} />
       {label ?? defaultLabel}
+      {srContext && <span className="sr-only"> – {srContext}</span>}
     </a>
   );
 }

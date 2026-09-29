@@ -32,11 +32,11 @@ const AIRPORT_SERVICE_SCHEMA = {
   "@type": "Service",
   name: "Airport Transfer Mauritius",
   serviceType: "Airport Transfer",
-  provider: { "@id": "https://www.mautravel.com/#organization" },
+  provider: { "@id": "https://www.mautravel.co/#organization" },
   areaServed: { "@type": "Country", name: "Mauritius" },
   description:
     "Private luxury airport transfers from Sir Seewoosagur Ramgoolam (SSR) International Airport to any destination in Mauritius, available 24/7.",
-  url: "https://www.mautravel.com/airport-transfers",
+  url: "https://www.mautravel.co/airport-transfers",
   availableChannel: {
     "@type": "ServiceChannel",
     serviceUrl: "https://wa.me/23057000000",

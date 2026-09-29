@@ -424,12 +424,12 @@ export const ACTIVITIES: ActivityStructural[] = [
   // { id: "catamaran", image: MU(MU_PHOTOS.catamaran, 800), duration: "Full Day / Half Day", slug: "catamaran-cruise" },
 
   // ── Activities with gallery photos / reviews (shown first) ──────────────────
-  { id: "paragliding", image: "/activities/paragliding/card.jpeg", duration: "45 – 90 minutes", difficulty: "All levels", slug: "paragliding" },
-  { id: "hiking-adventures", image: "/activities/hiking-adventures/card.jpeg", duration: "3 – 8 hours", difficulty: "All levels", slug: "hiking-adventures" },
-  { id: "waterfalls-river-treks", image: "/activities/waterfall-river-treks/card.jpeg", duration: "3 – 7 hours", difficulty: "Moderate", slug: "waterfalls-river-treks" },
-  { id: "7-caves-exploration", image: "/activities/7-caves-exploration/card.jpeg", duration: "3 – 4 hours", difficulty: "Easy to Moderate", slug: "7-caves-exploration" },
-  { id: "mangrove-kayaking", image: "/activities/mangrove-kayaking/card.jpeg", duration: "2 – 3 hours", slug: "mangrove-kayaking" },
-  { id: "wild-south-experience", image: "/activities/wild-south-experience/card.jpeg", duration: "Full Day (7 – 9 hours)", slug: "wild-south-experience" },
+  { id: "paragliding", image: "/activities/paragliding/card.webp", duration: "45 – 90 minutes", difficulty: "All levels", slug: "paragliding" },
+  { id: "hiking-adventures", image: "/activities/hiking-adventures/card.webp", duration: "3 – 8 hours", difficulty: "All levels", slug: "hiking-adventures" },
+  { id: "waterfalls-river-treks", image: "/activities/waterfall-river-treks/card.webp", duration: "3 – 7 hours", difficulty: "Moderate", slug: "waterfalls-river-treks" },
+  { id: "7-caves-exploration", image: "/activities/7-caves-exploration/card.webp", duration: "3 – 4 hours", difficulty: "Easy to Moderate", slug: "7-caves-exploration" },
+  { id: "mangrove-kayaking", image: "/activities/mangrove-kayaking/card.webp", duration: "2 – 3 hours", slug: "mangrove-kayaking" },
+  { id: "wild-south-experience", image: "/activities/wild-south-experience/card.webp", duration: "Full Day (7 – 9 hours)", slug: "wild-south-experience" },
 
   // ── Activities without gallery photos or reviews (shown last) ───────────────
   { id: "dolphins", image: MU(MU_PHOTOS.coastForest, 800), duration: "2 – 4 hours", slug: "dolphin-encounter" },
@@ -441,7 +441,7 @@ export const VEHICLES: Vehicle[] = [
   {
     id: "suzuki-swift",
     name: "Suzuki Swift",
-    image: "/car-rental/suzuki-swift.png",
+    image: "/car-rental/suzuki-swift.webp",
     seats: 5,
     transmission: "Automatic",
     fuel: "Petrol",
@@ -452,7 +452,7 @@ export const VEHICLES: Vehicle[] = [
   {
     id: "toyota-yaris",
     name: "Toyota Yaris",
-    image: "/car-rental/toyota-yaris.png",
+    image: "/car-rental/toyota-yaris.webp",
     seats: 5,
     transmission: "Automatic",
     fuel: "Petrol",
@@ -463,7 +463,7 @@ export const VEHICLES: Vehicle[] = [
   {
     id: "nissan-march",
     name: "Nissan March",
-    image: "/car-rental/nissan-march.png",
+    image: "/car-rental/nissan-march.webp",
     seats: 5,
     transmission: "Automatic",
     fuel: "Petrol",
@@ -512,7 +512,7 @@ export const HERO_JOURNEY_PREVIEW: PackageItemStructural[] = [
   { id: "wildlife", image: MU(MU_PHOTOS.casela, 200) },
   { id: "westCoast", image: MU(MU_PHOTOS.mauritiusSunset, 200) },
   { id: "ileAuxCerfs", image: MU(MU_PHOTOS.flatIsland, 200) },
-  { id: "adventure", image: "/activities/paragliding/card.jpeg" },
+  { id: "adventure", image: "/activities/paragliding/card.webp" },
 ];
 // "Your Mauritius Experience" section — aerial coastal town, alongside the journey steps
 export const PACKAGE_EXPERIENCE_IMAGE = MU(MU_PHOTOS.flicEnFlacCity);

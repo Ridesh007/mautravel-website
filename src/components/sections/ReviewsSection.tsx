@@ -94,7 +94,7 @@ export function ReviewsSection() {
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <p className="font-heading font-bold text-white text-3xl mb-1">{stat.value}</p>
-                <p className="text-white/50 text-xs uppercase tracking-wider">{stat.label}</p>
+                <p className="text-white/60 text-xs uppercase tracking-wider">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -123,11 +123,11 @@ export function ReviewsSection() {
               <StarRating rating={ALL_REVIEWS[current].rating} />
               <div className="mt-4">
                 <p className="font-semibold text-white">{ALL_REVIEWS[current].name}</p>
-                <p className="text-white/50 text-sm">{ALL_REVIEWS[current].country} · {ALL_REVIEWS[current].date}</p>
+                <p className="text-white/60 text-sm">{ALL_REVIEWS[current].country} · {ALL_REVIEWS[current].date}</p>
               </div>
             </div>
 
-            <div className="flex items-center justify-center gap-4 mt-8">
+            <div className="flex items-center justify-center gap-2 sm:gap-4 mt-8">
               <button
                 onClick={prev}
                 className="w-10 h-10 rounded-full border border-white/20 hover:border-white/40 flex items-center justify-center text-white transition-colors"
@@ -135,17 +135,23 @@ export function ReviewsSection() {
               >
                 <ChevronLeft className="w-4 h-4" />
               </button>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap justify-center">
                 {ALL_REVIEWS.map((_, i) => (
+                  // 44px-tall hit area around the small visual dot
                   <button
                     key={i}
                     onClick={() => goTo(i)}
-                    className={cn(
-                      "h-1.5 rounded-full transition-all duration-300",
-                      i === current ? "w-6 bg-gold" : "w-1.5 bg-white/30"
-                    )}
+                    className="h-11 min-w-6 px-1 flex items-center justify-center"
                     aria-label={`Review ${i + 1}`}
-                  />
+                    aria-current={i === current ? "true" : undefined}
+                  >
+                    <span
+                      className={cn(
+                        "block h-1.5 rounded-full transition-all duration-300",
+                        i === current ? "w-6 bg-gold" : "w-1.5 bg-white/30"
+                      )}
+                    />
+                  </button>
                 ))}
               </div>
               <button

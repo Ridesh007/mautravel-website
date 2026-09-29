@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   sitemap.xml — MauTravel
-  IMPORTANT: Replace https://www.mautravel.com with your actual domain before deployment.
+  IMPORTANT: Replace https://www.mautravel.co with your actual domain before deployment.
   Last updated: 2026-07-01
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -10,7 +10,7 @@
 
   <!-- ── Home ─────────────────────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.mautravel.com/</loc>
+    <loc>https://www.mautravel.co/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -18,28 +18,28 @@
 
   <!-- ── Core service pages ────────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.mautravel.com/airport-transfers</loc>
+    <loc>https://www.mautravel.co/airport-transfers</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/tours</loc>
+    <loc>https://www.mautravel.co/tours</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities</loc>
+    <loc>https://www.mautravel.co/activities</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/car-rental</loc>
+    <loc>https://www.mautravel.co/car-rental</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -47,7 +47,7 @@
 
   <!-- PROPERTIES HIDDEN — remove comment tags to restore
   <url>
-    <loc>https://www.mautravel.com/properties</loc>
+    <loc>https://www.mautravel.co/properties</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -55,7 +55,7 @@
   -->
 
   <url>
-    <loc>https://www.mautravel.com/events</loc>
+    <loc>https://www.mautravel.co/events</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -63,70 +63,70 @@
 
   <!-- ── Activity detail pages ─────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.mautravel.com/activities/catamaran-cruise</loc>
+    <loc>https://www.mautravel.co/activities/catamaran-cruise</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/dolphin-encounter</loc>
+    <loc>https://www.mautravel.co/activities/dolphin-encounter</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/underwater-walk</loc>
+    <loc>https://www.mautravel.co/activities/underwater-walk</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/parasailing</loc>
+    <loc>https://www.mautravel.co/activities/parasailing</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/paragliding</loc>
+    <loc>https://www.mautravel.co/activities/paragliding</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/hiking-adventures</loc>
+    <loc>https://www.mautravel.co/activities/hiking-adventures</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/waterfalls-river-treks</loc>
+    <loc>https://www.mautravel.co/activities/waterfalls-river-treks</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/mangrove-kayaking</loc>
+    <loc>https://www.mautravel.co/activities/mangrove-kayaking</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/7-caves-exploration</loc>
+    <loc>https://www.mautravel.co/activities/7-caves-exploration</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/activities/wild-south-experience</loc>
+    <loc>https://www.mautravel.co/activities/wild-south-experience</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -134,21 +134,21 @@
 
   <!-- ── Support & info pages ──────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.mautravel.com/reviews</loc>
+    <loc>https://www.mautravel.co/reviews</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/contact</loc>
+    <loc>https://www.mautravel.co/contact</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/faqs</loc>
+    <loc>https://www.mautravel.co/faqs</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -156,14 +156,14 @@
 
   <!-- ── Legal pages ───────────────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.mautravel.com/privacy-policy</loc>
+    <loc>https://www.mautravel.co/privacy-policy</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://www.mautravel.com/terms</loc>
+    <loc>https://www.mautravel.co/terms</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

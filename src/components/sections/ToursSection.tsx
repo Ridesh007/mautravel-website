@@ -43,7 +43,7 @@ export function ToursSection() {
                       alt={text.name}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 640px) 85vw, (max-width: 1024px) 50vw, 33vw"
+                      sizes="(min-width: 1280px) 400px, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 85vw"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -54,21 +54,22 @@ export function ToursSection() {
                       {t("badge")}
                     </div>
                     <h3 className="font-heading font-bold text-navy text-xl mb-2">{text.name}</h3>
-                    <p className="text-charcoal/60 text-sm leading-relaxed mb-4 line-clamp-2">
+                    <p className="text-charcoal/70 text-sm leading-relaxed mb-4 line-clamp-2">
                       {text.description}
                     </p>
-                    <div className="flex items-center gap-2 text-xs text-charcoal/50 mb-5">
+                    <div className="flex items-center gap-2 text-xs text-charcoal/70 mb-5">
                       <Clock className="w-3.5 h-3.5" />
                       {tour.duration}
                     </div>
                     <div className="flex gap-2">
                       <Link
                         href="/tours"
-                        className="flex-1 text-center text-sm font-semibold text-navy border border-navy/20 hover:bg-navy hover:text-white py-2.5 rounded-full transition-all duration-200"
+                        className="relative flex-1 text-center text-sm font-semibold text-navy border border-navy/20 hover:bg-navy hover:text-white py-2.5 rounded-full transition-all duration-200"
                       >
                         {t("learnMore")}
+                        <span className="sr-only"> – {text.name}</span>
                       </Link>
-                      <WhatsAppButton service={text.name} size="sm" label={t("book")} />
+                      <WhatsAppButton service={text.name} size="sm" label={t("book")} srContext={text.name} />
                     </div>
                   </div>
                 </div>

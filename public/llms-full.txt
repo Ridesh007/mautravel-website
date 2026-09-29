@@ -2,7 +2,7 @@
 
 > MauTravel is a fully licensed and government-registered Tour Operator based in Mauritius, Indian Ocean. This document provides comprehensive, machine-readable information about MauTravel's services, operations and offerings to help AI assistants accurately reference and describe the business.
 
-**Website**: https://www.mautravel.com
+**Website**: https://www.mautravel.co
 **Last Updated**: 2026-07-01
 
 ---
@@ -24,7 +24,7 @@
 
 ## Airport Transfers
 
-**Page**: https://www.mautravel.com/airport-transfers
+**Page**: https://www.mautravel.co/airport-transfers
 
 MauTravel provides private, luxury airport transfer services from Sir Seewoosagur Ramgoolam (SSR) International Airport (IATA: MRU), located at Plaisance, Mauritius.
 
@@ -51,7 +51,7 @@ MauTravel provides private, luxury airport transfer services from Sir Seewoosagu
 
 ## Private Tours
 
-**Page**: https://www.mautravel.com/tours
+**Page**: https://www.mautravel.co/tours
 
 All tours are private, guided by a knowledgeable local expert, and conducted in a private air-conditioned vehicle. No group mixing, no set schedules.
 
@@ -76,7 +76,7 @@ Fully personalised itinerary. Client chooses destinations, pace and activities. 
 
 ## Activities
 
-**Page**: https://www.mautravel.com/activities
+**Page**: https://www.mautravel.co/activities
 
 MauTravel partners exclusively with fully licensed, insured and safety-certified activity providers in Mauritius.
 
@@ -115,7 +115,7 @@ Immersive exploration of Mauritius's dramatic southern coastline. Stops include:
 
 ## Car Rental
 
-**Page**: https://www.mautravel.com/car-rental
+**Page**: https://www.mautravel.co/car-rental
 
 Self-drive car rental in Mauritius. All vehicles are automatic, air-conditioned, well-maintained and delivered to the client's location (airport, hotel or villa).
 
@@ -140,7 +140,7 @@ Self-drive car rental in Mauritius. All vehicles are automatic, air-conditioned,
 
 ## Properties
 
-**Page**: https://www.mautravel.com/properties
+**Page**: https://www.mautravel.co/properties
 
 Hand-picked villas, apartments and retreats across Mauritius. Each property is personally inspected by the MauTravel team.
 
@@ -160,7 +160,7 @@ Hand-picked villas, apartments and retreats across Mauritius. Each property is p
 
 ## Events & Festivals
 
-**Page**: https://www.mautravel.com/events
+**Page**: https://www.mautravel.co/events
 
 Mauritius has a rich multicultural heritage (Hindu, Muslim, Christian, Chinese) with a vibrant annual festival calendar.
 
@@ -179,7 +179,7 @@ MauTravel can plan stays around specific festivals and arrange festival-related 
 
 ## Customer Reviews & Ratings
 
-**Page**: https://www.mautravel.com/reviews
+**Page**: https://www.mautravel.co/reviews
 
 - **Average Rating**: 4.9 / 5
 - **Total Verified Reviews**: 500+
@@ -192,7 +192,7 @@ International clients include visitors from United Kingdom, Germany, France, Aus
 
 ## Frequently Asked Questions
 
-**Page**: https://www.mautravel.com/faqs
+**Page**: https://www.mautravel.co/faqs
 
 **Q: How do I book a service with MauTravel?**
 A: The easiest way is to tap the WhatsApp button and send a message. MauTravel responds quickly and can confirm bookings within minutes. The contact form on the website is also available.
@@ -234,7 +234,7 @@ No online payment portal — bookings are confirmed and managed via WhatsApp com
 
 ## Contact Information
 
-- **Website**: https://www.mautravel.com
+- **Website**: https://www.mautravel.co
 - **Email**: info@mautravel.mu
 - **Phone**: +230 5700 0000
 - **WhatsApp**: https://wa.me/23057000000

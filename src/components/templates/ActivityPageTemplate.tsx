@@ -374,7 +374,7 @@ export async function ActivityPageTemplate({ detail, related, locale }: Props) {
                     )}
                   >
                     {tier.popular && (
-                      <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold text-white text-xs font-bold px-4 py-1 rounded-full shadow-sm">
+                      <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold text-navy text-xs font-bold px-4 py-1 rounded-full shadow-sm">
                         {t("mostPopular")}
                       </span>
                     )}
@@ -401,7 +401,7 @@ export async function ActivityPageTemplate({ detail, related, locale }: Props) {
                       service={`${detail.name} — ${tier.name}`}
                       size="md"
                       label={t("bookThisPackage")}
-                      className={cn("w-full justify-center", tier.popular ? "!bg-gold !text-white hover:!bg-gold/90" : "")}
+                      className={cn("w-full justify-center", tier.popular ? "!bg-gold !text-navy hover:!bg-gold/90" : "")}
                     />
                   </div>
                 ))}

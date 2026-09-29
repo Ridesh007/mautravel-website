@@ -11,6 +11,7 @@ import { ReviewsSection } from "@/components/sections/ReviewsSection";
 import { CtaSection } from "@/components/sections/CtaSection";
 import type { Metadata } from "next";
 import { SocialSection } from "@/components/sections/SocialSection";
+import { setRequestLocale } from "next-intl/server";
 import { buildAlternates } from "@/i18n/seo";
 
 export async function generateMetadata({
@@ -22,7 +23,16 @@ export async function generateMetadata({
   return { alternates: buildAlternates(locale, "") };
 }
 
-export default function HomePage() {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  // Required for static rendering: without it the sections' useTranslations() falls back to
+  // reading request headers, which made the homepage the only dynamically rendered page.
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
     <>
       <HeroSection />

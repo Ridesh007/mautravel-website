@@ -3,17 +3,18 @@
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Menu, X, MessageCircle } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
 import { Link, usePathname } from "@/i18n/navigation";
 import { NAV_LINKS } from "@/lib/constants";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
 import { cn } from "@/lib/utils";
+import { usePresence } from "@/lib/use-presence";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 
 export function Navbar() {
   const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { mounted: menuMounted, closing: menuClosing } = usePresence(mobileOpen, 200);
   const pathname = usePathname();
   const isHome = pathname === "/";
 
@@ -94,7 +95,7 @@ export function Navbar() {
                 href={getWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-gold hover:bg-gold/90 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                className="flex items-center gap-2 bg-gold hover:bg-gold/90 text-navy text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
               >
                 <MessageCircle className="w-4 h-4" />
                 {t("bookNow")}
@@ -119,22 +120,21 @@ export function Navbar() {
       </header>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-40 bg-navy pt-16 overflow-y-auto lg:hidden"
+      {menuMounted && (
+          <div
+            className={cn(
+              "fixed inset-0 z-40 bg-navy pt-16 overflow-y-auto lg:hidden duration-200",
+              menuClosing
+                ? "animate-out fade-out slide-out-to-top-5 fill-mode-forwards"
+                : "animate-in fade-in slide-in-from-top-5"
+            )}
           >
             <div className="container-xl py-8 flex flex-col gap-2">
               {NAV_LINKS.map((link, i) => (
-                <motion.div
+                <div
                   key={link.href}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: i * 0.05 }}
+                  className="animate-in fade-in slide-in-from-left-5 duration-300 fill-mode-both"
+                  style={{ animationDelay: `${i * 0.05}s` }}
                 >
                   <Link
                     href={link.href}
@@ -147,36 +147,31 @@ export function Navbar() {
                   >
                     {t(link.key)}
                   </Link>
-                </motion.div>
+                </div>
               ))}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: NAV_LINKS.length * 0.05 + 0.05 }}
-                className="mt-2"
+              <div
+                className="mt-2 animate-in fade-in slide-in-from-bottom-5 duration-300 fill-mode-both"
+                style={{ animationDelay: `${NAV_LINKS.length * 0.05 + 0.05}s` }}
               >
                 <LanguageSwitcher variant="light" className="w-full [&>button]:w-full [&>button]:justify-center [&>button]:bg-white/10" />
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: NAV_LINKS.length * 0.05 + 0.1 }}
-                className="mt-4 pt-6 border-t border-white/10"
+              </div>
+              <div
+                className="mt-4 pt-6 border-t border-white/10 animate-in fade-in slide-in-from-bottom-5 duration-300 fill-mode-both"
+                style={{ animationDelay: `${NAV_LINKS.length * 0.05 + 0.1}s` }}
               >
                 <a
                   href={getWhatsAppUrl()}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 w-full bg-gold hover:bg-gold/90 text-white text-base font-semibold px-6 py-4 rounded-2xl transition-all"
+                  className="flex items-center justify-center gap-2 w-full bg-gold hover:bg-gold/90 text-navy text-base font-semibold px-6 py-4 rounded-2xl transition-all"
                 >
                   <MessageCircle className="w-5 h-5" />
                   {t("bookViaWhatsapp")}
                 </a>
-              </motion.div>
+              </div>
             </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          </div>
+      )}
     </>
   );
 }

@@ -17,25 +17,33 @@ interface Props {
 
 const AUTOPLAY_MS = 4500;
 const RESUME_DELAY_MS = 2500;
+// Clones on each side of the real items. At most ~2 neighbouring cards are ever visible
+// beside the centred one (4-per-view on desktop), so 3 is enough for a seamless loop.
+const MAX_CLONES = 3;
 
 export function HomeSectionCarousel({ children, viewAllHref, viewAllLabel, light = false }: Props) {
   const t = useTranslations("home");
   const items = Children.toArray(children);
   const count = items.length;
 
-  // Triple items for a seamless infinite loop: [pre-clones | real items | post-clones]
+  // Seamless infinite loop: [last `clones` items | real items | first `clones` items]
   // The user always sees items from the real set; after scrolling into a clone zone we
   // silently jump back to the matching real position (invisible because the content is identical).
-  const tripled = count > 1 ? [
-    ...items.map((c, i) => isValidElement(c) ? cloneElement(c as ReactElement, { key: `_pre_${i}` }) : c),
+  // Only a few clones per side are needed — cloning the whole set tripled the DOM.
+  const clones = count > 1 ? Math.min(count, MAX_CLONES) : 0;
+  const cloneOf = (c: React.ReactNode, key: string) =>
+    isValidElement(c) ? cloneElement(c as ReactElement, { key }) : c;
+  const looped = clones > 0 ? [
+    ...items.slice(count - clones).map((c, i) => cloneOf(c, `_pre_${i}`)),
     ...items,
-    ...items.map((c, i) => isValidElement(c) ? cloneElement(c as ReactElement, { key: `_post_${i}` }) : c),
+    ...items.slice(0, clones).map((c, i) => cloneOf(c, `_post_${i}`)),
   ] : items;
+  const lastIdx = looped.length - 1;
 
   const scrollRef    = useRef<HTMLDivElement>(null);
-  // Active index into the tripled DOM children array. Starts at `count` (first real item).
+  // Active index into the looped DOM children array. Starts at `clones` (first real item).
   // Stored in a ref to avoid React re-renders on every autoplay tick.
-  const idxRef       = useRef(count > 1 ? count : 0);
+  const idxRef       = useRef(clones);
   const intervalRef  = useRef<ReturnType<typeof setInterval> | null>(null);
   const resumeRef    = useRef<ReturnType<typeof setTimeout> | null>(null);
   const resetRef     = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -56,19 +64,17 @@ export function HomeSectionCarousel({ children, viewAllHref, viewAllLabel, light
 
   // ── After reaching a clone, silently jump back to the matching real card ──
   const scheduleReset = useCallback((idx: number) => {
-    if (count <= 1) return;
+    if (clones === 0) return;
     if (resetRef.current) { clearTimeout(resetRef.current); resetRef.current = null; }
-    const inPreClone  = idx < count;
-    const inPostClone = idx >= count * 2;
-    if (!inPreClone && !inPostClone) return;
+    if (idx >= clones && idx < clones + count) return; // already on a real item
     // Wait for the smooth-scroll animation (~600 ms) to complete before jumping
     resetRef.current = setTimeout(() => {
       resetRef.current = null;
-      const realIdx = inPostClone ? idx - count : idx + count;
+      const realIdx = clones + ((((idx - clones) % count) + count) % count);
       scrollToCenter(realIdx, true);
       idxRef.current = realIdx;
     }, 650);
-  }, [count, scrollToCenter]);
+  }, [clones, count, scrollToCenter]);
 
   // ── Autoplay ───────────────────────────────────────────────────────────────
   const clearAll = useCallback(() => {
@@ -77,11 +83,11 @@ export function HomeSectionCarousel({ children, viewAllHref, viewAllLabel, light
   }, []);
 
   const advance = useCallback(() => {
-    const next = idxRef.current + 1;
+    const next = Math.min(idxRef.current + 1, lastIdx);
     idxRef.current = next;
     scrollToCenter(next);
     scheduleReset(next);
-  }, [scrollToCenter, scheduleReset]);
+  }, [scrollToCenter, scheduleReset, lastIdx]);
 
   const startPlay = useCallback(() => {
     clearAll();
@@ -96,23 +102,24 @@ export function HomeSectionCarousel({ children, viewAllHref, viewAllLabel, light
     resumeRef.current = setTimeout(startPlay, RESUME_DELAY_MS);
   }, [clearAll, startPlay]);
 
-  // Mount: jump to first real card (no animation) then start autoplay
+  // Mount: jump to first real card (no animation) then start autoplay. The layout read is
+  // deferred to the next frame so it doesn't force a synchronous reflow during hydration.
   useEffect(() => {
-    if (count > 1) scrollToCenter(count, true);
+    const raf = clones > 0 ? requestAnimationFrame(() => scrollToCenter(clones, true)) : 0;
     const t = setTimeout(startPlay, 400); // short delay lets images load & scrollWidth settle
-    return () => { clearTimeout(t); clearAll(); };
+    return () => { cancelAnimationFrame(raf); clearTimeout(t); clearAll(); };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Manual navigation ──────────────────────────────────────────────────────
   const go = useCallback((dir: 1 | -1) => {
-    const next = idxRef.current + dir;
+    const next = Math.max(0, Math.min(idxRef.current + dir, lastIdx));
     idxRef.current = next;
     scrollToCenter(next);
     scheduleReset(next);
     // Pause then restart autoplay 2.5 s after the last manual action
     pause();
     resumeRef.current = setTimeout(startPlay, RESUME_DELAY_MS);
-  }, [scrollToCenter, scheduleReset, pause, startPlay]);
+  }, [scrollToCenter, scheduleReset, pause, startPlay, lastIdx]);
 
   // ── Styles (identical to original) ────────────────────────────────────────
   const btnBase = "w-10 h-10 rounded-full border flex items-center justify-center transition-all duration-200";
@@ -133,7 +140,7 @@ export function HomeSectionCarousel({ children, viewAllHref, viewAllLabel, light
     >
       {/* carousel-snap applies scroll-snap-type; each direct child gets scroll-snap-align: center */}
       <div ref={scrollRef} className="flex gap-6 overflow-x-auto scrollbar-hide carousel-snap">
-        {tripled}
+        {looped}
       </div>
 
       <div className="flex items-center justify-between mt-8">

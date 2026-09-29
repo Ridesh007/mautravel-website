@@ -1,6 +1,6 @@
 import { localeConfigs, defaultLocale } from "./locales";
 
-export const SITE_URL = "https://www.mautravel.com";
+export const SITE_URL = "https://www.mautravel.co";
 
 /**
  * Builds the `alternates` block (canonical + hreflang) for a given locale/path.

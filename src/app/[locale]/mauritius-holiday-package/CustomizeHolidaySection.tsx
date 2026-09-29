@@ -35,7 +35,7 @@ export function CustomizeHolidaySection({ ctaLabel }: { ctaLabel: string }) {
           onClick={handleToggle}
           aria-expanded={open}
           aria-controls="customize-holiday-form"
-          className="inline-flex items-center gap-2 bg-gold hover:bg-gold/90 text-white font-semibold px-7 py-3.5 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-sm md:text-base"
+          className="inline-flex items-center gap-2 bg-gold hover:bg-gold/90 text-navy font-semibold px-7 py-3.5 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-sm md:text-base"
         >
           <MessageCircle className="w-4 h-4 md:w-5 md:h-5" />
           {ctaLabel}

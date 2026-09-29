@@ -44,7 +44,7 @@ export function WhyChooseGrid({ features, showMoreLabel, showLessLabel }: WhyCho
               <h3 className="font-heading font-semibold text-navy text-base sm:text-lg mb-1.5 sm:mb-2">
                 {feature.title}
               </h3>
-              <p className="text-charcoal/60 text-xs sm:text-sm leading-relaxed">
+              <p className="text-charcoal/70 text-xs sm:text-sm leading-relaxed">
                 {feature.description}
               </p>
             </div>

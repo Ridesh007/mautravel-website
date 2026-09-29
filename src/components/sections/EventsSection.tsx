@@ -57,7 +57,7 @@ export function EventsSection() {
                     </div>
                     <div className="p-5">
                       <div className="flex items-center gap-3 mb-3">
-                        <span className="flex items-center gap-1.5 text-xs text-charcoal/50">
+                        <span className="flex items-center gap-1.5 text-xs text-charcoal/70">
                           <Calendar className="w-3.5 h-3.5" />
                           {event.date}
                         </span>
@@ -69,7 +69,7 @@ export function EventsSection() {
                       <h3 className="font-heading font-bold text-navy text-lg mb-2 leading-snug">
                         {text.title}
                       </h3>
-                      <p className="text-charcoal/60 text-sm leading-relaxed">{text.description}</p>
+                      <p className="text-charcoal/70 text-sm leading-relaxed">{text.description}</p>
                     </div>
                   </div>
                 );

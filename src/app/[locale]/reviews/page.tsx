@@ -92,7 +92,7 @@ export default async function ReviewsPage({
         author: { "@type": "Person", name: r.name },
         reviewBody: (t.raw(`items.${r.id}`) as { text: string }).text,
         datePublished: r.date,
-        itemReviewed: { "@type": "TravelAgency", "@id": "https://www.mautravel.com/#organization", name: "MauTravel" },
+        itemReviewed: { "@type": "TravelAgency", "@id": "https://www.mautravel.co/#organization", name: "MauTravel" },
       },
     })),
   };

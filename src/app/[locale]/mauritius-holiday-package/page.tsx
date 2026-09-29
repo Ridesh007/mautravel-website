@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, getTranslations } from "next-intl/server";
 import {
   Car,
   ChevronsDown,
@@ -27,6 +28,7 @@ import {
 import { AnimatedSection } from "@/components/shared/AnimatedSection";
 import { cn } from "@/lib/utils";
 import { buildAlternates } from "@/i18n/seo";
+import { CLIENT_NAMESPACES, pickMessages } from "@/i18n/client-messages";
 import {
   PACKAGE_HERO_IMAGE,
   HERO_JOURNEY_PREVIEW,
@@ -209,7 +211,7 @@ export default async function MauritiusHolidayPackagePage({
             <div className="flex flex-col sm:flex-row flex-wrap gap-3 mb-7 md:mb-8">
               <a
                 href="#experience"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold/90 text-white font-semibold px-6 py-3.5 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-sm md:text-base"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold/90 text-navy font-semibold px-6 py-3.5 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-sm md:text-base"
               >
                 <ChevronsDown className="w-4 h-4 md:w-5 md:h-5" />
                 {t("hero.exploreCta")}
@@ -482,7 +484,12 @@ export default async function MauritiusHolidayPackagePage({
           </div>
 
           <div className="max-w-4xl mx-auto mt-7">
-            <CustomizeHolidaySection ctaLabel={t("flexibility.ctaButton")} />
+            {/* CustomizeHolidayForm reads "mauritiusPackage" on the client; only this page needs it */}
+            <NextIntlClientProvider
+              messages={pickMessages(await getMessages({ locale }), [...CLIENT_NAMESPACES, "mauritiusPackage"])}
+            >
+              <CustomizeHolidaySection ctaLabel={t("flexibility.ctaButton")} />
+            </NextIntlClientProvider>
           </div>
         </div>
       </section>

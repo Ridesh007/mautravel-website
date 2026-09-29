@@ -20,7 +20,7 @@ export function MauritiusHolidaySection() {
                 alt="Le Morne mountain and lagoon, Mauritius"
                 fill
                 className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                sizes="(min-width: 1280px) 600px, (min-width: 1024px) 50vw, 100vw"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/30 to-transparent" />

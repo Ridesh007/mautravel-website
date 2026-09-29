@@ -8,6 +8,7 @@ import { SectionHeader } from "@/components/shared/SectionHeader";
 
 export function AirportTransfersSection() {
   const t = useTranslations("home.airportTransfers");
+  const tNav = useTranslations("nav");
   const features = t.raw("features") as string[];
   return (
     <section className="section-padding bg-white">
@@ -21,7 +22,7 @@ export function AirportTransfersSection() {
                 alt="Le Morne resort aerial view, Mauritius — airport transfer destination"
                 fill
                 className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                sizes="(min-width: 1280px) 600px, (min-width: 1024px) 50vw, 100vw"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/30 to-transparent" />
@@ -59,9 +60,11 @@ export function AirportTransfersSection() {
             <div className="flex flex-wrap gap-3">
               <Link
                 href="/airport-transfers"
-                className="inline-flex items-center gap-2 bg-navy hover:bg-navy/90 text-white font-semibold px-6 py-3 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-sm"
+                className="relative inline-flex items-center gap-2 bg-navy hover:bg-navy/90 text-white font-semibold px-6 py-3 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-sm"
               >
-                {t("learnMore")} <ChevronRight className="w-4 h-4" />
+                {t("learnMore")}
+                <span className="sr-only"> – {tNav("airportTransfers")}</span>
+                <ChevronRight className="w-4 h-4" />
               </Link>
               <WhatsAppButton service="Airport Transfer" size="md" />
             </div>
