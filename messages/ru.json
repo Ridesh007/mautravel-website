@@ -51,7 +51,8 @@
     "perNight": "/ночь",
     "perDay": "/день",
     "guest": "гость",
-    "guestsPlural": "гостей"
+    "guestsPlural": "гостей",
+    "opensInNewTab": "(откроется в новой вкладке)"
   },
   "forms": {
     "fullName": "Полное Имя",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "Новое партнёрство",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "Путешествуйте уверенно",
+        "subtitle": "Незабываемый отдых на Маврикии и персональные советы для путешественников. Информация об аэропорте, транспорте, жилье, развлечениях и полезные местные подсказки.",
+        "cta": "Узнать о TripKindly",
+        "secondaryCta": "Связаться с MauTravel",
+        "imageAlt": "Вид с воздуха на гору Ле-Морн-Брабан и бирюзовую лагуну, Маврикий"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "Персональные советы для путешествий",
+      "heading": "Персональные советы для путешествий",
+      "destinations": "Маврикий · Родригес · Таиланд",
+      "services": [
+        "Советы по аэропорту",
+        "Местный транспорт",
+        "Идеи для досуга"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "Больше, чем трансфер из аэропорта",
+      "description": "Наш партнёр TripKindly даёт персональные советы по прибытию в аэропорт, местному транспорту, жилью и развлечениям, чтобы вы открывали Маврикий с большей уверенностью.",
+      "cta": "Узнать о TripKindly",
+      "tagline": "Персональные советы для путешествий"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "Планируете Отдых на Маврикии?",
     "message": "Ознакомьтесь с нашим полным пакетом отдыха на Маврикии — проживание, трансфер из аэропорта, туры, активности и индивидуальные впечатления, организованные под ваше пребывание.",
     "cta": "Узнать о Пакете Маврикий",
+    "closeAria": "Закрыть окно"
+  },
+  "tripKindlyPopup": {
+    "title": "Знакомьтесь: наш новый партнёр TripKindly!",
+    "announcement": "MauTravel с гордостью объявляет о сотрудничестве с TripKindly!",
+    "services": "Персональные советы для путешествий по Маврикию, Родригесу и Таиланду: аэропорт, транспорт, жильё, развлечения и всё необходимое в поездке.",
+    "nextSteps": "Посетите сайт TripKindly, чтобы узнать об их услугах, или свяжитесь с MauTravel, чтобы договориться о вводной встрече.",
+    "cta": "Узнать о TripKindly",
+    "introCta": "Договориться о встрече",
+    "introMessage": "Здравствуйте, MauTravel! Прошу организовать вводную встречу с TripKindly.",
     "closeAria": "Закрыть окно"
   },
   "tourDetails": {

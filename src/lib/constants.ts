@@ -9,6 +9,7 @@ import type {
   EventStructural,
   PackageItemStructural,
 } from "@/types";
+import { TRIPKINDLY_URL } from "@/lib/partners";
 
 // All images are verified free Unsplash photos of real Mauritius locations (CDN-verified)
 export const MU = (id: string, w = 1920) =>
@@ -243,6 +244,8 @@ export const NAV_LINKS = [
 export const HERO_SLIDES: HeroSlideStructural[] = [
   { id: "airportTransfers", image: MU(MU_PHOTOS.underwaterWaterfall), href: "/airport-transfers" },
   { id: "tours", image: MU(MU_PHOTOS.paradisBCR), href: "/tours" },
+  // Third slide: MauTravel × TripKindly partnership (text in home.heroSlides[2] + home.tripKindlyPanel)
+  { id: "tripKindly", image: MU(MU_PHOTOS.leMorneAerial), href: TRIPKINDLY_URL, partner: true },
   { id: "activities", image: MU(MU_PHOTOS.flatIsland), href: "/activities" },
   { id: "carRental", image: MU(MU_PHOTOS.flicEnFlac), href: "/car-rental" },
   { id: "properties", image: MU(MU_PHOTOS.shangriLa), href: "/properties" },

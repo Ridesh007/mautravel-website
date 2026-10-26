@@ -16,7 +16,7 @@ const STATIC_PATHS = [
   "/faqs",
   "/privacy-policy",
   "/terms",
-  "/properties",
+  // "/properties" is hidden and disallowed in robots.ts, so it stays out of the sitemap
 ];
 
 const ACTIVITY_PATHS = ACTIVITIES.map((a) => `/activities/${a.slug}`);

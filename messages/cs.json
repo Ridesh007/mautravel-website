@@ -51,7 +51,8 @@
     "perNight": "/noc",
     "perDay": "/den",
     "guest": "host",
-    "guestsPlural": "hostů"
+    "guestsPlural": "hostů",
+    "opensInNewTab": "(otevře se na nové kartě)"
   },
   "forms": {
     "fullName": "Celé Jméno",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "Nové partnerství",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "Cestujte s jistotou",
+        "subtitle": "Nezapomenutelné zážitky na Mauriciu se snoubí s osobním cestovním poradenstvím. Objevte rady k letišti, dopravě, ubytování, aktivitám a užitečné místní tipy.",
+        "cta": "Prozkoumat TripKindly",
+        "secondaryCta": "Kontaktovat MauTravel",
+        "imageAlt": "Letecký pohled na Le Morne Brabant a jeho tyrkysovou lagunu, Mauricius"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "Osobní cestovní poradenství",
+      "heading": "Osobní cestovní poradenství",
+      "destinations": "Mauricius · Rodrigues · Thajsko",
+      "services": [
+        "Rady k letišti",
+        "Místní doprava",
+        "Tipy na aktivity"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "Víc než jen transfer z letiště",
+      "description": "Náš partner TripKindly nabízí osobní cestovní poradenství k příletu na letiště, místní dopravě, ubytování a aktivitám, abyste mohli Mauricius objevovat s větší jistotou.",
+      "cta": "Objevit TripKindly",
+      "tagline": "Osobní cestovní poradenství"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "Plánujete Dovolenou na Mauriciu?",
     "message": "Objevte náš kompletní dovolenkový balíček na Mauriciu — ubytování, letištní transfery, výlety, aktivity a zážitky přizpůsobené vašemu pobytu.",
     "cta": "Objevte Balíček Mauricius",
+    "closeAria": "Zavřít okno"
+  },
+  "tripKindlyPopup": {
+    "title": "Seznamte se s naším novým partnerem TripKindly!",
+    "announcement": "MauTravel s hrdostí oznamuje spolupráci s TripKindly!",
+    "services": "Objevte osobní cestovní poradenství pro Mauricius, Rodrigues a Thajsko – letiště, doprava, ubytování, aktivity a praktické cestovní základy.",
+    "nextSteps": "Navštivte TripKindly a poznejte jejich služby, nebo kontaktujte MauTravel a domluvte si úvodní schůzku.",
+    "cta": "Prozkoumat TripKindly",
+    "introCta": "Domluvit úvodní schůzku",
+    "introMessage": "Dobrý den, MauTravel, prosím o domluvení úvodní schůzky s TripKindly.",
     "closeAria": "Zavřít okno"
   },
   "tourDetails": {

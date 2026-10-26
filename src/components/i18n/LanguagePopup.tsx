@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { X, Globe } from "lucide-react";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { localeConfigs } from "@/i18n/locales";
-import { usePresence } from "@/lib/use-presence";
+import { useQueuedPresence } from "@/lib/popup-queue";
 import { cn } from "@/lib/utils";
 
 const CHOICE_COOKIE = "mautravel-lang-choice";
@@ -28,7 +28,8 @@ export function LanguagePopup() {
   const router = useRouter();
   const [detected, setDetected] = useState<(typeof localeConfigs)[number] | null>(null);
   const [visible, setVisible] = useState(false);
-  const { mounted, closing } = usePresence(visible, 250);
+  // Shares the bottom of the screen with the promo popups on phones — one card at a time.
+  const { mounted, closing } = useQueuedPresence("language", visible, 250);
   const titleId = useId();
 
   useEffect(() => {

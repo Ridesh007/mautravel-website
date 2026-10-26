@@ -39,6 +39,10 @@ export function FleetCarousel({ cars }: Props) {
 
   const startAutoplay = useCallback(() => {
     if (intervalRef.current) clearInterval(intervalRef.current);
+    // From md up the cards are a static grid, so there's nothing to scroll — skip the timer
+    // (it only caused a re-render every few seconds). Also respect reduced-motion settings.
+    if (!window.matchMedia("(max-width: 767px)").matches) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     intervalRef.current = setInterval(() => {
       setActiveIdx((prev) => {
         const next = (prev + 1) % count;

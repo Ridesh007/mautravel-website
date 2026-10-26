@@ -15,6 +15,7 @@ export const CLIENT_NAMESPACES = [
   "popup",
   "switcher",
   "holidayPopup",
+  "tripKindlyPopup",
   "forms",
   "home",
   "reviews",

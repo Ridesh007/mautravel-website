@@ -12,6 +12,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { WhatsAppFloatingButton } from "@/components/shared/WhatsAppFloatingButton";
 import { LanguagePopup } from "@/components/i18n/LanguagePopup";
 import { MauritiusHolidayPopup } from "@/components/shared/MauritiusHolidayPopup";
+import { TripKindlyPopup } from "@/components/shared/TripKindlyPopup";
 import { routing } from "@/i18n/routing";
 import { getLocaleConfig } from "@/i18n/locales";
 import { buildAlternates, ogLocale, SITE_URL } from "@/i18n/seo";
@@ -222,6 +223,7 @@ export default async function LocaleLayout({
           <WhatsAppFloatingButton />
           <LanguagePopup />
           <MauritiusHolidayPopup />
+          <TripKindlyPopup />
           {/* The tiny inline stub queues gtag() calls into dataLayer right after hydration;
               the ~190 KB gtag.js library loads once the page is idle and replays the queue,
               so the page_view is still recorded but GA no longer competes with first render. */}

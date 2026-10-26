@@ -51,7 +51,8 @@
     "perNight": "/nuit",
     "perDay": "/jour",
     "guest": "invité",
-    "guestsPlural": "invités"
+    "guestsPlural": "invités",
+    "opensInNewTab": "(s'ouvre dans un nouvel onglet)"
   },
   "forms": {
     "fullName": "Nom Complet",
@@ -160,6 +161,15 @@
         "cta": "Découvrir les Excursions"
       },
       {
+        "label": "Nouveau partenariat",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "Voyagez en toute confiance",
+        "subtitle": "Des expériences inoubliables à l'île Maurice et des conseils de voyage personnalisés. Découvrez nos conseils sur l'aéroport, les transports, l'hébergement, les activités et des astuces locales utiles.",
+        "cta": "Explorer TripKindly",
+        "secondaryCta": "Contacter MauTravel",
+        "imageAlt": "Vue aérienne du Morne Brabant et de son lagon turquoise, île Maurice"
+      },
+      {
         "label": "Activités",
         "title": "Des Expériences Inoubliables",
         "subtitle": "Du parapente en tandem aux croisières en catamaran — des activités sélectionnées pour tous les types d'aventuriers.",
@@ -184,6 +194,16 @@
         "cta": "Nous Contacter"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "Conseils de voyage personnalisés",
+      "heading": "Conseils de voyage personnalisés",
+      "destinations": "Maurice · Rodrigues · Thaïlande",
+      "services": [
+        "Conseils aéroport",
+        "Transports locaux",
+        "Idées d'activités"
+      ]
+    },
     "contactUs": "Nous Contacter",
     "previousSlide": "Diapositive précédente",
     "nextSlide": "Diapositive suivante",
@@ -383,6 +403,12 @@
       "price": "MUR 2 000",
       "customTitle": "Besoin d'un devis personnalisé ?",
       "customDesc": "Transferts de groupe, itinéraires spéciaux et longues distances — contactez-nous pour un tarif sur mesure."
+    },
+    "tripKindlyCard": {
+      "heading": "Bien plus qu'un transfert aéroport",
+      "description": "Notre partenaire TripKindly propose des conseils de voyage personnalisés sur l'arrivée à l'aéroport, les transports locaux, l'hébergement et les activités, pour découvrir Maurice en toute confiance.",
+      "cta": "Découvrir TripKindly",
+      "tagline": "Conseils de voyage personnalisés"
     },
     "faqHeading": "Questions Fréquemment Posées",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "Vous planifiez des vacances à Maurice ?",
     "message": "Découvrez notre forfait vacances complet à Maurice — hébergement, transferts aéroport, excursions, activités et expériences sur mesure, organisés autour de votre séjour.",
     "cta": "Découvrir le Forfait Maurice",
+    "closeAria": "Fermer la fenêtre"
+  },
+  "tripKindlyPopup": {
+    "title": "Découvrez notre nouveau partenaire, TripKindly !",
+    "announcement": "MauTravel est fier d'annoncer sa collaboration avec TripKindly !",
+    "services": "Profitez de conseils de voyage personnalisés pour Maurice, Rodrigues et la Thaïlande : aéroport, transports, hébergement, activités et essentiels pratiques du voyage.",
+    "nextSteps": "Visitez TripKindly pour découvrir ses services, ou contactez MauTravel pour organiser une rencontre de présentation.",
+    "cta": "Explorer TripKindly",
+    "introCta": "Organiser une présentation",
+    "introMessage": "Bonjour MauTravel, je souhaiterais organiser une rencontre de présentation avec TripKindly.",
     "closeAria": "Fermer la fenêtre"
   },
   "tourDetails": {

@@ -51,7 +51,8 @@
     "perNight": "/noite",
     "perDay": "/dia",
     "guest": "hóspede",
-    "guestsPlural": "hóspedes"
+    "guestsPlural": "hóspedes",
+    "opensInNewTab": "(abre num novo separador)"
   },
   "forms": {
     "fullName": "Nome Completo",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "Nova parceria",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "Viaje com confiança",
+        "subtitle": "Experiências inesquecíveis nas Maurícias aliadas a aconselhamento de viagem personalizado. Descubra orientações sobre o aeroporto, transportes, alojamento, atividades e dicas locais úteis.",
+        "cta": "Explorar a TripKindly",
+        "secondaryCta": "Contactar a MauTravel",
+        "imageAlt": "Vista aérea do Le Morne Brabant e da sua lagoa turquesa, Maurícias"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "Aconselhamento de viagem personalizado",
+      "heading": "Aconselhamento de viagem personalizado",
+      "destinations": "Maurícias · Rodrigues · Tailândia",
+      "services": [
+        "Orientação no aeroporto",
+        "Transportes locais",
+        "Ideias de atividades"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "Muito mais do que um transfer do aeroporto",
+      "description": "A nossa parceira TripKindly oferece aconselhamento de viagem personalizado sobre a chegada ao aeroporto, transportes locais, alojamento e atividades, para que explore as Maurícias com mais confiança.",
+      "cta": "Descobrir a TripKindly",
+      "tagline": "Aconselhamento de viagem personalizado"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "A Planear Umas Férias nas Maurícias?",
     "message": "Descubra o nosso pacote completo de férias nas Maurícias — alojamento, transferes de aeroporto, passeios, atividades e experiências à medida, organizados para a sua estadia.",
     "cta": "Explorar o Pacote Maurícias",
+    "closeAria": "Fechar popup"
+  },
+  "tripKindlyPopup": {
+    "title": "Conheça o nosso novo parceiro, a TripKindly!",
+    "announcement": "A MauTravel tem o orgulho de anunciar a sua colaboração com a TripKindly!",
+    "services": "Descubra aconselhamento de viagem personalizado para as Maurícias, Rodrigues e Tailândia, incluindo aeroporto, transportes, alojamento, atividades e informações práticas essenciais.",
+    "nextSteps": "Visite a TripKindly para conhecer os seus serviços ou contacte a MauTravel para marcar uma reunião de apresentação.",
+    "cta": "Explorar a TripKindly",
+    "introCta": "Marcar uma apresentação",
+    "introMessage": "Olá MauTravel, gostaria de marcar uma reunião de apresentação com a TripKindly.",
     "closeAria": "Fechar popup"
   },
   "tourDetails": {

@@ -10,7 +10,9 @@ import { QuoteForm } from "@/components/shared/QuoteForm";
 import { CtaSection } from "@/components/sections/CtaSection";
 import { FleetCarousel } from "@/components/shared/FleetCarousel";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { TripKindlyCard } from "@/components/shared/TripKindlyCard";
 import { buildAlternates } from "@/i18n/seo";
+import { CONTACT_PHONE, WHATSAPP_NUMBER } from "@/lib/whatsapp";
 
 export async function generateMetadata({
   params,
@@ -39,8 +41,8 @@ const AIRPORT_SERVICE_SCHEMA = {
   url: "https://www.mautravel.co/airport-transfers",
   availableChannel: {
     "@type": "ServiceChannel",
-    serviceUrl: "https://wa.me/23057000000",
-    servicePhone: "+230-5700-0000",
+    serviceUrl: `https://wa.me/${WHATSAPP_NUMBER}`,
+    servicePhone: CONTACT_PHONE,
   },
   hasOfferCatalog: {
     "@type": "OfferCatalog",
@@ -79,11 +81,11 @@ const AIRPORT_SERVICE_SCHEMA = {
 const FEATURE_ICONS = [Clock, Star, MapPin, CheckCircle2];
 
 const PICKUP_CARS = [
-  { name: "BMW Series 5", image: "/airport-pickup-cars/BMW Series 5.png" },
-  { name: "Mercedes Vito", image: "/airport-pickup-cars/Mercedes Vito.png" },
-  { name: "Nissan Hiace", image: "/airport-pickup-cars/Nissan Hiace.png" },
-  { name: "Nissan Vozy", image: "/airport-pickup-cars/Nissan Vozy.png" },
-  { name: "Toyota Wish", image: "/airport-pickup-cars/Toyota Wish.png" },
+  { name: "BMW Series 5", image: "/airport-pickup-cars/bmw-series-5.webp" },
+  { name: "Mercedes Vito", image: "/airport-pickup-cars/mercedes-vito.webp" },
+  { name: "Nissan Hiace", image: "/airport-pickup-cars/nissan-hiace.webp" },
+  { name: "Nissan Vozy", image: "/airport-pickup-cars/nissan-vozy.webp" },
+  { name: "Toyota Wish", image: "/airport-pickup-cars/toyota-wish.webp" },
 ];
 
 const TRANSFER_IMAGES = [
@@ -103,6 +105,7 @@ export default async function AirportTransfersPage({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "airportTransfers" });
+  const tc = await getTranslations({ locale, namespace: "common" });
   const features = t.raw("features") as FeatureText[];
   const types = t.raw("types") as TypeText[];
   const faqs = t.raw("faqs") as FaqText[];
@@ -227,6 +230,21 @@ export default async function AirportTransfersPage({
                 />
               </div>
             </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* TripKindly partnership — sits between pricing and the FAQs */}
+      <section className="pb-10 bg-cream">
+        <div className="container-xl">
+          <AnimatedSection>
+            <TripKindlyCard
+              heading={t("tripKindlyCard.heading")}
+              description={t("tripKindlyCard.description")}
+              cta={t("tripKindlyCard.cta")}
+              tagline={t("tripKindlyCard.tagline")}
+              newTabLabel={tc("opensInNewTab")}
+            />
           </AnimatedSection>
         </div>
       </section>

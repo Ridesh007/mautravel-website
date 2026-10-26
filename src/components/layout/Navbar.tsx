@@ -128,6 +128,8 @@ export function Navbar() {
                 ? "animate-out fade-out slide-out-to-top-5 fill-mode-forwards"
                 : "animate-in fade-in slide-in-from-top-5"
             )}
+            // Promo popups wait until the menu is closed (see lib/popup-queue.ts)
+            data-blocks-popups=""
           >
             <div className="container-xl py-8 flex flex-col gap-2">
               {NAV_LINKS.map((link, i) => (

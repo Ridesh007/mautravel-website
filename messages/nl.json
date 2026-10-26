@@ -51,7 +51,8 @@
     "perNight": "/nacht",
     "perDay": "/dag",
     "guest": "gast",
-    "guestsPlural": "gasten"
+    "guestsPlural": "gasten",
+    "opensInNewTab": "(opent in een nieuw tabblad)"
   },
   "forms": {
     "fullName": "Volledige Naam",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "Nieuw partnerschap",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "Met vertrouwen op reis",
+        "subtitle": "Onvergetelijke ervaringen op Mauritius ontmoeten persoonlijk reisadvies. Ontdek advies over de luchthaven, vervoer, accommodatie, activiteiten en handige lokale tips.",
+        "cta": "Ontdek TripKindly",
+        "secondaryCta": "Contact met MauTravel",
+        "imageAlt": "Luchtfoto van Le Morne Brabant en de turquoise lagune, Mauritius"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "Persoonlijk reisadvies",
+      "heading": "Persoonlijk reisadvies",
+      "destinations": "Mauritius · Rodrigues · Thailand",
+      "services": [
+        "Luchthavenadvies",
+        "Lokaal vervoer",
+        "Ideeën voor activiteiten"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "Meer dan alleen een luchthaventransfer",
+      "description": "Onze partner TripKindly geeft persoonlijk reisadvies over aankomst op de luchthaven, lokaal vervoer, accommodatie en activiteiten, zodat u Mauritius met meer vertrouwen ontdekt.",
+      "cta": "Ontdek TripKindly",
+      "tagline": "Persoonlijk reisadvies"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "Plant U een Vakantie op Mauritius?",
     "message": "Ontdek ons complete Mauritius vakantiepakket — accommodatie, luchthaventransfers, tours, activiteiten en op maat gemaakte ervaringen, afgestemd op uw verblijf.",
     "cta": "Ontdek het Mauritius Pakket",
+    "closeAria": "Pop-up sluiten"
+  },
+  "tripKindlyPopup": {
+    "title": "Maak kennis met onze nieuwe partner, TripKindly!",
+    "announcement": "MauTravel is trots op de samenwerking met TripKindly!",
+    "services": "Ontdek persoonlijk reisadvies voor Mauritius, Rodrigues en Thailand, over de luchthaven, vervoer, accommodatie, activiteiten en praktische reisbenodigdheden.",
+    "nextSteps": "Bezoek TripKindly om hun diensten te ontdekken, of neem contact op met MauTravel voor een kennismakingsgesprek.",
+    "cta": "Ontdek TripKindly",
+    "introCta": "Kennismaking aanvragen",
+    "introMessage": "Hallo MauTravel, ik wil graag een kennismakingsgesprek met TripKindly regelen.",
     "closeAria": "Pop-up sluiten"
   },
   "tourDetails": {

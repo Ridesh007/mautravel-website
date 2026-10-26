@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Send } from "lucide-react";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
@@ -12,6 +12,8 @@ interface QuoteFormProps {
 export function QuoteForm({ defaultService = "" }: QuoteFormProps) {
   const t = useTranslations("forms");
   const tc = useTranslations("common");
+  // Ties each <label> to its field so screen readers announce the field name
+  const id = useId();
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -37,8 +39,9 @@ Message: ${form.message}`;
     <form onSubmit={handleSubmit} className="space-y-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm font-medium text-navy mb-1.5">{t("fullName")} *</label>
+          <label htmlFor={`${id}-name`} className="block text-sm font-medium text-navy mb-1.5">{t("fullName")} *</label>
           <input
+            id={`${id}-name`}
             type="text"
             required
             value={form.name}
@@ -48,8 +51,9 @@ Message: ${form.message}`;
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-navy mb-1.5">{t("email")} *</label>
+          <label htmlFor={`${id}-email`} className="block text-sm font-medium text-navy mb-1.5">{t("email")} *</label>
           <input
+            id={`${id}-email`}
             type="email"
             required
             value={form.email}
@@ -61,8 +65,9 @@ Message: ${form.message}`;
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm font-medium text-navy mb-1.5">{t("service")}</label>
+          <label htmlFor={`${id}-service`} className="block text-sm font-medium text-navy mb-1.5">{t("service")}</label>
           <select
+            id={`${id}-service`}
             value={form.service}
             onChange={(e) => setForm({ ...form, service: e.target.value })}
             className="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy transition bg-white"
@@ -78,8 +83,9 @@ Message: ${form.message}`;
           </select>
         </div>
         <div>
-          <label className="block text-sm font-medium text-navy mb-1.5">{t("numberOfGuests")}</label>
+          <label htmlFor={`${id}-guests`} className="block text-sm font-medium text-navy mb-1.5">{t("numberOfGuests")}</label>
           <select
+            id={`${id}-guests`}
             value={form.guests}
             onChange={(e) => setForm({ ...form, guests: e.target.value })}
             className="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy transition bg-white"
@@ -91,8 +97,9 @@ Message: ${form.message}`;
         </div>
       </div>
       <div>
-        <label className="block text-sm font-medium text-navy mb-1.5">{t("travelDate")}</label>
+        <label htmlFor={`${id}-date`} className="block text-sm font-medium text-navy mb-1.5">{t("travelDate")}</label>
         <input
+          id={`${id}-date`}
           type="date"
           value={form.date}
           onChange={(e) => setForm({ ...form, date: e.target.value })}
@@ -100,8 +107,9 @@ Message: ${form.message}`;
         />
       </div>
       <div>
-        <label className="block text-sm font-medium text-navy mb-1.5">{t("additionalDetails")}</label>
+        <label htmlFor={`${id}-message`} className="block text-sm font-medium text-navy mb-1.5">{t("additionalDetails")}</label>
         <textarea
+          id={`${id}-message`}
           rows={4}
           value={form.message}
           onChange={(e) => setForm({ ...form, message: e.target.value })}

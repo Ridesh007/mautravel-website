@@ -51,7 +51,8 @@
     "perNight": "/晚",
     "perDay": "/天",
     "guest": "位客人",
-    "guestsPlural": "位客人"
+    "guestsPlural": "位客人",
+    "opensInNewTab": "（在新标签页中打开）"
   },
   "forms": {
     "fullName": "姓名",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "全新合作",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "安心出行",
+        "subtitle": "难忘的毛里求斯之旅，遇上个性化旅行建议。了解机场指引、交通、住宿、活动及实用的当地贴士。",
+        "cta": "了解 TripKindly",
+        "secondaryCta": "联系 MauTravel",
+        "imageAlt": "毛里求斯莫纳山（Le Morne Brabant）及其碧绿泻湖航拍图"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "个性化旅行建议",
+      "heading": "个性化旅行建议",
+      "destinations": "毛里求斯 · 罗德里格斯 · 泰国",
+      "services": [
+        "机场指引",
+        "当地交通",
+        "活动灵感"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "不止是机场接送",
+      "description": "我们的合作伙伴 TripKindly 提供关于机场抵达、当地交通、住宿和活动的个性化旅行建议，助您更安心地探索毛里求斯。",
+      "cta": "了解 TripKindly",
+      "tagline": "个性化旅行建议"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "正在计划毛里求斯之旅吗？",
     "message": "了解我们的完整毛里求斯假期套餐——住宿、机场接送、游览、活动及量身定制的体验，根据您的行程安排。",
     "cta": "探索毛里求斯套餐",
+    "closeAria": "关闭弹窗"
+  },
+  "tripKindlyPopup": {
+    "title": "认识我们的新合作伙伴 TripKindly！",
+    "announcement": "MauTravel 很荣幸宣布与 TripKindly 达成合作！",
+    "services": "获取毛里求斯、罗德里格斯和泰国的个性化旅行建议，涵盖机场指引、交通、住宿、活动及实用出行须知。",
+    "nextSteps": "访问 TripKindly 了解其服务，或联系 MauTravel 安排介绍会面。",
+    "cta": "了解 TripKindly",
+    "introCta": "安排介绍会面",
+    "introMessage": "您好 MauTravel，我想安排与 TripKindly 的介绍会面。",
     "closeAria": "关闭弹窗"
   },
   "tourDetails": {

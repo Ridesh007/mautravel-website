@@ -51,7 +51,8 @@
     "perNight": "/notte",
     "perDay": "/giorno",
     "guest": "ospite",
-    "guestsPlural": "ospiti"
+    "guestsPlural": "ospiti",
+    "opensInNewTab": "(si apre in una nuova scheda)"
   },
   "forms": {
     "fullName": "Nome Completo",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "Nuova partnership",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "Viaggia con fiducia",
+        "subtitle": "Esperienze indimenticabili a Mauritius incontrano consigli di viaggio personalizzati. Scopri indicazioni su aeroporto, trasporti, alloggi, attività e utili consigli locali.",
+        "cta": "Scopri TripKindly",
+        "secondaryCta": "Contatta MauTravel",
+        "imageAlt": "Veduta aerea di Le Morne Brabant e della sua laguna turchese, Mauritius"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "Consigli di viaggio personalizzati",
+      "heading": "Consigli di viaggio personalizzati",
+      "destinations": "Mauritius · Rodrigues · Thailandia",
+      "services": [
+        "Indicazioni aeroporto",
+        "Trasporti locali",
+        "Idee per le attività"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "Molto più di un transfer aeroportuale",
+      "description": "Il nostro partner TripKindly offre consigli di viaggio personalizzati su arrivo in aeroporto, trasporti locali, alloggi e attività, per aiutarti a esplorare Mauritius con maggiore sicurezza.",
+      "cta": "Scopri TripKindly",
+      "tagline": "Consigli di viaggio personalizzati"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "Stai Pianificando una Vacanza a Mauritius?",
     "message": "Scopri il nostro pacchetto vacanza completo a Mauritius — alloggio, transfer aeroportuali, tour, attività ed esperienze su misura, organizzati in base al tuo soggiorno.",
     "cta": "Scopri il Pacchetto Mauritius",
+    "closeAria": "Chiudi popup"
+  },
+  "tripKindlyPopup": {
+    "title": "Vi presentiamo il nostro nuovo partner, TripKindly!",
+    "announcement": "MauTravel è orgogliosa di annunciare la collaborazione con TripKindly!",
+    "services": "Scopri consigli di viaggio personalizzati per Mauritius, Rodrigues e Thailandia: aeroporto, trasporti, alloggi, attività e informazioni pratiche essenziali.",
+    "nextSteps": "Visita TripKindly per scoprire i suoi servizi, oppure contatta MauTravel per organizzare un incontro di presentazione.",
+    "cta": "Scopri TripKindly",
+    "introCta": "Organizza una presentazione",
+    "introMessage": "Buongiorno MauTravel, vorrei organizzare un incontro di presentazione con TripKindly.",
     "closeAria": "Chiudi popup"
   },
   "tourDetails": {

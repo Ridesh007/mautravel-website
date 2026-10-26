@@ -112,13 +112,13 @@ export default async function ReviewsPage({
       <section className="py-12 bg-white border-b border-gray-100">
         <div className="container-xl">
           <AnimatedGrid
-            className="grid grid-cols-3 gap-8 max-w-2xl mx-auto text-center"
+            className="grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl mx-auto text-center"
             stagger={0.1}
           >
             {(t.raw("stats") as { value: string; label: string }[]).map((stat) => (
               <div key={stat.label}>
-                <p className="font-heading font-bold text-navy text-4xl mb-1">{stat.value}</p>
-                <p className="text-charcoal/60 text-sm uppercase tracking-widest">{stat.label}</p>
+                <p className="font-heading font-bold text-navy text-3xl sm:text-4xl mb-1">{stat.value}</p>
+                <p className="text-charcoal/60 text-xs sm:text-sm uppercase tracking-wider sm:tracking-widest">{stat.label}</p>
               </div>
             ))}
           </AnimatedGrid>

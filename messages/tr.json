@@ -51,7 +51,8 @@
     "perNight": "/gece",
     "perDay": "/gün",
     "guest": "misafir",
-    "guestsPlural": "misafir"
+    "guestsPlural": "misafir",
+    "opensInNewTab": "(yeni sekmede açılır)"
   },
   "forms": {
     "fullName": "Ad Soyad",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "Yeni İş Birliği",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "Güvenle Seyahat Edin",
+        "subtitle": "Unutulmaz Mauritius deneyimleri kişisel seyahat danışmanlığıyla buluşuyor. Havalimanı rehberliği, ulaşım, konaklama, aktiviteler ve faydalı yerel ipuçlarını keşfedin.",
+        "cta": "TripKindly'yi Keşfedin",
+        "secondaryCta": "MauTravel ile İletişime Geçin",
+        "imageAlt": "Le Morne Brabant ve turkuaz lagününün havadan görünümü, Mauritius"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "Kişisel Seyahat Danışmanlığı",
+      "heading": "Kişisel Seyahat Danışmanlığı",
+      "destinations": "Mauritius · Rodrigues · Tayland",
+      "services": [
+        "Havalimanı Rehberliği",
+        "Yerel Ulaşım",
+        "Aktivite Fikirleri"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "Bir Havalimanı Transferinden Çok Daha Fazlası",
+      "description": "Ortağımız TripKindly; havalimanına varış, yerel ulaşım, konaklama ve aktiviteler hakkında kişisel seyahat danışmanlığı sunarak Mauritius'u daha güvenle keşfetmenize yardımcı olur.",
+      "cta": "TripKindly'yi Keşfedin",
+      "tagline": "Kişisel Seyahat Danışmanlığı"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "Mauritius'ta Tatil mi Planlıyorsunuz?",
     "message": "Konaklama, havalimanı transferleri, turlar, aktiviteler ve size özel deneyimleri bir araya getiren eksiksiz Mauritius Tatil Paketimizi keşfedin.",
     "cta": "Mauritius Paketini Keşfedin",
+    "closeAria": "Pencereyi kapat"
+  },
+  "tripKindlyPopup": {
+    "title": "Yeni Ortağımız TripKindly ile Tanışın!",
+    "announcement": "MauTravel, TripKindly ile iş birliğini duyurmaktan gurur duyar!",
+    "services": "Mauritius, Rodrigues ve Tayland için havalimanı, ulaşım, konaklama, aktiviteler ve pratik seyahat ihtiyaçlarını kapsayan kişisel seyahat danışmanlığını keşfedin.",
+    "nextSteps": "Hizmetlerini incelemek için TripKindly'yi ziyaret edin veya bir tanışma görüşmesi ayarlamak için MauTravel ile iletişime geçin.",
+    "cta": "TripKindly'yi Keşfedin",
+    "introCta": "Tanışma Görüşmesi Ayarlayın",
+    "introMessage": "Merhaba MauTravel, TripKindly ile bir tanışma görüşmesi ayarlamak istiyorum.",
     "closeAria": "Pencereyi kapat"
   },
   "tourDetails": {

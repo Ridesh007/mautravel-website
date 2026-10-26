@@ -5,6 +5,8 @@ export interface HeroSlideStructural {
   id: string;
   image: string;
   href: string;
+  /** Partner slide: `href` is an external site and the slide uses its own layout */
+  partner?: boolean;
 }
 
 export interface TourStructural {

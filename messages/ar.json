@@ -51,7 +51,8 @@
     "perNight": "/الليلة",
     "perDay": "/اليوم",
     "guest": "ضيف",
-    "guestsPlural": "ضيوف"
+    "guestsPlural": "ضيوف",
+    "opensInNewTab": "(يفتح في علامة تبويب جديدة)"
   },
   "forms": {
     "fullName": "الاسم الكامل",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "شراكة جديدة",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "سافر بثقة",
+        "subtitle": "تجارب لا تُنسى في موريشيوس مع نصائح سفر مخصصة لك. اكتشف إرشادات المطار والتنقل والإقامة والأنشطة ونصائح محلية مفيدة.",
+        "cta": "استكشف TripKindly",
+        "secondaryCta": "تواصل مع MauTravel",
+        "imageAlt": "منظر جوي لجبل لو مورن برابانت وبحيرته الفيروزية، موريشيوس"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "نصائح سفر شخصية",
+      "heading": "نصائح سفر شخصية",
+      "destinations": "موريشيوس · رودريغز · تايلاند",
+      "services": [
+        "إرشادات المطار",
+        "التنقل المحلي",
+        "أفكار للأنشطة"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "أكثر من مجرد توصيل من المطار",
+      "description": "يقدّم شريكنا TripKindly نصائح سفر مخصصة حول الوصول إلى المطار والتنقل المحلي والإقامة والأنشطة، لتستكشف موريشيوس بثقة أكبر.",
+      "cta": "اكتشف TripKindly",
+      "tagline": "نصائح سفر شخصية"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "هل تخطط لعطلة في موريشيوس؟",
     "message": "اكتشف باقتنا الكاملة لعطلة موريشيوس — الإقامة، خدمات النقل من المطار، الجولات، الأنشطة والتجارب المصممة خصيصًا حسب مدة إقامتك.",
     "cta": "استكشف باقة موريشيوس",
+    "closeAria": "إغلاق النافذة"
+  },
+  "tripKindlyPopup": {
+    "title": "تعرّف على شريكنا الجديد TripKindly!",
+    "announcement": "يسرّ MauTravel أن تعلن عن تعاونها مع TripKindly!",
+    "services": "اكتشف نصائح سفر مخصصة لموريشيوس ورودريغز وتايلاند، تشمل إرشادات المطار والتنقل والإقامة والأنشطة وأساسيات السفر العملية.",
+    "nextSteps": "زر موقع TripKindly للتعرّف على خدماتها، أو تواصل مع MauTravel لترتيب اجتماع تعريفي.",
+    "cta": "استكشف TripKindly",
+    "introCta": "رتّب اجتماعًا تعريفيًا",
+    "introMessage": "مرحبًا MauTravel، أرغب في ترتيب اجتماع تعريفي مع TripKindly.",
     "closeAria": "إغلاق النافذة"
   },
   "tourDetails": {

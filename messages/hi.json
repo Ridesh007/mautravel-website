@@ -51,7 +51,8 @@
     "perNight": "/रात",
     "perDay": "/दिन",
     "guest": "मेहमान",
-    "guestsPlural": "मेहमान"
+    "guestsPlural": "मेहमान",
+    "opensInNewTab": "(नए टैब में खुलता है)"
   },
   "forms": {
     "fullName": "पूरा नाम",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "नई साझेदारी",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "भरोसे के साथ यात्रा करें",
+        "subtitle": "मॉरीशस के अविस्मरणीय अनुभव अब व्यक्तिगत यात्रा सलाह के साथ। एयरपोर्ट मार्गदर्शन, परिवहन, ठहरने की जगह, गतिविधियों और उपयोगी स्थानीय सुझावों के बारे में जानें।",
+        "cta": "TripKindly देखें",
+        "secondaryCta": "MauTravel से संपर्क करें",
+        "imageAlt": "ल मोर्न ब्राबां और उसके फ़िरोज़ी लैगून का हवाई दृश्य, मॉरीशस"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "व्यक्तिगत यात्रा सलाह",
+      "heading": "व्यक्तिगत यात्रा सलाह",
+      "destinations": "मॉरीशस · रॉड्रिग्स · थाईलैंड",
+      "services": [
+        "एयरपोर्ट मार्गदर्शन",
+        "स्थानीय परिवहन",
+        "गतिविधियों के सुझाव"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "सिर्फ़ एयरपोर्ट ट्रांसफ़र से कहीं ज़्यादा",
+      "description": "हमारे साझेदार TripKindly एयरपोर्ट पर पहुँचने, स्थानीय परिवहन, ठहरने की जगह और गतिविधियों पर व्यक्तिगत यात्रा सलाह देते हैं, ताकि आप मॉरीशस को और भी भरोसे के साथ घूम सकें।",
+      "cta": "TripKindly के बारे में जानें",
+      "tagline": "व्यक्तिगत यात्रा सलाह"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "मॉरीशस में छुट्टी की योजना बना रहे हैं?",
     "message": "हमारा संपूर्ण मॉरीशस हॉलिडे पैकेज देखें — आवास, एयरपोर्ट ट्रांसफर, टूर, गतिविधियाँ और आपके प्रवास के अनुसार तैयार किए गए अनुभव।",
     "cta": "मॉरीशस पैकेज देखें",
+    "closeAria": "पॉपअप बंद करें"
+  },
+  "tripKindlyPopup": {
+    "title": "मिलिए हमारे नए साझेदार TripKindly से!",
+    "announcement": "MauTravel को TripKindly के साथ अपनी साझेदारी की घोषणा करते हुए गर्व है!",
+    "services": "मॉरीशस, रॉड्रिग्स और थाईलैंड के लिए व्यक्तिगत यात्रा सलाह पाएँ — एयरपोर्ट, परिवहन, ठहरने की जगह, गतिविधियाँ और यात्रा की ज़रूरी बातें।",
+    "nextSteps": "उनकी सेवाओं के बारे में जानने के लिए TripKindly पर जाएँ, या परिचय बैठक तय करने के लिए MauTravel से संपर्क करें।",
+    "cta": "TripKindly देखें",
+    "introCta": "परिचय बैठक तय करें",
+    "introMessage": "नमस्ते MauTravel, कृपया TripKindly के साथ एक परिचय बैठक तय करने में मदद करें।",
     "closeAria": "पॉपअप बंद करें"
   },
   "tourDetails": {

@@ -147,7 +147,7 @@ export function Footer() {
           <p className="text-white/50 text-sm">
             © {new Date().getFullYear()} MauTravel. {t("rights")}
           </p>
-          <div className="flex gap-6">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             <Link href="/privacy-policy" className="text-white/50 hover:text-white/80 text-sm transition-colors">
               {t("privacyPolicy")}
             </Link>

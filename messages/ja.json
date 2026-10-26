@@ -51,7 +51,8 @@
     "perNight": "/泊",
     "perDay": "/日",
     "guest": "名",
-    "guestsPlural": "名"
+    "guestsPlural": "名",
+    "opensInNewTab": "（新しいタブで開きます）"
   },
   "forms": {
     "fullName": "氏名",
@@ -160,6 +161,15 @@
         "cta": "Explore Tours"
       },
       {
+        "label": "新しいパートナーシップ",
+        "title": "MauTravel × TripKindly",
+        "titleLine2": "安心して旅を",
+        "subtitle": "モーリシャスでの忘れられない体験と、あなたに合わせた旅のアドバイス。空港案内、交通、宿泊、アクティビティ、役立つ現地情報をご覧ください。",
+        "cta": "TripKindlyを見る",
+        "secondaryCta": "MauTravelに問い合わせる",
+        "imageAlt": "ル・モーン・ブラバンとターコイズ色のラグーンの空撮、モーリシャス"
+      },
+      {
         "label": "Activities",
         "title": "Unforgettable Experiences",
         "subtitle": "From tandem paragliding to catamaran cruises — curated activities for every kind of adventurer.",
@@ -184,6 +194,16 @@
         "cta": "Contact Us"
       }
     ],
+    "tripKindlyPanel": {
+      "tagline": "パーソナル旅行アドバイス",
+      "heading": "パーソナル旅行アドバイス",
+      "destinations": "モーリシャス · ロドリゲス · タイ",
+      "services": [
+        "空港ガイダンス",
+        "現地の交通",
+        "アクティビティのアイデア"
+      ]
+    },
     "contactUs": "Contact Us",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
@@ -383,6 +403,12 @@
       "price": "MUR 2,000",
       "customTitle": "Need a custom quotation?",
       "customDesc": "Group transfers, special routes & long-distance — contact us for a tailored price."
+    },
+    "tripKindlyCard": {
+      "heading": "空港送迎だけではありません",
+      "description": "パートナーのTripKindlyは、空港到着、現地の交通、宿泊、アクティビティについてあなたに合わせた旅のアドバイスを提供し、より安心してモーリシャスを楽しめるようお手伝いします。",
+      "cta": "TripKindlyを見る",
+      "tagline": "パーソナル旅行アドバイス"
     },
     "faqHeading": "Frequently Asked Questions",
     "faqs": [
@@ -2556,6 +2582,16 @@
     "title": "モーリシャス旅行をご計画中ですか？",
     "message": "宿泊、空港送迎、ツアー、アクティビティ、滞在に合わせたキュレーション体験をまとめた、モーリシャス完全旅行パッケージをご覧ください。",
     "cta": "モーリシャスパッケージを見る",
+    "closeAria": "ポップアップを閉じる"
+  },
+  "tripKindlyPopup": {
+    "title": "新しいパートナー、TripKindlyのご紹介！",
+    "announcement": "MauTravelはTripKindlyとの提携を発表いたします！",
+    "services": "モーリシャス、ロドリゲス、タイ向けに、空港案内、交通、宿泊、アクティビティ、旅の実用情報まで、あなたに合わせた旅のアドバイスを提供します。",
+    "nextSteps": "TripKindlyのサービスはウェブサイトでご覧いただけます。紹介ミーティングをご希望の方はMauTravelまでお問い合わせください。",
+    "cta": "TripKindlyを見る",
+    "introCta": "紹介ミーティングを依頼する",
+    "introMessage": "MauTravel様、TripKindlyとの紹介ミーティングを設定していただきたく、ご連絡いたしました。",
     "closeAria": "ポップアップを閉じる"
   },
   "tourDetails": {
